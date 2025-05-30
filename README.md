@@ -1,2 +1,2 @@
 # getoffpocket
-Alternatives to Pocket (getpocket.com)
+Alternatives to Pocket ([getpocket.com](https://getpocket.com))
