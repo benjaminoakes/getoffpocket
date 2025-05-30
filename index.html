@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#3273dc">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Analytics Consent Mode -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+
+  // Default consent settings - respect privacy
+  gtag('consent', 'default', {
+    'analytics_storage': 'denied',
+    'ad_storage': 'denied',
+    'wait_for_update': 500
+  });
+
+  // Function to update consent
+  function updateConsent(consent) {
+    gtag('consent', 'update', consent);
+  }
+
+  // Check for saved consent
+  if (localStorage.getItem('analytics_consent') === 'granted') {
+    updateConsent({
+      'analytics_storage': 'granted'
+    });
+  }
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YRF0EZ9WWS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  // Determine page-specific user properties
+  var userProperties = { 'visitor_type': 'new_visitor' };
+
+
+
+  gtag('config', 'G-YRF0EZ9WWS', {
+    'user_properties': userProperties,
+    'page_title': document.title,
+    'send_page_view': true
+  });
+</script>
+
+    <title>Get Off Pocket before It Shuts Down: Your Alternatives</title>
+    <meta name="description" content="Comprehensive guide to open source read-it-later tools and hosting options. Compare Wallabag, Readeck, Linkding, Shiori, and more with all hosting providers.">
+    <meta name="keywords" content="Pocket shutdown, Pocket alternatives, read-it-later alternatives, Wallabag, Readeck, FOSS alternatives, self-hosted read-it-later, open source, Shiori, Omnivore">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <style>
+      .screenshot-link {
+        display: block;
+        max-width: 100%;
+      }
+      .screenshot-link img {
+        max-width: 100%;
+        height: auto;
+      }
+      /* Improve accessibility and SEO with focus styles */
+      a:focus, button:focus {
+        outline: 2px solid #3273dc;
+        outline-offset: 2px;
+      }
+      /* Add smooth scrolling for better UX */
+      html {
+        scroll-behavior: smooth;
+      }
+      .pocket-hero {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+  color: white;
+}
+
+.pocket-shutdown-alert {
+  background: #fff5f5;
+  border: 2px solid #ff6b6b;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.tool-comparison {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.hosting-options {
+  margin: 1rem 0;
+}
+
+.hosting-option {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background: #fafafa;
+}
+
+.hosting-option.official {
+  border-color: #3273dc;
+  background: #f0f8ff;
+}
+
+.hosting-option.third-party {
+  border-color: #51cf66;
+  background: #f8fff9;
+}
+
+.hosting-option.self-hosted {
+  border-color: #339af0;
+  background: #f0f8ff;
+}
+
+.migration-guide {
+  background: #f8fff9;
+  border-left: 4px solid #51cf66;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.countdown {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #d63031;
+}
+
+.tool-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tool-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+}
+
+.price {
+  font-weight: bold;
+  color: #00b894;
+}
+
+.price.expensive {
+  color: #d63031;
+}
+
+/*
+.price.moderate {
+  color: #fdcb6e;
+}
+*/
+
+.hosting-providers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.provider-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background: white;
+}
+
+.provider-card.featured {
+  border-color: #51cf66;
+  border-width: 2px;
+}
+
+.countdown-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #d63031;
+  line-height: 1;
+}
+
+.countdown-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #666;
+  margin-top: 0.25rem;
+}
+
+@media screen and (max-width: 768px) {
+  .countdown-number {
+    font-size: 1.5rem;
+  }
+
+  .hosting-providers-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+    margin: 1rem 0;
+  }
+
+  .provider-card {
+    padding: 1rem;
+  }
+
+  .pocket-shutdown-alert {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  .tool-comparison {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .countdown-number {
+    font-size: 1.25rem;
+  }
+
+  .countdown-label {
+    font-size: 0.65rem;
+  }
+
+  .hosting-providers-grid {
+    gap: 0.5rem;
+  }
+
+  .provider-card {
+    padding: 0.75rem;
+  }
+
+  .provider-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .provider-card .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .pocket-shutdown-alert {
+    padding: 0.75rem;
+  }
+
+  .tool-comparison {
+    padding: 0.75rem;
+  }
+
+  .buttons.are-small .button {
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+    </style>
+    <!-- Open Graph tags -->
+<meta property="og:title" content="Pocket is Shutting Down: Complete Guide to Open Source Alternatives">
+<meta property="og:description" content="Comprehensive guide to open source read-it-later tools and hosting options. Compare Wallabag, Readeck, Linkding, Shiori, and more with all hosting providers.">
+<meta property="og:type" content="website">
+
+<!-- Schema.org structured data for comparison -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Complete Guide to Open Source Pocket Alternatives",
+  "description": "Comprehensive comparison of open source read-it-later tools and hosting options",
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": "Open Source Read-It-Later Tools",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Wallabag"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Readeck"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Linkding"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Shiori"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "RSS Readers"
+      }
+    ]
+  }
+}
+</script>
+
+  </head>
+  <body>
+    <!-- Consent Banner -->
+    <div id="consent-banner" class="notification is-info is-light" style="display: none; position: fixed; bottom: 0; width: 100%; z-index: 100; margin: 0; border-radius: 0;">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <p>We use analytics to improve our services. This data is anonymous and helps us understand how visitors use our site.</p>
+          </div>
+          <div class="column is-narrow">
+            <button class="button is-small is-link" onclick="acceptConsent()">Accept</button>
+            <button class="button is-small" onclick="rejectConsent()">Reject</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Show banner if consent not already set
+      document.addEventListener('DOMContentLoaded', function() {
+        if (!localStorage.getItem('analytics_consent')) {
+          document.getElementById('consent-banner').style.display = 'block';
+        }
+      });
+
+      function acceptConsent() {
+        localStorage.setItem('analytics_consent', 'granted');
+        updateConsent({
+          'analytics_storage': 'granted'
+        });
+        document.getElementById('consent-banner').style.display = 'none';
+        gtag('event', 'consent_update', {
+          'status': 'accepted'
+        });
+      }
+
+      function rejectConsent() {
+        localStorage.setItem('analytics_consent', 'denied');
+        document.getElementById('consent-banner').style.display = 'none';
+        gtag('event', 'consent_update', {
+          'status': 'rejected'
+        });
+      }
+    </script>
+    <!-- Google Tag Manager (noscript) -->
+    <!-- TODO <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PM2BGK4N" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+    <!-- End Google Tag Manager (noscript) -->
+
+    <section class="hero is-medium pocket-hero" role="banner">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title is-1 has-text-centered">
+        Pocket is Shutting Down
+      </h1>
+      <p class="subtitle has-text-centered is-4 mt-4">
+        Complete Guide to Open Source Alternatives
+      </p>
+      <div class="has-text-centered mt-5">
+        <p class="is-size-5 has-text-weight-semibold">
+          Choose freedom: Open source tools you can trust, with hosting options for everyone
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" role="main">
+  <div class="container">
+
+    <!-- Pocket Shutdown Alert -->
+    <div class="pocket-shutdown-alert">
+      <h2 class="title is-3 has-text-danger">⚠️ Pocket Shutdown Timeline</h2>
+      <div class="columns">
+        <div class="column">
+          <h4 class="subtitle is-5"><strong>May 22, 2025</strong></h4>
+          <p>Pocket removed from app stores<br>New account signups disabled</p>
+        </div>
+        <div class="column">
+          <h4 class="subtitle is-5"><strong>July 8, 2025</strong></h4>
+          <p class="countdown">Pocket shuts down completely<br>Export-only mode begins</p>
+          <div id="countdown-timer" class="has-text-weight-bold is-size-4 mt-3">
+            <div class="columns is-mobile is-centered">
+              <div class="column is-narrow has-text-centered">
+                <div class="countdown-number" id="days">--</div>
+                <div class="countdown-label">Days</div>
+              </div>
+              <div class="column is-narrow has-text-centered">
+                <div class="countdown-number" id="hours">--</div>
+                <div class="countdown-label">Hours</div>
+              </div>
+              <div class="column is-narrow has-text-centered">
+                <div class="countdown-number" id="minutes">--</div>
+                <div class="countdown-label">Minutes</div>
+              </div>
+              <div class="column is-narrow has-text-centered">
+                <div class="countdown-number" id="seconds">--</div>
+                <div class="countdown-label">Seconds</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <h4 class="subtitle is-5"><strong>October 8, 2025</strong></h4>
+          <p>Final date to export data<br>All accounts permanently deleted</p>
+        </div>
+      </div>
+      <div class="notification is-warning mt-4">
+        <p><strong>Act now:</strong> You have limited time to find an alternative and migrate your saved articles. Don't lose years of saved content!</p>
+      </div>
+    </div>
+
+    <!-- Open Source Alternatives -->
+    <h2 class="title has-text-centered is-2 mb-6">Open Source Read-It-Later Tools</h2>
+    <p class="has-text-centered mb-6 is-size-5">Unlike proprietary services that can shut down without warning, these open source tools give you control over your data and reading experience. Each can be self-hosted or used with various hosting providers.</p>
+
+    <!-- Wallabag -->
+    <div class="tool-comparison">
+      <div class="tool-header">
+        <h3 class="title is-3">📚 Wallabag</h3>
+        <span class="tag is-success">Most Popular</span>
+      </div>
+      <p class="mb-4">A mature, feature-rich read-it-later application. Wallabag has been actively developed since 2013 and offers comprehensive article management, tagging, annotations, and mobile apps. The most established option with the largest community.</p>
+
+      <div class="columns">
+        <div class="column is-6">
+          <h4 class="subtitle is-5">✨ Key Features</h4>
+          <ul>
+            <li>📱 Mobile apps (iOS, Android)</li>
+            <li>🏷️ Advanced tagging and organization</li>
+            <li>📝 Annotations and highlighting</li>
+            <li>📤 Multiple export formats</li>
+            <li>🔌 Browser extensions</li>
+            <li>📊 Reading statistics</li>
+            <li>🌐 Multi-user support</li>
+            <li>🎨 Customizable themes</li>
+          </ul>
+        </div>
+
+        <div class="column is-6">
+          <h4 class="subtitle is-5">🏠 Hosting Options</h4>
+
+          <div class="hosting-option official">
+            <h5 class="subtitle is-6">Official Hosting (wallabag.it)</h5>
+            <p class="price">€11/year (~$12/year)</p>
+            <p>Hosted by the Wallabag team themselves</p>
+            <a href="https://wallabag.it/en/" target="_blank" class="button is-small is-primary">Visit wallabag.it</a>
+          </div>
+
+          <div class="hosting-option third-party">
+            <h5 class="subtitle is-6">Third-Party Hosting</h5>
+            <p class="price">$10-15/year</p>
+            <p>Various providers offer Wallabag hosting</p>
+            <div class="buttons are-small mt-2">
+              <a href="https://cloudbreak.app/wallabag/" class="button is-success">CloudBreak ($10/year)</a>
+              <a href="https://www.pikapods.com/pods?run=wallabag" target="_blank" class="button is-info">PikaPods</a>
+            </div>
+          </div>
+
+          <div class="hosting-option self-hosted">
+            <h5 class="subtitle is-6">Self-Hosted</h5>
+            <p class="price moderate">$60+/year server costs</p>
+            <p>Complete control, requires technical setup</p>
+            <a href="https://github.com/wallabag/wallabag" target="_blank" class="button is-small is-info">View on GitHub</a>
+          </div>
+
+          <div class="hosting-option" style="border-color: #f39c12; background: #fef9e7;">
+            <h5 class="subtitle is-6">🔄 Alternatives with Similar Features</h5>
+            <p class="price expensive">$30+/year</p>
+            <p>Other services offering read-it-later functionality</p>
+            <div class="buttons are-small mt-2">
+              <a href="https://feedbin.com/" target="_blank" class="button is-warning">Feedbin ($50/year)</a>
+              <a href="https://www.inoreader.com/" target="_blank" class="button is-warning">Inoreader ($30-90/year)</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Readeck -->
+    <div class="tool-comparison">
+      <div class="tool-header">
+        <h3 class="title is-3">⚡ Readeck</h3>
+        <span class="tag is-info">Modern & Fast</span>
+      </div>
+      <p class="mb-4">A modern, lightweight read-it-later service focused on simplicity and speed. Readeck offers a clean interface and efficient article processing without unnecessary complexity. Perfect for users who want a streamlined experience.</p>
+
+      <div class="columns">
+        <div class="column is-6">
+          <h4 class="subtitle is-5">✨ Key Features</h4>
+          <ul>
+            <li>🚀 Fast, lightweight interface</li>
+            <li>📱 Responsive web design</li>
+            <li>🏷️ Simple tagging system</li>
+            <li>📤 Standard export formats</li>
+            <li>🔌 Browser bookmarklet</li>
+            <li>🐳 Easy Docker deployment</li>
+            <li>🔍 Full-text search</li>
+            <li>📖 Clean reading mode</li>
+          </ul>
+        </div>
+
+        <div class="column is-6">
+          <h4 class="subtitle is-5">🏠 Hosting Options</h4>
+
+          <div class="hosting-option third-party">
+            <h5 class="subtitle is-6">Third-Party Hosting</h5>
+            <p class="price">$10-12/year</p>
+            <p>Limited providers currently available</p>
+            <div class="buttons are-small mt-2">
+              <a href="https://cloudbreak.app/readeck/" class="button is-success">CloudBreak ($10)</a>
+            </div>
+          </div>
+
+          <div class="hosting-option self-hosted">
+            <h5 class="subtitle is-6">Self-Hosted</h5>
+            <p class="price moderate">$60-240/year server costs</p>
+            <p>Modern Docker setup, minimal resources</p>
+            <a href="https://codeberg.org/readeck/readeck" target="_blank" class="button is-small is-info">View on Codeberg</a>
+          </div>
+
+          <p class="help mt-3"><em>Note: No official hosted version currently available</em></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Linkding -->
+    <div class="tool-comparison">
+      <div class="tool-header">
+        <h3 class="title is-3">🔖 Linkding</h3>
+        <span class="tag is-warning">Minimal</span>
+      </div>
+      <p class="mb-4">A minimal bookmark manager that can serve as a read-it-later tool. Linkding focuses on fast bookmark management with archiving capabilities and a clean, distraction-free interface. Great for users who prefer simplicity.</p>
+
+      <div class="columns">
+        <div class="column is-6">
+          <h4 class="subtitle is-5">✨ Key Features</h4>
+          <ul>
+            <li>⚡ Minimal, fast interface</li>
+            <li>📦 Automatic archiving</li>
+            <li>🏷️ Tag-based organization</li>
+            <li>🔍 Full-text search</li>
+            <li>📱 Mobile-friendly design</li>
+            <li>🔌 Browser extension</li>
+            <li>📊 Basic statistics</li>
+            <li>🌙 Dark mode support</li>
+          </ul>
+        </div>
+
+        <div class="column is-6">
+          <h4 class="subtitle is-5">🏠 Hosting Options</h4>
+
+          <div class="hosting-option third-party">
+            <h5 class="subtitle is-6">Third-Party Hosting</h5>
+            <p class="price">$12-15/year</p>
+            <p>Growing number of hosting providers</p>
+            <div class="buttons are-small mt-2">
+              <a href="https://cloudbreak.app/linkding/" class="button is-success">CloudBreak ($12)</a>
+              <a href="https://www.pikapods.com/pods?run=linkding" target="_blank" class="button is-info">PikaPods</a>
+            </div>
+          </div>
+
+          <div class="hosting-option self-hosted">
+            <h5 class="subtitle is-6">Self-Hosted</h5>
+            <p class="price moderate">$60-240/year server costs</p>
+            <p>Simple Docker setup, very lightweight</p>
+            <a href="https://github.com/sissbruecker/linkding" target="_blank" class="button is-small is-info">View on GitHub</a>
+          </div>
+
+          <p class="help mt-3"><em>Note: No official hosted version currently available</em></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Shiori -->
+    <div class="tool-comparison">
+      <div class="tool-header">
+        <h3 class="title is-3">📖 Shiori</h3>
+        <span class="tag is-light">Simple</span>
+      </div>
+      <p class="mb-4">A simple bookmarks manager written in Go. Shiori is designed to be a simple and fast bookmark manager that can archive web pages. It offers a clean web interface and is easy to deploy.</p>
+
+      <div class="columns">
+        <div class="column is-6">
+          <h4 class="subtitle is-5">✨ Key Features</h4>
+          <ul>
+            <li>🚀 Written in Go (fast performance)</li>
+            <li>📦 Automatic content archiving</li>
+            <li>🏷️ Tag support</li>
+            <li>🔍 Search functionality</li>
+            <li>📱 Responsive web interface</li>
+            <li>📤 Import/export bookmarks</li>
+            <li>🔌 Browser extension available</li>
+            <li>🐳 Docker support</li>
+          </ul>
+        </div>
+
+        <div class="column is-6">
+          <h4 class="subtitle is-5">🏠 Hosting Options</h4>
+
+          <div class="hosting-option self-hosted">
+            <h5 class="subtitle is-6">Self-Hosted Only</h5>
+            <p class="price moderate">$60-240/year server costs</p>
+            <p>Currently only available for self-hosting</p>
+            <a href="https://github.com/go-shiori/shiori" target="_blank" class="button is-small is-info">View on GitHub</a>
+          </div>
+
+          <p class="help mt-3"><em>Note: No hosted versions currently available from any provider</em></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Omnivore -->
+    <div class="tool-comparison">
+      <div class="tool-header">
+        <h3 class="title is-3">🦉 Omnivore</h3>
+        <span class="tag is-primary">Feature-Rich</span>
+      </div>
+      <p class="mb-4">A complete, open source read-it-later solution for serious readers. Omnivore offers advanced features like newsletter subscriptions, PDF support, and powerful organization tools. Recently open-sourced and gaining popularity.</p>
+
+      <div class="columns">
+        <div class="column is-6">
+          <h4 class="subtitle is-5">✨ Key Features</h4>
+          <ul>
+            <li>📧 Newsletter subscriptions</li>
+            <li>📄 PDF support and annotation</li>
+            <li>🏷️ Advanced labeling system</li>
+            <li>🔍 Powerful search and filters</li>
+            <li>📱 Mobile apps (iOS, Android)</li>
+            <li>🔌 Browser extensions</li>
+            <li>📊 Reading progress tracking</li>
+            <li>🤖 AI-powered features</li>
+          </ul>
+        </div>
+
+        <div class="column is-6">
+          <h4 class="subtitle is-5">🏠 Hosting Options</h4>
+
+          <div class="hosting-option official">
+            <h5 class="subtitle is-6">Official Hosting (omnivore.app)</h5>
+            <p class="price">Free</p>
+            <p>Hosted by the Omnivore team</p>
+            <a href="https://omnivore.app/" target="_blank" class="button is-small is-primary">Visit Omnivore</a>
+          </div>
+
+          <div class="hosting-option self-hosted">
+            <h5 class="subtitle is-6">Self-Hosted</h5>
+            <p class="price moderate">$60-240/year server costs</p>
+            <p>Complex setup, requires multiple services</p>
+            <a href="https://github.com/omnivore-app/omnivore" target="_blank" class="button is-small is-info">View on GitHub</a>
+          </div>
+
+          <p class="help mt-3"><em>Note: Self-hosting is complex and not recommended for beginners</em></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- RSS Readers as Alternative -->
+    <div class="tool-comparison">
+      <div class="tool-header">
+        <h3 class="title is-3">📰 RSS Readers with Read-Later Features</h3>
+        <span class="tag is-success">Dual Purpose</span>
+      </div>
+      <p class="mb-4">Many RSS readers include read-it-later functionality, allowing you to save articles from your feeds for later reading. This can be a great alternative if you primarily save articles from news sites and blogs that offer RSS feeds.</p>
+
+      <div class="columns">
+        <div class="column is-6">
+          <h4 class="subtitle is-5">🛠️ Available Tools</h4>
+          <ul>
+            <li><strong>Feedbin:</strong> Premium RSS with read-later integration</li>
+            <li><strong>Feedbin Mini:</strong> The essentials of Feedbin, including read-later integration</li>
+            <li><strong>Inoreader:</strong> Feature-rich RSS service</li>
+          </ul>
+        </div>
+
+        <div class="column is-6">
+          <h4 class="subtitle is-5">🏠 Hosting Options</h4>
+
+          <div class="hosting-option official">
+            <h5 class="subtitle is-6">Official Services</h5>
+            <p class="price expensive">$30-50/year</p>
+            <p>Premium RSS services with read-later features</p>
+            <div class="buttons are-small mt-2">
+              <a href="https://feedbin.com/" target="_blank" class="button is-primary">Feedbin ($50)</a>
+              <a href="https://www.inoreader.com/" target="_blank" class="button is-primary">Inoreader ($30)</a>
+            </div>
+          </div>
+
+          <div class="hosting-option third-party">
+            <h5 class="subtitle is-6">Third-Party RSS Hosting</h5>
+            <p class="price">$15/year</p>
+            <p>Open source RSS readers with hosting</p>
+            <div class="buttons are-small mt-2">
+              <a href="https://cloudbreak.app/feedbin-mini/" class="button is-success">CloudBreak Feedbin Mini ($15)</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hosting Providers Overview -->
+    <h2 class="title has-text-centered is-2 mt-6 mb-6">Hosting Provider Comparison</h2>
+    <p class="has-text-centered mb-6 is-size-5">Don't want to self-host? Here are the main providers offering hosted open source read-it-later tools:</p>
+
+    <div class="hosting-providers-grid">
+      <div class="provider-card">
+        <h4 class="title is-5">Official Project Hosting</h4>
+        <p class="subtitle is-6">Hosted by the project creators</p>
+        <ul class="mb-4">
+          <li><strong>Wallabag.it:</strong> €12/year</li>
+          <li><strong>Omnivore.app:</strong> Free</li>
+        </ul>
+        <p class="help">✅ Directly supports development<br>✅ Most reliable updates<br>❌ Limited to specific projects</p>
+      </div>
+
+      <div class="provider-card">
+        <h4 class="title is-5">CloudBreak</h4>
+        <p class="subtitle is-6">Specialized FOSS hosting</p>
+        <ul class="mb-4">
+          <li><strong>Wallabag:</strong> $10/year</li>
+          <li><strong>Readeck:</strong> $10/year</li>
+          <li><strong>Linkding:</strong> $12/year</li>
+        </ul>
+        <p class="help">✅ Multiple FOSS tools<br>✅ 10% profits to projects<br>✅ Data export guaranteed</p>
+        <a href="https://cloudbreak.app/" class="button is-success is-small mt-2">Learn More</a>
+      </div>
+
+      <div class="provider-card">
+        <h4 class="title is-5">PikaPods</h4>
+        <p class="subtitle is-6">General app hosting platform</p>
+        <ul class="mb-4">
+          <li><strong>Wallabag:</strong> ~$15/year</li>
+          <li><strong>Linkding:</strong> ~$15/year</li>
+          <li><strong>Many others:</strong> Various pricing</li>
+        </ul>
+        <p class="help">✅ Wide selection of apps<br>✅ Pay-per-use pricing<br>❌ Higher costs for heavy usage</p>
+        <a href="https://www.pikapods.com/" target="_blank" class="button is-info is-small mt-2">Visit PikaPods</a>
+      </div>
+
+      <div class="provider-card">
+        <h4 class="title is-5">Elestio</h4>
+        <p class="subtitle is-6">DevOps automation platform</p>
+        <ul class="mb-4">
+          <li><strong>Wallabag:</strong> ~$20/month</li>
+          <li><strong>Various tools:</strong> Higher pricing</li>
+        </ul>
+        <p class="help">✅ Professional DevOps features<br>✅ Multiple cloud providers<br>❌ Expensive for personal use</p>
+        <a href="https://elest.io/" target="_blank" class="button is-info is-small mt-2">Visit Elestio</a>
+      </div>
+
+      <div class="provider-card">
+        <h4 class="title is-5">Hetzner</h4>
+        <p class="subtitle is-6">European & US VPS provider</p>
+        <ul class="mb-4">
+          <li><strong>VPS starting:</strong> $4.50/month (US servers)</li>
+          <li><strong>Dedicated CPU:</strong> $7.60/month</li>
+          <li><strong>Storage boxes:</strong> Available</li>
+        </ul>
+        <p class="help">✅ Excellent price/performance<br>✅ US & European data centers<br>❌ Requires technical setup</p>
+        <a href="https://www.hetzner.com/" target="_blank" class="button is-info is-small mt-2">Visit Hetzner</a>
+      </div>
+
+      <div class="provider-card">
+        <h4 class="title is-5">Self-Hosting</h4>
+        <p class="subtitle is-6">Run it yourself</p>
+        <ul class="mb-4">
+          <li><strong>VPS costs:</strong> $5-20/month</li>
+          <li><strong>Setup time:</strong> 2-8 hours</li>
+          <li><strong>Maintenance:</strong> Ongoing</li>
+        </ul>
+        <p class="help">✅ Complete control<br>✅ No vendor lock-in<br>❌ Technical knowledge required</p>
+      </div>
+    </div>
+
+    <!-- Migration Guide -->
+    <div class="migration-guide">
+      <h2 class="title is-3 has-text-success">🔄 Easy Migration from Pocket</h2>
+      <p class="subtitle">Free tools to help you migrate your data to any open source alternative:</p>
+
+      <div class="columns">
+        <div class="column">
+          <h4 class="subtitle is-5">1. Export from Pocket</h4>
+          <p>Use Pocket's export feature (available until October 8, 2025) to download your saved articles.</p>
+        </div>
+
+        <div class="column">
+          <h4 class="subtitle is-5">2. Convert Format</h4>
+          <p>Use this <a href="https://benjaminoakes.github.io/pocket-to-wallabag/" target="_blank">free conversion tool</a> to transform your Pocket export into a format that works with most tools.</p>
+        </div>
+
+        <div class="column">
+          <h4 class="subtitle is-5">3. Import to Your Tool</h4>
+          <p>Upload your converted data to your chosen service. Most tools support importing from the converted format.</p>
+        </div>
+      </div>
+
+      <div class="has-text-centered mt-4">
+        <p><strong>Total migration time:</strong> Usually under 30 minutes</p>
+        <p class="help">🔒 <strong>Privacy note:</strong> The conversion tool runs entirely in your browser - your data never leaves your device</p>
+      </div>
+    </div>
+
+    <!-- Why Choose Open Source -->
+    <div class="notification is-info mt-6">
+      <h3 class="title is-4">🔓 Why Choose Open Source?</h3>
+      <div class="columns">
+        <div class="column">
+          <h4 class="subtitle is-6">🛡️ No Vendor Lock-in</h4>
+          <p>Your data is always exportable. Switch between hosting providers or self-host anytime.</p>
+        </div>
+        <div class="column">
+          <h4 class="subtitle is-6">🔍 Transparency</h4>
+          <p>Open source code means no hidden tracking, data mining, or surprise changes.</p>
+        </div>
+        <div class="column">
+          <h4 class="subtitle is-6">🌱 Community-Driven</h4>
+          <p>Features are built for users, not advertisers. Active communities ensure long-term development.</p>
+        </div>
+        <div class="column">
+          <h4 class="subtitle is-6">💪 Resilience</h4>
+          <p>Even if one hosting provider disappears, the software lives on. No more Pocket-style shutdowns.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Comparison Table -->
+    <div class="mt-6">
+      <h3 class="title is-4 has-text-centered mb-4">Quick Comparison</h3>
+
+      <!-- Header Row -->
+      <div class="columns is-mobile has-background-grey-lighter has-text-weight-bold py-3 mb-2">
+        <div class="column is-2-desktop is-3-tablet is-12-mobile has-text-centered">Tool</div>
+        <div class="column is-3-desktop is-3-tablet is-hidden-mobile has-text-centered">Best For</div>
+        <div class="column is-2-desktop is-2-tablet is-hidden-mobile has-text-centered">Mobile Apps</div>
+        <div class="column is-2-desktop is-2-tablet is-hidden-mobile has-text-centered">Self-Host Difficulty</div>
+      </div>
+
+      <!-- Wallabag Row -->
+      <div class="columns is-mobile py-3 mb-2 has-background-white-bis">
+        <div class="column is-2-desktop is-3-tablet is-12-mobile">
+          <strong>Wallabag</strong>
+          <div class="is-hidden-tablet">
+            <p class="is-size-7 mt-1"><strong>Best for:</strong> Feature-rich experience</p>
+            <p class="is-size-7"><strong>Mobile Apps:</strong> ✅ iOS, Android</p>
+            <p class="is-size-7"><strong>Hosting:</strong> $10/year (CloudBreak)</p>
+            <p class="is-size-7"><strong>Self-Host:</strong> Medium</p>
+          </div>
+        </div>
+        <div class="column is-3-desktop is-3-tablet is-hidden-mobile">Feature-rich experience</div>
+        <div class="column is-2-desktop is-2-tablet is-hidden-mobile has-text-centered">✅ iOS, Android</div>
+        <div class="column is-2-desktop is-2-tablet is-hidden-mobile has-text-centered">Medium</div>
+      </div>
+
+      <!-- Readeck Row -->
+      <div class="columns is-mobile py-3 mb-2">
+        <div class="column is-2-desktop is-3-tablet is-12-mobile">
+          <strong>Readeck</strong>
+          <div class="is-hidden-tablet">
+            <p class="is-size-7 mt-1"><strong>Best for:</strong> Modern, fast interface</p>
+            <p class="is-size-7"><strong>Mobile Apps:</strong> ❌ Web only</p>
+            <p class="is-size-7"><strong>Hosting:</strong> $10/year (CloudBreak)</p>
+            <p class="is-size-7"><strong>Self-Host:</strong> Easy</p>
+          </div>
+        </div>
+        <div class="column is-3-desktop is-3-tablet is-hidden-mobile">Modern, fast interface</div>
+        <div class="column is-2-desktop is-2-tablet is-hidden-mobile has-text-centered">❌ Web only</div>
+        <div class="column is-2-desktop is-2-tablet is-hidden-mobile has-text-centered">Easy</div>
+      </div>
+
+      <!-- Linkding Row -->
+      <div class="columns is-mobile py-3 mb-2 has-background-white-bis">
+        <div class="column is-2-desktop is-3-tablet is-12-mobile">
+          <strong>Linkding</strong>
+          <div class="is-hidden-tablet">
+            <p class="is-size-7 mt-1"><strong>Best for:</strong> Minimal bookmark manager</p>
+            <p class="is-size-7"><strong>Mobile Apps:</strong> ❌ Web only</p>
+            <p class="is-size-7"><strong>Hosting:</strong> $12/year (CloudBreak)</p>
+            <p class="is-size-7"><strong>Self-Host:</strong> Easy</p>
+          </div>
+        </div>
+        <div class="column is-3-desktop is-3-tablet is-hidden-mobile">Minimal bookmark manager</div>
+        <div class="column is-2-desktop is-2-tablet is-hidden-mobile has-text-centered">❌ Web only</div>
+        <div class="column is-2-desktop is-2-tablet is-hidden-mobile has-text-centered">Easy</div>
+      </div>
+
+      <!-- Shiori Row -->
+      <div class="columns is-mobile py-3 mb-2">
+        <div class="column is-2-desktop is-3-tablet is-12-mobile">
+          <strong>Shiori</strong>
+          <div class="is-hidden-tablet">
+            <p class="is-size-7 mt-1"><strong>Best for:</strong> Simple Go-based solution</p>
+            <p class="is-size-7"><strong>Mobile Apps:</strong> ❌ Web only</p>
+            <p class="is-size-7"><strong>Hosting:</strong> Self-host only</p>
+            <p class="is-size-7"><strong>Self-Host:</strong> Easy</p>
+          </div>
+        </div>
+        <div class="column is-3-desktop is-3-tablet is-hidden-mobile">Simple Go-based solution</div>
+        <div class="column is-2-desktop is-2-tablet is-hidden-mobile has-text-centered">❌ Web only</div>
+        <div class="column is-2-desktop is-2-tablet is-hidden-mobile has-text-centered">Easy</div>
+      </div>
+
+      <!-- Omnivore Row -->
+      <div class="columns is-mobile py-3 mb-2 has-background-white-bis">
+        <div class="column is-2-desktop is-3-tablet is-12-mobile">
+          <strong>Omnivore</strong>
+          <div class="is-hidden-tablet">
+            <p class="is-size-7 mt-1"><strong>Best for:</strong> Advanced features, PDFs</p>
+            <p class="is-size-7"><strong>Mobile Apps:</strong> ✅ iOS, Android</p>
+            <p class="is-size-7"><strong>Self-Host:</strong> Very Hard</p>
+          </div>
+        </div>
+        <div class="column is-3-desktop is-3-tablet is-hidden-mobile">Advanced features, PDFs</div>
+        <div class="column is-2-desktop is-2-tablet is-hidden-mobile has-text-centered">✅ iOS, Android</div>
+        <div class="column is-2-desktop is-2-tablet is-hidden-mobile has-text-centered">Very Hard</div>
+      </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="has-text-centered mt-6">
+      <div class="notification is-light mt-4">
+        <p><strong>💡 Pro tip:</strong> Bookmark this page! The aim is for this to be a comprehensive guide to Pocket alternatives and we keep it updated as new tools and hosting options become available.  Please <a href="https://github.com/benjaminoakes/getoffpocket">open a pull request</a> to make changes.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Countdown timer functionality
+    function updateCountdown() {
+      const shutdownDate = new Date('July 8, 2025 00:00:00 UTC');
+      const now = new Date();
+      const timeDiff = shutdownDate - now;
+
+      if (timeDiff > 0) {
+        const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+        document.getElementById('days').textContent = days;
+        document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+        document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+        document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+      } else {
+        // Pocket has shut down
+        document.getElementById('days').textContent = '0';
+        document.getElementById('hours').textContent = '00';
+        document.getElementById('minutes').textContent = '00';
+        document.getElementById('seconds').textContent = '00';
+
+        // Update the text to reflect shutdown
+        const countdownText = document.querySelector('.countdown');
+        if (countdownText) {
+          countdownText.innerHTML = 'Pocket has shut down<br>Export-only mode active';
+        }
+      }
+    }
+
+    // Update countdown immediately and then every second
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+
+    // Track comparison page engagement
+    gtag('event', 'page_view', {
+      'page_title': 'Complete Guide to Open Source Pocket Alternatives',
+      'page_location': window.location.href
+    });
+
+    // Track tool selection clicks
+    const toolButtons = document.querySelectorAll('a[href^="/"]');
+    toolButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        const serviceName = this.getAttribute('href').replace('/', '').replace('/', '');
+        gtag('event', 'foss_tool_selection', {
+          'tool_name': serviceName,
+          'source': 'comprehensive_alternatives_guide'
+        });
+      });
+    });
+
+    // Track external links to official projects and other providers
+    const externalLinks = document.querySelectorAll('a[href*="github.com"], a[href*="codeberg.org"], a[href*="wallabag.it"], a[href*="feedbin.com"], a[href*="omnivore.app"], a[href*="pikapods.com"], a[href*="elest.io"], a[href*="newsblur.com"], a[href*="inoreader.com"]');
+    externalLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        const url = new URL(this.href);
+        gtag('event', 'external_provider_link', {
+          'destination': url.hostname,
+          'source': 'comprehensive_alternatives_guide'
+        });
+      });
+    });
+
+    // Track migration tool clicks
+    const migrationToolLink = document.querySelector('a[href*="benjaminoakes.github.io"]');
+    if (migrationToolLink) {
+      migrationToolLink.addEventListener('click', function() {
+        gtag('event', 'migration_tool_click', {
+          'tool': 'pocket_to_wallabag_converter'
+        });
+      });
+    }
+  });
+</script>
+
+  </body>
+</html>
