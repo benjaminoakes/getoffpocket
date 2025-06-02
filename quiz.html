@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#3273dc">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Analytics Consent Mode -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+
+  // Default consent settings - respect privacy
+  gtag('consent', 'default', {
+    'analytics_storage': 'denied',
+    'ad_storage': 'denied',
+    'wait_for_update': 500
+  });
+
+  // Function to update consent
+  function updateConsent(consent) {
+    gtag('consent', 'update', consent);
+  }
+
+  // Check for saved consent
+  if (localStorage.getItem('analytics_consent') === 'granted') {
+    updateConsent({
+      'analytics_storage': 'granted'
+    });
+  }
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YRF0EZ9WWS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  // Determine page-specific user properties
+  var userProperties = { 'visitor_type': 'new_visitor' };
+
+  gtag('config', 'G-YRF0EZ9WWS', {
+    'user_properties': userProperties,
+    'page_title': document.title,
+    'send_page_view': true
+  });
+</script>
+
+    <title>Find Your Perfect Pocket Alternative - Quiz</title>
+    <meta name="description" content="Take our quick quiz to find the perfect Pocket alternative for your needs. Get personalized recommendations based on your budget, features, and priorities.">
+    <meta name="keywords" content="Pocket alternative quiz, read-it-later recommendation, find best reading app">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <style>
+      /* Improve accessibility and SEO with focus styles */
+      a:focus, button:focus {
+        outline: 2px solid #3273dc;
+        outline-offset: 2px;
+      }
+      /* Add smooth scrolling for better UX */
+      html {
+        scroll-behavior: smooth;
+      }
+      .quiz-hero {
+        background: linear-gradient(135deg, #48c78e 0%, #00d1b2 100%);
+        color: white;
+      }
+
+      .quiz-container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .question-card {
+        background: white;
+        border-radius: 12px;
+        padding: 2rem;
+        margin: 2rem 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border: 1px solid #e0e0e0;
+      }
+
+      .question-card.hidden {
+        display: none;
+      }
+
+      .answer-option {
+        background: #f8f9fa;
+        border: 2px solid #e9ecef;
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 0.5rem 0;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .answer-option:hover {
+        background: #e9ecef;
+        border-color: #3273dc;
+      }
+
+      .answer-option.selected {
+        background: #e8f4fd;
+        border-color: #3273dc;
+        color: #3273dc;
+      }
+
+      .progress-bar {
+        background: #e9ecef;
+        border-radius: 10px;
+        height: 8px;
+        margin: 1rem 0;
+        overflow: hidden;
+      }
+
+      .progress-fill {
+        background: linear-gradient(90deg, #48c78e 0%, #00d1b2 100%);
+        height: 100%;
+        transition: width 0.3s ease;
+        border-radius: 10px;
+      }
+
+      .result-card {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border-radius: 12px;
+        padding: 2rem;
+        margin: 2rem 0;
+        text-align: center;
+      }
+
+      .recommendation {
+        background: white;
+        color: #333;
+        border-radius: 8px;
+        padding: 1.5rem;
+        margin: 1rem 0;
+        border-left: 4px solid #48c78e;
+      }
+
+      .recommendation h4 {
+        color: #48c78e;
+        margin-bottom: 0.5rem;
+      }
+
+      .quiz-navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+      }
+
+      @media screen and (max-width: 768px) {
+        .question-card {
+          padding: 1.5rem;
+          margin: 1rem 0;
+        }
+        
+        .quiz-navigation {
+          flex-direction: column;
+          gap: 1rem;
+        }
+      }
+    </style>
+
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Find Your Perfect Pocket Alternative - Quiz">
+    <meta property="og:description" content="Take our quick quiz to find the perfect Pocket alternative for your needs. Get personalized recommendations based on your budget, features, and priorities.">
+    <meta property="og:type" content="website">
+  </head>
+  <body>
+    <!-- Consent Banner -->
+    <div id="consent-banner" class="notification is-info is-light" style="display: none; position: fixed; bottom: 0; width: 100%; z-index: 100; margin: 0; border-radius: 0;">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <p>We use analytics to improve our services. This data is anonymous and helps us understand how visitors use our site.</p>
+          </div>
+          <div class="column is-narrow">
+            <button class="button is-small is-link" onclick="acceptConsent()">Accept</button>
+            <button class="button is-small" onclick="rejectConsent()">Reject</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Show banner if consent not already set
+      document.addEventListener('DOMContentLoaded', function() {
+        if (!localStorage.getItem('analytics_consent')) {
+          document.getElementById('consent-banner').style.display = 'block';
+        }
+      });
+
+      function acceptConsent() {
+        localStorage.setItem('analytics_consent', 'granted');
+        updateConsent({
+          'analytics_storage': 'granted'
+        });
+        document.getElementById('consent-banner').style.display = 'none';
+        gtag('event', 'consent_update', {
+          'status': 'accepted'
+        });
+      }
+
+      function rejectConsent() {
+        localStorage.setItem('analytics_consent', 'denied');
+        document.getElementById('consent-banner').style.display = 'none';
+        gtag('event', 'consent_update', {
+          'status': 'rejected'
+        });
+      }
+    </script>
+
+    <section class="hero is-medium quiz-hero" role="banner">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-1 has-text-centered">
+            Find Your Perfect Alternative
+          </h1>
+          <p class="subtitle has-text-centered is-4 mt-4">
+            Quick Quiz to Match You with the Right Tool
+          </p>
+          <div class="has-text-centered mt-5">
+            <p class="is-size-5 has-text-weight-semibold">
+              Answer a few questions to get personalized recommendations
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" role="main">
+      <div class="container">
+        <!-- Navigation -->
+        <div class="has-text-centered mb-6">
+          <div class="buttons is-centered">
+            <a href="index.html" class="button is-primary">
+              <span class="icon">
+                <i class="fas fa-code"></i>
+              </span>
+              <span>Open Source Options</span>
+            </a>
+            <a href="proprietary.html" class="button is-info">
+              <span class="icon">
+                <i class="fas fa-building"></i>
+              </span>
+              <span>Proprietary Options</span>
+            </a>
+            <a href="quiz.html" class="button is-success is-active">
+              <span class="icon">
+                <i class="fas fa-question-circle"></i>
+              </span>
+              <span>Take Quiz</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="quiz-container">
+          <!-- Progress Bar -->
+          <div class="progress-bar">
+            <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+          </div>
+          <p class="has-text-centered is-size-7 has-text-grey" id="progress-text">Question 1 of 6</p>
+
+          <!-- Question 1: Budget -->
+          <div class="question-card" id="question-1">
+            <h2 class="title is-3 has-text-centered mb-4">💰 What's your budget?</h2>
+            <div class="answer-option" data-value="free" onclick="selectAnswer(1, 'free', this)">
+              <h4 class="subtitle is-5 mb-2">🆓 Free Only</h4>
+              <p>I don't want to pay anything</p>
+            </div>
+            <div class="answer-option" data-value="cheap" onclick="selectAnswer(1, 'cheap', this)">
+              <h4 class="subtitle is-5 mb-2">💵 Under $15/year</h4>
+              <p>I'm willing to pay a small amount for better features</p>
+            </div>
+            <div class="answer-option" data-value="moderate" onclick="selectAnswer(1, 'moderate', this)">
+              <h4 class="subtitle is-5 mb-2">💳 $15-50/year</h4>
+              <p>I want good value for money</p>
+            </div>
+            <div class="answer-option" data-value="premium" onclick="selectAnswer(1, 'premium', this)">
+              <h4 class="subtitle is-5 mb-2">💎 $50+/year</h4>
+              <p>I want the best features regardless of cost</p>
+            </div>
+          </div>
+
+          <!-- Question 2: Longevity -->
+          <div class="question-card hidden" id="question-2">
+            <h2 class="title is-3 has-text-centered mb-4">🛡️ How important is long-term stability?</h2>
+            <div class="answer-option" data-value="critical" onclick="selectAnswer(2, 'critical', this)">
+              <h4 class="subtitle is-5 mb-2">🔒 Extremely Important</h4>
+              <p>I want something that won't disappear on me in a year</p>
+            </div>
+            <div class="answer-option" data-value="important" onclick="selectAnswer(2, 'important', this)">
+              <h4 class="subtitle is-5 mb-2">⚖️ Somewhat Important</h4>
+              <p>I prefer stability but can adapt if needed</p>
+            </div>
+            <div class="answer-option" data-value="flexible" onclick="selectAnswer(2, 'flexible', this)">
+              <h4 class="subtitle is-5 mb-2">🔄 Not a Priority</h4>
+              <p>I'm comfortable switching services if needed</p>
+            </div>
+          </div>
+
+          <!-- Question 3: Technical Comfort -->
+          <div class="question-card hidden" id="question-3">
+            <h2 class="title is-3 has-text-centered mb-4">🔧 How technical are you?</h2>
+            <div class="answer-option" data-value="beginner" onclick="selectAnswer(3, 'beginner', this)">
+              <h4 class="subtitle is-5 mb-2">🙋 Beginner</h4>
+              <p>I just want something that works out of the box</p>
+            </div>
+            <div class="answer-option" data-value="intermediate" onclick="selectAnswer(3, 'intermediate', this)">
+              <h4 class="subtitle is-5 mb-2">🛠️ Intermediate</h4>
+              <p>I can follow tutorials and set things up</p>
+            </div>
+            <div class="answer-option" data-value="advanced" onclick="selectAnswer(3, 'advanced', this)">
+              <h4 class="subtitle is-5 mb-2">⚙️ Advanced</h4>
+              <p>I'm comfortable with self-hosting and technical setup</p>
+            </div>
+          </div>
+
+          <!-- Question 4: Mobile Apps -->
+          <div class="question-card hidden" id="question-4">
+            <h2 class="title is-3 has-text-centered mb-4">📱 Do you need mobile apps?</h2>
+            <div class="answer-option" data-value="essential" onclick="selectAnswer(4, 'essential', this)">
+              <h4 class="subtitle is-5 mb-2">📲 Essential</h4>
+              <p>I primarily read on my phone/tablet</p>
+            </div>
+            <div class="answer-option" data-value="nice" onclick="selectAnswer(4, 'nice', this)">
+              <h4 class="subtitle is-5 mb-2">👍 Nice to Have</h4>
+              <p>I'd like mobile access but web is fine too</p>
+            </div>
+            <div class="answer-option" data-value="unnecessary" onclick="selectAnswer(4, 'unnecessary', this)">
+              <h4 class="subtitle is-5 mb-2">💻 Web Only</h4>
+              <p>I mainly read on my computer</p>
+            </div>
+          </div>
+
+          <!-- Question 5: Features -->
+          <div class="question-card hidden" id="question-5">
+            <h2 class="title is-3 has-text-centered mb-4">✨ What features matter most?</h2>
+            <div class="answer-option" data-value="simple" onclick="selectAnswer(5, 'simple', this)">
+              <h4 class="subtitle is-5 mb-2">🎯 Simple & Fast</h4>
+              <p>Just save articles and read them later</p>
+            </div>
+            <div class="answer-option" data-value="organize" onclick="selectAnswer(5, 'organize', this)">
+              <h4 class="subtitle is-5 mb-2">📚 Organization</h4>
+              <p>Tags, folders, search, and good organization</p>
+            </div>
+            <div class="answer-option" data-value="research" onclick="selectAnswer(5, 'research', this)">
+              <h4 class="subtitle is-5 mb-2">🔬 Research Tools</h4>
+              <p>Highlighting, notes, PDFs, and knowledge management</p>
+            </div>
+            <div class="answer-option" data-value="social" onclick="selectAnswer(5, 'social', this)">
+              <h4 class="subtitle is-5 mb-2">👥 Social Features</h4>
+              <p>Sharing articles and discussing with others</p>
+            </div>
+          </div>
+
+          <!-- Question 6: Platform -->
+          <div class="question-card hidden" id="question-6">
+            <h2 class="title is-3 has-text-centered mb-4">🖥️ What devices do you use?</h2>
+            <div class="answer-option" data-value="apple" onclick="selectAnswer(6, 'apple', this)">
+              <h4 class="subtitle is-5 mb-2">🍎 Apple Only</h4>
+              <p>iPhone, iPad, and/or Mac exclusively</p>
+            </div>
+            <div class="answer-option" data-value="mixed" onclick="selectAnswer(6, 'mixed', this)">
+              <h4 class="subtitle is-5 mb-2">🔄 Mixed Platforms</h4>
+              <p>I use different operating systems</p>
+            </div>
+            <div class="answer-option" data-value="web" onclick="selectAnswer(6, 'web', this)">
+              <h4 class="subtitle is-5 mb-2">🌐 Web-First</h4>
+              <p>I prefer using web browsers</p>
+            </div>
+          </div>
+
+          <!-- Results -->
+          <div class="result-card hidden" id="results">
+            <h2 class="title is-2 mb-4">🎉 Your Recommendations</h2>
+            <p class="subtitle is-5 mb-4">Based on your answers, here are the best options for you:</p>
+            
+            <div id="recommendations-container">
+              <!-- Recommendations will be inserted here -->
+            </div>
+
+            <div class="buttons is-centered mt-5">
+              <button class="button is-light is-large" onclick="restartQuiz()">
+                <span class="icon">
+                  <i class="fas fa-redo"></i>
+                </span>
+                <span>Take Quiz Again</span>
+              </button>
+              <a href="index.html" class="button is-primary is-large">
+                <span class="icon">
+                  <i class="fas fa-list"></i>
+                </span>
+                <span>View All Options</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Navigation -->
+          <div class="quiz-navigation">
+            <button class="button" id="prev-btn" onclick="previousQuestion()" style="visibility: hidden;">
+              <span class="icon">
+                <i class="fas fa-arrow-left"></i>
+              </span>
+              <span>Previous</span>
+            </button>
+            
+            <button class="button is-primary" id="next-btn" onclick="nextQuestion()" style="visibility: hidden;">
+              <span>Next</span>
+              <span class="icon">
+                <i class="fas fa-arrow-right"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      let currentQuestion = 1;
+      const totalQuestions = 6;
+      let answers = {};
+
+      function selectAnswer(questionNum, value, element) {
+        // Remove selected class from all options in this question
+        const questionCard = document.getElementById(`question-${questionNum}`);
+        const options = questionCard.querySelectorAll('.answer-option');
+        options.forEach(option => option.classList.remove('selected'));
+        
+        // Add selected class to clicked option
+        element.classList.add('selected');
+        
+        // Store answer
+        answers[questionNum] = value;
+        
+        // Show next button
+        document.getElementById('next-btn').style.visibility = 'visible';
+        
+        // Track answer selection
+        gtag('event', 'quiz_answer', {
+          'question': questionNum,
+          'answer': value
+        });
+      }
+
+      function nextQuestion() {
+        if (currentQuestion < totalQuestions) {
+          // Hide current question
+          document.getElementById(`question-${currentQuestion}`).classList.add('hidden');
+          
+          // Show next question
+          currentQuestion++;
+          document.getElementById(`question-${currentQuestion}`).classList.remove('hidden');
+          
+          // Update progress
+          updateProgress();
+          
+          // Show/hide navigation buttons
+          document.getElementById('prev-btn').style.visibility = 'visible';
+          document.getElementById('next-btn').style.visibility = answers[currentQuestion] ? 'visible' : 'hidden';
+        } else {
+          // Show results
+          showResults();
+        }
+      }
+
+      function previousQuestion() {
+        if (currentQuestion > 1) {
+          // Hide current question
+          document.getElementById(`question-${currentQuestion}`).classList.add('hidden');
+          
+          // Show previous question
+          currentQuestion--;
+          document.getElementById(`question-${currentQuestion}`).classList.remove('hidden');
+          
+          // Update progress
+          updateProgress();
+          
+          // Show/hide navigation buttons
+          document.getElementById('prev-btn').style.visibility = currentQuestion > 1 ? 'visible' : 'hidden';
+          document.getElementById('next-btn').style.visibility = 'visible';
+        }
+      }
+
+      function updateProgress() {
+        const progress = ((currentQuestion - 1) / totalQuestions) * 100;
+        document.getElementById('progress-fill').style.width = progress + '%';
+        document.getElementById('progress-text').textContent = `Question ${currentQuestion} of ${totalQuestions}`;
+      }
+
+      function showResults() {
+        // Hide current question and navigation
+        document.getElementById(`question-${currentQuestion}`).classList.add('hidden');
+        document.querySelector('.quiz-navigation').style.display = 'none';
+        
+        // Update progress to 100%
+        document.getElementById('progress-fill').style.width = '100%';
+        document.getElementById('progress-text').textContent = 'Complete!';
+        
+        // Generate recommendations
+        const recommendations = generateRecommendations(answers);
+        
+        // Display recommendations
+        const container = document.getElementById('recommendations-container');
+        container.innerHTML = recommendations.map(rec => `
+          <div class="recommendation">
+            <h4 class="title is-4">${rec.name}</h4>
+            <p class="subtitle is-6">${rec.price}</p>
+            <p>${rec.description}</p>
+            <div class="buttons mt-3">
+              <a href="${rec.link}" class="button is-primary" target="_blank">Learn More</a>
+            </div>
+          </div>
+        `).join('');
+        
+        // Show results
+        document.getElementById('results').classList.remove('hidden');
+        
+        // Track quiz completion
+        gtag('event', 'quiz_complete', {
+          'recommendations': recommendations.map(r => r.name).join(', ')
+        });
+      }
+
+      function generateRecommendations(answers) {
+        const recommendations = [];
+        
+        // Free options
+        if (answers[1] === 'free') {
+          if (answers[2] === 'critical') {
+            recommendations.push({
+              name: '🦉 Omnivore',
+              price: 'Free',
+              description: 'Open source with free official hosting. Great features including PDF support and mobile apps.',
+              link: 'https://omnivore.app/'
+            });
+          }
+          
+          if (answers[4] !== 'essential') {
+            recommendations.push({
+              name: '🔖 Linkding (Self-hosted)',
+              price: 'Free (self-hosted)',
+              description: 'Minimal and fast. Perfect if you want simplicity and can handle basic self-hosting.',
+              link: 'https://github.com/sissbruecker/linkding'
+            });
+          }
+        }
+        
+        // Cheap options
+        if (answers[1] === 'cheap') {
+          if (answers[2] === 'critical') {
+            recommendations.push({
+              name: '📚 Wallabag (CloudBreak)',
+              price: '$10/year',
+              description: 'Most mature open source option with mobile apps. Hosted by a reliable provider.',
+              link: 'https://cloudbreak.app/wallabag/'
+            });
+          } else {
+            recommendations.push({
+              name: '💧 Raindrop.io',
+              price: '$28/year',
+              description: 'Beautiful visual bookmark manager with great organization features.',
+              link: 'https://raindrop.io/'
+            });
+          }
+        }
+        
+        // Apple-specific
+        if (answers[6] === 'apple') {
+          recommendations.push({
+            name: '🍎 GoodLinks',
+            price: '$5-10 one-time',
+            description: 'Perfect for Apple users. One-time purchase, privacy-focused, works offline.',
+            link: 'https://goodlinks.app/'
+          });
+        }
+        
+        // Research features
+        if (answers[5] === 'research') {
+          recommendations.push({
+            name: '🧠 Readwise Reader',
+            price: '$90/year',
+            description: 'Best for researchers. Excellent PDF support, highlighting, and knowledge management.',
+            link: 'https://readwise.io/read'
+          });
+        }
+        
+        // Social features
+        if (answers[5] === 'social') {
+          recommendations.push({
+            name: '🎯 Matter',
+            price: '$80/year',
+            description: 'Modern app with social features. Share articles and discuss with friends.',
+            link: 'https://hq.getmatter.com/'
+          });
+        }
+        
+        // Simple and fast
+        if (answers[5] === 'simple') {
+          if (answers[1] !== 'free') {
+            recommendations.push({
+              name: '📖 Instapaper',
+              price: '$30/year',
+              description: 'The original read-it-later service. Simple, reliable, and distraction-free.',
+              link: 'https://www.instapaper.com/'
+            });
+          }
+          
+          recommendations.push({
+            name: '⚡ Readeck (CloudBreak)',
+            price: '$10/year',
+            description: 'Modern and lightweight. Fast interface with clean reading experience.',
+            link: 'https://cloudbreak.app/readeck/'
+          });
+        }
+        
+        // Fallback recommendations if none match
+        if (recommendations.length === 0) {
+          recommendations.push({
+            name: '📚 Wallabag',
+            price: '$10-12/year',
+            description: 'Most popular open source option with great features and mobile apps.',
+            link: 'index.html#wallabag'
+          });
+          
+          recommendations.push({
+            name: '📖 Instapaper',
+            price: '$30/year',
+            description: 'Reliable proprietary option with excellent reading experience.',
+            link: 'https://www.instapaper.com/'
+          });
+        }
+        
+        // Limit to top 3 recommendations
+        return recommendations.slice(0, 3);
+      }
+
+      function restartQuiz() {
+        currentQuestion = 1;
+        answers = {};
+        
+        // Hide results and show first question
+        document.getElementById('results').classList.add('hidden');
+        document.getElementById('question-1').classList.remove('hidden');
+        
+        // Hide all other questions
+        for (let i = 2; i <= totalQuestions; i++) {
+          document.getElementById(`question-${i}`).classList.add('hidden');
+        }
+        
+        // Reset all selections
+        document.querySelectorAll('.answer-option').forEach(option => {
+          option.classList.remove('selected');
+        });
+        
+        // Reset navigation
+        document.querySelector('.quiz-navigation').style.display = 'flex';
+        document.getElementById('prev-btn').style.visibility = 'hidden';
+        document.getElementById('next-btn').style.visibility = 'hidden';
+        
+        // Reset progress
+        updateProgress();
+        
+        // Track restart
+        gtag('event', 'quiz_restart');
+      }
+
+      // Initialize quiz
+      document.addEventListener('DOMContentLoaded', function() {
+        updateProgress();
+        
+        // Track quiz start
+        gtag('event', 'quiz_start');
+      });
+    </script>
+
+  </body>
+</html>
