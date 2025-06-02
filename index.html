@@ -404,6 +404,18 @@
       <div class="notification is-light">
         <h4 class="subtitle is-5 mb-3">📢 Share this guide with others!</h4>
         <div class="buttons is-centered">
+          <button id="native-share-btn" class="button is-success" onclick="shareNatively()" style="display: none;">
+            <span class="icon">
+              <i class="fas fa-share"></i>
+            </span>
+            <span>Share</span>
+          </button>
+          <button id="copy-share-btn" class="button is-warning" onclick="copyToShare()" style="display: none;">
+            <span class="icon">
+              <i class="fas fa-copy"></i>
+            </span>
+            <span>Copy Link</span>
+          </button>
           <a href="https://twitter.com/intent/tweet?text=Compare%20Pocket%20alternatives&url=https://getoffpocket.com" target="_blank" class="button is-info">
             <span class="icon">
               <i class="fab fa-twitter"></i>
@@ -1031,6 +1043,18 @@
         <h4 class="subtitle is-5 mb-3">🌟 Found this helpful? Share it!</h4>
         <p class="mb-4">Help others escape vendor lock-in and find the perfect read-it-later solution</p>
         <div class="buttons is-centered">
+          <button id="native-share-btn-bottom" class="button is-success" onclick="shareNatively()" style="display: none;">
+            <span class="icon">
+              <i class="fas fa-share"></i>
+            </span>
+            <span>Share</span>
+          </button>
+          <button id="copy-share-btn-bottom" class="button is-warning" onclick="copyToShare()" style="display: none;">
+            <span class="icon">
+              <i class="fas fa-copy"></i>
+            </span>
+            <span>Copy Link</span>
+          </button>
           <a href="https://twitter.com/intent/tweet?text=Compare%20Pocket%20alternatives&url=https://getoffpocket.com" target="_blank" class="button is-info">
             <span class="icon">
               <i class="fab fa-twitter"></i>
@@ -1064,6 +1088,15 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
+    // Check for native share support and show appropriate buttons
+    if (navigator.share) {
+      document.getElementById('native-share-btn').style.display = 'inline-flex';
+      document.getElementById('native-share-btn-bottom').style.display = 'inline-flex';
+    } else {
+      document.getElementById('copy-share-btn').style.display = 'inline-flex';
+      document.getElementById('copy-share-btn-bottom').style.display = 'inline-flex';
+    }
+
     // Track social share clicks
     const shareLinks = document.querySelectorAll('a[href*="twitter.com"], a[href*="facebook.com"], a[href*="linkedin.com"], a[href*="reddit.com"]');
     shareLinks.forEach(link => {
@@ -1156,6 +1189,100 @@
       });
     }
   });
+
+  // Native share function
+  function shareNatively() {
+    if (navigator.share) {
+      navigator.share({
+        title: 'Get Off Pocket: Open Source Alternatives',
+        text: 'Comprehensive guide to open source read-it-later tools and hosting options. Compare Wallabag, Readeck, Linkding, Shiori, and more.',
+        url: window.location.href
+      }).then(() => {
+        gtag('event', 'share', {
+          'method': 'native',
+          'content_type': 'guide',
+          'item_id': 'open_source_alternatives'
+        });
+      }).catch((error) => {
+        console.log('Error sharing:', error);
+        // Fallback to copy
+        copyToShare();
+      });
+    } else {
+      copyToShare();
+    }
+  }
+
+  // Copy to clipboard function
+  function copyToShare() {
+    const url = window.location.href;
+    
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(url).then(() => {
+        showCopyNotification('Link copied to clipboard!');
+        gtag('event', 'share', {
+          'method': 'copy',
+          'content_type': 'guide',
+          'item_id': 'open_source_alternatives'
+        });
+      }).catch(() => {
+        fallbackCopyToClipboard(url);
+      });
+    } else {
+      fallbackCopyToClipboard(url);
+    }
+  }
+
+  // Fallback copy method for older browsers
+  function fallbackCopyToClipboard(text) {
+    const textArea = document.createElement('textarea');
+    textArea.value = text;
+    textArea.style.position = 'fixed';
+    textArea.style.left = '-999999px';
+    textArea.style.top = '-999999px';
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+    
+    try {
+      document.execCommand('copy');
+      showCopyNotification('Link copied to clipboard!');
+      gtag('event', 'share', {
+        'method': 'copy_fallback',
+        'content_type': 'guide',
+        'item_id': 'open_source_alternatives'
+      });
+    } catch (err) {
+      showCopyNotification('Please copy this link manually: ' + text);
+    }
+    
+    document.body.removeChild(textArea);
+  }
+
+  // Show copy notification
+  function showCopyNotification(message) {
+    // Create notification element
+    const notification = document.createElement('div');
+    notification.className = 'notification is-success is-light';
+    notification.style.position = 'fixed';
+    notification.style.top = '20px';
+    notification.style.right = '20px';
+    notification.style.zIndex = '1000';
+    notification.style.maxWidth = '300px';
+    notification.innerHTML = `
+      <button class="delete" onclick="this.parentElement.remove()"></button>
+      ${message}
+    `;
+    
+    document.body.appendChild(notification);
+    
+    // Auto-remove after 3 seconds
+    setTimeout(() => {
+      if (notification.parentElement) {
+        notification.remove();
+      }
+    }, 3000);
+  }
 </script>
 
   </body>
