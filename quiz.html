@@ -534,15 +534,6 @@
         
         // Free options
         if (answers[1] === 'free') {
-          if (answers[2] === 'critical') {
-            recommendations.push({
-              name: '🦉 Omnivore',
-              price: 'Free',
-              description: 'Open source with free official hosting. Great features including PDF support and mobile apps.',
-              link: 'https://omnivore.app/'
-            });
-          }
-          
           if (answers[4] !== 'essential') {
             recommendations.push({
               name: '🔖 Linkding (Self-hosted)',
