@@ -160,7 +160,7 @@
           padding: 1.5rem;
           margin: 1rem 0;
         }
-        
+
         .quiz-navigation {
           flex-direction: column;
           gap: 1rem;
@@ -378,31 +378,6 @@
             </div>
           </div>
 
-          <!-- Results -->
-          <div class="result-card hidden" id="results">
-            <h2 class="title is-2 mb-4">🎉 Your Recommendations</h2>
-            <p class="subtitle is-5 mb-4">Based on your answers, here are the best options for you:</p>
-            
-            <div id="recommendations-container">
-              <!-- Recommendations will be inserted here -->
-            </div>
-
-            <div class="buttons is-centered mt-5">
-              <button class="button is-light is-large" onclick="restartQuiz()">
-                <span class="icon">
-                  <i class="fas fa-redo"></i>
-                </span>
-                <span>Take Quiz Again</span>
-              </button>
-              <a href="index.html" class="button is-primary is-large">
-                <span class="icon">
-                  <i class="fas fa-list"></i>
-                </span>
-                <span>View All Options</span>
-              </a>
-            </div>
-          </div>
-
           <!-- Navigation -->
           <div class="quiz-navigation">
             <button class="button" id="prev-btn" onclick="previousQuestion()" style="visibility: hidden;">
@@ -411,7 +386,7 @@
               </span>
               <span>Previous</span>
             </button>
-            
+
             <button class="button is-primary" id="next-btn" onclick="nextQuestion()" style="visibility: hidden;">
               <span>Next</span>
               <span class="icon">
@@ -433,16 +408,16 @@
         const questionCard = document.getElementById(`question-${questionNum}`);
         const options = questionCard.querySelectorAll('.answer-option');
         options.forEach(option => option.classList.remove('selected'));
-        
+
         // Add selected class to clicked option
         element.classList.add('selected');
-        
+
         // Store answer
         answers[questionNum] = value;
-        
+
         // Show next button
         document.getElementById('next-btn').style.visibility = 'visible';
-        
+
         // Track answer selection
         gtag('event', 'quiz_answer', {
           'question': questionNum,
@@ -454,14 +429,14 @@
         if (currentQuestion < totalQuestions) {
           // Hide current question
           document.getElementById(`question-${currentQuestion}`).classList.add('hidden');
-          
+
           // Show next question
           currentQuestion++;
           document.getElementById(`question-${currentQuestion}`).classList.remove('hidden');
-          
+
           // Update progress
           updateProgress();
-          
+
           // Show/hide navigation buttons
           document.getElementById('prev-btn').style.visibility = 'visible';
           document.getElementById('next-btn').style.visibility = answers[currentQuestion] ? 'visible' : 'hidden';
@@ -475,14 +450,14 @@
         if (currentQuestion > 1) {
           // Hide current question
           document.getElementById(`question-${currentQuestion}`).classList.add('hidden');
-          
+
           // Show previous question
           currentQuestion--;
           document.getElementById(`question-${currentQuestion}`).classList.remove('hidden');
-          
+
           // Update progress
           updateProgress();
-          
+
           // Show/hide navigation buttons
           document.getElementById('prev-btn').style.visibility = currentQuestion > 1 ? 'visible' : 'hidden';
           document.getElementById('next-btn').style.visibility = 'visible';
@@ -499,14 +474,14 @@
         // Hide current question and navigation
         document.getElementById(`question-${currentQuestion}`).classList.add('hidden');
         document.querySelector('.quiz-navigation').style.display = 'none';
-        
+
         // Update progress to 100%
         document.getElementById('progress-fill').style.width = '100%';
         document.getElementById('progress-text').textContent = 'Complete!';
-        
+
         // Generate recommendations
         const recommendations = generateRecommendations(answers);
-        
+
         // Display recommendations
         const container = document.getElementById('recommendations-container');
         container.innerHTML = recommendations.map(rec => `
@@ -519,10 +494,10 @@
             </div>
           </div>
         `).join('');
-        
+
         // Show results
         document.getElementById('results').classList.remove('hidden');
-        
+
         // Track quiz completion
         gtag('event', 'quiz_complete', {
           'recommendations': recommendations.map(r => r.name).join(', ')
@@ -531,7 +506,7 @@
 
       function generateRecommendations(answers) {
         const recommendations = [];
-        
+
         // Free options
         if (answers[1] === 'free') {
           if (answers[4] !== 'essential') {
@@ -543,7 +518,7 @@
             });
           }
         }
-        
+
         // Cheap options
         if (answers[1] === 'cheap') {
           if (answers[2] === 'critical') {
@@ -562,7 +537,7 @@
             });
           }
         }
-        
+
         // Apple-specific
         if (answers[6] === 'apple') {
           recommendations.push({
@@ -572,7 +547,7 @@
             link: 'https://goodlinks.app/'
           });
         }
-        
+
         // Research features
         if (answers[5] === 'research') {
           recommendations.push({
@@ -582,7 +557,7 @@
             link: 'https://readwise.io/read'
           });
         }
-        
+
         // Social features
         if (answers[5] === 'social') {
           recommendations.push({
@@ -592,7 +567,7 @@
             link: 'https://hq.getmatter.com/'
           });
         }
-        
+
         // Simple and fast
         if (answers[5] === 'simple') {
           if (answers[1] !== 'free') {
@@ -603,7 +578,7 @@
               link: 'https://www.instapaper.com/'
             });
           }
-          
+
           recommendations.push({
             name: '⚡ Readeck (CloudBreak)',
             price: '$10/year',
@@ -611,7 +586,7 @@
             link: 'https://cloudbreak.app/readeck/'
           });
         }
-        
+
         // Fallback recommendations if none match
         if (recommendations.length === 0) {
           recommendations.push({
@@ -620,7 +595,7 @@
             description: 'Most popular open source option with great features and mobile apps.',
             link: 'index.html#wallabag'
           });
-          
+
           recommendations.push({
             name: '📖 Instapaper',
             price: '$30/year',
@@ -628,7 +603,7 @@
             link: 'https://www.instapaper.com/'
           });
         }
-        
+
         // Limit to top 3 recommendations
         return recommendations.slice(0, 3);
       }
@@ -636,29 +611,29 @@
       function restartQuiz() {
         currentQuestion = 1;
         answers = {};
-        
+
         // Hide results and show first question
         document.getElementById('results').classList.add('hidden');
         document.getElementById('question-1').classList.remove('hidden');
-        
+
         // Hide all other questions
         for (let i = 2; i <= totalQuestions; i++) {
           document.getElementById(`question-${i}`).classList.add('hidden');
         }
-        
+
         // Reset all selections
         document.querySelectorAll('.answer-option').forEach(option => {
           option.classList.remove('selected');
         });
-        
+
         // Reset navigation
         document.querySelector('.quiz-navigation').style.display = 'flex';
         document.getElementById('prev-btn').style.visibility = 'hidden';
         document.getElementById('next-btn').style.visibility = 'hidden';
-        
+
         // Reset progress
         updateProgress();
-        
+
         // Track restart
         gtag('event', 'quiz_restart');
       }
@@ -666,7 +641,7 @@
       // Initialize quiz
       document.addEventListener('DOMContentLoaded', function() {
         updateProgress();
-        
+
         // Track quiz start
         gtag('event', 'quiz_start');
       });
