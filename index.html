@@ -58,6 +58,8 @@
     <meta name="keywords" content="Pocket shutdown, Pocket alternatives, read-it-later alternatives, Wallabag, Readeck, FOSS alternatives, self-hosted read-it-later, open source, Shiori, Omnivore">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></old_0>
+
     <style>
       .screenshot-link {
         display: block;
@@ -394,6 +396,45 @@
           </span>
           <span>Proprietary Options</span>
         </a>
+      </div>
+    </div>
+
+    <!-- Share Section - Top -->
+    <div class="has-text-centered mb-6">
+      <div class="notification is-light">
+        <h4 class="subtitle is-5 mb-3">📢 Share this guide with others!</h4>
+        <div class="buttons is-centered">
+          <button id="native-share-top" class="button is-primary" style="display: none;">
+            <span class="icon">
+              <i class="fas fa-share"></i>
+            </span>
+            <span>Share</span>
+          </button>
+          <a href="https://twitter.com/intent/tweet?text=Complete%20guide%20to%20open%20source%20Pocket%20alternatives%20%F0%9F%93%9A&url=https://getoffpocket.com" target="_blank" class="button is-info">
+            <span class="icon">
+              <i class="fab fa-twitter"></i>
+            </span>
+            <span>Twitter</span>
+          </a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://getoffpocket.com" target="_blank" class="button is-primary">
+            <span class="icon">
+              <i class="fab fa-facebook"></i>
+            </span>
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://getoffpocket.com" target="_blank" class="button is-link">
+            <span class="icon">
+              <i class="fab fa-linkedin"></i>
+            </span>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://reddit.com/submit?url=https://getoffpocket.com&title=Complete%20guide%20to%20open%20source%20Pocket%20alternatives" target="_blank" class="button is-warning">
+            <span class="icon">
+              <i class="fab fa-reddit"></i>
+            </span>
+            <span>Reddit</span>
+          </a>
+        </div>
       </div>
     </div>
 
@@ -990,11 +1031,99 @@
       </div>
     </div>
 
+    <!-- Share Section - Bottom -->
+    <div class="has-text-centered mt-6">
+      <div class="notification is-success is-light">
+        <h4 class="subtitle is-5 mb-3">🌟 Found this helpful? Share it!</h4>
+        <p class="mb-4">Help others escape vendor lock-in and find the perfect read-it-later solution</p>
+        <div class="buttons is-centered">
+          <button id="native-share-bottom" class="button is-success" style="display: none;">
+            <span class="icon">
+              <i class="fas fa-share"></i>
+            </span>
+            <span>Share</span>
+          </button>
+          <a href="https://twitter.com/intent/tweet?text=Complete%20guide%20to%20open%20source%20Pocket%20alternatives%20%F0%9F%93%9A&url=https://getoffpocket.com" target="_blank" class="button is-info">
+            <span class="icon">
+              <i class="fab fa-twitter"></i>
+            </span>
+            <span>Twitter</span>
+          </a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://getoffpocket.com" target="_blank" class="button is-primary">
+            <span class="icon">
+              <i class="fab fa-facebook"></i>
+            </span>
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://getoffpocket.com" target="_blank" class="button is-link">
+            <span class="icon">
+              <i class="fab fa-linkedin"></i>
+            </span>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://reddit.com/submit?url=https://getoffpocket.com&title=Complete%20guide%20to%20open%20source%20Pocket%20alternatives" target="_blank" class="button is-warning">
+            <span class="icon">
+              <i class="fab fa-reddit"></i>
+            </span>
+            <span>Reddit</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
+    // Native Share API functionality
+    function setupNativeShare() {
+      const shareData = {
+        title: 'Get Off Pocket: Open Source Alternatives',
+        text: 'Complete guide to open source read-it-later tools and hosting options. Compare Wallabag, Readeck, Linkding, and more!',
+        url: window.location.href
+      };
+
+      const nativeShareButtons = document.querySelectorAll('#native-share-top, #native-share-bottom');
+      
+      if (navigator.share) {
+        nativeShareButtons.forEach(button => {
+          button.style.display = 'inline-flex';
+          button.addEventListener('click', async () => {
+            try {
+              await navigator.share(shareData);
+              gtag('event', 'native_share', {
+                'method': 'web_share_api',
+                'content_type': 'guide',
+                'item_id': 'open_source_alternatives'
+              });
+            } catch (err) {
+              console.log('Error sharing:', err);
+            }
+          });
+        });
+      }
+    }
+
+    setupNativeShare();
+
+    // Track social share clicks
+    const shareLinks = document.querySelectorAll('a[href*="twitter.com"], a[href*="facebook.com"], a[href*="linkedin.com"], a[href*="reddit.com"]');
+    shareLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        const platform = this.href.includes('twitter') ? 'twitter' :
+                         this.href.includes('facebook') ? 'facebook' :
+                         this.href.includes('linkedin') ? 'linkedin' :
+                         this.href.includes('reddit') ? 'reddit' : 'unknown';
+        
+        gtag('event', 'share', {
+          'method': platform,
+          'content_type': 'guide',
+          'item_id': 'open_source_alternatives'
+        });
+      });
+    });
+
     // Countdown timer functionality
     function updateCountdown() {
       const shutdownDate = new Date('July 8, 2025 00:00:00 UTC');
