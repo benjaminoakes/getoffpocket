@@ -404,12 +404,6 @@
       <div class="notification is-light">
         <h4 class="subtitle is-5 mb-3">📢 Share this guide with others!</h4>
         <div class="buttons is-centered">
-          <button id="native-share-top" class="button is-primary" style="display: none;">
-            <span class="icon">
-              <i class="fas fa-share"></i>
-            </span>
-            <span>Share</span>
-          </button>
           <a href="https://twitter.com/intent/tweet?text=Complete%20guide%20to%20open%20source%20Pocket%20alternatives%20%F0%9F%93%9A&url=https://getoffpocket.com" target="_blank" class="button is-info">
             <span class="icon">
               <i class="fab fa-twitter"></i>
@@ -1037,12 +1031,6 @@
         <h4 class="subtitle is-5 mb-3">🌟 Found this helpful? Share it!</h4>
         <p class="mb-4">Help others escape vendor lock-in and find the perfect read-it-later solution</p>
         <div class="buttons is-centered">
-          <button id="native-share-bottom" class="button is-success" style="display: none;">
-            <span class="icon">
-              <i class="fas fa-share"></i>
-            </span>
-            <span>Share</span>
-          </button>
           <a href="https://twitter.com/intent/tweet?text=Complete%20guide%20to%20open%20source%20Pocket%20alternatives%20%F0%9F%93%9A&url=https://getoffpocket.com" target="_blank" class="button is-info">
             <span class="icon">
               <i class="fab fa-twitter"></i>
@@ -1076,37 +1064,6 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    // Native Share API functionality
-    function setupNativeShare() {
-      const shareData = {
-        title: 'Get Off Pocket: Open Source Alternatives',
-        text: 'Complete guide to open source read-it-later tools and hosting options. Compare Wallabag, Readeck, Linkding, and more!',
-        url: window.location.href
-      };
-
-      const nativeShareButtons = document.querySelectorAll('#native-share-top, #native-share-bottom');
-      
-      if (navigator.share) {
-        nativeShareButtons.forEach(button => {
-          button.style.display = 'inline-flex';
-          button.addEventListener('click', async () => {
-            try {
-              await navigator.share(shareData);
-              gtag('event', 'native_share', {
-                'method': 'web_share_api',
-                'content_type': 'guide',
-                'item_id': 'open_source_alternatives'
-              });
-            } catch (err) {
-              console.log('Error sharing:', err);
-            }
-          });
-        });
-      }
-    }
-
-    setupNativeShare();
-
     // Track social share clicks
     const shareLinks = document.querySelectorAll('a[href*="twitter.com"], a[href*="facebook.com"], a[href*="linkedin.com"], a[href*="reddit.com"]');
     shareLinks.forEach(link => {
