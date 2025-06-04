@@ -73,6 +73,15 @@
         color: white;
       }
 
+      .pocket-shutdown-alert {
+        background: #fff5f5;
+        border: 2px solid #ff6b6b;
+        border-radius: 8px;
+        padding: 2rem;
+        margin: 2rem 0;
+        text-align: center;
+      }
+
       .service-comparison {
         margin: 2rem 0;
         padding: 1.5rem;
@@ -135,6 +144,12 @@
           padding: 1rem;
           margin: 1rem 0;
         }
+      }
+
+      .countdown {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #d63031;
       }
     </style>
 
@@ -269,6 +284,48 @@
             </div>
           </div>
         </div>
+
+      <!-- Pocket Shutdown Alert -->
+      <div class="pocket-shutdown-alert">
+        <h2 class="title is-3 has-text-danger">⚠️ Pocket Shutdown Timeline</h2>
+        <div class="columns">
+          <div class="column">
+            <h4 class="subtitle is-5"><strong>May 22, 2025</strong></h4>
+            <p>Pocket removed from app stores<br>New account signups disabled</p>
+          </div>
+          <div class="column">
+            <h4 class="subtitle is-5"><strong>July 8, 2025</strong></h4>
+            <p class="countdown">Pocket shuts down completely<br>Export-only mode begins</p>
+            <div id="countdown-timer" class="has-text-weight-bold is-size-4 mt-3">
+              <div class="columns is-mobile is-centered">
+                <div class="column is-narrow has-text-centered">
+                  <div class="countdown-number" id="days">--</div>
+                  <div class="countdown-label">Days</div>
+                </div>
+                <div class="column is-narrow has-text-centered">
+                  <div class="countdown-number" id="hours">--</div>
+                  <div class="countdown-label">Hours</div>
+                </div>
+                <div class="column is-narrow has-text-centered">
+                  <div class="countdown-number" id="minutes">--</div>
+                  <div class="countdown-label">Minutes</div>
+                </div>
+                <div class="column is-narrow has-text-centered">
+                  <div class="countdown-number" id="seconds">--</div>
+                  <div class="countdown-label">Seconds</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <h4 class="subtitle is-5"><strong>October 8, 2025</strong></h4>
+            <p>Final date to export data<br>All accounts permanently deleted</p>
+          </div>
+        </div>
+        <div class="notification is-warning mt-4">
+          <p><strong>Act now:</strong> You have limited time to find an alternative and migrate your saved articles. Don't lose years of saved content!</p>
+        </div>
+      </div>
 
         <!--
         <div class="warning-box">
@@ -886,6 +943,41 @@
           }
         }, 3000);
       }
+
+      // Countdown timer functionality
+      function updateCountdown() {
+        const shutdownDate = new Date('July 8, 2025 00:00:00 UTC');
+        const now = new Date();
+        const timeDiff = shutdownDate - now;
+
+        if (timeDiff > 0) {
+          const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+          document.getElementById('days').textContent = days;
+          document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+          document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+          document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+        } else {
+          // Pocket has shut down
+          document.getElementById('days').textContent = '0';
+          document.getElementById('hours').textContent = '00';
+          document.getElementById('minutes').textContent = '00';
+          document.getElementById('seconds').textContent = '00';
+
+          // Update the text to reflect shutdown
+          const countdownText = document.querySelector('.countdown');
+          if (countdownText) {
+            countdownText.innerHTML = 'Pocket has shut down<br>Export-only mode active';
+          }
+        }
+      }
+
+      // Update countdown immediately and then every second
+      updateCountdown();
+      setInterval(updateCountdown, 1000);
     </script>
 
   </body>

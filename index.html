@@ -1148,6 +1148,40 @@
     // Update countdown immediately and then every second
     updateCountdown();
     setInterval(updateCountdown, 1000);
+    // Countdown timer functionality
+    function updateCountdown() {
+      const shutdownDate = new Date('July 8, 2025 00:00:00 UTC');
+      const now = new Date();
+      const timeDiff = shutdownDate - now;
+
+      if (timeDiff > 0) {
+        const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+        document.getElementById('days').textContent = days;
+        document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+        document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+        document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+      } else {
+        // Pocket has shut down
+        document.getElementById('days').textContent = '0';
+        document.getElementById('hours').textContent = '00';
+        document.getElementById('minutes').textContent = '00';
+        document.getElementById('seconds').textContent = '00';
+
+        // Update the text to reflect shutdown
+        const countdownText = document.querySelector('.countdown');
+        if (countdownText) {
+          countdownText.innerHTML = 'Pocket has shut down<br>Export-only mode active';
+        }
+      }
+    }
+
+    // Update countdown immediately and then every second
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
 
     // Track comparison page engagement
     gtag('event', 'page_view', {
