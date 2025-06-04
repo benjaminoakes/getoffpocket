@@ -384,13 +384,13 @@
     <!-- Navigation -->
     <div class="has-text-centered mb-6">
       <div class="buttons is-centered">
-        <a href="index.html" class="button is-primary is-active">
+        <a href="/" class="button is-primary is-active">
           <span class="icon">
             <i class="fas fa-code"></i>
           </span>
           <span>Open Source Options</span>
         </a>
-        <a href="proprietary.html" class="button is-info">
+        <a href="/proprietary/" class="button is-info">
           <span class="icon">
             <i class="fas fa-building"></i>
           </span>
@@ -1026,7 +1026,7 @@
             </span>
             <span>Open Source Options</span>
           </a>
-          <a href="proprietary.html" class="button is-info" onclick="window.scrollTo(0, 0)">
+          <a href="/proprietary/" class="button is-info" onclick="window.scrollTo(0, 0)">
             <span class="icon">
               <i class="fas fa-building"></i>
             </span>
@@ -1216,7 +1216,7 @@
   // Copy to clipboard function
   function copyToShare() {
     const url = window.location.href;
-    
+
     if (navigator.clipboard && window.isSecureContext) {
       navigator.clipboard.writeText(url).then(() => {
         showCopyNotification('Link copied to clipboard!');
@@ -1243,7 +1243,7 @@
     document.body.appendChild(textArea);
     textArea.focus();
     textArea.select();
-    
+
     try {
       document.execCommand('copy');
       showCopyNotification('Link copied to clipboard!');
@@ -1255,7 +1255,7 @@
     } catch (err) {
       showCopyNotification('Please copy this link manually: ' + text);
     }
-    
+
     document.body.removeChild(textArea);
   }
 
@@ -1273,9 +1273,9 @@
       <button class="delete" onclick="this.parentElement.remove()"></button>
       ${message}
     `;
-    
+
     document.body.appendChild(notification);
-    
+
     // Auto-remove after 3 seconds
     setTimeout(() => {
       if (notification.parentElement) {
