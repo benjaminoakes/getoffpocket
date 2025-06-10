@@ -1,6 +1,6 @@
 ---
 layout: comparison
-title: "Most Private Pocket Alternatives"
+title: "Most Private Get Off Pocket"
 description: "Discover privacy-focused Pocket alternatives that protect your reading habits and personal data with strong security measures."
 category: privacy
 featured:

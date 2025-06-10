@@ -1,6 +1,6 @@
 ---
 layout: comparison
-title: "Best Pocket Alternatives for Apple Users"
+title: "Best Get Off Pocket for Apple Users"
 description: "Find the perfect Pocket alternative that works seamlessly across your Apple devices. Compare features, pricing, and hosting options."
 category: apple
 featured:
@@ -171,7 +171,7 @@ featured:
             {% assign cloudbreak = alt.hosting_options | where: "type", "CloudBreak" | first %}
             {% if cloudbreak %}
             <a href="{{ cloudbreak.buttons[0].link }}" class="card-footer-item has-text-weight-bold">
-              <span>Get Started with CloudBreak</span>
+              <span class='icon-text'><span>Get Started with CloudBreak</span><span class='tag is-warning is-light ml-2'>Sponsor</span></span>
               <span class="icon"><i class="fas fa-arrow-right"></i></span>
             </a>
             {% else %}
@@ -197,7 +197,6 @@ featured:
             <li>✓ Native iOS and Mac apps</li>
             <li>✓ Seamless iCloud sync</li>
             <li>✓ Safari extension included</li>
-            <li>✓ 14-day free trial</li>
           </ul>
         </div>
         <div class="column is-4 has-text-centered">
@@ -205,7 +204,6 @@ featured:
             <span class="icon"><i class="fab fa-apple"></i></span>
             <span>Get Started</span>
           </a>
-          <p class="help mt-2">14-day free trial, then just $10/year</p>
         </div>
       </div>
     </div>

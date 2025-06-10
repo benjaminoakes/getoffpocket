@@ -1,6 +1,6 @@
 ---
 layout: comparison
-title: "Best Pocket Alternatives for Desktop Users"
+title: "Best Get Off Pocket for Desktop Users"
 description: "Discover powerful Pocket alternatives with excellent desktop apps, browser extensions, and productivity features for power users."
 category: desktop
 featured:

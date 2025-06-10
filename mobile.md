@@ -1,6 +1,6 @@
 ---
 layout: comparison
-title: "Best Pocket Alternatives for Mobile Users"
+title: "Best Get Off Pocket for Mobile Users"
 description: "Discover the best Pocket alternatives with excellent mobile apps, offline reading, and seamless sync across your devices."
 category: mobile
 featured:
@@ -248,7 +248,6 @@ featured:
               <span>Download for Android</span>
             </a>
           </div>
-          <p class="help mt-2">14-day free trial, then just $10/year</p>
         </div>
       </div>
     </div>
