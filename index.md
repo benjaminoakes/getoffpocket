@@ -28,7 +28,7 @@ featured:
         </div>
         <div class="column is-5 has-text-centered">
           <span class="icon is-large has-text-white">
-            <i class="fab fa-pocket fa-5x"></i>
+            <i class="fab fa-get-pocket fa-5x"></i>
           </span>
         </div>
       </div>
