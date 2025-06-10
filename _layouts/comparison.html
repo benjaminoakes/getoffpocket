@@ -1,0 +1,157 @@
+---
+# Base layout for all comparison pages
+---
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} - Pocket Alternatives</title>
+    <meta name="description" content="{{ page.description | default: 'Compare the best Pocket alternatives for your needs.' }}">
+    
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulmaswatch/lux/bulmaswatch.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* Base styles */
+        :root {
+            --primary: #ee5a24;
+            --primary-light: #ff8c5a;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+        }
+        
+        .featured-badge {
+            position: absolute;
+            top: 0;
+            right: 1.5rem;
+            transform: translateY(-50%);
+            background: var(--primary);
+            color: white;
+            padding: 0.25rem 1rem;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            font-weight: bold;
+        }
+        
+        .card.featured {
+            border: 2px solid var(--primary);
+            position: relative;
+        }
+        
+        .card.featured .card-footer-item {
+            background-color: var(--primary);
+            color: white;
+            font-weight: bold;
+        }
+        
+        .card.featured .card-footer-item:hover {
+            background-color: var(--primary-light);
+        }
+        
+        /* Responsive table */
+        @media screen and (max-width: 768px) {
+            .table-container {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/">
+                    <span class="icon-text">
+                        <span class="icon">
+                            <i class="fas fa-bookmark"></i>
+                        </span>
+                        <span>Pocket Alternatives</span>
+                    </span>
+                </a>
+                
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            
+            <div id="navbarBasic" class="navbar-menu">
+                <div class="navbar-start">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Find Your Alternative</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="/apple/">
+                                <span class="icon"><i class="fab fa-apple"></i></span>
+                                <span>Apple Users</span>
+                            </a>
+                            <a class="navbar-item" href="/mobile/">
+                                <span class="icon"><i class="fas fa-mobile-alt"></i></span>
+                                <span>Mobile Experience</span>
+                            </a>
+                            <a class="navbar-item" href="/privacy/">
+                                <span class="icon"><i class="fas fa-lock"></i></span>
+                                <span>Privacy Focused</span>
+                            </a>
+                            <a class="navbar-item" href="/desktop/">
+                                <span class="icon"><i class="fas fa-desktop"></i></span>
+                                <span>Desktop Power Users</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a href="/quiz/" class="button is-light">
+                                <span class="icon"><i class="fas fa-question-circle"></i></span>
+                                <span>Help Me Choose</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    {{ content }}
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Pocket Alternatives</strong> - Helping you find the perfect read-it-later solution.
+            </p>
+        </div>
+    </footer>
+    
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            
+            // Add a click event on each of them
+            $navbarBurgers.forEach( el => {
+                el.addEventListener('click', () => {
+                    // Get the target from the "data-target" attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+                    
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

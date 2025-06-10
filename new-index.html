@@ -1,0 +1,248 @@
+---
+# New main page with better comparison features
+layout: default
+---
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[2025] Best Pocket Alternatives - Comparison & Recommendations</title>
+    <meta name="description" content="Find the perfect Pocket alternative with our detailed comparison of the best read-it-later apps. Compare features, pricing, and hosting options.">
+    
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulmaswatch/lux/bulmaswatch.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* Custom styles will go here */
+        .hero {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            color: white;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .comparison-table {
+            overflow-x: auto;
+            margin: 2rem 0;
+        }
+        .tag {
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        /* Responsive adjustments */
+        @media screen and (max-width: 768px) {
+            .hero-buttons .button {
+                width: 100%;
+                margin-bottom: 0.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero is-medium">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column is-7">
+                        <h1 class="title is-1 has-text-weight-bold">Pocket is Shutting Down</h1>
+                        <p class="subtitle is-4 has-text-weight-light mb-5">Find your perfect read-it-later alternative with our comprehensive comparison guide.</p>
+                        <div class="hero-buttons">
+                            <a href="#compare" class="button is-white is-medium is-outlined mr-3 mb-3">
+                                <span class="icon"><i class="fas fa-table"></i></span>
+                                <span>Compare All Options</span>
+                            </a>
+                            <a href="/quiz" class="button is-white is-medium is-outlined mb-3">
+                                <span class="icon"><i class="fas fa-question-circle"></i></span>
+                                <span>Find My Match</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="column is-5 has-text-centered">
+                        <div class="box has-background-white-bis">
+                            <h3 class="title is-4 has-text-dark">Top Alternatives at a Glance</h3>
+                            <div class="content has-text-left">
+                                <ul>
+                                    <li><strong>Best Overall:</strong> Wallabag</li>
+                                    <li><strong>Easiest to Use:</strong> Omnivore</li>
+                                    <li><strong>Best for Self-Hosting:</strong> Shiori</li>
+                                    <li><strong>Lightest Option:</strong> Linkding</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Comparison Table -->
+    <section id="compare" class="section">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered mb-6">Compare Pocket Alternatives</h2>
+            <div class="table-container">
+                <table class="table is-fullwidth is-hoverable">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Mobile Apps</th>
+                            <th>Self-Hosted</th>
+                            <th>Pricing</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in site.data.open_source limit:5 %}
+                        <tr>
+                            <td>
+                                <strong>{{ item.name }}</strong>
+                                {% for tag in item.tags %}
+                                <span class="tag is-light {{ tag.class }}">{{ tag.text }}</span>
+                                {% endfor %}
+                            </td>
+                            <td>Open Source</td>
+                            <td>{% if item.features contains 'Mobile apps' %}<span class="icon has-text-success"><i class="fas fa-check"></i></span>{% else %}<span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>{% endif %}</td>
+                            <td><span class="icon has-text-success"><i class="fas fa-check"></i></span></td>
+                            <td>
+                                {% assign hosting = item.hosting_options | first %}
+                                {{ hosting.price }}
+                            </td>
+                            <td>
+                                <a href="/open-source/{{ item.key }}/" class="button is-small is-info">Details</a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                        
+                        {% for item in site.data.proprietary limit:3 %}
+                        <tr>
+                            <td>
+                                <strong>{{ item.name }}</strong>
+                                {% if item.tags %}
+                                {% for tag in item.tags %}
+                                <span class="tag is-light {{ tag.class }}">{{ tag.text }}</span>
+                                {% endfor %}
+                                {% endif %}
+                            </td>
+                            <td>Proprietary</td>
+                            <td>{% if item.features contains 'Mobile apps' %}<span class="icon has-text-success"><i class="fas fa-check"></i></span>{% else %}<span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>{% endif %}</td>
+                            <td><span class="icon has-text-grey-light"><i class="fas fa-times"></i></span></td>
+                            <td>{{ item.pricing.premium | default: 'Free tier available' }}</td>
+                            <td>
+                                <a href="/proprietary/{{ item.key }}/" class="button is-small is-info">Details</a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                <div class="has-text-centered mt-5">
+                    <a href="#alternatives" class="button is-primary">View All Alternatives</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Highlights -->
+    <section class="section has-background-light">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered mb-6">How to Choose</h2>
+            <div class="feature-grid">
+                <div class="box">
+                    <h3 class="title is-4">🤔 New to Self-Hosting?</h3>
+                    <p>Start with managed solutions like <a href="#">Wallabag.it</a> or <a href="#">Omnivore</a> before diving into self-hosting.</p>
+                </div>
+                <div class="box">
+                    <h3 class="title is-4">📱 Need Mobile Apps?</h3>
+                    <p>Wallabag and Omnivore offer the best mobile experiences across iOS and Android.</p>
+                </div>
+                <div class="box">
+                    <h3 class="title is-4">🔒 Privacy Focused?</h3>
+                    <p>Consider self-hosted options like Shiori or Linkding for maximum control over your data.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Alternatives Section -->
+    <section id="alternatives" class="section">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered mb-6">Detailed Alternatives</h2>
+            
+            <h3 class="title is-3 mb-5 has-text-centered">Open Source Options</h3>
+            <div class="columns is-multiline">
+                {% for item in site.data.open_source %}
+                <div class="column is-6">
+                    <div class="card h-100">
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">{{ item.icon }} {{ item.name }}</p>
+                                    {% for tag in item.tags %}
+                                    <span class="tag {{ tag.class }}">{{ tag.text }}</span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            <div class="content">
+                                {{ item.description | truncatewords: 25 }}
+                                <div class="mt-3">
+                                    {% assign hosting = item.hosting_options | first %}
+                                    <span class="tag is-info is-light">{{ hosting.price }}</span>
+                                    {% if item.features contains 'Mobile apps' %}
+                                    <span class="tag is-success is-light">Mobile Apps</span>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="/open-source/{{ item.key }}/" class="card-footer-item">View Details</a>
+                        </footer>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            
+            <h3 class="title is-3 mt-6 mb-5 has-text-centered">Proprietary Options</h3>
+            <div class="columns is-multiline">
+                {% for item in site.data.proprietary %}
+                <div class="column is-6">
+                    <div class="card h-100">
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">{{ item.icon }} {{ item.name }}</p>
+                                    {% if item.tags %}
+                                    {% for tag in item.tags %}
+                                    <span class="tag {{ tag.class }}">{{ tag.text }}</span>
+                                    {% endfor %}
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="content">
+                                {{ item.description | truncatewords: 25 }}
+                                <div class="mt-3">
+                                    <span class="tag is-info is-light">{{ item.pricing.premium | default: 'Free tier available' }}</span>
+                                    {% if item.features contains 'Mobile apps' %}
+                                    <span class="tag is-success is-light">Mobile Apps</span>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="/proprietary/{{ item.key }}/" class="card-footer-item">View Details</a>
+                        </footer>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <!-- No JavaScript needed for data loading - all done server-side with Jekyll -->
+</body>
+</html>
