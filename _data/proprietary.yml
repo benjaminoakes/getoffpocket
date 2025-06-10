@@ -1,0 +1,180 @@
+- name: Instapaper
+  icon: 📖
+  tags:
+    - text: Most Established
+      class: is-success
+  description: The original read-it-later service, founded in 2008. Instapaper pioneered the concept and remains one of the most reliable options with a focus on clean, distraction-free reading.
+  features:
+    - "📱 Mobile apps (iOS, Android)"
+    - "🏷️ Folder organization"
+    - "📝 Highlighting and notes"
+    - "🔍 Full-text search"
+    - "📊 Reading progress tracking"
+    - "🌙 Dark mode"
+    - "📤 Export options"
+    - "🎨 Typography customization"
+  pricing:
+    free: "5 articles per month"
+    premium: "$2.99/month or $29.99/year"
+  pros:
+    - Long track record (15+ years)
+    - Excellent reading experience
+    - Reliable sync across devices
+    - Good export options
+  cons:
+    - Very limited free tier
+    - No team/sharing features
+    - Basic organization options
+    - No newsletter integration
+  link: https://www.instapaper.com/
+  comparison:
+    free_tier: "5 articles/month"
+    paid_price: "$30/year"
+    best_for: "Simple, reliable reading"
+    platforms: "iOS, Android, Web"
+
+- name: Readwise Reader
+  icon: 🧠
+  tags:
+    - text: Beta
+      class: is-warning
+    - text: Feature-Rich
+      class: is-info
+  description: A comprehensive reading platform that combines read-it-later functionality with powerful highlighting, note-taking, and knowledge management features. Part of the Readwise ecosystem.
+  features:
+    - "📱 Mobile apps (iOS, Android)"
+    - "📧 Newsletter subscriptions"
+    - "📄 PDF support and annotation"
+    - "🏷️ Advanced tagging system"
+    - "🔍 Powerful search and filters"
+    - "📝 Rich highlighting and notes"
+    - "🤖 AI-powered features"
+    - "📊 Reading analytics"
+    - "🔗 Integration with Readwise"
+  pricing:
+    premium: "$8.99/month or $89.99/year"
+    notes: "Includes Readwise highlighting review service"
+  pros:
+    - Excellent PDF support
+    - Newsletter integration
+    - Advanced highlighting features
+    - AI-powered insights
+    - Great for researchers
+  cons:
+    - "Subscriptions start at $7.50, higher than competitors"
+    - No free tier
+    - "Relatively new service (currently in beta)"
+  link: https://readwise.io/read
+  comparison:
+    free_tier: "None"
+    paid_price: "$90/year"
+    best_for: "Research & knowledge work"
+    platforms: "iOS, Android, Web"
+
+- name: Matter
+  icon: 🎯
+  tags:
+    - text: Social Features
+      class: is-warning
+  description: A modern read-it-later app with social features, allowing you to share articles and highlights with friends. Focuses on building reading communities and discussions around content.
+  features:
+    - "📱 Mobile apps (iOS only)"
+    - "👥 Social sharing and discussions"
+    - "📝 Highlighting and comments"
+    - "🏷️ Tag-based organization"
+    - "🔍 Search functionality"
+    - "📊 Reading statistics"
+    - "🎧 Text-to-speech"
+    - "🌙 Dark mode"
+  pricing:
+    free: "Basic features"
+    premium: "$7.99/month or $79.99/year"
+  pros:
+    - Unique social features
+    - Modern, clean interface
+    - Good free tier
+    - Text-to-speech feature
+  cons:
+    - "Relatively new (2021)"
+    - Limited export options
+    - Social features may not appeal to all
+    - Smaller user base
+  link: https://hq.getmatter.com/
+  comparison:
+    free_tier: "Basic features"
+    paid_price: "$80/year"
+    best_for: "Social reading"
+    platforms: "iOS, Android, Web"
+
+- name: Raindrop.io
+  icon: 💧
+  tags:
+    - text: Visual Bookmarks
+      class: is-primary
+  description: A visual bookmark manager that doubles as a read-it-later service. Raindrop.io focuses on beautiful organization with visual previews and powerful search capabilities.
+  features:
+    - "📱 Mobile apps (iOS, Android)"
+    - "🖼️ Visual bookmark previews"
+    - "📁 Nested collections"
+    - "🏷️ Advanced tagging"
+    - "🔍 Full-text search"
+    - "📝 Notes and highlights"
+    - "🌐 Web clipper extension"
+    - "📤 Multiple export formats"
+    - "👥 Collaboration features"
+  pricing:
+    free: "Up to 1,000 bookmarks"
+    premium: "$3/month or $28/year"
+  pros:
+    - Beautiful visual interface
+    - Generous free tier
+    - Excellent organization
+    - Good export options
+    - Collaboration features
+  cons:
+    - More bookmark manager than reader
+    - No offline reading
+    - Limited reading features
+    - Requires internet connection
+  link: https://raindrop.io/
+  comparison:
+    free_tier: "1,000 bookmarks"
+    paid_price: "$28/year"
+    best_for: "Visual organization"
+    platforms: "iOS, Android, Web"
+
+- name: GoodLinks
+  icon: 🍎
+  tags:
+    - text: Apple Ecosystem
+      class: is-success
+  description: A premium read-it-later app designed specifically for Apple devices. GoodLinks offers deep integration with iOS, iPadOS, and macOS with a focus on privacy and offline reading.
+  features:
+    - "📱 Native iOS, iPadOS, macOS apps (not available on Android, web, etc)"
+    - "🔒 Privacy-focused (no tracking)"
+    - "📱 Offline reading"
+    - "🏷️ Smart folders and tags"
+    - "🔍 Full-text search"
+    - "📝 Highlighting and notes"
+    - "☁️  iCloud sync"
+    - "🎨 Customizable reading experience"
+  pricing:
+    premium: "$4.99 (iOS/iPadOS) one-time"
+    notes: "macOS version is $9.99"
+  pros:
+    - One-time purchase
+    - Excellent Apple integration
+    - Privacy-focused
+    - Offline reading
+    - No subscription fees
+  cons:
+    - Apple devices only
+    - No web interface
+    - No Android support
+    - Limited sharing features
+  link: https://goodlinks.app/
+  comparison:
+    free_tier: "None"
+    paid_price: "$5-10 one-time"
+    best_for: "Apple ecosystem"
+    platforms: "iOS, iPadOS, macOS"

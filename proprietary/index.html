@@ -1,973 +1,149 @@
+---
+# Front matter is required for Jekyll to process the file
+---
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#3273dc">
-    <meta name="robots" content="index, follow">
-    <meta name="revisit-after" content="7 days">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <!-- Google Analytics Consent Mode -->
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-
-  // Default consent settings - respect privacy
-  gtag('consent', 'default', {
-    'analytics_storage': 'denied',
-    'ad_storage': 'denied',
-    'wait_for_update': 500
-  });
-
-  // Function to update consent
-  function updateConsent(consent) {
-    gtag('consent', 'update', consent);
-  }
-
-  // Check for saved consent
-  if (localStorage.getItem('analytics_consent') === 'granted') {
-    updateConsent({
-      'analytics_storage': 'granted'
-    });
-  }
-</script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YRF0EZ9WWS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  // Determine page-specific user properties
-  var userProperties = { 'visitor_type': 'new_visitor' };
-
-  gtag('config', 'G-YRF0EZ9WWS', {
-    'user_properties': userProperties,
-    'page_title': document.title,
-    'send_page_view': true
-  });
-</script>
-
-    <title>[2025 Guide] Proprietary Pocket Alternatives: Instapaper, Readwise Reader & More</title>
-    <meta name="description" content="Guide to proprietary read-it-later services as Pocket alternatives. Compare Instapaper, Readwise Reader, Matter, and other commercial options.">
-    <meta name="keywords" content="Instapaper, Readwise Reader, Matter, Pocket alternatives, proprietary read-it-later, commercial reading apps">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></old_0>
-
-    <style>
-      /* Improve accessibility and SEO with focus styles */
-      a:focus, button:focus {
-        outline: 2px solid #3273dc;
-        outline-offset: 2px;
-      }
-      /* Add smooth scrolling for better UX */
-      html {
-        scroll-behavior: smooth;
-      }
-      .proprietary-hero {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: white;
-      }
-
-      .pocket-shutdown-alert {
-        background: #fff5f5;
-        border: 2px solid #ff6b6b;
-        border-radius: 8px;
-        padding: 2rem;
-        margin: 2rem 0;
-        text-align: center;
-      }
-
-      .service-comparison {
-        margin: 2rem 0;
-        padding: 1.5rem;
-        border: 1px solid #e0e0e0;
-        border-radius: 8px;
-      }
-
-      .service-header {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        margin-bottom: 1rem;
-      }
-
-      .price {
-        font-weight: bold;
-        color: black;
-      }
-
-      /*
-      .price.expensive {
-        color: #d63031;
-      }
-
-      .price.moderate {
-        color: #fdcb6e;
-      }
-      */
-
-      .warning-box {
-        background: #fff5f5;
-        border: 2px solid #ff6b6b;
-        border-radius: 8px;
-        padding: 1.5rem;
-        margin: 2rem 0;
-      }
-
-      .pros-cons {
-        margin: 1rem 0;
-      }
-
-      .pros-cons .column {
-        padding: 1rem;
-      }
-
-      .pros {
-        background: #f8fff9;
-        border-left: 4px solid #51cf66;
-        border-radius: 0 8px 8px 0;
-      }
-
-      .cons {
-        background: #fff5f5;
-        border-left: 4px solid #ff6b6b;
-        border-radius: 0 8px 8px 0;
-      }
-
-      @media screen and (max-width: 768px) {
-        .service-comparison {
-          padding: 1rem;
-          margin: 1rem 0;
-        }
-      }
-
-      .countdown {
-        font-size: 1.2rem;
-        font-weight: bold;
-        color: #d63031;
-      }
-    </style>
-
-    <!-- Open Graph tags -->
-    <meta property="og:title" content="Proprietary Pocket Alternatives: Guide to Commercial Read-It-Later Services">
-    <meta property="og:description" content="Compare Instapaper, Readwise Reader, Matter, and other commercial read-it-later services as Pocket alternatives.">
-    <meta property="og:type" content="website">
-  </head>
-  <body>
-    <!-- Consent Banner -->
-    <div id="consent-banner" class="notification is-info is-light" style="display: none; position: fixed; bottom: 0; width: 100%; z-index: 100; margin: 0; border-radius: 0;">
-      <div class="container">
-        <div class="columns is-vcentered">
-          <div class="column">
-            <p>We use analytics to improve our services. This data is anonymous and helps us understand how visitors use our site.</p>
-          </div>
-          <div class="column is-narrow">
-            <button class="button is-small is-link" onclick="acceptConsent()">Accept</button>
-            <button class="button is-small" onclick="rejectConsent()">Reject</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script>
-      // Show banner if consent not already set
-      document.addEventListener('DOMContentLoaded', function() {
-        if (!localStorage.getItem('analytics_consent')) {
-          document.getElementById('consent-banner').style.display = 'block';
-        }
-      });
-
-      function acceptConsent() {
-        localStorage.setItem('analytics_consent', 'granted');
-        updateConsent({
-          'analytics_storage': 'granted'
-        });
-        document.getElementById('consent-banner').style.display = 'none';
-        gtag('event', 'consent_update', {
-          'status': 'accepted'
-        });
-      }
-
-      function rejectConsent() {
-        localStorage.setItem('analytics_consent', 'denied');
-        document.getElementById('consent-banner').style.display = 'none';
-        gtag('event', 'consent_update', {
-          'status': 'rejected'
-        });
-      }
-    </script>
-
+<head>
+  {% raw %}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- NOTE: Keep your original analytics, meta tags, and other head content here -->
+  <title>[2025 Guide] Proprietary Pocket Alternatives: Instapaper, Readwise Reader & More</title>
+  <meta name="description" content="Guide to proprietary read-it-later services as Pocket alternatives. Compare Instapaper, Readwise Reader, Matter, and other commercial options.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+      /* NOTE: Keep your original CSS styles here */
+      .proprietary-hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+      .service-comparison { margin: 2rem 0; padding: 1.5rem; border: 1px solid #e0e0e0; border-radius: 8px; }
+      .service-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
+      .price { font-weight: bold; color: black; }
+      .pros { background: #f8fff9; border-left: 4px solid #51cf66; padding: 1rem; }
+      .cons { background: #fff5f5; border-left: 4px solid #ff6b6b; padding: 1rem; }
+  </style>
+</head>
+<body>
+    <!-- NOTE: Keep your original hero, countdown timer, and other static HTML here -->
     <section class="hero is-medium proprietary-hero" role="banner">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title is-1 has-text-centered">
-            Proprietary Pocket Alternatives
-          </h1>
-          <p class="subtitle has-text-centered is-4 mt-4">
-            Read-It-Later Services
-          </p>
-          <div class="has-text-centered mt-5">
-            <p class="is-size-5 has-text-weight-semibold">
-              Commercial experiences with premium features
-            </p>
-          </div>
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title is-1 has-text-centered">Proprietary Pocket Alternatives</h1>
+                <p class="subtitle has-text-centered is-4 mt-4">Read-It-Later Services</p>
+            </div>
         </div>
-      </div>
     </section>
 
     <section class="section" role="main">
-      <div class="container">
-        <!-- Navigation -->
-        <div class="has-text-centered mb-6">
-          <div class="buttons is-centered">
-            <a href="/" class="button is-primary">
-              <span class="icon">
-                <i class="fas fa-code"></i>
-              </span>
-              <span>Open Source Options</span>
-            </a>
-            <a href="proprietary/" class="button is-info is-active">
-              <span class="icon">
-                <i class="fas fa-building"></i>
-              </span>
-              <span>Proprietary Options</span>
-            </a>
-          </div>
-        </div>
-
-    <!-- Share Section - Top -->
-    <div class="has-text-centered mb-6">
-      <div class="notification is-light">
-        <h4 class="subtitle is-5 mb-3">📢 Share this guide with others!</h4>
-        <div class="buttons is-centered">
-          <a class="button is-success" href="https://sharelette.cloudbreak.app/?url=https%3A%2F%2Fgetoffpocket.com%2Fproprietary%3Futm_medium%3Dreferral%26utm_source%3Dsharelette%26rby%3Dsharelette&text=Get%20Off%20Pocket%3A%20A%20Guide%20to%20Pocket%20Alternatives">
-            <span class="icon">
-              <i class="fas fa-share"></i>
-            </span>
-            <span>Share</span>
-          </a>
-        </div>
-      </div>
-    </div>
-
-
-      <!-- Pocket Shutdown Alert -->
-      <div class="pocket-shutdown-alert">
-        <h2 class="title is-3 has-text-danger">⚠️ Pocket Shutdown Timeline</h2>
-        <div class="columns">
-          <div class="column">
-            <h4 class="subtitle is-5"><strong>May 22, 2025</strong></h4>
-            <p>Pocket removed from app stores<br>New account signups disabled</p>
-          </div>
-          <div class="column">
-            <h4 class="subtitle is-5"><strong>July 8, 2025</strong></h4>
-            <p class="countdown">Pocket shuts down completely<br>Export-only mode begins</p>
-            <div id="countdown-timer" class="has-text-weight-bold is-size-4 mt-3">
-              <div class="columns is-mobile is-centered">
-                <div class="column is-narrow has-text-centered">
-                  <div class="countdown-number" id="days">--</div>
-                  <div class="countdown-label">Days</div>
+        <div class="container">
+            <!-- Navigation and Share Section -->
+            <div class="has-text-centered mb-6">
+                <div class="buttons is-centered">
+                    <a href="/" class="button is-primary">
+                        <span class="icon"><i class="fas fa-code"></i></span>
+                        <span>Open Source Options</span>
+                    </a>
+                    <a href="/proprietary/" class="button is-info is-active">
+                        <span class="icon"><i class="fas fa-building"></i></span>
+                        <span>Proprietary Options</span>
+                    </a>
                 </div>
-                <div class="column is-narrow has-text-centered">
-                  <div class="countdown-number" id="hours">--</div>
-                  <div class="countdown-label">Hours</div>
+            </div>
+
+            <!-- Start of Jekyll Loop for Proprietary Services -->
+            {% for service in site.data.proprietary %}
+            <div class="service-comparison">
+              <div class="service-header">
+                <h3 class="title is-3">{{ service.icon }} {{ service.name }}</h3>
+                {% for tag in service.tags %}
+                  <span class="tag {{ tag.class }}">{{ tag.text }}</span>
+                {% endfor %}
+              </div>
+              <p class="mb-4">{{ service.description }}</p>
+
+              <div class="columns">
+                <div class="column is-6">
+                  <h4 class="subtitle is-5">✨ Key Features</h4>
+                  <ul>
+                    {% for feature in service.features %}
+                      <li>{{ feature }}</li>
+                    {% endfor %}
+                  </ul>
                 </div>
-                <div class="column is-narrow has-text-centered">
-                  <div class="countdown-number" id="minutes">--</div>
-                  <div class="countdown-label">Minutes</div>
-                </div>
-                <div class="column is-narrow has-text-centered">
-                  <div class="countdown-number" id="seconds">--</div>
-                  <div class="countdown-label">Seconds</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <h4 class="subtitle is-5"><strong>October 8, 2025</strong></h4>
-            <p>Final date to export data<br>All accounts permanently deleted</p>
-          </div>
-        </div>
-        <div class="notification is-warning mt-4">
-          <p><strong>Act now:</strong> You have limited time to find an alternative and migrate your saved articles. Don't lose years of saved content!</p>
-        </div>
-      </div>
 
-        <!--
-        <div class="warning-box">
-          <h2 class="title is-4 has-text-danger">⚠️ Consider the Trade-offs</h2>
-          <p class="mb-3">Proprietary services offer polished experiences but come with certain considerations:</p>
-          <div class="columns">
-            <div class="column">
-              <h4 class="subtitle is-6 has-text-weight-bold">🔒 Vendor Dependency</h4>
-              <p>Your data is managed by the service provider. Export options may be limited.</p>
-            </div>
-            <div class="column">
-              <h4 class="subtitle is-6 has-text-weight-bold">💸 Ongoing Costs</h4>
-              <p>Monthly/yearly subscriptions. Pricing may change over time.</p>
-            </div>
-            <div class="column">
-              <h4 class="subtitle is-6 has-text-weight-bold">🚪 Service Changes</h4>
-              <p>Services can shut down, be acquired, or change features without user control.</p>
-            </div>
-          </div>
-          <p class="has-text-weight-semibold mt-3">
-            <strong>Note:</strong> Consider your priorities when choosing between proprietary and <a href="/">open source alternatives</a>.
-          </p>
-        </div>
-        -->
-
-        <!-- Instapaper -->
-        <div class="service-comparison">
-          <div class="service-header">
-            <h3 class="title is-3">📖 Instapaper</h3>
-            <span class="tag is-success">Most Established</span>
-          </div>
-          <p class="mb-4">The original read-it-later service, founded in 2008. Instapaper pioneered the concept and remains one of the most reliable options with a focus on clean, distraction-free reading.</p>
-
-          <div class="columns">
-            <div class="column is-6">
-              <h4 class="subtitle is-5">✨ Key Features</h4>
-              <ul>
-                <li>📱 Mobile apps (iOS, Android)</li>
-                <li>🏷️ Folder organization</li>
-                <li>📝 Highlighting and notes</li>
-                <li>🔍 Full-text search</li>
-                <li>📊 Reading progress tracking</li>
-                <li>🌙 Dark mode</li>
-                <li>📤 Export options</li>
-                <li>🎨 Typography customization</li>
-              </ul>
-            </div>
-
-            <div class="column is-6">
-              <h4 class="subtitle is-5">💰 Pricing</h4>
-              <div class="mb-4">
-                <p><strong>Free:</strong> 5 articles per month</p>
-                <p class="price moderate"><strong>Premium:</strong> $2.99/month or $29.99/year</p>
-              </div>
-
-              <div class="pros-cons">
-                <div class="columns">
-                  <div class="column pros">
-                    <h5 class="subtitle is-6 has-text-success">✅ Pros</h5>
-                    <ul>
-                      <li>Long track record (15+ years)</li>
-                      <li>Excellent reading experience</li>
-                      <li>Reliable sync across devices</li>
-                      <li>Good export options</li>
-                    </ul>
+                <div class="column is-6">
+                  <h4 class="subtitle is-5">💰 Pricing</h4>
+                  <div class="mb-4">
+                    {% if service.pricing.free %}
+                      <p><strong>Free:</strong> {{ service.pricing.free }}</p>
+                    {% endif %}
+                    <p class="price"><strong>Premium:</strong> {{ service.pricing.premium }}</p>
+                    {% if service.pricing.notes %}
+                      <p><em>{{ service.pricing.notes }}</em></p>
+                    {% endif %}
                   </div>
-                  <div class="column cons">
-                    <h5 class="subtitle is-6 has-text-danger">❌ Cons</h5>
-                    <ul>
-                      <li>Very limited free tier</li>
-                      <li>No team/sharing features</li>
-                      <li>Basic organization options</li>
-                      <li>No newsletter integration</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
 
-              <a href="https://www.instapaper.com/" target="_blank" class="button is-primary">Visit Instapaper</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Readwise Reader -->
-        <div class="service-comparison">
-          <div class="service-header">
-            <h3 class="title is-3">🧠 Readwise Reader</h3>
-            <span class="tag is-warning">Beta</span>
-            <span class="tag is-info">Feature-Rich</span>
-          </div>
-          <p class="mb-4">A comprehensive reading platform that combines read-it-later functionality with powerful highlighting, note-taking, and knowledge management features. Part of the Readwise ecosystem.</p>
-
-          <div class="columns">
-            <div class="column is-6">
-              <h4 class="subtitle is-5">✨ Key Features</h4>
-              <ul>
-                <li>📱 Mobile apps (iOS, Android)</li>
-                <li>📧 Newsletter subscriptions</li>
-                <li>📄 PDF support and annotation</li>
-                <li>🏷️ Advanced tagging system</li>
-                <li>🔍 Powerful search and filters</li>
-                <li>📝 Rich highlighting and notes</li>
-                <li>🤖 AI-powered features</li>
-                <li>📊 Reading analytics</li>
-                <li>🔗 Integration with Readwise</li>
-              </ul>
-            </div>
-
-            <div class="column is-6">
-              <h4 class="subtitle is-5">💰 Pricing</h4>
-              <div class="mb-4">
-                <p class="price expensive"><strong>Full Access:</strong> $8.99/month or $89.99/year</p>
-                <p><em>Includes Readwise highlighting review service</em></p>
-              </div>
-
-              <div class="pros-cons">
-                <div class="columns">
-                  <div class="column pros">
-                    <h5 class="subtitle is-6 has-text-success">✅ Pros</h5>
-                    <ul>
-                      <li>Excellent PDF support</li>
-                      <li>Newsletter integration</li>
-                      <li>Advanced highlighting features</li>
-                      <li>AI-powered insights</li>
-                      <li>Great for researchers</li>
-                    </ul>
-                  </div>
-                  <div class="column cons">
-                    <h5 class="subtitle is-6 has-text-danger">❌ Cons</h5>
-                    <ul>
-                      <li>Subscriptions start at $7.50, higher than competitors</li>
-                      <li>No free tier</li>
-                      <li>Relatively new service (currently in beta)</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <a href="https://readwise.io/read" target="_blank" class="button is-primary">Visit Readwise Reader</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Matter -->
-        <div class="service-comparison">
-          <div class="service-header">
-            <h3 class="title is-3">🎯 Matter</h3>
-            <span class="tag is-warning">Social Features</span>
-          </div>
-          <p class="mb-4">A modern read-it-later app with social features, allowing you to share articles and highlights with friends. Focuses on building reading communities and discussions around content.</p>
-
-          <div class="columns">
-            <div class="column is-6">
-              <h4 class="subtitle is-5">✨ Key Features</h4>
-              <ul>
-                <li>📱 Mobile apps (iOS only)</li>
-                <li>👥 Social sharing and discussions</li>
-                <li>📝 Highlighting and comments</li>
-                <li>🏷️ Tag-based organization</li>
-                <li>🔍 Search functionality</li>
-                <li>📊 Reading statistics</li>
-                <li>🎧 Text-to-speech</li>
-                <li>🌙 Dark mode</li>
-              </ul>
-            </div>
-
-            <div class="column is-6">
-              <h4 class="subtitle is-5">💰 Pricing</h4>
-              <div class="mb-4">
-                <p><strong>Free:</strong> Basic features</p>
-                <p class="price moderate"><strong>Premium:</strong> $7.99/month or $79.99/year</p>
-              </div>
-
-              <div class="pros-cons">
-                <div class="columns">
-                  <div class="column pros">
-                    <h5 class="subtitle is-6 has-text-success">✅ Pros</h5>
-                    <ul>
-                      <li>Unique social features</li>
-                      <li>Modern, clean interface</li>
-                      <li>Good free tier</li>
-                      <li>Text-to-speech feature</li>
-                    </ul>
-                  </div>
-                  <div class="column cons">
-                    <h5 class="subtitle is-6 has-text-danger">❌ Cons</h5>
-                    <ul>
-                      <li>Relatively new (2021)</li>
-                      <li>Limited export options</li>
-                      <li>Social features may not appeal to all</li>
-                      <li>Smaller user base</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <a href="https://hq.getmatter.com/" target="_blank" class="button is-primary">Visit Matter</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Raindrop.io -->
-        <div class="service-comparison">
-          <div class="service-header">
-            <h3 class="title is-3">💧 Raindrop.io</h3>
-            <span class="tag is-primary">Visual Bookmarks</span>
-          </div>
-          <p class="mb-4">A visual bookmark manager that doubles as a read-it-later service. Raindrop.io focuses on beautiful organization with visual previews and powerful search capabilities.</p>
-
-          <div class="columns">
-            <div class="column is-6">
-              <h4 class="subtitle is-5">✨ Key Features</h4>
-              <ul>
-                <li>📱 Mobile apps (iOS, Android)</li>
-                <li>🖼️ Visual bookmark previews</li>
-                <li>📁 Nested collections</li>
-                <li>🏷️ Advanced tagging</li>
-                <li>🔍 Full-text search</li>
-                <li>📝 Notes and highlights</li>
-                <li>🌐 Web clipper extension</li>
-                <li>📤 Multiple export formats</li>
-                <li>👥 Collaboration features</li>
-              </ul>
-            </div>
-
-            <div class="column is-6">
-              <h4 class="subtitle is-5">💰 Pricing</h4>
-              <div class="mb-4">
-                <p><strong>Free:</strong> Up to 1,000 bookmarks</p>
-                <p class="price"><strong>Pro:</strong> $3/month or $28/year</p>
-              </div>
-
-              <div class="pros-cons">
-                <div class="columns">
-                  <div class="column pros">
-                    <h5 class="subtitle is-6 has-text-success">✅ Pros</h5>
-                    <ul>
-                      <li>Beautiful visual interface</li>
-                      <li>Generous free tier</li>
-                      <li>Excellent organization</li>
-                      <li>Good export options</li>
-                      <li>Collaboration features</li>
-                    </ul>
-                  </div>
-                  <div class="column cons">
-                    <h5 class="subtitle is-6 has-text-danger">❌ Cons</h5>
-                    <ul>
-                      <li>More bookmark manager than reader</li>
-                      <li>No offline reading</li>
-                      <li>Limited reading features</li>
-                      <li>Requires internet connection</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <a href="https://raindrop.io/" target="_blank" class="button is-primary">Visit Raindrop.io</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- GoodLinks -->
-        <div class="service-comparison">
-          <div class="service-header">
-            <h3 class="title is-3">🍎 GoodLinks</h3>
-            <span class="tag is-success">Apple Ecosystem</span>
-          </div>
-          <p class="mb-4">A premium read-it-later app designed specifically for Apple devices. GoodLinks offers deep integration with iOS, iPadOS, and macOS with a focus on privacy and offline reading.</p>
-
-          <div class="columns">
-            <div class="column is-6">
-              <h4 class="subtitle is-5">✨ Key Features</h4>
-              <ul>
-                <li>📱 Native iOS, iPadOS, macOS apps (not available on Android, web, etc)</li>
-                <li>🔒 Privacy-focused (no tracking)</li>
-                <li>📱 Offline reading</li>
-                <li>🏷️ Smart folders and tags</li>
-                <li>🔍 Full-text search</li>
-                <li>📝 Highlighting and notes</li>
-                <li>☁️  iCloud sync</li>
-                <li>🎨 Customizable reading experience</li>
-              </ul>
-            </div>
-
-            <div class="column is-6">
-              <h4 class="subtitle is-5">💰 Pricing</h4>
-              <div class="mb-4">
-                <p class="price"><strong>One-time purchase:</strong> $4.99 (iOS/iPadOS)</p>
-                <p class="price"><strong>macOS version:</strong> $9.99</p>
-                <p><em>No subscription required</em></p>
-              </div>
-
-              <div class="pros-cons">
-                <div class="columns">
-                  <div class="column pros">
-                    <h5 class="subtitle is-6 has-text-success">✅ Pros</h5>
-                    <ul>
-                      <li>One-time purchase</li>
-                      <li>Excellent Apple integration</li>
-                      <li>Privacy-focused</li>
-                      <li>Offline reading</li>
-                      <li>No subscription fees</li>
-                    </ul>
-                  </div>
-                  <div class="column cons">
-                    <h5 class="subtitle is-6 has-text-danger">❌ Cons</h5>
-                    <ul>
-                      <li>Apple devices only</li>
-                      <li>No web interface</li>
-                      <li>No Android support</li>
-                      <li>Limited sharing features</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <a href="https://goodlinks.app/" target="_blank" class="button is-primary">Visit GoodLinks</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Quick Comparison -->
-        <div class="mt-6">
-          <h3 class="title is-4 has-text-centered mb-4">Quick Comparison</h3>
-
-          <div class="table-container">
-            <table class="table is-fullwidth is-striped">
-              <thead>
-                <tr>
-                  <th>Service</th>
-                  <th>Free Tier</th>
-                  <th>Paid Price</th>
-                  <th>Best For</th>
-                  <th>Platforms</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><strong>Instapaper</strong></td>
-                  <td>5 articles/month</td>
-                  <td>$30/year</td>
-                  <td>Simple, reliable reading</td>
-                  <td>iOS, Android, Web</td>
-                </tr>
-                <tr>
-                  <td><strong>Readwise Reader</strong></td>
-                  <td>None</td>
-                  <td>$90/year</td>
-                  <td>Research & knowledge work</td>
-                  <td>iOS, Android, Web</td>
-                </tr>
-                <tr>
-                  <td><strong>Matter</strong></td>
-                  <td>Basic features</td>
-                  <td>$80/year</td>
-                  <td>Social reading</td>
-                  <td>iOS, Android, Web</td>
-                </tr>
-                <tr>
-                  <td><strong>Raindrop.io</strong></td>
-                  <td>1,000 bookmarks</td>
-                  <td>$28/year</td>
-                  <td>Visual organization</td>
-                  <td>iOS, Android, Web</td>
-                </tr>
-                <tr>
-                  <td><strong>GoodLinks</strong></td>
-                  <td>None</td>
-                  <td>$5-10 one-time</td>
-                  <td>Apple ecosystem</td>
-                  <td>iOS, iPadOS, macOS</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-
-        <!-- Migration Considerations -->
-        <div class="notification mt-6">
-          <h3 class="title is-4">🔄 Migration Considerations</h3>
-          <div class="columns">
-            <div class="column">
-              <h4 class="subtitle is-6">📤 Export Capabilities</h4>
-              <p>Before choosing a service, check their export options. Some services make it difficult to leave with your data.</p>
-            </div>
-            <div class="column">
-              <h4 class="subtitle is-6">💰 Total Cost</h4>
-              <p>Consider long-term costs. A $30/year service costs $300 over 10 years. Only you can determine the value of such a service.</p>
-            </div>
-            <div class="column">
-              <h4 class="subtitle is-6">🔒 Data Ownership</h4>
-              <p>With proprietary services, the company can change terms, increase prices, or shut down.  If this concerns you, consider <a href="/">open source alternatives</a>.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Call to Action -->
-        <div class="has-text-centered mt-6">
-          <div class="notification is-light">
-            <p class="mb-4"><strong>💡 Consider your priorities:</strong></p>
-            <div class="buttons is-centered">
-              <a href="/" class="button is-primary">
-                <span class="icon">
-                  <i class="fas fa-code"></i>
-                </span>
-                <span>Open Source Options</span>
-              </a>
-              <a href="/proprietary/" class="button is-info" onclick="window.scrollTo(0, 0)">
-                <span class="icon">
-                  <i class="fas fa-building"></i>
-                </span>
-                <span>Proprietary Options</span>
-              </a>
-            </div>
-            <p class="help mt-3">Both approaches have their merits. Choose based on your priorities: control and transparency vs. commercial features and support.</p>
-          </div>
-        </div>
-
-        <!-- Share Section - Bottom -->
-        <div class="has-text-centered mt-6">
-          <div class="notification is-success is-light">
-            <h4 class="subtitle is-5 mb-3">🌟 Found this helpful? Share it!</h4>
-            <p class="mb-4">Help others find the perfect commercial read-it-later solution</p>
-	    <div class="buttons is-centered">
-		    <a class="button is-success" href="https://sharelette.cloudbreak.app/?url=https%3A%2F%2Fgetoffpocket.com%2F%3Futm_medium%3Dreferral%26utm_source%3Dsharelette%26rby%3Dsharelette&text=Get%20Off%20Pocket%3A%20A%20Guide%20to%20Pocket%20Alternatives">
-			    <span class="icon">
-				    <i class="fas fa-share"></i>
-			    </span>
-			    <span>Share</span>
-		    </a>
-	    </div>
-	  </div>
-	</div>
-
-        <!-- Donation Section -->
-        <section class="section donation-section">
-            <div class="container">
-                <div class="columns is-centered">
-                    <div class="column is-half">
-                        <!-- The Bulma Box for the donation content -->
-                        <div class="box donation-box">
-                            <div class="content has-text-centered">
-                                <!-- Title -->
-                                <h2 class="title is-3">Support Get Off Pocket</h2>
-
-                                <!-- Informational Text -->
-                                <p class="is-size-5">
-                                    If you find this content valuable, please consider making a donation.
-                                    Your support helps create more awesome stuff and keeps the coffee flowing!
-                                    ☕️
-                                </p>
-                                <p class="is-size-6 has-text-grey">
-                                    Please note: Donations are <strong>not</strong> tax-deductible.
-                                </p>
-                                <p class="is-size-6 has-text-grey">
-                                    You can choose the amount to donate, and every little bit helps.
-                                </p>
-
-                                <!-- Stripe Donation Button -->
-                                <!-- IMPORTANT: Replace '#' with your actual Stripe Payment Link -->
-                                <a href="https://donate.stripe.com/00wbJ12pPa3M0Rtcso0Ba0a" class="button is-danger is-large is-fullwidth is-rounded" target="_blank">
-                                    <span class="icon">
-                                        <i class="fas fa-heart"></i>
-                                    </span>
-                                    <span>Donate</span>
-                                </a>
-                                <p class="is-size-7 has-text-grey-light mt-2">
-                                    You'll be redirected to Stripe to complete your donation.
-                                </p>
-                            </div>
-                        </div>
+                  <div class="pros-cons">
+                    <div class="columns">
+                      <div class="column pros">
+                        <h5 class="subtitle is-6 has-text-success">✅ Pros</h5>
+                        <ul>
+                          {% for pro in service.pros %}
+                            <li>{{ pro }}</li>
+                          {% endfor %}
+                        </ul>
+                      </div>
+                      <div class="column cons">
+                        <h5 class="subtitle is-6 has-text-danger">❌ Cons</h5>
+                        <ul>
+                          {% for con in service.cons %}
+                            <li>{{ con }}</li>
+                          {% endfor %}
+                        </ul>
+                      </div>
                     </div>
+                  </div>
+
+                  <a href="{{ service.link }}" target="_blank" class="button is-primary mt-4">Visit {{ service.name }}</a>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+            <!-- End of Jekyll Loop -->
+
+            <!-- Quick Comparison Table -->
+            <div class="mt-6">
+                <h3 class="title is-4 has-text-centered mb-4">Quick Comparison</h3>
+                <div class="table-container">
+                    <table class="table is-fullwidth is-striped">
+                        <thead>
+                            <tr>
+                                <th>Service</th>
+                                <th>Free Tier</th>
+                                <th>Paid Price</th>
+                                <th>Best For</th>
+                                <th>Platforms</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        {% for service in site.data.proprietary %}
+                            <tr>
+                                <td><strong>{{ service.name }}</strong></td>
+                                <td>{{ service.comparison.free_tier }}</td>
+                                <td>{{ service.comparison.paid_price }}</td>
+                                <td>{{ service.comparison.best_for }}</td>
+                                <td>{{ service.comparison.platforms }}</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
                 </div>
             </div>
-        </section>
 
-        <div class="has-text-centered mt-6">
-          <p class="help">
-            Disclosure: This site may contain affiliate links, referral programs, and coupon codes. We may receive a commission or benefit if you click a link, use a code, and make a purchase or sign up. This comes at no extra cost to you and may provide you with a discount.
-          </p>
-          <p class="help">We strive to be neutral and fair in representations of the products on this site.  If you would like to propose a change, you can edit this page <a href="https://github.com/benjaminoakes/getoffpocket">on GitHub</a>.</p>
+            <!-- NOTE: Keep the rest of your static content here (Migration Considerations, CTA, etc.) -->
         </div>
-      </div>
     </section>
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // Check for native share support and show appropriate buttons
-        if (navigator.share) {
-          document.getElementById('native-share-btn').style.display = 'inline-flex';
-          document.getElementById('native-share-btn-bottom').style.display = 'inline-flex';
-        } else {
-          document.getElementById('copy-share-btn').style.display = 'inline-flex';
-          document.getElementById('copy-share-btn-bottom').style.display = 'inline-flex';
-        }
-
-        // Track social share clicks
-        const shareLinks = document.querySelectorAll('a[href*="twitter.com"], a[href*="facebook.com"], a[href*="linkedin.com"], a[href*="reddit.com"]');
-        shareLinks.forEach(link => {
-          link.addEventListener('click', function() {
-            const platform = this.href.includes('twitter') ? 'twitter' :
-                             this.href.includes('facebook') ? 'facebook' :
-                             this.href.includes('linkedin') ? 'linkedin' :
-                             this.href.includes('reddit') ? 'reddit' : 'unknown';
-
-            gtag('event', 'share', {
-              'method': platform,
-              'content_type': 'guide',
-              'item_id': 'proprietary_alternatives'
-            });
-          });
-        });
-
-        // Track proprietary alternatives page engagement
-        gtag('event', 'page_view', {
-          'page_title': 'Proprietary Pocket Alternatives Guide',
-          'page_location': window.location.href
-        });
-
-        // Track service selection clicks
-        const serviceLinks = document.querySelectorAll('a[href*="instapaper.com"], a[href*="readwise.io"], a[href*="getmatter.com"], a[href*="raindrop.io"], a[href*="goodlinks.app"]');
-        serviceLinks.forEach(link => {
-          link.addEventListener('click', function() {
-            const url = new URL(this.href);
-            gtag('event', 'proprietary_service_click', {
-              'service': url.hostname,
-              'source': 'proprietary_alternatives_guide'
-            });
-          });
-        });
-
-        // Track navigation to open source page
-        const openSourceLink = document.querySelector('a[href="/"]');
-        if (openSourceLink) {
-          openSourceLink.addEventListener('click', function() {
-            gtag('event', 'navigation_to_open_source', {
-              'source': 'proprietary_page'
-            });
-          });
-        }
-      });
-
-      // Native share function
-      function shareNatively() {
-        if (navigator.share) {
-          navigator.share({
-            title: 'Proprietary Pocket Alternatives Guide',
-            text: 'Compare Instapaper, Readwise Reader, Matter, and other commercial read-it-later services as Pocket alternatives.',
-            url: window.location.href
-          }).then(() => {
-            gtag('event', 'share', {
-              'method': 'native',
-              'content_type': 'guide',
-              'item_id': 'proprietary_alternatives'
-            });
-          }).catch((error) => {
-            console.log('Error sharing:', error);
-            // Fallback to copy
-            copyToShare();
-          });
-        } else {
-          copyToShare();
-        }
-      }
-
-      // Copy to clipboard function
-      function copyToShare() {
-        const url = window.location.href;
-
-        if (navigator.clipboard && window.isSecureContext) {
-          navigator.clipboard.writeText(url).then(() => {
-            showCopyNotification('Link copied to clipboard!');
-            gtag('event', 'share', {
-              'method': 'copy',
-              'content_type': 'guide',
-              'item_id': 'proprietary_alternatives'
-            });
-          }).catch(() => {
-            fallbackCopyToClipboard(url);
-          });
-        } else {
-          fallbackCopyToClipboard(url);
-        }
-      }
-
-      // Fallback copy method for older browsers
-      function fallbackCopyToClipboard(text) {
-        const textArea = document.createElement('textarea');
-        textArea.value = text;
-        textArea.style.position = 'fixed';
-        textArea.style.left = '-999999px';
-        textArea.style.top = '-999999px';
-        document.body.appendChild(textArea);
-        textArea.focus();
-        textArea.select();
-
-        try {
-          document.execCommand('copy');
-          showCopyNotification('Link copied to clipboard!');
-          gtag('event', 'share', {
-            'method': 'copy_fallback',
-            'content_type': 'guide',
-            'item_id': 'proprietary_alternatives'
-          });
-        } catch (err) {
-          showCopyNotification('Please copy this link manually: ' + text);
-        }
-
-        document.body.removeChild(textArea);
-      }
-
-      // Show copy notification
-      function showCopyNotification(message) {
-        // Create notification element
-        const notification = document.createElement('div');
-        notification.className = 'notification is-success is-light';
-        notification.style.position = 'fixed';
-        notification.style.top = '20px';
-        notification.style.right = '20px';
-        notification.style.zIndex = '1000';
-        notification.style.maxWidth = '300px';
-        notification.innerHTML = `
-          <button class="delete" onclick="this.parentElement.remove()"></button>
-          ${message}
-        `;
-
-        document.body.appendChild(notification);
-
-        // Auto-remove after 3 seconds
-        setTimeout(() => {
-          if (notification.parentElement) {
-            notification.remove();
-          }
-        }, 3000);
-      }
-
-      // Countdown timer functionality
-      function updateCountdown() {
-        const shutdownDate = new Date('July 8, 2025 00:00:00 UTC');
-        const now = new Date();
-        const timeDiff = shutdownDate - now;
-
-        if (timeDiff > 0) {
-          const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
-          const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-          const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
-          const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
-
-          document.getElementById('days').textContent = days;
-          document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
-          document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
-          document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
-        } else {
-          // Pocket has shut down
-          document.getElementById('days').textContent = '0';
-          document.getElementById('hours').textContent = '00';
-          document.getElementById('minutes').textContent = '00';
-          document.getElementById('seconds').textContent = '00';
-
-          // Update the text to reflect shutdown
-          const countdownText = document.querySelector('.countdown');
-          if (countdownText) {
-            countdownText.innerHTML = 'Pocket has shut down<br>Export-only mode active';
-          }
-        }
-      }
-
-      // Update countdown immediately and then every second
-      updateCountdown();
-      setInterval(updateCountdown, 1000);
-    </script>
-
-  </body>
+    <!-- NOTE: Keep your footer and scripts here -->
+</body>
 </html>
+{% endraw %}
