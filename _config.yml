@@ -1,0 +1,11 @@
+# Site settings
+title: Get Off Pocket - Read-It-Later Alternatives
+description: A guide to read-it-later alternatives
+url: https://getoffpocket.com
+baseurl: ""
+
+# Google Analytics
+google_analytics: G-YRF0EZ9WWS
+
+# Build settings
+markdown: kramdown

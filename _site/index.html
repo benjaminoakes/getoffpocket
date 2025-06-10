@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#3273dc">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- NOTE: Keep your original analytics, meta tags, and other head content here -->
+    <title>[2025 Guide] Get Off Pocket before It Shuts Down: Your Alternatives</title>
+    <meta name="description" content="Comprehensive guide to open source read-it-later tools and hosting options. Compare Wallabag, Readeck, Linkding, Shiori, and more with all hosting providers.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+      /* NOTE: Keep your original CSS styles here */
+      .pocket-hero { background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%); color: white; }
+      .tool-comparison { margin: 2rem 0; padding: 1.5rem; border: 1px solid #e0e0e0; border-radius: 8px; }
+      .hosting-option { border: 1px solid #e0e0e0; border-radius: 6px; padding: 1rem; margin: 0.5rem 0; background: #fafafa; }
+      .hosting-option.official { border-color: #3273dc; background: #f0f8ff; }
+      .hosting-option.third-party { border-color: #51cf66; background: #f8fff9; }
+      .hosting-option.self-hosted { border-color: #339af0; background: #f0f8ff; }
+      .tool-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
+      .price { font-weight: bold; color: black; }
+    </style>
+  </head>
+  <body>
+    <!-- NOTE: Keep your original hero, countdown timer, and other static HTML here -->
+    <section class="hero is-medium pocket-hero" role="banner">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-1 has-text-centered">Pocket is Shutting Down</h1>
+          <p class="subtitle has-text-centered is-4 mt-4">Guide to Open Source Alternatives</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" role="main">
+      <div class="container">
+        <!-- Navigation and Share Section -->
+        <div class="has-text-centered mb-6">
+            <div class="buttons is-centered">
+                <a href="/" class="button is-primary is-active">
+                    <span class="icon"><i class="fas fa-code"></i></span>
+                    <span>Open Source Options</span>
+                </a>
+                <a href="/proprietary/" class="button is-info">
+                    <span class="icon"><i class="fas fa-building"></i></span>
+                    <span>Proprietary Options</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Open Source Alternatives Section -->
+        <h2 class="title has-text-centered is-2 mb-6">Open Source Read-It-Later Tools</h2>
+        <p class="has-text-centered mb-6 is-size-5">Unlike proprietary services that can shut down without warning, these open source tools give you control over your data and reading experience. Each can be self-hosted or used with various hosting providers.</p>
+
+        <!-- Start of Jekyll Loop for Open Source Tools -->
+        {% for tool in site.data.open_source %}
+        <div class="tool-comparison">
+          <div class="tool-header">
+            <h3 class="title is-3">{{ tool.icon }} {{ tool.name }}</h3>
+            {% for tag in tool.tags %}
+              <span class="tag {{ tag.class }}">{{ tag.text }}</span>
+            {% endfor %}
+          </div>
+          <p class="mb-4">{{ tool.description }}</p>
+
+          <div class="columns">
+            <div class="column is-6">
+              <h4 class="subtitle is-5">✨ Key Features</h4>
+              <ul>
+                {% for feature in tool.features %}
+                  <li>{{ feature }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+
+            <div class="column is-6">
+              <h4 class="subtitle is-5">🏠 Hosting Options</h4>
+              {% for option in tool.hosting_options %}
+              <div class="hosting-option {{ option.class }}">
+                <h5 class="subtitle is-6">{{ option.type }}</h5>
+                <p class="price">{{ option.price }}</p>
+                <p>{{ option.description }}</p>
+                <div class="buttons are-small mt-2">
+                {% for button in option.buttons %}
+                  <a href="{{ button.link }}" target="_blank" class="button {{ button.class }}">{{ button.text }}</a>
+                  {% if button.coupon %}
+                    <span class="tag is-warning">$2 off: {{ button.coupon }}</span>
+                  {% endif %}
+                {% endfor %}
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+        <!-- End of Jekyll Loop -->
+
+        <!-- Quick Comparison Table -->
+        <div class="mt-6">
+          <h3 class="title is-4 has-text-centered mb-4">Quick Comparison</h3>
+          <div class="table-container">
+            <table class="table is-fullwidth is-striped">
+              <thead>
+                <tr>
+                  <th>Tool</th>
+                  <th>Best For</th>
+                  <th>Mobile Apps</th>
+                  <th>Self-Host Difficulty</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for tool in site.data.open_source %}
+                <tr>
+                  <td><strong>{{ tool.name }}</strong></td>
+                  <td>{{ tool.comparison.best_for }}</td>
+                  <td>{{ tool.comparison.mobile_apps }}</td>
+                  <td>{{ tool.comparison.self_host_difficulty }}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- NOTE: Keep the rest of your static content here (Why Open Source, Migration Guide, etc.) -->
+
+      </div>
+    </section>
+    <!-- NOTE: Keep your footer and scripts here -->
+  </body>
+</html>
+
