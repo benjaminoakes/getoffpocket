@@ -1,6 +1,6 @@
 - key: wallabag
   name: Wallabag
-  icon: 📚
+  icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/33/d0/2633d084-5e41-52b1-88a7-75fcfb0c457b/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg
   tags:
     - text: Most Popular
       class: is-success
@@ -46,7 +46,7 @@
 
 - key: readeck
   name: Readeck
-  icon: ⚡
+  icon: https://www.readeck.com/assets/img/fi/apple-touch-icon.e39c20b2.png
   tags:
     - text: Modern & Fast
       class: is-info
@@ -81,7 +81,7 @@
 
 - key: linkding
   name: Linkding
-  icon: 🔖
+  icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/93/e6/8093e6f1-7d70-4521-7a3c-4a820a52532b/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg
   tags:
     - text: Minimal
       class: is-warning
@@ -145,7 +145,7 @@
 
 - key: omnivore
   name: Omnivore
-  icon: 🦉
+  icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/f2/cb/9cf2cbe2-f280-4c53-e66c-32c2db6bcb93/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg
   tags:
     - text: Feature-Rich
       class: is-primary

@@ -1,6 +1,6 @@
 - key: instapaper
   name: Instapaper
-  icon: 📖
+  icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/cc/8a/e6cc8ac2-4560-e34a-0155-4418efba9905/AppIcon-0-0-1x_U007epad-0-8-0-0-85-220.png/512x512bb.jpg
   tags:
     - text: Most Established
       class: is-success
@@ -31,7 +31,7 @@
 
 - key: readwise-reader
   name: Readwise Reader
-  icon: 🧠
+  icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/24/d8/ec24d8ba-b2e1-943c-aebe-b2f141f60e4d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
   tags:
     - text: Beta
       class: is-warning
@@ -65,7 +65,7 @@
 
 - key: matter
   name: Matter
-  icon: 🎯
+  icon: https://hq.getmatter.app/matter-icon-180.png
   tags:
     - text: Social Features
       class: is-warning
@@ -96,7 +96,7 @@
 
 - key: raindrop-io
   name: Raindrop.io
-  icon: 💧
+  icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/52/52/e6/5252e6a6-8ca7-8950-ec4b-4f238eb385fe/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg
   tags:
     - text: Visual Bookmarks
       class: is-primary
@@ -129,7 +129,7 @@
 
 - key: goodlinks
   name: GoodLinks
-  icon: 🍎
+  icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/3a/c4/a33ac474-f9c2-464c-f47f-f5012bd77130/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-P3-85-220.png/512x512bb.jpg
   tags:
     - text: Apple Ecosystem
       class: is-success
