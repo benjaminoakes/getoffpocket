@@ -167,12 +167,10 @@ featured:
           {% endif %}
           
           <div class="card-content">
-             <div class="media">
+              <div class="media">
               <div class="media-left">
-                {% assign icon_url = alt.icon %}
-                {% if icon_url contains 'http' %}
-                  {% assign extension = icon_url | split: '.' | last | split: '?' | first %}
-                  <img src="/icons/{{ alt.key }}.{{ extension }}" alt="{{ alt.name }} icon" class="app-icon">
+                {% if alt.icon contains '/' %}
+                  <img src="{{ alt.icon | prepend: site.baseurl }}" alt="{{ alt.name }} icon" class="app-icon">
                 {% else %}
                   <span class="icon is-large has-text-primary"><i class="fas fa-3x">{{ alt.icon }}</i></span>
                 {% endif %}
@@ -182,6 +180,7 @@ featured:
                 <p class="subtitle is-6">{{ alt.description | truncatewords: 15 }}</p>
               </div>
             </div>
+ 
  
             
             <div class="content">

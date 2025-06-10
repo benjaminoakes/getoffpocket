@@ -64,6 +64,36 @@ layout: null
             height: 80px;
             margin-right: 1rem;
         }
+        .app-icon {
+            width: 128px;
+            height: 128px;
+            border-radius: 22.5%;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+            vertical-align: middle;
+            margin-right: 1.5rem;
+            background-color: #f5f5f5;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        .app-icon-emoji {
+            font-size: 100px;
+            width: 128px;
+            height: 128px;
+            vertical-align: middle;
+            margin-right: 1.5rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card .app-icon {
+            width: 80px;
+            height: 80px;
+            margin-right: 1rem;
+        }
+        .card .app-icon-emoji {
+            font-size: 64px;
+            width: 80px;
+            height: 80px;
+        }
     </style>
   </head>
   <body>
@@ -92,20 +122,46 @@ layout: null
             <div class="card">
               <div class="card-content">
                 <div class="media">
-                  <div class="media-content">
-                     <div class="media is-align-items-center">
-                  <div class="media-left">
-                    {% assign icon_url = item.icon %}
-                    {% if icon_url contains 'http' %}
-                      {% assign extension = icon_url | split: '.' | last | split: '?' | first %}
-                      <img src="/icons/{{ item.key }}.{{ extension }}" alt="{{ item.name }} icon" class="app-icon" style="width:56px; height:56px;">
-                    {% else %}
-                      <span class="app-icon-emoji" style="font-size:48px; width:56px; height:56px;">{{ item.icon }}</span>
-                    {% endif %}
+                   <div class="media-content">
+                    <div class="media is-align-items-center mb-2">
+                      <div class="media-left">
+                        {% if item.icon contains '/' %}
+                          <img src="{{ item.icon | prepend: site.baseurl }}" alt="{{ item.name }} icon" class="app-icon">
+                        {% else %}
+                          <span class="app-icon-emoji">{{ item.icon }}</span>
+                        {% endif %}
+                      </div>
+                      <div class="media-content">
+                        <p class="title is-4">{{ item.name }}</p>
+                      </div>
+                    </div>
+                    <p class="subtitle is-6">
+                      {% for tag in item.tags %}
+                        <span class="tag {{ tag.class }}">{{ tag.text }}</span>
+                      {% endfor %}
+                    </p>
                   </div>
-                  <div class="media-content">
-                    <h3 class="title is-4 is-size-5-mobile mb-1">{{ item.name }}</h3>
+ 
+                   <div class="media-content">
+                    <div class="media is-align-items-center mb-2">
+                      <div class="media-left">
+                        {% if item.icon contains '/' %}
+                          <img src="{{ item.icon | prepend: site.baseurl }}" alt="{{ item.name }} icon" class="app-icon">
+                        {% else %}
+                          <span class="app-icon-emoji">{{ item.icon }}</span>
+                        {% endif %}
+                      </div>
+                      <div class="media-content">
+                        <p class="title is-4">{{ item.name }}</p>
+                      </div>
+                    </div>
+                    <p class="subtitle is-6">
+                      {% for tag in item.tags %}
+                        <span class="tag {{ tag.class }}">{{ tag.text }}</span>
+                      {% endfor %}
+                    </p>
                   </div>
+ 
                 </div>
  
                     <p class="subtitle is-6">
