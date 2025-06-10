@@ -1,6 +1,7 @@
 ---
 # Main page for Open Source alternatives
-layout: default # Assumes you have a default layout
+# Using layout: null because this is a full HTML page.
+layout: null
 ---
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
@@ -38,7 +39,7 @@ layout: default # Assumes you have a default layout
 
         <h2 class="title has-text-centered is-2">Open Source Read-It-Later Tools</h2>
         <div class="columns is-multiline is-centered">
-          {% for item in site.open_source %}
+          {% for item in site.data.open_source %}
           <div class="column is-one-third">
             <div class="card">
               <div class="card-content">
@@ -57,13 +58,12 @@ layout: default # Assumes you have a default layout
                 </div>
               </div>
               <footer class="card-footer">
-                <a href="{{ item.url | relative_url }}" class="card-footer-item">View Details</a>
+                <a href="/open-source/{{ item.key }}" class="card-footer-item">View Details</a>
               </footer>
             </div>
           </div>
           {% endfor %}
         </div>
-        <!-- Keep your comparison table and other static content here if desired -->
       </div>
     </section>
   </body>

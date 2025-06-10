@@ -7,18 +7,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.name }} - Pocket Alternative</title>
-    <meta name="description" content="{{ page.description }}">
+    {%- assign item_key = page.key -%}
+    {%- if page.collection == 'open_source' -%}
+      {%- assign item = site.data.open_source | where: "key", item_key | first -%}
+    {%- else -%}
+      {%- assign item = site.data.proprietary | where: "key", item_key | first -%}
+    {%- endif -%}
+    <title>{{ item.name }} - Pocket Alternative</title>
+    <meta name="description" content="{{ item.description }}">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-      .tool-comparison, .service-comparison { margin: 2rem 0; padding: 2rem; border: 1px solid #e0e0e0; border-radius: 8px; }
       .hosting-option { border: 1px solid #e0e0e0; border-radius: 6px; padding: 1rem; margin: 0.5rem 0; background: #fafafa; }
       .hosting-option.official { border-color: #3273dc; background: #f0f8ff; }
       .hosting-option.third-party { border-color: #51cf66; background: #f8fff9; }
       .hosting-option.self-hosted { border-color: #339af0; background: #f0f8ff; }
-      .tool-header, .service-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
+      .tool-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
       .price { font-weight: bold; color: black; }
       .pros { background: #f8fff9; border-left: 4px solid #51cf66; padding: 1rem; }
       .cons { background: #fff5f5; border-left: 4px solid #ff6b6b; padding: 1rem; }
@@ -29,12 +34,12 @@
     <section class="section">
         <div class="container">
             <div class="tool-header">
-                <h1 class="title is-1">{{ page.icon }} {{ page.name }}</h1>
-                {% for tag in page.tags %}
+                <h1 class="title is-1">{{ item.icon }} {{ item.name }}</h1>
+                {% for tag in item.tags %}
                   <span class="tag {{ tag.class }} is-large">{{ tag.text }}</span>
                 {% endfor %}
             </div>
-            <p class="subtitle is-4">{{ page.description }}</p>
+            <p class="subtitle is-4">{{ item.description }}</p>
             <hr>
 
             {% if page.collection == 'open_source' %}
@@ -42,11 +47,11 @@
             <div class="columns">
                 <div class="column is-6">
                     <h2 class="title is-3">✨ Key Features</h2>
-                    <ul>{% for feature in page.features %}<li>{{ feature }}</li>{% endfor %}</ul>
+                    <ul>{% for feature in item.features %}<li>{{ feature }}</li>{% endfor %}</ul>
                 </div>
                 <div class="column is-6">
                     <h2 class="title is-3">🏠 Hosting Options</h2>
-                    {% for option in page.hosting_options %}
+                    {% for option in item.hosting_options %}
                     <div class="hosting-option {{ option.class }}">
                         <h5 class="subtitle is-6">{{ option.type }}</h5>
                         <p class="price">{{ option.price }}</p>
@@ -68,12 +73,12 @@
             <div class="columns">
                 <div class="column is-6">
                     <h2 class="title is-3">✨ Key Features</h2>
-                    <ul>{% for feature in page.features %}<li>{{ feature }}</li>{% endfor %}</ul>
+                    <ul>{% for feature in item.features %}<li>{{ feature }}</li>{% endfor %}</ul>
                     <h2 class="title is-3 mt-5">💰 Pricing</h2>
                     <div class="mb-4">
-                        {% if page.pricing.free %}<p><strong>Free:</strong> {{ page.pricing.free }}</p>{% endif %}
-                        <p class="price"><strong>Premium:</strong> {{ page.pricing.premium }}</p>
-                        {% if page.pricing.notes %}<p><em>{{ page.pricing.notes }}</em></p>{% endif %}
+                        {% if item.pricing.free %}<p><strong>Free:</strong> {{ item.pricing.free }}</p>{% endif %}
+                        <p class="price"><strong>Premium:</strong> {{ item.pricing.premium }}</p>
+                        {% if item.pricing.notes %}<p><em>{{ item.pricing.notes }}</em></p>{% endif %}
                     </div>
                 </div>
                 <div class="column is-6">
@@ -82,15 +87,15 @@
                         <div class="columns">
                           <div class="column pros">
                             <h5 class="subtitle is-6 has-text-success">✅ Pros</h5>
-                            <ul>{% for pro in page.pros %}<li>{{ pro }}</li>{% endfor %}</ul>
+                            <ul>{% for pro in item.pros %}<li>{{ pro }}</li>{% endfor %}</ul>
                           </div>
                           <div class="column cons">
                             <h5 class="subtitle is-6 has-text-danger">❌ Cons</h5>
-                            <ul>{% for con in page.cons %}<li>{{ con }}</li>{% endfor %}</ul>
+                            <ul>{% for con in item.cons %}<li>{{ con }}</li>{% endfor %}</ul>
                           </div>
                         </div>
                     </div>
-                    <a href="{{ page.link }}" target="_blank" class="button is-primary is-fullwidth is-large mt-4">Visit {{ page.name }}</a>
+                    <a href="{{ item.link }}" target="_blank" class="button is-primary is-fullwidth is-large mt-4">Visit {{ item.name }}</a>
                 </div>
             </div>
             {% endif %}

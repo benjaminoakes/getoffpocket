@@ -1,0 +1,178 @@
+- key: wallabag
+  name: Wallabag
+  icon: 📚
+  tags:
+    - text: Most Popular
+      class: is-success
+  description: A mature, feature-rich read-it-later application. Wallabag has been actively developed since 2013 and offers comprehensive article management, tagging, annotations, and mobile apps. The most established option with the largest community.
+  features:
+    - "📱 Mobile apps (iOS, Android)"
+    - "🏷️ Advanced tagging and organization"
+    - "📝 Annotations and highlighting"
+    - "📤 Multiple export formats"
+    - "🔌 Browser extensions"
+    - "📊 Reading statistics"
+    - "🌐 Multi-user support"
+    - "🎨 Customizable themes"
+  hosting_options:
+    - type: Official Hosting (wallabag.it)
+      class: official
+      price: "€11/year (~$12/year)"
+      description: Hosted by the Wallabag team themselves
+      buttons:
+        - text: Visit wallabag.it
+          link: https://wallabag.it/en/
+          class: is-primary
+    - type: Third-Party Hosting
+      class: third-party
+      price: "$10-15/year"
+      description: Various providers offer Wallabag hosting
+      buttons:
+        - text: "CloudBreak ($10/year)"
+          link: https://cloudbreak.app/wallabag/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+          class: is-success
+          coupon: GETOFFPOCKET
+        - text: PikaPods
+          link: https://www.pikapods.com/pods?run=wallabag
+          class: is-info
+    - type: Self-Hosted
+      class: self-hosted
+      price: "$60+/year server costs"
+      description: Complete control, requires technical setup
+      buttons:
+        - text: View on GitHub
+          link: https://github.com/wallabag/wallabag
+          class: is-info
+
+- key: readeck
+  name: Readeck
+  icon: ⚡
+  tags:
+    - text: Modern & Fast
+      class: is-info
+  description: A modern, lightweight read-it-later service focused on simplicity and speed. Readeck offers a clean interface and efficient article processing without unnecessary complexity. Perfect for users who want a streamlined experience.
+  features:
+    - "🚀 Fast, lightweight interface"
+    - "📱 Responsive web design"
+    - "🏷️ Simple tagging system"
+    - "📤 Standard export formats"
+    - "🔌 Browser bookmarklet"
+    - "🐳 Easy Docker deployment"
+    - "🔍 Full-text search"
+    - "📖 Clean reading mode"
+  hosting_options:
+    - type: Third-Party Hosting
+      class: third-party
+      price: "$10-12/year"
+      description: Limited providers currently available
+      buttons:
+        - text: "CloudBreak ($10)"
+          link: https://cloudbreak.app/readeck/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+          class: is-success
+          coupon: GETOFFPOCKET
+    - type: Self-Hosted
+      class: self-hosted
+      price: "$60-240/year server costs"
+      description: Modern Docker setup, minimal resources
+      buttons:
+        - text: View on Codeberg
+          link: https://codeberg.org/readeck/readeck
+          class: is-info
+
+- key: linkding
+  name: Linkding
+  icon: 🔖
+  tags:
+    - text: Minimal
+      class: is-warning
+  description: A minimal bookmark manager that can serve as a read-it-later tool. Linkding focuses on fast bookmark management with archiving capabilities and a clean, distraction-free interface. Great for users who prefer simplicity.
+  features:
+    - "⚡ Minimal, fast interface"
+    - "📦 Automatic archiving"
+    - "🏷️ Tag-based organization"
+    - "🔍 Full-text search"
+    - "📱 Mobile-friendly design"
+    - "🔌 Browser extension"
+    - "📊 Basic statistics"
+    - "🌙 Dark mode support"
+  hosting_options:
+    - type: Third-Party Hosting
+      class: third-party
+      price: "$12-15/year"
+      description: Growing number of hosting providers
+      buttons:
+        - text: "CloudBreak ($12)"
+          link: https://cloudbreak.app/linkding/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+          class: is-success
+          coupon: GETOFFPOCKET
+        - text: PikaPods
+          link: https://www.pikapods.com/pods?run=linkding
+          class: is-info
+    - type: Self-Hosted
+      class: self-hosted
+      price: "$60-240/year server costs"
+      description: Simple Docker setup, very lightweight
+      buttons:
+        - text: View on GitHub
+          link: https://github.com/sissbruecker/linkding
+          class: is-info
+
+- key: shiori
+  name: Shiori
+  icon: 📖
+  tags:
+    - text: Simple
+      class: is-light
+  description: A simple bookmarks manager written in Go. Shiori is designed to be a simple and fast bookmark manager that can archive web pages. It offers a clean web interface and is easy to deploy.
+  features:
+    - "🚀 Written in Go (fast performance)"
+    - "📦 Automatic content archiving"
+    - "🏷️ Tag support"
+    - "🔍 Search functionality"
+    - "📱 Responsive web interface"
+    - "📤 Import/export bookmarks"
+    - "🔌 Browser extension available"
+    - "🐳 Docker support"
+  hosting_options:
+    - type: Self-Hosted Only
+      class: self-hosted
+      price: "$60-240/year server costs"
+      description: Currently only available for self-hosting
+      buttons:
+        - text: View on GitHub
+          link: https://github.com/go-shiori/shiori
+          class: is-info
+
+- key: omnivore
+  name: Omnivore
+  icon: 🦉
+  tags:
+    - text: Feature-Rich
+      class: is-primary
+  description: A complete, open source read-it-later solution for serious readers. Omnivore offers advanced features like newsletter subscriptions, PDF support, and powerful organization tools. Recently open-sourced and gaining popularity.
+  features:
+    - "📧 Newsletter subscriptions"
+    - "📄 PDF support and annotation"
+    - "🏷️ Advanced labeling system"
+    - "🔍 Powerful search and filters"
+    - "📱 Mobile apps (iOS, Android)"
+    - "🔌 Browser extensions"
+    - "📊 Reading progress tracking"
+    - "🤖 AI-powered features"
+  hosting_options:
+    - type: Official Hosting (omnivore.app)
+      class: official
+      price: "Free"
+      description: Hosted by the Omnivore team
+      buttons:
+        - text: Visit Omnivore
+          link: https://omnivore.app/
+          class: is-primary
+    - type: Self-Hosted
+      class: self-hosted
+      price: "$60-240/year server costs"
+      description: Complex setup, requires multiple services
+      buttons:
+        - text: View on GitHub
+          link: https://github.com/omnivore-app/omnivore
+          class: is-info

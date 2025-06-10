@@ -1,16 +1,13 @@
-# Site settings
-title: Get Off Pocket - Read-It-Later Alternatives
-description: A guide to Pocket (read-it-later) alternatives
-url: https://getoffpocket.com
+# Welcome to Jekyll!
+title: Get Off Pocket
+description: >-
+  A guide to alternatives for Pocket, which is shutting down.
 baseurl: ""
-
-# Google Analytics
-google_analytics: G-YRF0EZ9WWS
-
-# Build settings
-markdown: kramdown
+url: "https://getoffpocket.com"
 
 # Collections configuration
+# This tells Jekyll to treat the folders _open_source and _proprietary as
+# collections of pages to be rendered.
 collections:
   open_source:
     output: true
