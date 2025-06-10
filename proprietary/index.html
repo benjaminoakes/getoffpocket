@@ -1,147 +1,70 @@
 ---
-# Front matter is required for Jekyll to process the file
+# Main page for Proprietary alternatives
+layout: default # Assumes you have a default layout
 ---
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- NOTE: Keep your original analytics, meta tags, and other head content here -->
-  <title>[2025 Guide] Proprietary Pocket Alternatives: Instapaper, Readwise Reader & More</title>
-  <meta name="description" content="Guide to proprietary read-it-later services as Pocket alternatives. Compare Instapaper, Readwise Reader, Matter, and other commercial options.">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <style>
-      /* NOTE: Keep your original CSS styles here */
+  <head>
+    <meta charset="utf-8">
+    <title>[2025 Guide] Proprietary Pocket Alternatives</title>
+    <meta name="description" content="Guide to proprietary read-it-later services as Pocket alternatives.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+      .card { height: 100%; display: flex; flex-direction: column; }
+      .card-content { flex-grow: 1; }
+      .card-footer { margin-top: auto; }
       .proprietary-hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
-      .service-comparison { margin: 2rem 0; padding: 1.5rem; border: 1px solid #e0e0e0; border-radius: 8px; }
-      .service-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
-      .price { font-weight: bold; color: black; }
-      .pros { background: #f8fff9; border-left: 4px solid #51cf66; padding: 1rem; }
-      .cons { background: #fff5f5; border-left: 4px solid #ff6b6b; padding: 1rem; }
-  </style>
-</head>
-<body>
-    <!-- NOTE: Keep your original hero, countdown timer, and other static HTML here -->
-    <section class="hero is-medium proprietary-hero" role="banner">
-        <div class="hero-body">
-            <div class="container">
-                <h1 class="title is-1 has-text-centered">Proprietary Pocket Alternatives</h1>
-                <p class="subtitle has-text-centered is-4 mt-4">Read-It-Later Services</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="section" role="main">
+    </style>
+  </head>
+  <body>
+    <section class="hero is-medium proprietary-hero">
+      <div class="hero-body">
         <div class="container">
-            <!-- Navigation and Share Section -->
-            <div class="has-text-centered mb-6">
-                <div class="buttons is-centered">
-                    <a href="/" class="button is-primary">
-                        <span class="icon"><i class="fas fa-code"></i></span>
-                        <span>Open Source Options</span>
-                    </a>
-                    <a href="/proprietary/" class="button is-info is-active">
-                        <span class="icon"><i class="fas fa-building"></i></span>
-                        <span>Proprietary Options</span>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Start of Jekyll Loop for Proprietary Services -->
-            {% for service in site.data.proprietary %}
-            <div class="service-comparison">
-              <div class="service-header">
-                <h3 class="title is-3">{{ service.icon }} {{ service.name }}</h3>
-                {% for tag in service.tags %}
-                  <span class="tag {{ tag.class }}">{{ tag.text }}</span>
-                {% endfor %}
-              </div>
-              <p class="mb-4">{{ service.description }}</p>
-
-              <div class="columns">
-                <div class="column is-6">
-                  <h4 class="subtitle is-5">✨ Key Features</h4>
-                  <ul>
-                    {% for feature in service.features %}
-                      <li>{{ feature }}</li>
-                    {% endfor %}
-                  </ul>
-                </div>
-
-                <div class="column is-6">
-                  <h4 class="subtitle is-5">💰 Pricing</h4>
-                  <div class="mb-4">
-                    {% if service.pricing.free %}
-                      <p><strong>Free:</strong> {{ service.pricing.free }}</p>
-                    {% endif %}
-                    <p class="price"><strong>Premium:</strong> {{ service.pricing.premium }}</p>
-                    {% if service.pricing.notes %}
-                      <p><em>{{ service.pricing.notes }}</em></p>
-                    {% endif %}
-                  </div>
-
-                  <div class="pros-cons">
-                    <div class="columns">
-                      <div class="column pros">
-                        <h5 class="subtitle is-6 has-text-success">✅ Pros</h5>
-                        <ul>
-                          {% for pro in service.pros %}
-                            <li>{{ pro }}</li>
-                          {% endfor %}
-                        </ul>
-                      </div>
-                      <div class="column cons">
-                        <h5 class="subtitle is-6 has-text-danger">❌ Cons</h5>
-                        <ul>
-                          {% for con in service.cons %}
-                            <li>{{ con }}</li>
-                          {% endfor %}
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <a href="{{ service.link }}" target="_blank" class="button is-primary mt-4">Visit {{ service.name }}</a>
-                </div>
-              </div>
-            </div>
-            {% endfor %}
-            <!-- End of Jekyll Loop -->
-
-            <!-- Quick Comparison Table -->
-            <div class="mt-6">
-                <h3 class="title is-4 has-text-centered mb-4">Quick Comparison</h3>
-                <div class="table-container">
-                    <table class="table is-fullwidth is-striped">
-                        <thead>
-                            <tr>
-                                <th>Service</th>
-                                <th>Free Tier</th>
-                                <th>Paid Price</th>
-                                <th>Best For</th>
-                                <th>Platforms</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                        {% for service in site.data.proprietary %}
-                            <tr>
-                                <td><strong>{{ service.name }}</strong></td>
-                                <td>{{ service.comparison.free_tier }}</td>
-                                <td>{{ service.comparison.paid_price }}</td>
-                                <td>{{ service.comparison.best_for }}</td>
-                                <td>{{ service.comparison.platforms }}</td>
-                            </tr>
-                        {% endfor %}
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <!-- NOTE: Keep the rest of your static content here (Migration Considerations, CTA, etc.) -->
+          <h1 class="title is-1 has-text-centered">Proprietary Pocket Alternatives</h1>
+          <p class="subtitle has-text-centered is-4 mt-4">Commercial Read-It-Later Services</p>
         </div>
+      </div>
     </section>
-    <!-- NOTE: Keep your footer and scripts here -->
-</body>
+
+    <section class="section">
+      <div class="container">
+        <div class="has-text-centered mb-6">
+            <div class="buttons is-centered">
+                <a href="/" class="button is-primary">Open Source Options</a>
+                <a href="/proprietary/" class="button is-info is-active">Proprietary Options</a>
+            </div>
+        </div>
+
+        <h2 class="title has-text-centered is-2">Proprietary Read-It-Later Tools</h2>
+        <div class="columns is-multiline is-centered">
+          {% for item in site.proprietary %}
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">{{ item.icon }} {{ item.name }}</p>
+                    <p class="subtitle is-6">
+                      {% for tag in item.tags %}
+                        <span class="tag {{ tag.class }}">{{ tag.text }}</span>
+                      {% endfor %}
+                    </p>
+                  </div>
+                </div>
+                <div class="content">
+                  {{ item.description | truncatewords: 25 }}
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="{{ item.url | relative_url }}" class="card-footer-item">View Details</a>
+              </footer>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+         <!-- Keep your comparison table and other static content here if desired -->
+      </div>
+    </section>
+  </body>
 </html>

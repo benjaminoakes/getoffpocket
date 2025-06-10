@@ -1,6 +1,6 @@
 # Site settings
 title: Get Off Pocket - Read-It-Later Alternatives
-description: A guide to read-it-later alternatives
+description: A guide to Pocket (read-it-later) alternatives
 url: https://getoffpocket.com
 baseurl: ""
 
@@ -9,3 +9,12 @@ google_analytics: G-YRF0EZ9WWS
 
 # Build settings
 markdown: kramdown
+
+# Collections configuration
+collections:
+  open_source:
+    output: true
+    permalink: /open-source/:name
+  proprietary:
+    output: true
+    permalink: /proprietary/:name
