@@ -136,9 +136,6 @@ featured:
             </div>
 
 
-            
-            <div class="content
-            
             <div class="mt-4">
               <h4 class="title is-5">Apple Features</h4>
               <div class="tags">
