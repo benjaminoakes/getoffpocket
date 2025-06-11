@@ -1086,12 +1086,17 @@
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     // Check for native share support and show appropriate buttons
+    const nativeShareBtn = document.getElementById('native-share-btn');
+    const nativeShareBtnBottom = document.getElementById('native-share-btn-bottom');
+    const copyShareBtn = document.getElementById('copy-share-btn');
+    const copyShareBtnBottom = document.getElementById('copy-share-btn-bottom');
+
     if (navigator.share) {
-      document.getElementById('native-share-btn').style.display = 'inline-flex';
-      document.getElementById('native-share-btn-bottom').style.display = 'inline-flex';
+      if (nativeShareBtn) nativeShareBtn.style.display = 'inline-flex';
+      if (nativeShareBtnBottom) nativeShareBtnBottom.style.display = 'inline-flex';
     } else {
-      document.getElementById('copy-share-btn').style.display = 'inline-flex';
-      document.getElementById('copy-share-btn-bottom').style.display = 'inline-flex';
+      if (copyShareBtn) copyShareBtn.style.display = 'inline-flex';
+      if (copyShareBtnBottom) copyShareBtnBottom.style.display = 'inline-flex';
     }
 
     // Track social share clicks
@@ -1117,22 +1122,34 @@
       const now = new Date();
       const timeDiff = shutdownDate - now;
 
+      // Get elements safely
+      const daysEl = document.getElementById('days');
+      const hoursEl = document.getElementById('hours');
+      const minutesEl = document.getElementById('minutes');
+      const secondsEl = document.getElementById('seconds');
+      
+      // If any element is missing, stop the countdown
+      if (!daysEl || !hoursEl || !minutesEl || !secondsEl) {
+        console.warn('Countdown elements not found');
+        return;
+      }
+
       if (timeDiff > 0) {
         const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
         const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
 
-        document.getElementById('days').textContent = days;
-        document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
-        document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
-        document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+        daysEl.textContent = days;
+        hoursEl.textContent = hours.toString().padStart(2, '0');
+        minutesEl.textContent = minutes.toString().padStart(2, '0');
+        secondsEl.textContent = seconds.toString().padStart(2, '0');
       } else {
         // Pocket has shut down
-        document.getElementById('days').textContent = '0';
-        document.getElementById('hours').textContent = '00';
-        document.getElementById('minutes').textContent = '00';
-        document.getElementById('seconds').textContent = '00';
+        daysEl.textContent = '0';
+        hoursEl.textContent = '00';
+        minutesEl.textContent = '00';
+        secondsEl.textContent = '00';
 
         // Update the text to reflect shutdown
         const countdownText = document.querySelector('.countdown');
@@ -1142,43 +1159,16 @@
       }
     }
 
-    // Update countdown immediately and then every second
-    updateCountdown();
-    setInterval(updateCountdown, 1000);
-    // Countdown timer functionality
-    function updateCountdown() {
-      const shutdownDate = new Date('July 8, 2025 00:00:00 UTC');
-      const now = new Date();
-      const timeDiff = shutdownDate - now;
-
-      if (timeDiff > 0) {
-        const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
-
-        document.getElementById('days').textContent = days;
-        document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
-        document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
-        document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
-      } else {
-        // Pocket has shut down
-        document.getElementById('days').textContent = '0';
-        document.getElementById('hours').textContent = '00';
-        document.getElementById('minutes').textContent = '00';
-        document.getElementById('seconds').textContent = '00';
-
-        // Update the text to reflect shutdown
-        const countdownText = document.querySelector('.countdown');
-        if (countdownText) {
-          countdownText.innerHTML = 'Pocket has shut down<br>Export-only mode active';
-        }
-      }
+    // Start the countdown only if the page is fully loaded
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() {
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+      });
+    } else {
+      updateCountdown();
+      setInterval(updateCountdown, 1000);
     }
-
-    // Update countdown immediately and then every second
-    updateCountdown();
-    setInterval(updateCountdown, 1000);
 
     // Track comparison page engagement
     gtag('event', 'page_view', {
