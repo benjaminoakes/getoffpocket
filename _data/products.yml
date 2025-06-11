@@ -24,17 +24,19 @@
       cost: 0.0
       unit: USD
       period: month
-      description: Free to use
+      description: Beta
     least_expensive_paid:
       vendor: BitRead
       cost: 0.0
       unit: USD
       period: month
+      description: Beta
     maximum:
       vendor: BitRead
       cost: 0.0
       unit: USD
       period: month
+      description: Beta
   hosting_options:
   - name: BitRead
     link: https://bitread.app/
@@ -43,6 +45,7 @@
       cost: 0.0
       unit: USD
       period: month
+      description: beta 
     buttons:
     - text: Visit BitRead
       link: https://bitread.app/
@@ -80,11 +83,14 @@
       cost: 3.99
       unit: USD
       period: month
+      description: Basic Plan. Annual option 39.00 USD / year.
     maximum:
       vendor: Bublup
-      cost: 9.99
+      cost: 24.99
       unit: USD
       period: month
+      description: Business Plan (Pro Plan at 9.99 USD / month, Premium Plan at 7.99
+        USD / month also available). Enterprise custom pricing.
   hosting_options:
   - name: Bublup
     link: https://www.bublup.com/
@@ -93,6 +99,7 @@
       cost: 3.99
       unit: USD
       period: month
+      description: Basic Plan, other tiers available
     buttons:
     - text: Visit Bublup
       link: https://www.bublup.com/
@@ -131,11 +138,13 @@
       cost: 40.0
       unit: USD
       period: year
+      description: Standard Plan
     maximum:
       vendor: Diigo
-      cost: 59.0
+      cost: 10.0
       unit: USD
-      period: year
+      period: month / user
+      description: Business Plan. Professional Plan at 59.00 USD / year also available.
   hosting_options:
   - name: Diigo
     link: https://www.diigo.com/
@@ -144,6 +153,7 @@
       cost: 40.0
       unit: USD
       period: year
+      description: Standard Plan
     buttons:
     - text: Visit Diigo
       link: https://www.diigo.com/
@@ -229,25 +239,29 @@
       cost: 0.0
       unit: USD
       period: month
-      description: Free plan with limitations
+      description: Free plan with significant limitations
     least_expensive_paid:
       vendor: Evernote
-      cost: 7.99
+      cost: 14.99
       unit: USD
       period: month
+      description: Personal Plan. Annual option 129.99 USD / year.
     maximum:
       vendor: Evernote
-      cost: 9.99
+      cost: 24.99
       unit: USD
-      period: month
+      period: user / month
+      description: Teams Plan (Professional Plan at 17.99 USD / month also available).
+        Enterprise custom pricing.
   hosting_options:
   - name: Evernote
     link: https://evernote.com/
     class: managed
     price:
-      cost: 7.99
+      cost: 14.99
       unit: USD
       period: month
+      description: Personal Plan, other tiers available
     buttons:
     - text: Visit Evernote
       link: https://evernote.com/
@@ -281,13 +295,13 @@
   pricing:
     minimum:
       vendor: GoodLinks
-      cost: 4.99
+      cost: 9.99
       unit: USD
       period: one-time
-      description: iOS/iPadOS version
+      description: Universal app (iOS, iPadOS, macOS)
     least_expensive_paid:
       vendor: GoodLinks
-      cost: 4.99
+      cost: 9.99
       unit: USD
       period: one-time
     maximum:
@@ -295,15 +309,16 @@
       cost: 9.99
       unit: USD
       period: one-time
-      description: macOS version
+      description: Optional annual feature upgrade for 4.99 USD after first year.
   hosting_options:
   - name: GoodLinks
     link: https://goodlinks.app/
     class: managed
     price:
-      cost: 4.99
+      cost: 9.99
       unit: USD
       period: one-time
+      description: Universal App Purchase
     buttons:
     - text: Visit GoodLinks
       link: https://goodlinks.app/
@@ -339,25 +354,28 @@
       cost: 0.0
       unit: USD
       period: month
-      description: 5 articles per month
+      description: Free tier
     least_expensive_paid:
       vendor: Instapaper
-      cost: 2.99
+      cost: 5.99
       unit: USD
       period: month
+      description: Premium Plan
     maximum:
       vendor: Instapaper
-      cost: 29.99
+      cost: 59.99
       unit: USD
       period: year
+      description: Premium Plan
   hosting_options:
   - name: Instapaper
     link: https://www.instapaper.com/
     class: managed
     price:
-      cost: 2.99
+      cost: 5.99
       unit: USD
       period: month
+      description: Premium Plan
     buttons:
     - text: Visit Instapaper
       link: https://www.instapaper.com/
@@ -393,17 +411,19 @@
       cost: 12.0
       unit: USD
       period: year
+      description: Managed Hosting (discounted from 24.00 USD / year)
     least_expensive_paid:
       vendor: CloudBreak
       cost: 12.0
       unit: USD
       period: year
+      description: Managed Hosting
     maximum:
       vendor: Self-Hosted
       cost: 240.0
       unit: USD
       period: year
-      description: server costs
+      description: Estimated server costs for self-hosting
   hosting_options:
   - name: CloudBreak
     link: https://cloudbreak.app/linkding/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
@@ -412,6 +432,7 @@
       cost: 12.0
       unit: USD
       period: year
+      description: discounted from 24.00 USD / year
     coupon_code: GETOFFPOCKET
     buttons:
     - text: Visit CloudBreak
@@ -421,21 +442,22 @@
     link: https://www.pikapods.com/pods?run=linkding
     class: managed
     price:
-      cost: 1.5
+      cost: 1.2
       unit: USD
       period: month
+      description: From 1.20 USD per month
     buttons:
     - text: Visit PikaPods
       link: https://www.pikapods.com/pods?run=linkding
       class: is-info
   - name: Self-Hosted
     class: self-hosted
-    description: Simple Docker setup, very lightweight
+    description: Docker
     price:
       cost: 60.0
       unit: USD
       period: year
-      description: server costs
+      description: estimate
     buttons:
     - text: Learn More
       link: https://github.com/sissbruecker/linkding
@@ -466,21 +488,23 @@
   pricing:
     minimum:
       vendor: Linkwarden
-      cost: 3.0
+      cost: 2.25
       unit: USD
-      period: month
-      description: Cloud version per user
+      period: month / user
+      description: Cloud version (annual billing, 25% discount)
     least_expensive_paid:
       vendor: Linkwarden
       cost: 3.0
       unit: USD
-      period: month
+      period: month / user
+      description: Cloud version (monthly billing)
     maximum:
       vendor: Self-Hosted
       cost: 240.0
       unit: USD
       period: year
-      description: server costs
+      description: Estimated server costs for self-hosting. Custom plan available
+        from Linkwarden.
   hosting_options:
   - name: Linkwarden Cloud
     link: https://linkwarden.app/
@@ -488,19 +512,20 @@
     price:
       cost: 3.0
       unit: USD
-      period: month
+      period: month / user
+      description: or 2.25 USD / month / user annually
     buttons:
     - text: Visit Linkwarden
       link: https://linkwarden.app/
       class: is-info
   - name: Self-Hosted
     class: self-hosted
-    description: Docker setup
+    description: Docker
     price:
       cost: 60.0
       unit: USD
       period: year
-      description: server costs
+      description: estimate
     buttons:
     - text: Learn More
       link: https://linkwarden.app/
@@ -583,17 +608,19 @@
       cost: 0.0
       unit: USD
       period: month
-      description: Basic features
+      description: Basic features (plausible free tier)
     least_expensive_paid:
       vendor: Matter
       cost: 7.99
       unit: USD
       period: month
+      description: Matter Premium
     maximum:
       vendor: Matter
       cost: 79.99
       unit: USD
       period: year
+      description: Matter Premium
   hosting_options:
   - name: Matter
     link: https://hq.getmatter.com/
@@ -602,6 +629,7 @@
       cost: 7.99
       unit: USD
       period: month
+      description: Matter Premium
     buttons:
     - text: Visit Matter
       link: https://hq.getmatter.com/
@@ -639,16 +667,17 @@
       description: Free with 5GB of OneDrive storage
     least_expensive_paid:
       vendor: Microsoft
-      cost: 6.99
+      cost: 19.99
       unit: USD
-      period: month
-      description: Microsoft 365 Personal
+      period: year
+      description: Microsoft 365 Basic (100GB storage)
     maximum:
       vendor: Microsoft
-      cost: 9.99
+      cost: 12.99
       unit: USD
       period: month
-      description: Microsoft 365 Family
+      description: Microsoft 365 Family (or 129.99 USD / year). Microsoft 365 Personal
+        (9.99 USD / month or 99.99 USD / year) also available.
   hosting_options:
   - name: Microsoft OneNote
     link: https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app
@@ -657,6 +686,7 @@
       cost: 0.0
       unit: USD
       period: month
+      description: Base service with 5GB OneDrive storage
     buttons:
     - text: Visit OneNote
       link: https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app
@@ -693,19 +723,19 @@
       cost: 0.0
       unit: USD
       period: month
-      description: Hosted by the Omnivore team
+      description: (defunct)
     least_expensive_paid:
       vendor: Self-Hosted
       cost: 60.0
       unit: USD
       period: year
-      description: server costs
+      description: Estimated server costs for self-hosting
     maximum:
       vendor: Self-Hosted
       cost: 240.0
       unit: USD
       period: year
-      description: server costs
+      description: Estimated server costs for self-hosting
   hosting_options:
   - name: Omnivore
     link: https://omnivore.app/
@@ -715,7 +745,7 @@
       unit: USD
       period: month
     buttons:
-    - text: Visit Omnivore
+    - text: Visit Omnivore (defunct)
       link: https://omnivore.app/
       class: is-info
   - name: Self-Hosted
@@ -725,7 +755,7 @@
       cost: 60.0
       unit: USD
       period: year
-      description: server costs
+      description: estimate, complex setup
     buttons:
     - text: Learn More
       link: https://docs.omnivore.app/using/hosting.html
@@ -763,11 +793,13 @@
       cost: 8.99
       unit: USD
       period: year
+      description: PaperSpan Premium
     maximum:
       vendor: PaperSpan
       cost: 8.99
       unit: USD
       period: year
+      description: PaperSpan Premium
   hosting_options:
   - name: PaperSpan
     link: https://www.paperspan.com/
@@ -776,6 +808,7 @@
       cost: 0.0
       unit: USD
       period: year
+      description: Free tier, Premium at 8.99 USD / year
     buttons:
     - text: Visit PaperSpan
       link: https://www.paperspan.com/
@@ -817,17 +850,19 @@
       cost: 0.0
       unit: USD
       period: month
-      description: Free tier
+      description: Free tier (Service Discontinued July 2025 - historical pricing)
     least_expensive_paid:
       vendor: Mozilla
       cost: 4.99
       unit: USD
       period: month
+      description: (Service Discontinued July 2025 - historical pricing)
     maximum:
       vendor: Mozilla
       cost: 44.99
       unit: USD
       period: year
+      description: (Service Discontinued July 2025 - historical pricing)
   hosting_options:
   - name: Pocket
     link: https://getpocket.com/
@@ -836,6 +871,7 @@
       cost: 4.99
       unit: USD
       period: month
+      description: (Service Discontinued July 2025 - historical pricing)
     buttons:
     - text: Visit Pocket
       link: https://getpocket.com/
@@ -873,17 +909,19 @@
       cost: 0.0
       unit: USD
       period: month
-      description: Up to 1,000 bookmarks
+      description: Free plan with unlimited bookmarks
     least_expensive_paid:
       vendor: Raindrop.io
       cost: 3.0
       unit: USD
       period: month
+      description: Pro Plan. Annual option 28.00 USD / year.
     maximum:
       vendor: Raindrop.io
       cost: 28.0
       unit: USD
       period: year
+      description: Pro Plan
   hosting_options:
   - name: Raindrop.io
     link: https://raindrop.io/
@@ -892,6 +930,7 @@
       cost: 3.0
       unit: USD
       period: month
+      description: Pro Plan
     buttons:
     - text: Visit Raindrop.io
       link: https://raindrop.io/
@@ -972,17 +1011,19 @@
       cost: 10.0
       unit: USD
       period: year
+      description: Managed Hosting (discounted from 12.00 USD / year)
     least_expensive_paid:
       vendor: CloudBreak
       cost: 10.0
       unit: USD
       period: year
+      description: Managed Hosting
     maximum:
       vendor: Self-Hosted
       cost: 240.0
       unit: USD
       period: year
-      description: server costs
+      description: estimated
   hosting_options:
   - name: CloudBreak
     link: https://cloudbreak.app/readeck/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
@@ -991,6 +1032,7 @@
       cost: 10.0
       unit: USD
       period: year
+      description: discounted from 12.00 USD / year
     coupon_code: GETOFFPOCKET
     buttons:
     - text: Visit CloudBreak
@@ -998,12 +1040,12 @@
       class: is-info
   - name: Self-Hosted
     class: self-hosted
-    description: Modern Docker setup, minimal resources
+    description: Docker
     price:
       cost: 60.0
       unit: USD
       period: year
-      description: server costs
+      description: estimate
     buttons:
     - text: Learn More
       link: https://www.readeck.com/
@@ -1035,17 +1077,20 @@
       cost: 0.0
       unit: USD
       period: month
-      description: Free with limitations (10 feeds)
+      description: Free with limitations (e.g., 10 feeds) for subscription version.
+        Reeder Classic also available as a 4.99 USD one-time purchase.
     least_expensive_paid:
       vendor: Reeder
       cost: 1.0
       unit: USD
       period: month
+      description: Subscription version. Annual option 10.00 USD / year.
     maximum:
       vendor: Reeder
       cost: 10.0
       unit: USD
       period: year
+      description: Subscription version.
   hosting_options:
   - name: Reeder
     link: https://reederapp.com/
@@ -1054,6 +1099,7 @@
       cost: 1.0
       unit: USD
       period: month
+      description: Subscription version
     buttons:
     - text: Visit Reeder
       link: https://reederapp.com/
@@ -1089,28 +1135,32 @@
   pricing:
     minimum:
       vendor: Readwise
-      cost: 8.99
+      cost: 9.99
       unit: USD
       period: month
-      description: Includes Readwise highlighting review service
+      description: Full Readwise plan (annual billing at 119.88 USD / year). Includes
+        Reader app.
     least_expensive_paid:
       vendor: Readwise
-      cost: 8.99
+      cost: 12.99
       unit: USD
       period: month
+      description: Full Readwise plan (monthly billing). Includes Reader app.
     maximum:
       vendor: Readwise
-      cost: 89.99
+      cost: 119.88
       unit: USD
       period: year
+      description: Full Readwise plan.
   hosting_options:
   - name: Readwise Reader
     link: https://readwise.io/read
     class: managed
     price:
-      cost: 8.99
+      cost: 9.99
       unit: USD
       period: month
+      description: Full Readwise plan, annual billing basis
     buttons:
     - text: Visit Readwise Reader
       link: https://readwise.io/read
@@ -1191,22 +1241,22 @@
   pricing:
     minimum:
       vendor: Self-Hosted
-      cost: 60.0
+      cost: 0.0
       unit: USD
       period: year
-      description: server costs
+      description: Estimated server costs from 60.00 USD / year.
     least_expensive_paid:
       vendor: Self-Hosted
       cost: 60.0
       unit: USD
       period: year
-      description: server costs
+      description: Estimated server costs for self-hosting
     maximum:
       vendor: Self-Hosted
       cost: 240.0
       unit: USD
       period: year
-      description: server costs
+      description: Estimated server costs for self-hosting
   hosting_options:
   - name: Self-Hosted
     class: self-hosted
@@ -1215,7 +1265,7 @@
       cost: 60.0
       unit: USD
       period: year
-      description: server costs
+      description: estimate
     buttons:
     - text: Learn More
       link: https://github.com/go-shiori/shiori
@@ -1265,17 +1315,21 @@
       cost: 0.0
       unit: EUR
       period: year
-      description: 2 week trial
+      description: 2 week trial for wallabag.it (paid plans from 4 EUR / 3 months
+        or 11 EUR / year)
     least_expensive_paid:
       vendor: CloudBreak
       cost: 10.0
       unit: USD
       period: year
+      description: Managed Hosting (discounted from 12.00 USD / year)
     maximum:
       vendor: Wallabag.it
-      cost: 11.0
+      cost: 30.0
       unit: EUR
       period: year
+      description: Support tier on wallabag.it. Standard plan 11 EUR / year. Self-hosting
+        costs variable.
   hosting_options:
   - name: wallabag.it
     link: https://wallabag.it/en/
@@ -1284,6 +1338,8 @@
       cost: 11.0
       unit: EUR
       period: year
+      description: Standard plan, other tiers available e.g. 4 EUR / 3 months, 30
+        EUR / year support
     buttons:
     - text: Visit wallabag.it
       link: https://wallabag.it/en/
@@ -1295,6 +1351,7 @@
       cost: 10.0
       unit: USD
       period: year
+      description: discounted from 12.00 USD / year
     coupon_code: GETOFFPOCKET
     buttons:
     - text: Visit CloudBreak
@@ -1307,6 +1364,7 @@
       cost: 1.4
       unit: USD
       period: month
+      description: Approx. 1.40 USD per month
     buttons:
     - text: Visit PikaPods
       link: https://www.pikapods.com/pods?run=wallabag
@@ -1318,8 +1376,8 @@
       cost: 60.0
       unit: USD
       period: year
-      description: server costs
+      description: estimate
     buttons:
     - text: Learn More
       link: https://wallabag.org/en
-      class: is-info
+      lass: is-info
