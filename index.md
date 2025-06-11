@@ -197,20 +197,19 @@ featured:
       <div class="columns is-vcentered">
         <div class="column is-8">
           <h3 class="title is-3">Ready to switch from Pocket?</h3>
-          <p class="subtitle is-5">Get started with Wallabag on CloudBreak for the best Apple experience</p>
+          <p class="subtitle is-5">Get started with Wallabag on CloudBreak</p>
           <ul>
-            <li>✓ Native iOS and Mac apps</li>
-            <li>✓ Seamless iCloud sync</li>
-            <li>✓ Safari extension included</li>
-            <li>✓ 14-day free trial</li>
+            <li>✓ Native apps</li>
+            <li>✓ Browser extensions</li>
+            <li>✓ Seamless sync</li>
           </ul>
         </div>
         <div class="column is-4 has-text-centered">
           <a href="https://cloudbreak.app/wallabag?ref=getoffpocket" class="button is-white is-large is-fullwidth">
-            <span class="icon"><i class="fab fa-apple"></i></span>
+            <span class="icon"><i class="fas fa-bookmark"></i></span>
             <span>Get Started</span>
           </a>
-          <p class="help mt-2">14-day free trial, then just $10/year</p>
+          <p class="help mt-2">For a limited time, just $10/year</p>
         </div>
       </div>
     </div>
