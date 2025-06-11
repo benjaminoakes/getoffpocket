@@ -108,6 +108,21 @@
             width: 80px;
             height: 80px;
         }
+        @media screen and (max-width: 768px) {
+          .tool-header {
+            flex-direction: column;
+            text-align: center;
+          }
+          .tool-header img.app-icon,
+          .tool-header .app-icon-emoji {
+            margin: 0 auto 1rem;
+          }
+          .tool-header h1.title {
+            writing-mode: horizontal-tb !important;
+            transform: none !important;
+            margin-top: 0.5rem;
+          }
+        }
     </style>
 </head>
 <body>
