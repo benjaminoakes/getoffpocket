@@ -1,0 +1,546 @@
+- key: instapaper
+  name: Instapaper
+  license: proprietary
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/cc/8a/e6cc8ac2-4560-e34a-0155-4418efba9905/AppIcon-0-0-1x_U007epad-0-8-0-0-85-220.png/512x512bb.jpg
+  icon: icons/instapaper.jpg
+  tags:
+    - text: Most Established
+      class: is-success
+  description: The original read-it-later service, founded in 2008. Instapaper pioneered the concept and remains one of the most reliable options with a focus on clean, distraction-free reading.
+  platforms:
+    - desktop_web
+    - ios
+    - android
+  features:
+    - mobile_apps
+    - folders
+    - highlighting
+    - notes
+    - full_text_search
+    - progress_tracking
+    - dark_mode
+    - export
+    - typography_customization
+  pricing:
+    minimum:
+      vendor: Instapaper
+      cost: 0
+      unit: USD
+      period: month
+      description: "5 articles per month"
+    least_expensive_paid:
+      vendor: Instapaper
+      cost: 2.99
+      unit: USD
+      period: month
+    maximum:
+      vendor: Instapaper
+      cost: 29.99
+      unit: USD
+      period: year
+  hosting_options:
+    - name: Instapaper
+      link: https://www.instapaper.com/
+      price:
+        cost: 2.99
+        unit: USD
+        period: month
+- key: readwise-reader
+  name: Readwise Reader
+  license: proprietary
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/24/d8/ec24d8ba-b2e1-943c-aebe-b2f141f60e4d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  icon: icons/readwise-reader.jpg
+  tags:
+    - text: Beta
+      class: is-warning
+    - text: Feature-Rich
+      class: is-info
+  description: A comprehensive reading platform that combines read-it-later functionality with powerful highlighting, note-taking, and knowledge management features. Part of the Readwise ecosystem.
+  platforms:
+    - desktop_web
+    - ios
+    - android
+  features:
+    - mobile_apps
+    - newsletter_subscriptions
+    - pdf_support
+    - advanced_tagging
+    - search
+    - highlighting
+    - notes
+    - ai_features
+    - reading_analytics
+    - readwise_integration
+  pricing:
+    minimum:
+      vendor: Readwise
+      cost: 8.99
+      unit: USD
+      period: month
+      description: "Includes Readwise highlighting review service"
+    least_expensive_paid:
+      vendor: Readwise
+      cost: 8.99
+      unit: USD
+      period: month
+    maximum:
+      vendor: Readwise
+      cost: 89.99
+      unit: USD
+      period: year
+  hosting_options:
+    - name: Readwise Reader
+      link: https://readwise.io/read
+      price:
+        cost: 8.99
+        unit: USD
+        period: month
+- key: matter
+  name: Matter
+  license: proprietary
+  source_icon_url: https://hq.getmatter.app/matter-icon-180.png
+  icon: icons/matter.jpg
+  tags:
+    - text: Social Features
+      class: is-warning
+  description: A modern read-it-later app with social features, allowing you to share articles and highlights with friends. Focuses on building reading communities and discussions around content.
+  platforms:
+    - desktop_web
+    - ios
+  features:
+    - mobile_apps
+    - social_sharing
+    - highlighting
+    - comments
+    - tagging
+    - search
+    - reading_statistics
+    - text_to_speech
+    - dark_mode
+  pricing:
+    minimum:
+      vendor: Matter
+      cost: 0
+      unit: USD
+      period: month
+      description: "Basic features"
+    least_expensive_paid:
+      vendor: Matter
+      cost: 7.99
+      unit: USD
+      period: month
+    maximum:
+      vendor: Matter
+      cost: 79.99
+      unit: USD
+      period: year
+  hosting_options:
+    - name: Matter
+      link: https://hq.getmatter.com/
+      price:
+        cost: 7.99
+        unit: USD
+        period: month
+- key: raindrop-io
+  name: Raindrop.io
+  license: proprietary
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/52/52/e6/5252e6a6-8ca7-8950-ec4b-4f238eb385fe/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg
+  icon: icons/raindrop-io.jpg
+  tags:
+    - text: Visual Bookmarks
+      class: is-primary
+  description: A visual bookmark manager that doubles as a read-it-later service. Raindrop.io focuses on beautiful organization with visual previews and powerful search capabilities.
+  platforms:
+    - desktop_web
+    - ios
+    - android
+    - chrome_extension
+  features:
+    - mobile_apps
+    - visual_bookmarks
+    - nested_collections
+    - advanced_tagging
+    - full_text_search
+    - notes
+    - highlighting
+    - web_clipper
+    - export
+    - collaboration
+  pricing:
+    minimum:
+      vendor: Raindrop.io
+      cost: 0
+      unit: USD
+      period: month
+      description: "Up to 1,000 bookmarks"
+    least_expensive_paid:
+      vendor: Raindrop.io
+      cost: 3
+      unit: USD
+      period: month
+    maximum:
+      vendor: Raindrop.io
+      cost: 28
+      unit: USD
+      period: year
+  hosting_options:
+    - name: Raindrop.io
+      link: https://raindrop.io/
+      price:
+        cost: 3
+        unit: USD
+        period: month
+- key: goodlinks
+  name: GoodLinks
+  license: proprietary
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/3a/c4/a33ac474-f9c2-464c-f47f-f5012bd77130/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-P3-85-220.png/512x512bb.jpg
+  icon: icons/goodlinks.jpg
+  tags:
+    - text: Apple Ecosystem
+      class: is-success
+  description: A premium read-it-later app designed specifically for Apple devices. GoodLinks offers deep integration with iOS, iPadOS, and macOS with a focus on privacy and offline reading.
+  platforms:
+    - ios
+    - ipados
+    - macos
+  features:
+    - native_apps
+    - privacy_focused
+    - offline_reading
+    - smart_folders
+    - tags
+    - full_text_search
+    - highlighting
+    - notes
+    - icloud_sync
+    - customizable_reading_experience
+  pricing:
+    minimum:
+      vendor: GoodLinks
+      cost: 4.99
+      unit: USD
+      period: one-time
+      description: "iOS/iPadOS version"
+    least_expensive_paid:
+      vendor: GoodLinks
+      cost: 4.99
+      unit: USD
+      period: one-time
+    maximum:
+      vendor: GoodLinks
+      cost: 9.99
+      unit: USD
+      period: one-time
+      description: "macOS version"
+  hosting_options:
+    - name: GoodLinks
+      link: https://goodlinks.app/
+      price:
+        cost: 4.99
+        unit: USD
+        period: one-time
+- key: wallabag
+  name: Wallabag
+  license: open_source
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/33/d0/2633d084-5e41-52b1-88a7-75fcfb0c457b/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg
+  icon: icons/wallabag.jpg
+  tags:
+    - text: Most Popular
+      class: is-success
+  description: A mature, feature-rich read-it-later application. Wallabag has been actively developed since 2013 and offers comprehensive article management, tagging, annotations, and mobile apps. The most established open-source option with the largest community.
+  platforms:
+    - desktop_web
+    - mobile_web
+    - ios
+    - ipados
+    - macos
+    - windows
+    - linux
+    - android
+    - chrome_extension
+    - firefox_extension
+    - bookmarklet
+    - docker
+  features:
+    - dark_mode
+    - typography
+    - tagging
+    - highlighting
+    - notes
+    - multiuser
+    - import
+    - export
+    - archiving
+    - search
+    - social_sharing
+    - visual_previews
+    - offline
+  pricing:
+    minimum:
+      vendor: Wallabag.it
+      cost: 0
+      unit: EUR
+      period: year
+      description: "2 week trial"
+    least_expensive_paid:
+      vendor: CloudBreak
+      cost: 10
+      unit: USD
+      period: year
+    maximum:
+      vendor: Wallabag.it
+      cost: 11
+      unit: EUR
+      period: year
+  hosting_options:
+    - name: wallabag.it
+      link: https://wallabag.it/en/
+      price:
+        cost: 11
+        unit: EUR
+        period: year
+    - name: CloudBreak
+      link: https://cloudbreak.app/wallabag/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+      price:
+        cost: 10
+        unit: USD
+        period: year
+      coupon_code: GETOFFPOCKET
+    - name: PikaPods
+      link: https://www.pikapods.com/pods?run=wallabag
+      price:
+        cost: 1.40
+        unit: USD
+        period: month
+    - name: Self-Hosted
+      class: self-hosted
+      description: "Complete control, requires technical setup"
+      price:
+        cost: 60
+        unit: USD
+        period: year
+        description: "server costs"
+- key: readeck
+  name: Readeck
+  license: open_source
+  source_icon_url: https://www.readeck.com/assets/img/fi/apple-touch-icon.e39c20b2.png
+  icon: icons/readeck.jpg
+  tags:
+    - text: Modern & Fast
+      class: is-info
+  description: A modern, lightweight read-it-later service focused on simplicity and speed. Readeck offers a clean interface and efficient article processing without unnecessary complexity. Perfect for users who want a streamlined experience.
+  platforms:
+    - desktop_web
+    - docker
+  features:
+    - fast_interface
+    - responsive_design
+    - tagging
+    - export
+    - bookmarklet
+    - docker_deployment
+    - full_text_search
+    - clean_reading_mode
+  pricing:
+    minimum:
+      vendor: CloudBreak
+      cost: 10
+      unit: USD
+      period: year
+    least_expensive_paid:
+      vendor: CloudBreak
+      cost: 10
+      unit: USD
+      period: year
+    maximum:
+      vendor: Self-Hosted
+      cost: 240
+      unit: USD
+      period: year
+      description: "server costs"
+  hosting_options:
+    - name: CloudBreak
+      link: https://cloudbreak.app/readeck/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+      price:
+        cost: 10
+        unit: USD
+        period: year
+      coupon_code: GETOFFPOCKET
+    - name: Self-Hosted
+      class: self-hosted
+      description: "Modern Docker setup, minimal resources"
+      price:
+        cost: 60
+        unit: USD
+        period: year
+        description: "server costs"
+- key: linkding
+  name: Linkding
+  license: open_source
+  source_icon_url: https://lh3.googleusercontent.com/bp6jwFNA7tzooOc6OfnBsfy2D5SIDomN1imuF2WZqlZiJUU0cHC8ilZUSUuDQ69wb5UjkYnK6LJoBbk174uXTijO8s8=s120
+  icon: icons/linkding.jpg
+  tags:
+    - text: Minimal
+      class: is-warning
+  description: A minimal bookmark manager that can serve as a read-it-later tool. Linkding focuses on fast bookmark management with archiving capabilities and a clean, distraction-free interface. Great for users who prefer simplicity.
+  platforms:
+    - desktop_web
+    - mobile_web
+    - docker
+    - chrome_extension
+  features:
+    - minimal_interface
+    - automatic_archiving
+    - tagging
+    - full_text_search
+    - mobile_friendly
+    - browser_extension
+    - statistics
+    - dark_mode
+  pricing:
+    minimum:
+      vendor: CloudBreak
+      cost: 12
+      unit: USD
+      period: year
+    least_expensive_paid:
+      vendor: CloudBreak
+      cost: 12
+      unit: USD
+      period: year
+    maximum:
+      vendor: Self-Hosted
+      cost: 240
+      unit: USD
+      period: year
+      description: "server costs"
+  hosting_options:
+    - name: CloudBreak
+      link: https://cloudbreak.app/linkding/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+      price:
+        cost: 12
+        unit: USD
+        period: year
+      coupon_code: GETOFFPOCKET
+    - name: PikaPods
+      link: https://www.pikapods.com/pods?run=linkding
+      price:
+        cost: 1.50
+        unit: USD
+        period: month
+    - name: Self-Hosted
+      class: self-hosted
+      description: "Simple Docker setup, very lightweight"
+      price:
+        cost: 60
+        unit: USD
+        period: year
+        description: "server costs"
+- key: shiori
+  name: Shiori
+  license: open_source
+  source_icon_url: 📖
+  icon: icons/shiori.jpg
+  tags:
+    - text: Simple
+      class: is-light
+  description: A simple bookmarks manager written in Go. Shiori is designed to be a simple and fast bookmark manager that can archive web pages. It offers a clean web interface and is easy to deploy.
+  platforms:
+    - desktop_web
+    - docker
+    - chrome_extension
+  features:
+    - fast_performance
+    - automatic_archiving
+    - tagging
+    - search
+    - responsive_web_interface
+    - import_export
+    - browser_extension
+    - docker_support
+  pricing:
+    minimum:
+      vendor: Self-Hosted
+      cost: 60
+      unit: USD
+      period: year
+      description: "server costs"
+    least_expensive_paid:
+      vendor: Self-Hosted
+      cost: 60
+      unit: USD
+      period: year
+      description: "server costs"
+    maximum:
+      vendor: Self-Hosted
+      cost: 240
+      unit: USD
+      period: year
+      description: "server costs"
+  hosting_options:
+    - name: Self-Hosted
+      class: self-hosted
+      description: "Currently only available for self-hosting"
+      price:
+        cost: 60
+        unit: USD
+        period: year
+        description: "server costs"
+- key: omnivore
+  name: Omnivore
+  license: open_source
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/f2/cb/9cf2cbe2-f280-4c53-e66c-32c2db6bcb93/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg
+  icon: icons/omnivore.jpg
+  tags:
+    - text: Feature-Rich
+      class: is-primary
+  description: A complete, open source read-it-later solution for serious readers. Omnivore offers advanced features like newsletter subscriptions, PDF support, and powerful organization tools. Recently open-sourced and gaining popularity.
+  platforms:
+    - desktop_web
+    - ios
+    - android
+    - docker
+    - chrome_extension
+  features:
+    - newsletter_subscriptions
+    - pdf_support
+    - advanced_labeling
+    - search
+    - mobile_apps
+    - browser_extensions
+    - progress_tracking
+    - ai_features
+  pricing:
+    minimum:
+      vendor: Omnivore
+      cost: 0
+      unit: USD
+      period: month
+      description: "Hosted by the Omnivore team"
+    least_expensive_paid:
+      vendor: Self-Hosted
+      cost: 60
+      unit: USD
+      period: year
+      description: "server costs"
+    maximum:
+      vendor: Self-Hosted
+      cost: 240
+      unit: USD
+      period: year
+      description: "server costs"
+  hosting_options:
+    - name: Omnivore
+      link: https://omnivore.app/
+      price:
+        cost: 0
+        unit: USD
+        period: month
+    - name: Self-Hosted
+      class: self-hosted
+      description: "Complex setup, requires multiple services"
+      price:
+        cost: 60
+        unit: USD
+        period: year
+        description: "server costs"
