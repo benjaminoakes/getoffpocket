@@ -8,11 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {%- assign item_key = page.key -%}
-    {%- if page.collection == 'open_source' -%}
-      {%- assign item = site.data.open_source | where: "key", item_key | first -%}
-    {%- else -%}
-      {%- assign item = site.data.proprietary | where: "key", item_key | first -%}
-    {%- endif -%}
+    {%- assign item = site.data.products | where: "key", item_key | first -%}
     <title>{{ item.name }} - Pocket Alternative</title>
     <meta name="description" content="{{ item.description }}">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
@@ -129,7 +125,9 @@
     <section class="section">
         <div class="container">
               <div class="tool-header">
-                {% if item.icon contains '/' %}
+                {% if item.source_icon_url %}
+                  <img src="{{ item.source_icon_url }}" alt="{{ item.name }} icon" class="app-icon">
+                {% elsif item.icon contains '/' %}
                   <img src="{{ item.icon | prepend: site.baseurl }}" alt="{{ item.name }} icon" class="app-icon">
                 {% else %}
                   <span class="app-icon-emoji">{{ item.icon }}</span>
@@ -153,7 +151,7 @@
             {% if page.collection == 'open_source' %}
             <!-- Open Source Details -->
             <!-- Feature Comparison with Pocket -->
-            {% assign pocket = site.data.proprietary | where: "key", "pocket" | first %}
+            {% assign pocket = site.data.products | where: "key", "pocket" | first %}
             {% if pocket and pocket.features %}
               {% assign features_all = pocket.features %}
             {% else %}
@@ -188,15 +186,13 @@
                 <div class="column is-6">
                     <h2 class="title is-3">🏠 Hosting Options</h2>
                     {% for option in item.hosting_options %}
-                    <div class="hosting-option {{ option.class }}">
-                        <h5 class="subtitle is-6">{{ option.type }}</h5>
-                        <p class="price">{{ option.price }}</p>
-                        <p>{{ option.description }}</p>
+                    <div class="hosting-option">
+                        <h5 class="subtitle is-6">{{ option.name }}</h5>
+                        <p class="price">{{ option.price.cost }} {{ option.price.unit }} / {{ option.price.period }}</p>
+                        {% if option.description %}<p>{{ option.description }}</p>{% endif %}
                         <div class="buttons are-small mt-2">
-                        {% for button in option.buttons %}
-                          <a href="{{ button.link }}" target="_blank" class="button {{ button.class }}">{{ button.text }}</a>
-                          {% if button.coupon %}<span class="tag is-warning">$2 off: {{ button.coupon }}</span>{% endif %}
-                        {% endfor %}
+                          <a href="{{ option.link }}" target="_blank" class="button is-primary">Visit {{ option.name }}</a>
+                          {% if option.coupon_code %}<span class="tag is-warning">{{ option.coupon_code }}</span>{% endif %}
                         </div>
                     </div>
                     {% endfor %}
