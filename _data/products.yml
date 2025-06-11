@@ -50,8 +50,8 @@
 - key: bublup
   name: Bublup
   license: proprietary
-  source_icon_url: https://www.bublup.com/wp-content/uploads/2020/02/bublup-icon-1.png
-  icon: icons/bublup.png
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/f5/e3/f6f5e348-deee-593d-cf49-02608d1c31c9/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/246x0w.webp
+  icon: icons/bublup.webp
   tags:
   - text: Visual Organization
     class: is-primary
@@ -100,7 +100,7 @@
 - key: diigo
   name: Diigo
   license: proprietary
-  source_icon_url: https://www.diigo.com/favicon.ico
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/0d/e0/71/0de07124-130d-e7dc-2ad7-d4bf6b95985b/AppIcon-0-1x_U007emarketing-0-6-0-0-85-220.png/460x0w.webp
   icon: icons/diigo.ico
   tags:
   - text: Research Tool
@@ -151,7 +151,7 @@
 - key: emailthis
   name: EmailThis
   license: proprietary
-  source_icon_url: https://lh3.googleusercontent.com/a-/AOh14Gj8dJ6qJ8Z-QrY-7T1gY2g-V6q-3J0-5gYjYw=s64-c0x00000000-w2048-h2048
+  source_icon_url: https://avatars.githubusercontent.com/u/25072370?s=200&v=4
   icon: icons/emailthis.png
   tags:
   - text: Simple
@@ -200,8 +200,8 @@
 - key: evernote
   name: Evernote
   license: proprietary
-  source_icon_url: https://evernote.com/img/logo/evernote/primary.svg
-  icon: icons/evernote.svg
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/d1/4e/0cd14e53-11c8-d9f5-2939-fc3393711dad/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/460x0w.webp
+  icon: icons/evernote.webp
   tags:
   - text: Note-Taking
     class: is-primary
@@ -507,8 +507,8 @@
 - key: markmark
   name: MarkMark
   license: proprietary
-  source_icon_url: https://markmark.app/favicon.ico
-  icon: icons/markmark.ico
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7c/0f/cb/7c0fcbc6-1570-c105-293e-b2c7863f0736/AppIcon-0-85-220-0-5-0-0-2x-0-0.png/460x0w.webp
+  icon: icons/markmark.webp
   tags:
   - text: Apple Ecosystem
     class: is-success
@@ -608,8 +608,8 @@
 - key: microsoft-onenote
   name: Microsoft OneNote
   license: proprietary
-  source_icon_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Microsoft_OneNote_2019-present.svg/1200px-Microsoft_OneNote_2019-present.svg.png
-  icon: icons/microsoft-onenote.png
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/4d/e2/ff4de227-3ba6-25e4-ecb4-894d5edb23f5/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/460x0w.webp
+  icon: icons/microsoft-onenote.webp
   tags:
   - text: Note-Taking
     class: is-primary
@@ -782,7 +782,7 @@
 - key: pocket
   name: Pocket
   license: proprietary
-  source_icon_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Pocket_App_Icon.svg/1200px-Pocket_App_Icon.svg.png
+  source_icon_url: https://play-lh.googleusercontent.com/6kJhEyx-77gDf4e1xwgrODJCOhMq2E0XA-jApu7McdYJjJ_M8lRti0lrn5InAIebP0g
   icon: icons/pocket.png
   tags:
   - text: Discontinued
@@ -1010,8 +1010,8 @@
 - key: reeder
   name: Reeder
   license: proprietary
-  source_icon_url: https://reederapp.com/favicon.ico
-  icon: icons/reeder.ico
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/56/85/5c56859f-a261-0651-8d24-0be64b2665c4/AppIcon-0-0-85-220-0-0-5-0-2x-0-0-0.png/460x0w.webp
+  icon: icons/reeder.webp
   tags:
   - text: RSS Reader
     class: is-primary
