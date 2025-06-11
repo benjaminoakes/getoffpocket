@@ -184,18 +184,41 @@
                     <ul>{% for feature in item.features %}<li>{{ feature }}</li>{% endfor %}</ul>
                 </div>
                 <div class="column is-6">
-                    <h2 class="title is-3">🏠 Hosting Options</h2>
-                    {% for option in item.hosting_options %}
-                    <div class="hosting-option">
-                        <h5 class="subtitle is-6">{{ option.name }}</h5>
-                        <p class="price">{{ option.price.cost }} {{ option.price.unit }} / {{ option.price.period }}</p>
-                        {% if option.description %}<p>{{ option.description }}</p>{% endif %}
-                        <div class="buttons are-small mt-2">
-                          <a href="{{ option.link }}" target="_blank" class="button is-primary">Visit {{ option.name }}</a>
-                          {% if option.coupon_code %}<span class="tag is-warning">{{ option.coupon_code }}</span>{% endif %}
-                        </div>
-                    </div>
-                    {% endfor %}
+                    <!-- Hosted Options -->
+                    {% assign hosted = item.hosting_options | where_exp: "opt", "opt.class != 'self-hosted'" %}
+                    {% if hosted.size > 0 %}
+                      <h2 class="title is-3">🏠 Hosted Options</h2>
+                      {% for option in hosted %}
+                      <div class="hosting-option">
+                          <h5 class="subtitle is-6">{{ option.name }}</h5>
+                          <p class="price">{{ option.price.cost }} {{ option.price.unit }} / {{ option.price.period }}</p>
+                          {% if option.description %}<p>{{ option.description }}</p>{% endif %}
+                          <div class="buttons are-small mt-2">
+                            <a href="{{ option.link }}" target="_blank" class="button is-primary">Visit {{ option.name }}</a>
+                            {% if option.coupon_code %}<span class="tag is-warning">{{ option.coupon_code }}</span>{% endif %}
+                          </div>
+                      </div>
+                      {% endfor %}
+                    {% endif %}
+                    <!-- Self-Hosted Estimates -->
+                    {% assign selfhost = item.hosting_options | where: "class", "self-hosted" %}
+                    {% if selfhost.size > 0 %}
+                      <h2 class="title is-3">🔧 Self-Hosted Estimates</h2>
+                      {% for option in selfhost %}
+                      <div class="hosting-option">
+                          <h5 class="subtitle is-6">{{ option.name }}</h5>
+                          <p class="price">{{ option.price.cost }} {{ option.price.unit }} / {{ option.price.period }}</p>
+                          {% if option.description %}<p>{{ option.description }}</p>{% endif %}
+                          {% if option.buttons %}
+                          <div class="buttons are-small mt-2">
+                            {% for btn in option.buttons %}
+                              <a href="{{ btn.link }}" target="_blank" class="button {{ btn.class }}">{{ btn.text }}</a>
+                            {% endfor %}
+                          </div>
+                          {% endif %}
+                      </div>
+                      {% endfor %}
+                    {% endif %}
                 </div>
             </div>
             {% endif %}
