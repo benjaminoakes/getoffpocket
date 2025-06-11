@@ -212,6 +212,7 @@ featured:
             <span>Get Started</span>
           </a>
           <p class="help mt-2">For a limited time, just $10/year</p>
+          <div class="mt-3">SPONSORED</div>
         </div>
       </div>
     </div>
