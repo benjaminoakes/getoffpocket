@@ -181,7 +181,19 @@
             <div class="columns">
                 <div class="column is-6">
                     <h2 class="title is-3">✨ Key Features</h2>
-                    <ul>{% for feature in item.features %}<li>{{ feature }}</li>{% endfor %}</ul>
+                    <div class="columns is-multiline key-features">
+                      {% for fid in item.features %}
+                        {% assign feat = site.data.features | where: "id", fid | first %}
+                        {% if feat %}
+                        <div class="column is-4 feature-item has-text-centered">
+                          <span class="icon is-large">
+                            <i class="fa-solid {{ feat.icon }}"></i>
+                          </span>
+                          <p>{{ feat.label }}</p>
+                        </div>
+                        {% endif %}
+                      {% endfor %}
+                    </div>
                 </div>
                 <div class="column is-6">
                     <!-- Hosted Options -->
@@ -228,7 +240,19 @@
             <div class="columns">
                 <div class="column is-6">
                     <h2 class="title is-3">✨ Key Features</h2>
-                    <ul>{% for feature in item.features %}<li>{{ feature }}</li>{% endfor %}</ul>
+                    <div class="columns is-multiline key-features">
+                      {% for fid in item.features %}
+                        {% assign feat = site.data.features | where: "id", fid | first %}
+                        {% if feat %}
+                        <div class="column is-4 feature-item has-text-centered">
+                          <span class="icon is-large">
+                            <i class="fa-solid {{ feat.icon }}"></i>
+                          </span>
+                          <p>{{ feat.label }}</p>
+                        </div>
+                        {% endif %}
+                      {% endfor %}
+                    </div>
                     <h2 class="title is-3 mt-5">💰 Pricing</h2>
                     <div class="mb-4">
                         {% if item.pricing.free %}<p><strong>Free:</strong> {{ item.pricing.free }}</p>{% endif %}
