@@ -1,6 +1,7 @@
 - key: wallabag
   name: Wallabag
-  icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/33/d0/2633d084-5e41-52b1-88a7-75fcfb0c457b/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg
+  icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/33/d0/2633d084-5e41-52b1-88a7-75fcfb0c457b/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg # icon source
+  # icon: icons/walabag.whatever
   tags:
     - text: Most Popular
       class: is-success
@@ -14,10 +15,47 @@
     - "📊 Reading statistics"
     - "🌐 Multi-user support"
     - "🎨 Customizable themes"
+  # platforms:
+  #   - desktop_web
+  #   - mobile_web
+  #   - ios
+  #   - ipados
+  #   - macos
+  #   - windows
+  #   - linux
+  #   - android
+  #   - chrome_extension
+  #   - firefox_extension
+  #   - bookmarklet
+  #   - docker
+  #   - icloud
+  # features:
+  #   - dark_mode
+  #   - typography
+  #   - tagging
+  #   - highlighting
+  #   - notes
+  #   - ai
+  #   - folders
+  #   - multiuser
+  #   - import
+  #   - export
+  #   - archiving
+  #   - search
+  #   - performance
+  #   - newsletters
+  #   - pdf_annotation
+  #   - progress_tracking
+  #   - text_to_speech
+  #   - social_sharing
+  #   - discussions
+  #   - visual_previews
+  #   - collaboration
+  #   - offline
   hosting_options:
     - type: Official Hosting (wallabag.it)
       class: official
-      price: "€11/year (~$12/year)"
+      price: "€11/year (~$12/year)" # is this right?
       description: Hosted by the Wallabag team themselves
       buttons:
         - text: Visit wallabag.it
@@ -25,7 +63,7 @@
           class: is-primary
     - type: Third-Party Hosting
       class: third-party
-      price: "$10-15/year"
+      price: "$10-15/year" # is this right?
       description: Various providers offer Wallabag hosting
       buttons:
         - text: "CloudBreak ($10/year)"
@@ -37,7 +75,7 @@
           class: is-info
     - type: Self-Hosted
       class: self-hosted
-      price: "$60+/year server costs"
+      price: "$60+/year server costs" # is this right?
       description: Complete control, requires technical setup
       buttons:
         - text: View on GitHub
@@ -95,6 +133,16 @@
     - "🔌 Browser extension"
     - "📊 Basic statistics"
     - "🌙 Dark mode support"
+  pricing:
+    # price range
+    - cost: 0
+      unit: USD
+      period: year
+      description: "limitations"
+    - cost: 12
+      unit: USD
+      period: year
+      description: "limitations"
   hosting_options:
     - type: Third-Party Hosting
       class: third-party
