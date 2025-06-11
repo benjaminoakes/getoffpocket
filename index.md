@@ -202,10 +202,12 @@ featured:
             <li>✓ Native apps</li>
             <li>✓ Browser extensions</li>
             <li>✓ Seamless sync</li>
+            <li>✓ The freedom of open-source</li>
+            <li>✓ The convenience of managed hosting</li>
           </ul>
         </div>
         <div class="column is-4 has-text-centered">
-          <a href="https://cloudbreak.app/wallabag?ref=getoffpocket" class="button is-white is-large is-fullwidth">
+          <a href="https://cloudbreak.app/wallabag?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com" class="button is-white is-large is-fullwidth">
             <span class="icon"><i class="fas fa-bookmark"></i></span>
             <span>Get Started</span>
           </a>
