@@ -38,7 +38,8 @@ class SchemaValidator
       schema.each do |key, schema_value|
         new_path = path.empty? ? key : "#{path}.#{key}"
         unless data.key?(key)
-          puts "Missing key: #{new_path}"
+          # 'description' is now an optional key.
+          puts "Missing key: #{new_path}" unless key == 'description'
           next
         end
         validate_node(data[key], schema_value, new_path)
