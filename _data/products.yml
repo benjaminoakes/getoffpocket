@@ -2,7 +2,7 @@
 - key: bitread
   name: BitRead
   license: proprietary
-  source_icon_url: https://assets.bitread.app/logo.png
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/37/72/96377235-2e45-047c-b594-9578efe0b645/AppIcon-0-0-1x_U007epad-0-0-0-11-0-0-85-220.png/246x0w.png
   icon: icons/bitread.png
   tags:
   - text: Habit-Forming
