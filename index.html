@@ -401,19 +401,19 @@
                 <p class="has-text-centered mb-2"><strong>Pocket shuts down on July 8, 2025</strong></p>
                 <div class="columns is-mobile is-centered is-vcentered">
                   <div class="column is-narrow has-text-centered px-1">
-                    <div class="countdown-number" id="days" style="font-size: 1.5rem; line-height: 1.2;">--</div>
+                    <div class="countdown-number hero-days" style="font-size: 1.5rem; line-height: 1.2;">--</div>
                     <div class="is-size-7">Days</div>
                   </div>
                   <div class="column is-narrow has-text-centered px-1">
-                    <div class="countdown-number" id="hours" style="font-size: 1.5rem; line-height: 1.2;">--</div>
+                    <div class="countdown-number hero-hours" style="font-size: 1.5rem; line-height: 1.2;">--</div>
                     <div class="is-size-7">Hours</div>
                   </div>
                   <div class="column is-narrow has-text-centered px-1">
-                    <div class="countdown-number" id="minutes" style="font-size: 1.5rem; line-height: 1.2;">--</div>
+                    <div class="countdown-number hero-minutes" style="font-size: 1.5rem; line-height: 1.2;">--</div>
                     <div class="is-size-7">Minutes</div>
                   </div>
                   <div class="column is-narrow has-text-centered px-1">
-                    <div class="countdown-number" id="seconds" style="font-size: 1.5rem; line-height: 1.2;">--</div>
+                    <div class="countdown-number hero-seconds" style="font-size: 1.5rem; line-height: 1.2;">--</div>
                     <div class="is-size-7">Seconds</div>
                   </div>
                 </div>
@@ -1172,15 +1172,24 @@
       const now = new Date();
       const timeDiff = shutdownDate - now;
 
-      // Get elements safely
+      // Get elements safely for main timer
       const daysEl = document.getElementById('days');
       const hoursEl = document.getElementById('hours');
       const minutesEl = document.getElementById('minutes');
       const secondsEl = document.getElementById('seconds');
       
-      // If any element is missing, stop the countdown
-      if (!daysEl || !hoursEl || !minutesEl || !secondsEl) {
-        console.warn('Countdown elements not found');
+      // Get elements for hero timer
+      const heroDaysEl = document.querySelector('.hero-days');
+      const heroHoursEl = document.querySelector('.hero-hours');
+      const heroMinutesEl = document.querySelector('.hero-minutes');
+      const heroSecondsEl = document.querySelector('.hero-seconds');
+      
+      // Check if we have any timers to update
+      const hasMainTimer = daysEl && hoursEl && minutesEl && secondsEl;
+      const hasHeroTimer = heroDaysEl && heroHoursEl && heroMinutesEl && heroSecondsEl;
+      
+      if (!hasMainTimer && !hasHeroTimer) {
+        console.warn('No countdown elements found');
         return;
       }
 
@@ -1190,21 +1199,41 @@
         const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
 
-        daysEl.textContent = days;
-        hoursEl.textContent = hours.toString().padStart(2, '0');
-        minutesEl.textContent = minutes.toString().padStart(2, '0');
-        secondsEl.textContent = seconds.toString().padStart(2, '0');
+        // Update main timer if it exists
+        if (hasMainTimer) {
+          daysEl.textContent = days;
+          hoursEl.textContent = hours.toString().padStart(2, '0');
+          minutesEl.textContent = minutes.toString().padStart(2, '0');
+          secondsEl.textContent = seconds.toString().padStart(2, '0');
+        }
+        
+        // Update hero timer if it exists
+        if (hasHeroTimer) {
+          heroDaysEl.textContent = days;
+          heroHoursEl.textContent = hours.toString().padStart(2, '0');
+          heroMinutesEl.textContent = minutes.toString().padStart(2, '0');
+          heroSecondsEl.textContent = seconds.toString().padStart(2, '0');
+        }
       } else {
-        // Pocket has shut down
-        daysEl.textContent = '0';
-        hoursEl.textContent = '00';
-        minutesEl.textContent = '00';
-        secondsEl.textContent = '00';
+        // Pocket has shut down - update all timers
+        if (hasMainTimer) {
+          daysEl.textContent = '0';
+          hoursEl.textContent = '00';
+          minutesEl.textContent = '00';
+          secondsEl.textContent = '00';
 
-        // Update the text to reflect shutdown
-        const countdownText = document.querySelector('.countdown');
-        if (countdownText) {
-          countdownText.innerHTML = 'Pocket has shut down<br>Export-only mode active';
+          const countdownText = document.querySelector('.countdown');
+          if (countdownText) {
+            countdownText.innerHTML = 'Pocket has shut down<br>Export-only mode active';
+          }
+        }
+        
+        // Update hero timer if it exists
+        if (hasHeroTimer) {
+          heroDaysEl.textContent = '0';
+          heroHoursEl.textContent = '00';
+          heroMinutesEl.textContent = '00';
+          heroSecondsEl.textContent = '00';
         }
       }
     }
