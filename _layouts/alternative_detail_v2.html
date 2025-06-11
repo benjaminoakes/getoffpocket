@@ -141,6 +141,13 @@
             </div>
  
             <p class="subtitle is-4">{{ item.description }}</p>
+            <!-- Supported Platforms -->
+            <p class="subtitle is-5">Supported Platforms</p>
+            <div class="tags">
+              {% for p in item.platforms %}
+                <span class="tag is-light">{{ p | replace: "_", " " | capitalize }}</span>
+              {% endfor %}
+            </div>
             <hr>
 
             {% if page.collection == 'open_source' %}
