@@ -24,12 +24,13 @@ featured:
         <div class="column is-7">
           <h1 class="title is-1 has-text-white">Get Off Pocket</h1>
           <p class="subtitle is-4 has-text-white-ter">Read-it-later with these Pocket alternatives</p>
-          <p class="has-text-white-ter">Pocket is shutting down July 8th, 2025.  Find a new service and import your content today</p>
+          <p class="has-text-white-ter">Pocket is shutting down July 8th, 2025.  The last day to export data is October 8th, 2025.  Find a new service and import your content today</p>
         </div>
         <div class="column is-5 has-text-centered">
           <span class="icon is-large has-text-white">
             <i class="fab fa-get-pocket fa-5x"></i>
           </span>
+          <p class="mt-5 has-text-white-ter has-text-weight-bold"><a href="https://sharelette.cloudbreak.app/?url=https%3A%2F%2Fgetoffpocket.com%2F%3Futm_medium%3Dreferral%26utm_source%3Dsharelette%26rby%3Dsharelette&text=Get%20Off%20Pocket%3A%20A%20Guide%20to%20Pocket%20Alternatives" class="button is-primary"><i class="fa-solid fa-share-nodes mr-3"></i> Share this guide</a></p>
         </div>
       </div>
     </div>
@@ -39,7 +40,7 @@ featured:
 <!-- Quick Comparison Table -->
 <section class="section">
   <div class="container">
-    <h2 class="title is-3 has-text-centered mb-5">Top Apple-Compatible Alternatives</h2>
+    <h2 class="title is-3 has-text-centered mb-5">Alternatives at a Glance</h2>
     
     <div class="table-container">
       <table class="table is-fullwidth is-hoverable">
@@ -124,7 +125,7 @@ featured:
               <div class="media">
               <div class="media-left">
                 {% if alt.icon contains '/' %}
-                  <img src="{{ alt.icon | prepend: site.baseurl }}" alt="{{ alt.name }} icon" class="app-icon">
+                  <img src="{{ alt.key | prepend: '/icons/' | append: '.png' }}" alt="{{ alt.name }} icon" class="app-icon">
                 {% else %}
                   <span class="icon is-large has-text-primary"><i class="fas fa-3x">{{ alt.icon }}</i></span>
                 {% endif %}
