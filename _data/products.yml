@@ -33,6 +33,7 @@
       cost: 2.99
       unit: USD
       period: month
+      description: ""
     maximum:
       vendor: Instapaper
       cost: 29.99
@@ -83,6 +84,7 @@
       cost: 8.99
       unit: USD
       period: month
+      description: ""
     maximum:
       vendor: Readwise
       cost: 89.99
@@ -129,6 +131,7 @@
       cost: 7.99
       unit: USD
       period: month
+      description: ""
     maximum:
       vendor: Matter
       cost: 79.99
@@ -178,6 +181,7 @@
       cost: 3
       unit: USD
       period: month
+      description: ""
     maximum:
       vendor: Raindrop.io
       cost: 28
@@ -226,6 +230,7 @@
       cost: 4.99
       unit: USD
       period: one-time
+      description: ""
     maximum:
       vendor: GoodLinks
       cost: 9.99
@@ -287,6 +292,7 @@
       cost: 10
       unit: USD
       period: year
+      description: ""
     maximum:
       vendor: Wallabag.it
       cost: 11
@@ -347,11 +353,13 @@
       cost: 10
       unit: USD
       period: year
+      description: ""
     least_expensive_paid:
       vendor: CloudBreak
       cost: 10
       unit: USD
       period: year
+      description: ""
     maximum:
       vendor: Self-Hosted
       cost: 240
@@ -403,11 +411,13 @@
       cost: 12
       unit: USD
       period: year
+      description: ""
     least_expensive_paid:
       vendor: CloudBreak
       cost: 12
       unit: USD
       period: year
+      description: ""
     maximum:
       vendor: Self-Hosted
       cost: 240
