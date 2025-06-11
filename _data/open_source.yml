@@ -133,16 +133,6 @@
     - "🔌 Browser extension"
     - "📊 Basic statistics"
     - "🌙 Dark mode support"
-  pricing:
-    # price range
-    - cost: 0
-      unit: USD
-      period: year
-      description: "limitations"
-    - cost: 12
-      unit: USD
-      period: year
-      description: "limitations"
   hosting_options:
     - type: Third-Party Hosting
       class: third-party

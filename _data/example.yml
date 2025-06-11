@@ -1,0 +1,110 @@
+- key: wallabag
+  name: Wallabag
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/33/d0/2633d084-5e41-52b1-88a7-75fcfb0c457b/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg
+  icon: icons/walabag.jpg
+  tags:
+    - text: Most Popular
+      class: is-success
+  description: A mature, feature-rich read-it-later application. Wallabag has been actively developed since 2013 and offers comprehensive article management, tagging, annotations, and mobile apps. The most established open-source option with the largest community.
+  platforms:
+    - desktop_web
+    - mobile_web
+    - ios
+    - ipados
+    - macos
+    - windows
+    - linux
+    - android
+    - chrome_extension
+    - firefox_extension
+    - edge_extension
+    - bookmarklet
+    - docker
+    # - icloud
+  features:
+    - dark_mode
+    - typography
+    - tagging
+    - highlighting
+    - notes
+    # - ai
+    # - folders
+    - multiuser
+    - import
+    - export
+    - archiving
+    - search
+    # - performance
+    # - newsletters
+    # - pdf_annotation
+    # - progress_tracking
+    # - text_to_speech
+    - social_sharing
+    # - discussions
+    - visual_previews
+    # - collaboration
+    - offline
+  pricing:
+    minimum:
+      vendor: Wallabag.it
+      cost: 0
+      unit: EUR
+      period: year
+      description: "2 week trial"
+    least_expensive_paid:
+      vendor: CloudBreak
+      cost: 10
+      unit: USD
+      period: year
+      description: "limited-time"
+    maximum:
+      vendor: Wallabag.it
+      cost: 30
+      unit: EUR
+      period: year
+  hosting_options:
+    - type: Official Hosting (wallabag.it)
+      class: official
+      price:
+        cost: 30
+        unit: EUR
+        period: year
+      description: The supporter subscription
+      buttons:
+        - text: Visit wallabag.it
+          link: https://wallabag.it/
+          class: is-primary
+    - type: Official Hosting (wallabag.it)
+      class: official
+      price:
+        cost: 11
+        unit: EUR
+        period: year
+      description: Hosted by the Wallabag team themselves
+      buttons:
+        - text: Visit wallabag.it
+          link: https://wallabag.it/
+          class: is-primary
+    - type: Third-Party Hosting
+      class: third-party
+      price: "$10-15/year" # is this right?
+      description: Various providers offer Wallabag hosting
+      buttons:
+        - text: "CloudBreak ($10/year)"
+          link: https://cloudbreak.app/wallabag/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+          class: is-success
+          coupon: GETOFFPOCKET
+          coupon_value:
+            price: 2
+            unit: USD
+        - text: PikaPods
+          link: https://www.pikapods.com/pods?run=wallabag
+          class: is-info
+    - type: Self-Hosted
+      class: self-hosted
+      price: "$60+/year server costs" # is this right?
+      description: Complete control, requires technical setup
+      buttons:
+        - text: View on GitHub
+          link: https://github.com/wallabag/wallabag
+          class: is-info
