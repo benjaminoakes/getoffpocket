@@ -580,7 +580,7 @@
 - key: omnivore
   name: Omnivore
   license: open_source
-  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/f2/cb/9cf2cbe2-f280-4c53-e66c-32c2db6bcb93/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg
+  source_icon_url: https://avatars.githubusercontent.com/u/70113176?s=200&v=4
   icon: icons/omnivore.jpg
   tags:
   - text: Feature-Rich
