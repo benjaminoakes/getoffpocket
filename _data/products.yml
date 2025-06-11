@@ -7,7 +7,8 @@
   tags:
   - text: Habit-Forming
     class: is-success
-  description: An app designed to help users save, organize, and read articles with a focus on forming a reading habit through gamification.
+  description: An app designed to help users save, organize, and read articles with
+    a focus on forming a reading habit through gamification.
   platforms:
   - ios
   - ipados
@@ -54,7 +55,8 @@
   tags:
   - text: Visual Organization
     class: is-primary
-  description: A visual organization tool that can be used to save and share links, notes, and files in collaborative folders.
+  description: A visual organization tool that can be used to save and share links,
+    notes, and files in collaborative folders.
   platforms:
   - desktop_web
   - ios
@@ -103,7 +105,8 @@
   tags:
   - text: Research Tool
     class: is-info
-  description: A research tool and knowledge management system that allows users to bookmark, annotate, and highlight web pages.
+  description: A research tool and knowledge management system that allows users to
+    bookmark, annotate, and highlight web pages.
   platforms:
   - desktop_web
   - ios
@@ -153,7 +156,8 @@
   tags:
   - text: Simple
     class: is-light
-  description: A service that sends a cleaned-up, readable version of any web page to your email inbox.
+  description: A service that sends a cleaned-up, readable version of any web page
+    to your email inbox.
   platforms:
   - desktop_web
   - mobile_web
@@ -201,7 +205,8 @@
   tags:
   - text: Note-Taking
     class: is-primary
-  description: A popular note-taking app that can be used to save and organize articles and web pages with the Evernote Web Clipper.
+  description: A popular note-taking app that can be used to save and organize articles
+    and web pages with the Evernote Web Clipper.
   platforms:
   - windows
   - macos
@@ -443,7 +448,8 @@
   tags:
   - text: Self-Hosted
     class: is-info
-  description: A self-hostable, open-source bookmark manager that can also be used as a read-it-later tool, with features for collaboration and content preservation.
+  description: A self-hostable, open-source bookmark manager that can also be used
+    as a read-it-later tool, with features for collaboration and content preservation.
   platforms:
   - desktop_web
   - docker
@@ -470,7 +476,7 @@
       period: month
     maximum:
       vendor: Self-Hosted
-      cost: 240
+      cost: 240.0
       unit: USD
       period: year
       description: server costs
@@ -490,7 +496,7 @@
     class: self-hosted
     description: Docker setup
     price:
-      cost: 60
+      cost: 60.0
       unit: USD
       period: year
       description: server costs
@@ -506,7 +512,8 @@
   tags:
   - text: Apple Ecosystem
     class: is-success
-  description: A native app for Apple devices to collect and organize articles and web pages with offline access and a clean reading view.
+  description: A native app for Apple devices to collect and organize articles and
+    web pages with offline access and a clean reading view.
   platforms:
   - ios
   - ipados
@@ -606,7 +613,8 @@
   tags:
   - text: Note-Taking
     class: is-primary
-  description: A note-taking application that can be used to save articles and web pages using the OneNote Web Clipper.
+  description: A note-taking application that can be used to save articles and web
+    pages using the OneNote Web Clipper.
   platforms:
   - windows
   - macos
@@ -729,7 +737,8 @@
   tags:
   - text: Kindle Integration
     class: is-info
-  description: An app to save articles for later reading or listening, with features for organization, offline access, and Kindle integration.
+  description: An app to save articles for later reading or listening, with features
+    for organization, offline access, and Kindle integration.
   platforms:
   - ios
   - ipados
@@ -778,7 +787,9 @@
   tags:
   - text: Discontinued
     class: is-danger
-  description: A social bookmarking service for storing, sharing and discovering web bookmarks. Mozilla, the developer of Pocket, announced in May 2025 that it was discontinuing the service and would shut it down in July of that year.
+  description: A social bookmarking service for storing, sharing and discovering web
+    bookmarks. Mozilla, the developer of Pocket, announced in May 2025 that it was
+    discontinuing the service and would shut it down in July of that year.
   platforms:
   - android
   - ios
@@ -892,7 +903,8 @@
   tags:
   - text: Education
     class: is-info
-  description: A reading and comprehension learning app for children, not a traditional "read-it-later" service for general articles.
+  description: A reading and comprehension learning app for children, not a traditional
+    "read-it-later" service for general articles.
   platforms:
   - ios
   - ipados
@@ -1003,7 +1015,8 @@
   tags:
   - text: RSS Reader
     class: is-primary
-  description: A RSS reader and read-later app for Apple devices with a focus on a clean reading experience and iCloud syncing.
+  description: A RSS reader and read-later app for Apple devices with a focus on a
+    clean reading experience and iCloud syncing.
   platforms:
   - ios
   - ipados
@@ -1109,7 +1122,8 @@
   tags:
   - text: Built-in
     class: is-light
-  description: A built-in feature of Safari that allows users to save web pages to read later, with offline access and cross-device syncing.
+  description: A built-in feature of Safari that allows users to save web pages to
+    read later, with offline access and cross-device syncing.
   platforms:
   - ios
   - ipados
