@@ -1,7 +1,7 @@
 - key: wallabag
   name: Wallabag
   source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/33/d0/2633d084-5e41-52b1-88a7-75fcfb0c457b/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg
-  icon: icons/walabag.jpg
+  icon: icons/wallabag.jpg
   tags:
     - text: Most Popular
       class: is-success
