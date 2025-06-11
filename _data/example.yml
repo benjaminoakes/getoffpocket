@@ -63,48 +63,64 @@
       unit: EUR
       period: year
   hosting_options:
-    - type: Official Hosting (wallabag.it)
-      class: official
-      price:
-        cost: 30
-        unit: EUR
-        period: year
-      description: The supporter subscription
-      buttons:
-        - text: Visit wallabag.it
-          link: https://wallabag.it/
-          class: is-primary
-    - type: Official Hosting (wallabag.it)
-      class: official
+    - name: wallabag.it
+      link: https://wallabag.it/
       price:
         cost: 11
         unit: EUR
         period: year
-      description: Hosted by the Wallabag team themselves
-      buttons:
-        - text: Visit wallabag.it
-          link: https://wallabag.it/
-          class: is-primary
-    - type: Third-Party Hosting
-      class: third-party
-      price: "$10-15/year" # is this right?
-      description: Various providers offer Wallabag hosting
-      buttons:
-        - text: "CloudBreak ($10/year)"
-          link: https://cloudbreak.app/wallabag/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
-          class: is-success
-          coupon: GETOFFPOCKET
-          coupon_value:
-            price: 2
-            unit: USD
-        - text: PikaPods
-          link: https://www.pikapods.com/pods?run=wallabag
-          class: is-info
-    - type: Self-Hosted
+    - name: wallabag.it (Supporter)
+      link: https://wallabag.it/
+      price:
+        cost: 30
+        unit: EUR
+        period: year
+    - name: CloudBreak
+      link: https://cloudbreak.app/wallabag/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+      price:
+        cost: 10
+        unit: USD
+        period: year
+      coupon: GETOFFPOCKET
+      coupon_value:
+        price: 2
+        unit: USD
+    - name: PikaPods
+      link: https://www.pikapods.com/pods?run=wallabag
+      price:
+        cost: 1.40
+        unit: USD
+        period: month
+    - name: Raspberry Pi 5
       class: self-hosted
-      price: "$60+/year server costs" # is this right?
-      description: Complete control, requires technical setup
+      description: "One-time hardware cost for a low-power Raspberry Pi 5 home server."
+      price:
+        cost: 100 # Approximate cost for a starter kit
+        unit: USD
+        period: "one-time"
       buttons:
-        - text: View on GitHub
-          link: https://github.com/wallabag/wallabag
+        - text: Buy on Amazon
+          link: "https://www.amazon.com/s?k=raspberry+pi+5+kit&_encoding=UTF8&tag={{ site.amazon_referral_tag }}"
+          class: is-info
+    - name: Hetzner
+      class: self-hosted
+      description: "Affordable and powerful cloud virtual machines, starting at ~€4.51/month."
+      price:
+        cost: 4.51
+        unit: EUR
+        period: month
+      buttons:
+        - text: Visit Hetzner
+          link: https://www.hetzner.com/cloud
+          class: is-info
+    - name: Digital Ocean
+      class: self-hosted
+      description: "Simple, scalable virtual machines, starting at $4.00/month."
+      price:
+        cost: 4
+        unit: USD
+        period: month
+      buttons:
+        - text: Visit Digital Ocean
+          link: https://www.digitalocean.com/pricing/droplets
           class: is-info
