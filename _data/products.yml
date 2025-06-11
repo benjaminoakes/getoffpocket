@@ -1,26 +1,22 @@
 ---
-- key: pocket
-  name: Pocket
+- key: instapaper
+  name: Instapaper
   license: proprietary
-  source_icon_url: https://en.wikipedia.org/wiki/Pocket_(service)#/media/File:Pocket_App_Icon.png
-  icon: icons/pocket.png
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/cc/8a/e6cc8ac2-4560-e34a-0155-4418efba9905/AppIcon-0-0-1x_U007epad-0-8-0-0-85-220.png/512x512bb.jpg
+  icon: icons/instapaper.jpg
   tags:
-  - text: Most Popular
+  - text: Most Established
     class: is-success
-  description: One of the most popular read-it-later apps, Pocket allows you to save
-    articles, videos, and stories from any publication, page, or app. It was acquired
-    by Mozilla in 2017 but is scheduled to be discontinued in July 2025.
+  description: The original read-it-later service, founded in 2008. Instapaper pioneered
+    the concept and remains one of the most reliable options with a focus on clean,
+    distraction-free reading.
   platforms:
   - desktop_web
   - ios
   - android
-  - macos
-  - windows
-  - chrome_extension
-  - firefox_extension
   features:
   - mobile_apps
-  - tagging
+  - folders
   - highlighting
   - notes
   - full_text_search
@@ -28,554 +24,625 @@
   - dark_mode
   - export
   - typography_customization
-  - offline_reading
   pricing:
     minimum:
-      vendor: Pocket
+      vendor: Instapaper
       cost: 0.0
       unit: USD
       period: month
+      description: 5 articles per month
     least_expensive_paid:
-      vendor: Pocket
-      cost: 4.99
+      vendor: Instapaper
+      cost: 2.99
       unit: USD
       period: month
     maximum:
-      vendor: Pocket
-      cost: 44.99
+      vendor: Instapaper
+      cost: 29.99
       unit: USD
       period: year
   hosting_options:
-  - name: Pocket
-    link: https://getpocket.com/
+  - name: Instapaper
+    link: https://www.instapaper.com/
     class: managed
     price:
-      cost: 4.99
+      cost: 2.99
       unit: USD
       period: month
     buttons:
-    - text: Visit Pocket
-      link: https://getpocket.com/
+    - text: Visit Instapaper
+      link: https://www.instapaper.com/
       class: is-info
-- key: safari-reading-list
-  name: Safari Reading List
+- key: readwise-reader
+  name: Readwise Reader
   license: proprietary
-  source_icon_url: https://developer.apple.com/library/archive/releasenotes/General/WhatsNewInSafari/Art/safari_app_icon.png
-  icon: icons/safari-reading-list.png
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/24/d8/ec24d8ba-b2e1-943c-aebe-b2f141f60e4d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  icon: icons/readwise-reader.jpg
+  tags:
+  - text: Beta
+    class: is-warning
+  - text: Feature-Rich
+    class: is-info
+  description: A comprehensive reading platform that combines read-it-later functionality
+    with powerful highlighting, note-taking, and knowledge management features. Part
+    of the Readwise ecosystem.
+  platforms:
+  - desktop_web
+  - ios
+  - android
+  features:
+  - mobile_apps
+  - newsletter_subscriptions
+  - pdf_support
+  - advanced_tagging
+  - search
+  - highlighting
+  - notes
+  - ai_features
+  - reading_analytics
+  - readwise_integration
+  pricing:
+    minimum:
+      vendor: Readwise
+      cost: 8.99
+      unit: USD
+      period: month
+      description: Includes Readwise highlighting review service
+    least_expensive_paid:
+      vendor: Readwise
+      cost: 8.99
+      unit: USD
+      period: month
+    maximum:
+      vendor: Readwise
+      cost: 89.99
+      unit: USD
+      period: year
+  hosting_options:
+  - name: Readwise Reader
+    link: https://readwise.io/read
+    class: managed
+    price:
+      cost: 8.99
+      unit: USD
+      period: month
+    buttons:
+    - text: Visit Readwise Reader
+      link: https://readwise.io/read
+      class: is-info
+- key: matter
+  name: Matter
+  license: proprietary
+  source_icon_url: https://hq.getmatter.app/matter-icon-180.png
+  icon: icons/matter.png
+  tags:
+  - text: Social Features
+    class: is-warning
+  description: A modern read-it-later app with social features, allowing you to share
+    articles and highlights with friends. Focuses on building reading communities
+    and discussions around content.
+  platforms:
+  - desktop_web
+  - ios
+  features:
+  - mobile_apps
+  - social_sharing
+  - highlighting
+  - comments
+  - tagging
+  - search
+  - reading_statistics
+  - text_to_speech
+  - dark_mode
+  pricing:
+    minimum:
+      vendor: Matter
+      cost: 0.0
+      unit: USD
+      period: month
+      description: Basic features
+    least_expensive_paid:
+      vendor: Matter
+      cost: 7.99
+      unit: USD
+      period: month
+    maximum:
+      vendor: Matter
+      cost: 79.99
+      unit: USD
+      period: year
+  hosting_options:
+  - name: Matter
+    link: https://hq.getmatter.com/
+    class: managed
+    price:
+      cost: 7.99
+      unit: USD
+      period: month
+    buttons:
+    - text: Visit Matter
+      link: https://hq.getmatter.com/
+      class: is-info
+- key: raindrop-io
+  name: Raindrop.io
+  license: proprietary
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/52/52/e6/5252e6a6-8ca7-8950-ec4b-4f238eb385fe/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg
+  icon: icons/raindrop-io.jpg
+  tags:
+  - text: Visual Bookmarks
+    class: is-primary
+  description: A visual bookmark manager that doubles as a read-it-later service.
+    Raindrop.io focuses on beautiful organization with visual previews and powerful
+    search capabilities.
+  platforms:
+  - desktop_web
+  - ios
+  - android
+  - chrome_extension
+  features:
+  - mobile_apps
+  - visual_bookmarks
+  - nested_collections
+  - advanced_tagging
+  - full_text_search
+  - notes
+  - highlighting
+  - web_clipper
+  - export
+  - collaboration
+  pricing:
+    minimum:
+      vendor: Raindrop.io
+      cost: 0.0
+      unit: USD
+      period: month
+      description: Up to 1,000 bookmarks
+    least_expensive_paid:
+      vendor: Raindrop.io
+      cost: 3.0
+      unit: USD
+      period: month
+    maximum:
+      vendor: Raindrop.io
+      cost: 28.0
+      unit: USD
+      period: year
+  hosting_options:
+  - name: Raindrop.io
+    link: https://raindrop.io/
+    class: managed
+    price:
+      cost: 3.0
+      unit: USD
+      period: month
+    buttons:
+    - text: Visit Raindrop.io
+      link: https://raindrop.io/
+      class: is-info
+- key: goodlinks
+  name: GoodLinks
+  license: proprietary
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/3a/c4/a33ac474-f9c2-464c-f47f-f5012bd77130/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-P3-85-220.png/512x512bb.jpg
+  icon: icons/goodlinks.jpg
   tags:
   - text: Apple Ecosystem
     class: is-success
-  description: Apple's built-in read-it-later feature for Safari. It syncs across
-    all your Apple devices and allows for offline reading.
+  description: A premium read-it-later app designed specifically for Apple devices.
+    GoodLinks offers deep integration with iOS, iPadOS, and macOS with a focus on
+    privacy and offline reading.
   platforms:
   - ios
   - ipados
   - macos
   features:
   - native_apps
+  - privacy_focused
   - offline_reading
+  - smart_folders
+  - tags
+  - full_text_search
+  - highlighting
+  - notes
   - icloud_sync
+  - customizable_reading_experience
   pricing:
     minimum:
-      vendor: Apple
-      cost: 0.0
+      vendor: GoodLinks
+      cost: 4.99
       unit: USD
-      period: month
+      period: one-time
+      description: iOS/iPadOS version
+    least_expensive_paid:
+      vendor: GoodLinks
+      cost: 4.99
+      unit: USD
+      period: one-time
+    maximum:
+      vendor: GoodLinks
+      cost: 9.99
+      unit: USD
+      period: one-time
+      description: macOS version
   hosting_options:
-  - name: Safari Reading List
+  - name: GoodLinks
+    link: https://goodlinks.app/
     class: managed
     price:
-      cost: 0.0
+      cost: 4.99
       unit: USD
-      period: month
-- key: emailthis
-  name: EmailThis
-  license: proprietary
-  source_icon_url: https://chromewebstore.google.com/detail/email-this/lgblkllcjgihfnlefhnnpppndbbjallh
-  icon: icons/emailthis.png
+      period: one-time
+    buttons:
+    - text: Visit GoodLinks
+      link: https://goodlinks.app/
+      class: is-info
+- key: wallabag
+  name: Wallabag
+  license: open_source
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/33/d0/2633d084-5e41-52b1-88a7-75fcfb0c457b/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg
+  icon: icons/wallabag.jpg
   tags:
-  - text: Simple
-    class: is-light
-  description: A simple service that sends cleaned-up articles to your email inbox
-    for later reading.
+  - text: Most Popular
+    class: is-success
+  description: A mature, feature-rich read-it-later application. Wallabag has been
+    actively developed since 2013 and offers comprehensive article management, tagging,
+    annotations, and mobile apps. The most established open-source option with the
+    largest community.
   platforms:
   - desktop_web
+  - mobile_web
+  - ios
+  - ipados
+  - macos
+  - windows
+  - linux
+  - android
   - chrome_extension
+  - firefox_extension
   - bookmarklet
+  - docker
   features:
-  - email_delivery
-  pricing:
-    minimum:
-      vendor: EmailThis
-      cost: 0.0
-      unit: USD
-      period: month
-      description: Free to use
-    least_expensive_paid:
-      vendor: EmailThis
-      cost: 19.0
-      unit: USD
-      period: year
-  hosting_options:
-  - name: EmailThis
-    link: https://www.emailthis.me/
-    class: managed
-    price:
-      cost: 19.0
-      unit: USD
-      period: year
-    buttons:
-    - text: Visit EmailThis
-      link: https://www.emailthis.me/
-      class: is-info
-- key: microsoft-onenote
-  name: Microsoft OneNote
-  license: proprietary
-  source_icon_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Microsoft_Office_OneNote_%282019%E2%80%93present%29.svg/512px-Microsoft_Office_OneNote_%282019%E2%80%93present%29.svg.png
-  icon: icons/onenote.png
-  tags:
-  - text: Note Taking
-    class: is-primary
-  description: A powerful note-taking application that can be used to save articles
-    and web pages for later reading. It offers a wide range of organization and editing
-    features.
-  platforms:
-  - desktop_web
-  - ios
-  - android
-  - macos
-  - windows
-  features:
-  - mobile_apps
-  - folders
+  - dark_mode
+  - typography
+  - tagging
   - highlighting
   - notes
-  - full_text_search
-  - tagging
-  pricing:
-    minimum:
-      vendor: Microsoft
-      cost: 0.0
-      unit: USD
-      period: month
-  hosting_options:
-  - name: Microsoft OneNote
-    link: https://www.onenote.com/
-    class: managed
-    price:
-      cost: 0.0
-      unit: USD
-      period: month
-    buttons:
-    - text: Visit OneNote
-      link: https://www.onenote.com/
-      class: is-info
-- key: reeder
-  name: Reeder
-  license: proprietary
-  source_icon_url: https://apps.apple.com/us/app/reeder/id6475002485
-  icon: icons/reeder.png
-  tags:
-  - text: RSS Reader
-    class: is-info
-  description: A popular RSS reader for Apple devices that also includes read-it-later
-    functionality. It has a clean interface and powerful features for managing your
-    reading list.
-  platforms:
-  - ios
-  - ipados
-  - macos
-  features:
-  - native_apps
-  - offline_reading
-  - icloud_sync
-  - tagging
+  - multiuser
+  - import
+  - export
+  - archiving
   - search
+  - social_sharing
+  - visual_previews
+  - offline
   pricing:
     minimum:
-      vendor: Reeder
-      cost: 4.99
-      unit: USD
-      period: one-time
-      description: Varies by platform
-  hosting_options:
-  - name: Reeder
-    link: https://reeder.app/
-    class: managed
-    price:
-      cost: 4.99
-      unit: USD
-      period: one-time
-    buttons:
-    - text: Visit Reeder
-      link: https://reeder.app/
-      class: is-info
-- key: diigo
-  name: Diigo
-  license: proprietary
-  source_icon_url: https://www.diigo.com/favicon.ico
-  icon: icons/diigo.png
-  tags:
-  - text: Research Tool
-    class: is-primary
-  description: A powerful research tool and bookmark manager that allows you to annotate,
-    archive, and organize web pages.
-  platforms:
-  - desktop_web
-  - ios
-  - android
-  - chrome_extension
-  features:
-  - mobile_apps
-  - highlighting
-  - notes
-  - tagging
-  - collaboration
-  pricing:
-    minimum:
-      vendor: Diigo
+      vendor: Wallabag.it
       cost: 0.0
-      unit: USD
-      period: month
+      unit: EUR
+      period: year
+      description: 2 week trial
     least_expensive_paid:
-      vendor: Diigo
-      cost: 40.0
+      vendor: CloudBreak
+      cost: 10.0
       unit: USD
       period: year
     maximum:
-      vendor: Diigo
-      cost: 59.0
-      unit: USD
+      vendor: Wallabag.it
+      cost: 11.0
+      unit: EUR
       period: year
   hosting_options:
-  - name: Diigo
-    link: https://www.diigo.com/
+  - name: wallabag.it
+    link: https://wallabag.it/en/
     class: managed
     price:
-      cost: 40.0
-      unit: USD
+      cost: 11.0
+      unit: EUR
       period: year
     buttons:
-    - text: Visit Diigo
-      link: https://www.diigo.com/
+    - text: Visit wallabag.it
+      link: https://wallabag.it/en/
       class: is-info
-- key: linkora
-  name: Linkora
-  license: proprietary
-  source_icon_url: https://apps.apple.com/us/app/read-it-later-linkos/id6636527165
-  icon: icons/linkora.png
-  tags:
-  - text: Apple Ecosystem
-    class: is-success
-  description: A read-it-later app for Apple devices that focuses on a clean reading
-    experience and offline access.
-  platforms:
-  - ios
-  - ipados
-  - macos
-  features:
-  - native_apps
-  - offline_reading
-  - icloud_sync
-  - tagging
-  - highlighting
-  - text_to_speech
-  pricing:
-    minimum:
-      vendor: Linkora
-      cost: 0.0
+  - name: CloudBreak
+    link: https://cloudbreak.app/wallabag/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+    class: managed
+    price:
+      cost: 10.0
+      unit: USD
+      period: year
+    coupon_code: GETOFFPOCKET
+    buttons:
+    - text: Visit CloudBreak
+      link: https://cloudbreak.app/wallabag/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+      class: is-info
+  - name: PikaPods
+    link: https://www.pikapods.com/pods?run=wallabag
+    class: managed
+    price:
+      cost: 1.4
       unit: USD
       period: month
-      description: Up to 5 links
-    least_expensive_paid:
-      vendor: Linkora
-      cost: 8.99
-      unit: USD
-      period: one-time
-  hosting_options:
-  - name: Linkora
-    link: https://apps.apple.com/us/app/read-it-later-linkos/id6636527165
-    class: managed
-    price:
-      cost: 8.99
-      unit: USD
-      period: one-time
     buttons:
-    - text: Visit Linkora
-      link: https://apps.apple.com/us/app/read-it-later-linkos/id6636527165
+    - text: Visit PikaPods
+      link: https://www.pikapods.com/pods?run=wallabag
       class: is-info
-- key: evernote
-  name: Evernote
-  license: proprietary
-  source_icon_url: https://evernote.com/img/logo/evernote/primary.svg
-  icon: icons/evernote.png
+  - name: Self-Hosted
+    class: self-hosted
+    description: Complete control, requires technical setup
+    price:
+      cost: 60.0
+      unit: USD
+      period: year
+      description: server costs
+    buttons:
+    - text: Learn More
+      link: https://wallabag.org/en
+      class: is-info
+- key: readeck
+  name: Readeck
+  license: open_source
+  source_icon_url: https://www.readeck.com/assets/img/fi/apple-touch-icon.e39c20b2.png
+  icon: icons/readeck.png
   tags:
-  - text: Note Taking
-    class: is-primary
-  description: A popular note-taking app that can also be used as a read-it-later
-    service. Its Web Clipper allows you to save articles and web pages directly to
-    your notebooks.
+  - text: Modern & Fast
+    class: is-info
+  description: A modern, lightweight read-it-later service focused on simplicity and
+    speed. Readeck offers a clean interface and efficient article processing without
+    unnecessary complexity. Perfect for users who want a streamlined experience.
   platforms:
   - desktop_web
-  - ios
-  - android
-  - macos
-  - windows
-  - chrome_extension
+  - docker
   features:
-  - mobile_apps
-  - folders
-  - highlighting
-  - notes
+  - fast_interface
+  - responsive_design
+  - tagging
+  - export
+  - bookmarklet
+  - docker_deployment
   - full_text_search
-  - tagging
+  - clean_reading_mode
   pricing:
     minimum:
-      vendor: Evernote
-      cost: 0.0
-      unit: USD
-      period: month
-    least_expensive_paid:
-      vendor: Evernote
-      cost: 14.99
-      unit: USD
-      period: month
-    maximum:
-      vendor: Evernote
-      cost: 129.99
+      vendor: CloudBreak
+      cost: 10.0
       unit: USD
       period: year
+    least_expensive_paid:
+      vendor: CloudBreak
+      cost: 10.0
+      unit: USD
+      period: year
+    maximum:
+      vendor: Self-Hosted
+      cost: 240.0
+      unit: USD
+      period: year
+      description: server costs
   hosting_options:
-  - name: Evernote
-    link: https://evernote.com/
+  - name: CloudBreak
+    link: https://cloudbreak.app/readeck/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
     class: managed
     price:
-      cost: 14.99
+      cost: 10.0
+      unit: USD
+      period: year
+    coupon_code: GETOFFPOCKET
+    buttons:
+    - text: Visit CloudBreak
+      link: https://cloudbreak.app/readeck/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+      class: is-info
+  - name: Self-Hosted
+    class: self-hosted
+    description: Modern Docker setup, minimal resources
+    price:
+      cost: 60.0
+      unit: USD
+      period: year
+      description: server costs
+    buttons:
+    - text: Learn More
+      link: https://www.readeck.com/
+      class: is-info
+- key: linkding
+  name: Linkding
+  license: open_source
+  source_icon_url: https://lh3.googleusercontent.com/bp6jwFNA7tzooOc6OfnBsfy2D5SIDomN1imuF2WZqlZiJUU0cHC8ilZUSUuDQ69wb5UjkYnK6LJoBbk174uXTijO8s8=s120
+  icon: icons/linkding.png
+  tags:
+  - text: Minimal
+    class: is-warning
+  description: A minimal bookmark manager that can serve as a read-it-later tool.
+    Linkding focuses on fast bookmark management with archiving capabilities and a
+    clean, distraction-free interface. Great for users who prefer simplicity.
+  platforms:
+  - desktop_web
+  - mobile_web
+  - docker
+  - chrome_extension
+  features:
+  - minimal_interface
+  - automatic_archiving
+  - tagging
+  - full_text_search
+  - mobile_friendly
+  - browser_extension
+  - statistics
+  - dark_mode
+  pricing:
+    minimum:
+      vendor: CloudBreak
+      cost: 12.0
+      unit: USD
+      period: year
+    least_expensive_paid:
+      vendor: CloudBreak
+      cost: 12.0
+      unit: USD
+      period: year
+    maximum:
+      vendor: Self-Hosted
+      cost: 240.0
+      unit: USD
+      period: year
+      description: server costs
+  hosting_options:
+  - name: CloudBreak
+    link: https://cloudbreak.app/linkding/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+    class: managed
+    price:
+      cost: 12.0
+      unit: USD
+      period: year
+    coupon_code: GETOFFPOCKET
+    buttons:
+    - text: Visit CloudBreak
+      link: https://cloudbreak.app/linkding/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+      class: is-info
+  - name: PikaPods
+    link: https://www.pikapods.com/pods?run=linkding
+    class: managed
+    price:
+      cost: 1.5
       unit: USD
       period: month
     buttons:
-    - text: Visit Evernote
-      link: https://evernote.com/
+    - text: Visit PikaPods
+      link: https://www.pikapods.com/pods?run=linkding
       class: is-info
-- key: paperspan
-  name: PaperSpan
-  license: proprietary
-  source_icon_url: https://www.paperspan.com/apple-touch-icon.png
-  icon: icons/paperspan.png
+  - name: Self-Hosted
+    class: self-hosted
+    description: Simple Docker setup, very lightweight
+    price:
+      cost: 60.0
+      unit: USD
+      period: year
+      description: server costs
+    buttons:
+    - text: Learn More
+      link: https://github.com/sissbruecker/linkding
+      class: is-info
+- key: shiori
+  name: Shiori
+  license: open_source
+  source_icon_url: https://avatars.githubusercontent.com/u/41993376?s=200&v=4
+  icon: icons/shiori.png
   tags:
   - text: Simple
     class: is-light
-  description: A read-it-later app that focuses on providing a clean reading experience
-    and helping you finish your reading list.
+  description: A simple bookmarks manager written in Go. Shiori is designed to be
+    a simple and fast bookmark manager that can archive web pages. It offers a clean
+    web interface and is easy to deploy.
   platforms:
   - desktop_web
-  - ios
-  - android
+  - docker
   - chrome_extension
   features:
-  - mobile_apps
-  - offline_reading
-  - text_to_speech
-  pricing:
-    minimum:
-      vendor: PaperSpan
-      cost: 0.0
-      unit: USD
-      period: month
-  hosting_options:
-  - name: PaperSpan
-    link: https://www.paperspan.com/
-    class: managed
-    price:
-      cost: 0.0
-      unit: USD
-      period: month
-    buttons:
-    - text: Visit PaperSpan
-      link: https://www.paperspan.com/
-      class: is-info
-- key: readability
-  name: Readability
-  license: proprietary
-  source_icon_url: ''
-  icon: icons/readability.png
-  tags:
-  - text: Discontinued
-    class: is-danger
-  description: A read-it-later service that was discontinued in 2016. It was known
-    for its clean reading view and a controversial subscription model.
-  platforms: []
-  features: []
-  pricing:
-    minimum:
-      vendor: Readability
-      cost: 0.0
-      unit: USD
-      period: month
-  hosting_options: []
-- key: amazon-kindle
-  name: Amazon Kindle
-  license: proprietary
-  source_icon_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Amazon_Kindle_logo.svg/512px-Amazon_Kindle_logo.svg.png
-  icon: icons/kindle.png
-  tags:
-  - text: E-Reader
-    class: is-info
-  description: While primarily an e-reader, the Kindle app and devices can be used
-    to save and read articles from the web.
-  platforms:
-  - ios
-  - android
-  - macos
-  - windows
-  - e_reader
-  features:
-  - mobile_apps
-  - highlighting
-  - notes
+  - fast_performance
+  - automatic_archiving
+  - tagging
   - search
+  - responsive_web_interface
+  - import_export
+  - browser_extension
+  - docker_support
   pricing:
     minimum:
-      vendor: Amazon
-      cost: 0.0
+      vendor: Self-Hosted
+      cost: 60.0
       unit: USD
-      period: month
+      period: year
+      description: server costs
+    least_expensive_paid:
+      vendor: Self-Hosted
+      cost: 60.0
+      unit: USD
+      period: year
+      description: server costs
+    maximum:
+      vendor: Self-Hosted
+      cost: 240.0
+      unit: USD
+      period: year
+      description: server costs
   hosting_options:
-  - name: Amazon Kindle
-    link: https://www.amazon.com/kindle-dbs/fd/kcp
-    class: managed
+  - name: Self-Hosted
+    class: self-hosted
+    description: Currently only available for self-hosting
     price:
-      cost: 0.0
+      cost: 60.0
       unit: USD
-      period: month
+      period: year
+      description: server costs
     buttons:
-    - text: Visit Kindle Store
-      link: https://www.amazon.com/kindle-dbs/fd/kcp
+    - text: Learn More
+      link: https://github.com/go-shiori/shiori
       class: is-info
-- key: bitread
-  name: BitRead
-  license: proprietary
-  source_icon_url: https://apps.apple.com/us/app/bitread-save-organize-read/id1600331223
-  icon: icons/bitread.png
+- key: omnivore
+  name: Omnivore
+  license: open_source
+  source_icon_url: https://avatars.githubusercontent.com/u/70113176?s=200&v=4
+  icon: icons/omnivore.png
   tags:
-  - text: Goal-Oriented
+  - text: Feature-Rich
     class: is-primary
-  description: A read-it-later app that helps you organize your reading list and set
-    weekly reading goals.
-  platforms:
-  - ios
-  - ipados
-  - macos
-  features:
-  - mobile_apps
-  - offline_reading
-  - progress_tracking
-  pricing:
-    minimum:
-      vendor: BitRead
-      cost: 0.0
-      unit: USD
-      period: month
-  hosting_options:
-  - name: BitRead
-    link: https://apps.apple.com/us/app/bitread-save-organize-read/id1600331223
-    class: managed
-    price:
-      cost: 0.0
-      unit: USD
-      period: month
-    buttons:
-    - text: Visit BitRead
-      link: https://apps.apple.com/us/app/bitread-save-organize-read/id1600331223
-      class: is-info
-- key: bublup
-  name: Bublup
-  license: proprietary
-  source_icon_url: https://www.bublup.com/wp-content/uploads/2021/01/cropped-Bublup-favicon-1-192x192.png
-  icon: icons/bublup.png
-  tags:
-  - text: Visual Organization
-    class: is-primary
-  description: A visual organization app that can be used to save and share all kinds
-    of digital content, including articles for later reading.
+  description: A complete, open source read-it-later solution for serious readers.
+    Omnivore offers advanced features like newsletter subscriptions, PDF support,
+    and powerful organization tools. Recently open-sourced and gaining popularity.
   platforms:
   - desktop_web
   - ios
   - android
+  - docker
+  - chrome_extension
   features:
+  - newsletter_subscriptions
+  - pdf_support
+  - advanced_labeling
+  - search
   - mobile_apps
-  - folders
-  - notes
-  - collaboration
+  - browser_extensions
+  - progress_tracking
+  - ai_features
   pricing:
     minimum:
-      vendor: Bublup
+      vendor: Omnivore
       cost: 0.0
       unit: USD
       period: month
-      description: 3 GB of storage
+      description: Hosted by the Omnivore team
     least_expensive_paid:
-      vendor: Bublup
-      cost: 2.99
+      vendor: Self-Hosted
+      cost: 60.0
       unit: USD
-      period: month
-      description: 100 GB of storage
-  hosting_options:
-  - name: Bublup
-    link: https://www.bublup.com/
-    class: managed
-    price:
-      cost: 2.99
-      unit: USD
-      period: month
-    buttons:
-    - text: Visit Bublup
-      link: https://www.bublup.com/
-      class: is-info
-- key: markmark
-  name: MarkMark
-  license: proprietary
-  source_icon_url: https://apps.apple.com/us/app/markmark-read-it-later/id6475077023
-  icon: icons/markmark.png
-  tags:
-  - text: Apple Ecosystem
-    class: is-success
-  description: A native app for iPhone, iPad, and Mac that allows you to collect,
-    organize, and read web pages offline.
-  platforms:
-  - ios
-  - ipados
-  - macos
-  features:
-  - native_apps
-  - offline_reading
-  - folders
-  - tagging
-  pricing:
-    minimum:
-      vendor: MarkMark
-      cost: 0.0
-      unit: USD
-      period: month
-    least_expensive_paid:
-      vendor: MarkMark
-      cost: 1.99
-      unit: USD
-      period: month
+      period: year
+      description: server costs
     maximum:
-      vendor: MarkMark
-      cost: 14.99
+      vendor: Self-Hosted
+      cost: 240.0
       unit: USD
-      period: one-time
+      period: year
+      description: server costs
   hosting_options:
-  - name: MarkMark
-    link: https://markmark.app/
+  - name: Omnivore
+    link: https://omnivore.app/
     class: managed
     price:
-      cost: 1.99
+      cost: 0.0
       unit: USD
       period: month
     buttons:
-    - text: Visit MarkMark
-      link: https://markmark.app/
+    - text: Visit Omnivore
+      link: https://omnivore.app/
+      class: is-info
+  - name: Self-Hosted
+    class: self-hosted
+    description: Complex setup, requires multiple services
+    price:
+      cost: 60.0
+      unit: USD
+      period: year
+      description: server costs
+    buttons:
+    - text: Learn More
+      link: https://docs.omnivore.app/using/hosting.html
       class: is-info
