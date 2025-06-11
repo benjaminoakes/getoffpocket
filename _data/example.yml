@@ -81,7 +81,7 @@
         cost: 10
         unit: USD
         period: year
-      coupon: GETOFFPOCKET
+      coupon_code: GETOFFPOCKET
       coupon_value:
         price: 2
         unit: USD
@@ -124,3 +124,8 @@
         - text: Visit Digital Ocean
           link: https://www.digitalocean.com/pricing/droplets
           class: is-info
+      coupon_url: "{{ site.digital_ocean_referral_url }}"
+      coupon_value:
+        price: 200
+        unit: USD
+        terms: "use within 60 days"
