@@ -50,9 +50,9 @@
       unit: USD
       period: month
     buttons:
-      - text: Visit Instapaper
-        link: https://www.instapaper.com/
-        class: is-info
+    - text: Visit Instapaper
+      link: https://www.instapaper.com/
+      class: is-info
 - key: readwise-reader
   name: Readwise Reader
   license: proprietary
@@ -107,14 +107,14 @@
       unit: USD
       period: month
     buttons:
-      - text: Visit Readwise Reader
-        link: https://readwise.io/read
-        class: is-info
+    - text: Visit Readwise Reader
+      link: https://readwise.io/read
+      class: is-info
 - key: matter
   name: Matter
   license: proprietary
   source_icon_url: https://hq.getmatter.app/matter-icon-180.png
-  icon: icons/matter.jpg
+  icon: icons/matter.png
   tags:
   - text: Social Features
     class: is-warning
@@ -160,9 +160,9 @@
       unit: USD
       period: month
     buttons:
-      - text: Visit Matter
-        link: https://hq.getmatter.com/
-        class: is-info
+    - text: Visit Matter
+      link: https://hq.getmatter.com/
+      class: is-info
 - key: raindrop-io
   name: Raindrop.io
   license: proprietary
@@ -216,9 +216,9 @@
       unit: USD
       period: month
     buttons:
-      - text: Visit Raindrop.io
-        link: https://raindrop.io/
-        class: is-info
+    - text: Visit Raindrop.io
+      link: https://raindrop.io/
+      class: is-info
 - key: goodlinks
   name: GoodLinks
   license: proprietary
@@ -272,9 +272,9 @@
       unit: USD
       period: one-time
     buttons:
-      - text: Visit GoodLinks
-        link: https://goodlinks.app/
-        class: is-info
+    - text: Visit GoodLinks
+      link: https://goodlinks.app/
+      class: is-info
 - key: wallabag
   name: Wallabag
   license: open_source
@@ -340,9 +340,9 @@
       unit: EUR
       period: year
     buttons:
-      - text: Visit wallabag.it
-        link: https://wallabag.it/en/
-        class: is-info
+    - text: Visit wallabag.it
+      link: https://wallabag.it/en/
+      class: is-info
   - name: CloudBreak
     link: https://cloudbreak.app/wallabag/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
     class: managed
@@ -352,9 +352,9 @@
       period: year
     coupon_code: GETOFFPOCKET
     buttons:
-      - text: Visit CloudBreak
-        link: https://cloudbreak.app/wallabag/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
-        class: is-info
+    - text: Visit CloudBreak
+      link: https://cloudbreak.app/wallabag/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+      class: is-info
   - name: PikaPods
     link: https://www.pikapods.com/pods?run=wallabag
     class: managed
@@ -363,9 +363,9 @@
       unit: USD
       period: month
     buttons:
-      - text: Visit PikaPods
-        link: https://www.pikapods.com/pods?run=wallabag
-        class: is-info
+    - text: Visit PikaPods
+      link: https://www.pikapods.com/pods?run=wallabag
+      class: is-info
   - name: Self-Hosted
     class: self-hosted
     description: Complete control, requires technical setup
@@ -375,14 +375,14 @@
       period: year
       description: server costs
     buttons:
-      - text: Learn More
-        link: https://wallabag.org/en
-        class: is-info
+    - text: Learn More
+      link: https://wallabag.org/en
+      class: is-info
 - key: readeck
   name: Readeck
   license: open_source
   source_icon_url: https://www.readeck.com/assets/img/fi/apple-touch-icon.e39c20b2.png
-  icon: icons/readeck.jpg
+  icon: icons/readeck.png
   tags:
   - text: Modern & Fast
     class: is-info
@@ -428,9 +428,9 @@
       period: year
     coupon_code: GETOFFPOCKET
     buttons:
-      - text: Visit CloudBreak
-        link: https://cloudbreak.app/readeck/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
-        class: is-info
+    - text: Visit CloudBreak
+      link: https://cloudbreak.app/readeck/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+      class: is-info
   - name: Self-Hosted
     class: self-hosted
     description: Modern Docker setup, minimal resources
@@ -440,14 +440,14 @@
       period: year
       description: server costs
     buttons:
-      - text: Learn More
-        link: https://www.readeck.com/
-        class: is-info
+    - text: Learn More
+      link: https://www.readeck.com/
+      class: is-info
 - key: linkding
   name: Linkding
   license: open_source
   source_icon_url: https://lh3.googleusercontent.com/bp6jwFNA7tzooOc6OfnBsfy2D5SIDomN1imuF2WZqlZiJUU0cHC8ilZUSUuDQ69wb5UjkYnK6LJoBbk174uXTijO8s8=s120
-  icon: icons/linkding.jpg
+  icon: icons/linkding.png
   tags:
   - text: Minimal
     class: is-warning
@@ -495,9 +495,9 @@
       period: year
     coupon_code: GETOFFPOCKET
     buttons:
-      - text: Visit CloudBreak
-        link: https://cloudbreak.app/linkding/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
-        class: is-info
+    - text: Visit CloudBreak
+      link: https://cloudbreak.app/linkding/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+      class: is-info
   - name: PikaPods
     link: https://www.pikapods.com/pods?run=linkding
     class: managed
@@ -506,9 +506,9 @@
       unit: USD
       period: month
     buttons:
-      - text: Visit PikaPods
-        link: https://www.pikapods.com/pods?run=linkding
-        class: is-info
+    - text: Visit PikaPods
+      link: https://www.pikapods.com/pods?run=linkding
+      class: is-info
   - name: Self-Hosted
     class: self-hosted
     description: Simple Docker setup, very lightweight
@@ -518,14 +518,14 @@
       period: year
       description: server costs
     buttons:
-      - text: Learn More
-        link: https://github.com/sissbruecker/linkding
-        class: is-info
+    - text: Learn More
+      link: https://github.com/sissbruecker/linkding
+      class: is-info
 - key: shiori
   name: Shiori
   license: open_source
   source_icon_url: https://avatars.githubusercontent.com/u/41993376?s=200&v=4
-  icon: icons/shiori.jpg
+  icon: icons/shiori.png
   tags:
   - text: Simple
     class: is-light
@@ -574,14 +574,14 @@
       period: year
       description: server costs
     buttons:
-      - text: Learn More
-        link: https://github.com/go-shiori/shiori
-        class: is-info
+    - text: Learn More
+      link: https://github.com/go-shiori/shiori
+      class: is-info
 - key: omnivore
   name: Omnivore
   license: open_source
   source_icon_url: https://avatars.githubusercontent.com/u/70113176?s=200&v=4
-  icon: icons/omnivore.jpg
+  icon: icons/omnivore.png
   tags:
   - text: Feature-Rich
     class: is-primary
@@ -631,9 +631,9 @@
       unit: USD
       period: month
     buttons:
-      - text: Visit Omnivore
-        link: https://omnivore.app/
-        class: is-info
+    - text: Visit Omnivore
+      link: https://omnivore.app/
+      class: is-info
   - name: Self-Hosted
     class: self-hosted
     description: Complex setup, requires multiple services
@@ -643,7 +643,6 @@
       period: year
       description: server costs
     buttons:
-      - text: Learn More
-        link: https://docs.omnivore.app/using/hosting.html
-        class: is-info
-
+    - text: Learn More
+      link: https://docs.omnivore.app/using/hosting.html
+      class: is-info
