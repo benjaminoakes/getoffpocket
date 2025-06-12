@@ -56,7 +56,7 @@ featured:
           </tr>
         </thead>
         <tbody>
-          {% assign featured_alts = site.data.open_source | where_exp: "item", "page.featured contains item.key" %}
+          {% assign featured_alts = site.data.products | where_exp: "item", "page.featured contains item.key" %}
           {% for alt in featured_alts %}
           <tr {% if alt.featured %}class="has-background-primary-light"{% endif %}>
             <td>
@@ -94,11 +94,10 @@ featured:
               {% endif %}
             </td>
             <td>
-              {% assign hosting = alt.hosting_options | first %}
-              {{ hosting.price | default: 'Free' }}
+              {% include format_price.html price=alt.pricing.minimum %}
             </td>
             <td>
-              <a href="/open-source/{{ alt.key }}/" class="button is-small is-primary">View Details</a>
+              <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key }}/" class="button is-small is-primary">View Details</a>
             </td>
           </tr>
           {% endfor %}
@@ -161,8 +160,8 @@ featured:
                 <ul>
                   {% for option in alt.hosting_options %}
                   <li>
-                    {{ option.type }}: {{ option.price }}
-                    {% if option.type == 'CloudBreak' %}
+                    <strong>{{ option.name }}:</strong> {% include format_price.html price=option.price %}
+                    {% if option.name == 'CloudBreak' %}
                     <span class="tag is-primary is-light ml-2">Recommended</span>
                     {% endif %}
                   </li>
@@ -180,7 +179,7 @@ featured:
               <span class="icon"><i class="fas fa-arrow-right"></i></span>
             </a>
             {% else %}
-            <a href="/open-source/{{ alt.key }}/" class="card-footer-item">View Details</a>
+            <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key }}/" class="card-footer-item">View Details</a>
             {% endif %}
           </footer>
         </div>

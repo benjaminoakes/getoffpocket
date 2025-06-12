@@ -1,0 +1,13 @@
+{%- assign price = include.price -%}
+{%- if price.cost == 0 or price.cost == 0.0 -%}
+  Free
+{%- else -%}
+  {%- assign currency_symbol = '$' -%}
+  {%- if price.unit == 'EUR' -%}
+    {%- assign currency_symbol = '€' -%}
+  {%- endif -%}
+  {{ currency_symbol }}{{ price.cost }}
+  {%- if price.period and price.period != 'one-time' -%}
+    / {{ price.period }}
+  {%- endif -%}
+{%- endif -%}
