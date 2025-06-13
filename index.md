@@ -136,6 +136,7 @@ featured:
             <th>Name</th>
             <th>Browser Ext.</th>
             <th>Least Expensive Paid Plan</th>
+            <th>Free Tier Limitations</th>
             <th></th>
           </tr>
         </thead>
@@ -158,6 +159,7 @@ featured:
             <td>
               {% include format_price.html price=alt.pricing.least_expensive_paid %}
             </td>
+            <td>{{ alt.free_tier_limitations }}</td>
             <td>
               <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key }}/" class="button is-small is-primary">View Details</a>
             </td>
