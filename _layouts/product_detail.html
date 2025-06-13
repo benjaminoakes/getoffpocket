@@ -119,47 +119,7 @@
             </div>
             <hr>
 
-            {% if page.collection == 'open_source' %}
-            <!-- Open Source Details -->
-            <!-- Feature Comparison with Pocket -->
-            {% assign pocket = site.data.products | where: "key", "pocket" | first %}
-            {% if pocket and pocket.features %}
-              {% assign features_all = pocket.features %}
-            {% else %}
-              {% assign features_all = "Import & Export, Dark Mode, Tagging, Offline Reading, Full-Text Search" | split: ", " %}
-            {% endif %}
-            {% comment %}
-            <div class="table-container">
-              <h2 class="title is-3">
-                <span class="icon-text">
-                  <span class="icon">
-                    <i class="fas fa-search"></i>
-                  </span>
-                  <span>
-                    Core Pocket Features vs {{ item.name }}
-                  </span>
-                </span>
-              </h2>
-              <table class="table is-fullwidth is-hoverable">
-                <thead>
-                  <tr>
-                    <th>Feature</th>
-                    <th>Pocket</th>
-                    <th>{{ item.name }}</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {% for feature in features_all %}
-                  <tr>
-                    <td>{{ feature | replace: "_", " " | capitalize }}</td>
-                    <td class="has-text-centered">{% if pocket.features contains feature %}<span class="icon has-text-success"><i class="fas fa-check"></i></span>{% else %}<span class="icon has-text-danger"><i class="fas fa-times"></i></span>{% endif %}</td>
-                    <td class="has-text-centered">{% if item.features contains feature %}<span class="icon has-text-success"><i class="fas fa-check"></i></span>{% else %}<span class="icon has-text-danger"><i class="fas fa-times"></i></span>{% endif %}</td>
-                  </tr>
-                  {% endfor %}
-                </tbody>
-              </table>
-            </div>
-            {% endcomment %}
+            <!-- Product Details -->
             <div class="columns">
                 <div class="column is-6">
                     <h2 class="title is-3">
@@ -240,11 +200,6 @@
                     {% endif %}
                 </div>
             </div>
-            {% endif %}
-
-            {% if page.collection == 'proprietary' %}
-            <!-- Proprietary Details --><!-- ... truncated for brevity ... -->
-            {% endif %}
 
             <div class="has-text-centered mt-6">
                 <a href="{{ site.url }}{% if page.collection == 'open_source' %}/{% else %}/proprietary/{% endif %}" class="button is-link">

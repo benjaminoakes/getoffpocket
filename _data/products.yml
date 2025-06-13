@@ -393,7 +393,7 @@
       cost: 5.99
       unit: USD
       period: month
-      description: Premium Plan
+      description: Premium Plan (ad free)
     buttons:
     - text: Visit Instapaper
       link: https://www.instapaper.com/
