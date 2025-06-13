@@ -1,12 +1,18 @@
 {%- assign price = include.price -%}
-{%- if price.cost == 0 or price.cost == 0.0 -%}
+{%- if price.cost == empty -%}
+  {%- if price.description and price.description != "" -%}
+    {{ price.description }}
+  {%- else -%}
+    -
+  {%- endif -%}
+{%- elsif price.cost == 0 or price.cost == 0.0 -%}
   Free
 {%- else -%}
   {%- assign currency_symbol = '$' -%}
   {%- if price.unit == 'EUR' -%}
     {%- assign currency_symbol = '€' -%}
   {%- endif -%}
-  {{ currency_symbol }}
+  {{ currency_symbol }} 
   {%- assign cost_val = price.cost -%}
   {%- assign cost_floor = cost_val | floor -%}
   {%- if cost_val == cost_floor -%}

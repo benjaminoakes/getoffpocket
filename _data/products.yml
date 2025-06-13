@@ -1023,13 +1023,13 @@
       cost: 10.0
       unit: USD
       period: year
-      description: Managed Hosting
+      description: Managed Hosting (discounted from 12.00 USD / year)
     maximum:
       vendor: Self-Hosted
-      cost: 240.0
+      cost: 60.0 # Placeholder, adjust if Readeck is resource intensive
       unit: USD
       period: year
-      description: estimated
+      description: Estimated server costs for self-hosting via Docker
   hosting_options:
   - name: CloudBreak
     link: https://cloudbreak.app/readeck/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
@@ -1044,19 +1044,34 @@
     - text: Visit CloudBreak
       link: https://cloudbreak.app/readeck/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
       class: is-info
+  - name: Readeck.org (Official Hosting Coming Soon)
+    link: https://readeck.org/en/
+    class: managed
+    price:
+      cost: null
+      unit: USD
+      period: month
+      description: Price not announced (Coming soon)
+    buttons:
+    - text: Visit Readeck.org
+      link: https://readeck.org/
+      class: is-info is-light
   - name: Self-Hosted
     class: self-hosted
-    description: Docker
+    description: Docker setup, instructions on Codeberg
     price:
       cost: 60.0
       unit: USD
       period: year
-      description: estimate
+      description: Estimated server costs
     buttons:
+    - text: View on Codeberg
+      link: https://codeberg.org/readeck/readeck
+      class: is-info
     - text: Learn More
       link: https://www.readeck.com/
       class: is-info
-  data_verification: none
+  data_verification: preliminary
 - key: reeder
   name: Reeder
   license: proprietary
