@@ -50,6 +50,7 @@ featured:
   </div>
 </section>
 
+<!--
 <section class="section">
   <div class="container">
 <div class="columns is-centered">
@@ -77,7 +78,7 @@ featured:
 </div>
 </div>
 </section>
-
+-->
 
 {% assign featured_alts = site.data.products | where_exp: "item", "page.featured contains item.key" %}
 
