@@ -19,7 +19,7 @@ featured:
   - paperspan
   - pocket
   - raindrop-io
-  - readability
+  # - readability
   - readeck
   - readwise-reader
   - reeder

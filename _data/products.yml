@@ -399,7 +399,7 @@
       link: https://www.instapaper.com/
       class: is-info
   data_verification: none
-  free_tier_limitations: 5 notes per month
+  free_tier_limitations: Ads, 5 notes per month, limited archive, no search, no Kindle
 - key: linkding
   name: Linkding
   license: open_source
@@ -483,7 +483,7 @@
       link: https://github.com/sissbruecker/linkding
       class: is-info
   data_verification: preliminary
-  free_tier_limitations: Open-source and self-hosted, so no limitations.
+  free_tier_limitations: Self-hosted
 - key: linkwarden
   name: LinkWarden
   license: open_source
@@ -551,6 +551,7 @@
     - text: Learn More
       link: https://github.com/linkwarden/linkwarden
       class: is-info
+  free_tier_limitations: Trial
   data_verification: preliminary
 - key: markmark
   name: MarkMark
@@ -718,8 +719,7 @@
       link: https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app
       class: is-info
   data_verification: none
-  free_tier_limitations: Free to use with a Microsoft account. Storage is limited
-    by OneDrive storage (5GB free).
+  free_tier_limitations:  Storage is limited by OneDrive storage (5GB free).
 - key: omnivore
   name: Omnivore
   license: open_source
@@ -960,8 +960,7 @@
       link: https://raindrop.io/
       class: is-info
   data_verification: none
-  free_tier_limitations: Free plan with unlimited bookmarks and collections. Some
-    features are limited to the Pro version.
+  free_tier_limitations: Unlimited bookmarks/collections. Limited features compare to Pro.
 - key: readability
   name: Readability
   license: proprietary
@@ -1095,7 +1094,7 @@
       link: https://www.readeck.com/
       class: is-info
   data_verification: preliminary
-  free_tier_limitations: Open-source and self-hosted, so no limitations.
+  free_tier_limitations: Self-hosted
 - key: readwise-reader
   name: Readwise Reader
   license: proprietary
@@ -1158,7 +1157,7 @@
       link: https://readwise.io/read
       class: is-info
   data_verification: none
-  free_tier_limitations: 30-day free trial, then paid.
+  free_tier_limitations: 30-day free trial
 - key: reeder
   name: Reeder
   license: proprietary
@@ -1323,7 +1322,7 @@
       link: https://github.com/go-shiori/shiori
       class: is-info
   data_verification: none
-  free_tier_limitations: Open-source and self-hosted, so no limitations.
+  free_tier_limitations: Self-hosted
 - key: wallabag
   name: Wallabag
   license: open_source
@@ -1436,4 +1435,4 @@
       link: https://github.com/wallabag/wallabag
       class: is-info
   data_verification: preliminary
-  free_tier_limitations: Unlimited on self-hosted instances. 500 articles on wallabag.it
+  free_tier_limitations: 14-day trial.  Self-hosted.
