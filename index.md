@@ -50,75 +50,7 @@ featured:
   </div>
 </section>
 
-<!-- Quick Comparison Table -->
-<section class="section">
-  <div class="container">
-    <h2 class="title is-3 has-text-centered mb-5">Alternatives at a Glance</h2>
-    
-    <div class="table-container">
-      <table class="table is-fullwidth is-hoverable">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>iOS App</th>
-            <th>Mac App</th>
-            <th>iCloud Sync</th>
-            <th>Browser Ext.</th>
-            <th>Pricing</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody>
-          {% assign featured_alts = site.data.products | where_exp: "item", "page.featured contains item.key" %}
-          {% for alt in featured_alts %}
-          <tr {% if alt.featured %}class="has-background-primary-light"{% endif %}>
-            <td>
-              <strong>{{ alt.name }}</strong>
-              {% if alt.featured %}
-              <span class="tag is-primary is-light ml-2">Featured</span>
-              {% endif %}
-            </td>
-            <td>
-              {% if alt.features contains 'iOS app' %}
-              <span class="icon has-text-success"><i class="fas fa-check"></i></span>
-              {% else %}
-              <span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>
-              {% endif %}
-            </td>
-            <td>
-              {% if alt.features contains 'Mac app' %}
-              <span class="icon has-text-success"><i class="fas fa-check"></i></span>
-              {% else %}
-              <span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>
-              {% endif %}
-            </td>
-            <td>
-              {% if alt.features contains 'iCloud' %}
-              <span class="icon has-text-success"><i class="fas fa-check"></i></span>
-              {% else %}
-              <span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>
-              {% endif %}
-            </td>
-            <td>
-              {% if alt.features contains 'Safari' %}
-              <span class="icon has-text-success"><i class="fas fa-check"></i></span>
-              {% else %}
-              <span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>
-              {% endif %}
-            </td>
-            <td>
-              {% include format_price.html price=alt.pricing.minimum %}
-            </td>
-            <td>
-              <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key }}/" class="button is-small is-primary">View Details</a>
-            </td>
-          </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-    </div>
-  </div>
-</section>
+{% assign featured_alts = site.data.products | where_exp: "item", "page.featured contains item.key" %}
 
 <!-- Detailed Alternatives -->
 <section class="section has-background-light">
@@ -197,6 +129,76 @@ featured:
     </div>
   </div>
 </section>
+
+<!-- Quick Comparison Table -->
+<section class="section">
+  <div class="container">
+    <h2 class="title is-3 has-text-centered mb-5">Alternatives at a Glance</h2>
+    
+    <div class="table-container">
+      <table class="table is-fullwidth is-hoverable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>iOS App</th>
+            <th>Mac App</th>
+            <th>iCloud Sync</th>
+            <th>Browser Ext.</th>
+            <th>Pricing</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for alt in featured_alts %}
+          <tr {% if alt.featured %}class="has-background-primary-light"{% endif %}>
+            <td>
+              <strong>{{ alt.name }}</strong>
+              {% if alt.featured %}
+              <span class="tag is-primary is-light ml-2">Featured</span>
+              {% endif %}
+            </td>
+            <td>
+              {% if alt.features contains 'iOS app' %}
+              <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+              {% else %}
+              <span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>
+              {% endif %}
+            </td>
+            <td>
+              {% if alt.features contains 'Mac app' %}
+              <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+              {% else %}
+              <span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>
+              {% endif %}
+            </td>
+            <td>
+              {% if alt.features contains 'iCloud' %}
+              <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+              {% else %}
+              <span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>
+              {% endif %}
+            </td>
+            <td>
+              {% if alt.features contains 'Safari' %}
+              <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+              {% else %}
+              <span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>
+              {% endif %}
+            </td>
+            <td>
+              {% include format_price.html price=alt.pricing.minimum %}
+            </td>
+            <td>
+              <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key }}/" class="button is-small is-primary">View Details</a>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
 
 <!-- CloudBreak CTA -->
 <section class="section">
