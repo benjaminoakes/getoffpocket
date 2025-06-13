@@ -75,41 +75,6 @@ featured:
                 <p class="subtitle is-6">{{ alt.description | truncatewords: 15 }}</p>
               </div>
             </div>
-
-
-            <div class="mt-4">
-              <h4 class="title is-5">Apple Features</h4>
-              <div class="tags">
-                {% if alt.features contains 'iOS app' %}
-                <span class="tag is-success">iOS App</span>
-                {% endif %}
-                {% if alt.features contains 'Mac app' %}
-                <span class="tag is-success">Mac App</span>
-                {% endif %}
-                {% if alt.features contains 'iCloud' %}
-                <span class="tag is-success">iCloud Sync</span>
-                {% endif %}
-                {% if alt.features contains 'Safari' %}
-                <span class="tag is-success">Safari Extension</span>
-                {% endif %}
-              </div>
-            </div>
-            
-            <div class="mt-4">
-              <h4 class="title is-5">Hosting Options</h4>
-              <div class="content">
-                <ul>
-                  {% for option in alt.hosting_options %}
-                  <li>
-                    <strong>{{ option.name }}:</strong> {% include format_price.html price=option.price %}
-                    {% if option.name == 'CloudBreak' %}
-                    <span class="tag is-primary is-light ml-2">Recommended</span>
-                    {% endif %}
-                  </li>
-                  {% endfor %}
-                </ul>
-              </div>
-            </div>
           </div>
           
           <footer class="card-footer">
