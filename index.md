@@ -25,7 +25,7 @@ featured:
   - reeder
   - safari
   - shiori
-  - wallabag.jpg
+  - wallabag
 
 ---
 
