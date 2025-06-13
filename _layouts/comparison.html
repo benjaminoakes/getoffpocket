@@ -129,63 +129,7 @@
     </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
-        <div class="container">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="/">
-                    <span class="icon-text">
-                        <span class="icon">
-                            <i class="fas fa-bookmark"></i>
-                        </span>
-                        <span>Get Off Pocket</span>
-                    </span>
-                </a>
-
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
-            </div>
-
-            <div id="navbarBasic" class="navbar-menu">
-                <div class="navbar-start">
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">Find Your Alternative</a>
-                        <div class="navbar-dropdown">
-                            <a class="navbar-item" href="/apple/">
-                                <span class="icon"><i class="fab fa-apple"></i></span>
-                                <span>Apple Users</span>
-                            </a>
-                            <a class="navbar-item" href="/mobile/">
-                                <span class="icon"><i class="fas fa-mobile-alt"></i></span>
-                                <span>Mobile Experience</span>
-                            </a>
-                            <a class="navbar-item" href="/privacy/">
-                                <span class="icon"><i class="fas fa-lock"></i></span>
-                                <span>Privacy Focused</span>
-                            </a>
-                            <a class="navbar-item" href="/desktop/">
-                                <span class="icon"><i class="fas fa-desktop"></i></span>
-                                <span>Desktop Power Users</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="navbar-end">
-                    <div class="navbar-item">
-                        <div class="buttons">
-                            <a href="https://donate.stripe.com/00wbJ12pPa3M0Rtcso0Ba0a" class="button is-danger">
-                                <span class="icon"><i class="fas fa-heart"></i></span>
-                                <span>Donate</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
+    {% include navbar.html %}
 
     {{ content }}
 

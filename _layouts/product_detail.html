@@ -77,6 +77,8 @@
     </style>
 </head>
 <body>
+    {% include navbar.html %}
+
     <section class="section">
         <div class="container">
               <div class="tool-header">
@@ -200,14 +202,21 @@
                     {% endif %}
                 </div>
             </div>
-
-            <div class="has-text-centered mt-6">
-                <a href="{{ site.url }}{% if page.collection == 'open_source' %}/{% else %}/proprietary/{% endif %}" class="button is-link">
-                    <span class="icon"><i class="fas fa-arrow-left"></i></span>
-                    <span>Back to All {% if page.collection == 'open_source' %}Open Source{% else %}Proprietary{% endif %} Alternatives</span>
-                </a>
-            </div>
         </div>
     </section>
+    <section>
+        <div class="container">
+          <div class="has-text-centered mt-6 ">
+              <a href="/" class="button is-primary is-medium">
+                  <span class="icon">
+                      <i class="fas fa-arrow-left"></i>
+                  </span>
+                  <span>Back to Home</span>
+              </a>
+          </div>
+        </div>
+    </section>
+    
+
 </body>
 </html>
