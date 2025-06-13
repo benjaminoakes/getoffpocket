@@ -123,11 +123,7 @@ featured:
           <div class="card-content">
               <div class="media">
               <div class="media-left">
-                {% if alt.icon contains '/' %}
-                  <img src="{{ alt.key | prepend: '/icons/' | append: '.png' }}" alt="{{ alt.name }} icon" class="app-icon">
-                {% else %}
-                  <span class="icon is-large has-text-primary"><i class="fas fa-3x">{{ alt.icon }}</i></span>
-                {% endif %}
+                <img src="{{ alt.icon | prepend: site.baseurl }}" alt="{{ alt.name }} icon" class="app-icon">
               </div>
               <div class="media-content">
                 <p class="title is-3">{{ alt.name }}</p>
