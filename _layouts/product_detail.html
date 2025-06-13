@@ -197,6 +197,7 @@
                     <!-- Self-Hosted Estimates -->
                     {% assign selfhost = item.hosting_options | where: "class", "self-hosted" %}
                     {% if selfhost.size > 0 %}
+                      <hr>
                       <h2 class="title is-3">
                         <span class="icon-text">
                           <span class="icon margin-right-6">
