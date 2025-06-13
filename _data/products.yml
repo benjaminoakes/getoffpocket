@@ -719,11 +719,11 @@
   - ai_features
   pricing:
     minimum:
-      vendor: Omnivore
-      cost: 0.0
+      vendor: Self-Hosted
+      cost: 60.0
       unit: USD
-      period: month
-      description: (defunct)
+      period: year
+      description: Estimated server costs for self-hosting
     least_expensive_paid:
       vendor: Self-Hosted
       cost: 60.0
@@ -737,17 +737,20 @@
       period: year
       description: Estimated server costs for self-hosting
   hosting_options:
-  - name: Omnivore
-    link: https://omnivore.app/
-    class: managed
-    price:
-      cost: 0.0
-      unit: USD
-      period: month
-    buttons:
-    - text: Visit Omnivore (defunct)
-      link: https://omnivore.app/
-      class: is-info
+  # CloudBreak option temporarily disabled
+  # - name: CloudBreak
+  #   link: https://cloudbreak.app/omnivore/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+  #   class: managed
+  #   price:
+  #     cost: 12.0
+  #     unit: USD
+  #     period: year
+  #     description: Managed Hosting
+  #   coupon_code: GETOFFPOCKET
+  #   buttons:
+  #   - text: Visit CloudBreak
+  #     link: https://cloudbreak.app/omnivore/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+  #     class: is-info
   - name: Self-Hosted
     class: self-hosted
     description: Complex setup, requires multiple services
