@@ -44,6 +44,21 @@
 - id: docker_support
   label: Docker Support
   icon: fab fa-docker
+- id: file_storage
+  label: File Storage
+  icon: fa-folder
+- id: notes
+  label: Notes
+  icon: fa-sticky-note
+- id: rss_integration
+  label: RSS Integration
+  icon: fa-rss
+- id: task_lists
+  label: Task Lists
+  icon: fa-tasks
+- id: visual_organization
+  label: Visual Organization
+  icon: fa-grip-horizontal
 - id: export
   label: Export
   icon: fa-file-export

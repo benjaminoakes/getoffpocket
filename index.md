@@ -4,7 +4,7 @@ title: "Best Pocket Alternatives"
 description: "Find the perfect Pocket alternative that works for Apple devices. Compare features, pricing, and hosting options."
 featured:
   # - bitread
-  - bublup
+  # - bublup
   - diigo
   # - emailthis
   - evernote

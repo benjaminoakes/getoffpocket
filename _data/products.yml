@@ -106,7 +106,7 @@
     - text: Visit Bublup
       link: https://www.bublup.com/
       class: is-info
-  data_verification: none
+  data_verification: preliminary
 - key: diigo
   name: Diigo
   license: proprietary
