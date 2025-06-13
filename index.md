@@ -87,7 +87,7 @@ featured:
   <div class="container">
     <h2 class="title is-3 has-text-centered mb-5">Detailed Comparison</h2>
     
-    <div class="columns is-multiline">
+    <div class="columns is-multiline is-vcentered">
       {% for alt in featured_alts %}
       <div class="column is-6">
         <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key }}/" style="display: block; height: 100%; color: inherit; text-decoration: none;"><div class="card {% if alt.featured %}featured{% endif %} h-100">

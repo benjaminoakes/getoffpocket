@@ -131,7 +131,12 @@
 <body>
     {% include navbar.html %}
 
+    <!-- Ensuring vertical alignment for all columns -->
+<div class="columns is-vcentered">
+  <div class="column">
     {{ content }}
+  </div>
+</div>
 
     <!-- Footer -->
     <footer class="footer">
