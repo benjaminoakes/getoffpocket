@@ -111,7 +111,7 @@ featured:
     <div class="columns is-multiline">
       {% for alt in featured_alts %}
       <div class="column is-6">
-        <div class="card {% if alt.featured %}featured{% endif %} h-100">
+        <a href="/open-source/{{ alt.key }}/" style="display: block; height: 100%; color: inherit; text-decoration: none;"><div class="card {% if alt.featured %}featured{% endif %} h-100">
           {% if alt.featured %}
           <div class="featured-badge">Top Pick</div>
           {% endif %}
@@ -206,7 +206,7 @@ featured:
             <a href="/open-source/{{ alt.key }}/" class="card-footer-item">View Details</a>
             {% endif %}
           </footer>
-        </div>
+        </div></a>
       </div>
       {% endfor %}
     </div>
