@@ -6,7 +6,14 @@
   {%- if price.unit == 'EUR' -%}
     {%- assign currency_symbol = '€' -%}
   {%- endif -%}
-  {{ currency_symbol }}{{ price.cost }}
+  {{ currency_symbol }}
+  {%- assign cost_val = price.cost -%}
+  {%- assign cost_floor = cost_val | floor -%}
+  {%- if cost_val == cost_floor -%}
+    {{ cost_floor }}
+  {%- else -%}
+    {{ cost_val }}
+  {%- endif -%}
   {%- if price.period and price.period != 'one-time' -%}
     / {{ price.period }}
   {%- endif -%}
