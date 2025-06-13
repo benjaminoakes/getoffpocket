@@ -536,9 +536,9 @@
       description: estimate
     buttons:
     - text: Learn More
-      link: https://linkwarden.app/
+      link: https://github.com/linkwarden/linkwarden
       class: is-info
-  data_verification: none
+  data_verification: preliminary
 - key: markmark
   name: MarkMark
   license: proprietary
