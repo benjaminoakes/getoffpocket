@@ -50,6 +50,35 @@ featured:
   </div>
 </section>
 
+<section class="section">
+  <div class="container">
+<div class="columns is-centered">
+    <div class="column is-half">
+        <div class="card" style="border: 2px solid hsl(48, 100%, 67%); margin-bottom: 1.5rem;">
+            <div class="card-header" style="background-color: hsl(48, 100%, 67%);">
+                <p class="card-header-title has-text-dark" style="font-weight: bold;">
+                    Gold Sponsor
+                </p>
+            </div>
+            <div class="card-content">
+                <p class="title is-4"><a href="https://pleiades.app/products/folio">Pleiades Folio</a></p>
+                <p class="subtitle is-6">Less than $1/month</p>
+                <div class="content">
+                    <p>Open-source read-it-later and annotation tool.</p>
+                    <p>Pleiades Folio is a new, open-source project for saving articles, highlighting text, and adding notes. It's currently under development and looking for contributors.</p>
+                    <p>
+                        <a href="https://pleiades.app/products/folio" class="button is-warning">Learn More</a>
+                        <a href="https://pleiades.app/products/folio#subscribe" class="button is-primary">Subscribe</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+
 {% assign featured_alts = site.data.products | where_exp: "item", "page.featured contains item.key" %}
 
 <!-- Detailed Alternatives -->
