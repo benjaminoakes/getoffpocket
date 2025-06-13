@@ -3,16 +3,29 @@ layout: comparison
 title: "Best Pocket Alternatives"
 description: "Find the perfect Pocket alternative that works for Apple devices. Compare features, pricing, and hosting options."
 featured:
-  - wallabag
-  - readeck
-  - linkding
-  - shiori
-  - omnivore
-  - instapaper
-  - readwise-reader
-  - matter
-  - raindrop-io
+  - bitread
+  - bublup
+  - diigo
+  - emailthis
+  - evernote
   - goodlinks
+  - instapaper
+  - linkding
+  - linkwarden
+  - markmark
+  - matter
+  - microsoft-onenote
+  - omnivore
+  - paperspan
+  - pocket
+  - raindrop-io
+  - readability
+  - readeck
+  - readwise-reader
+  - reeder
+  - safari
+  - shiori
+  - wallabag.jpg
 
 ---
 
