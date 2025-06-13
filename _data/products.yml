@@ -1,3 +1,4 @@
+# This file is automatically managed. Manual edits might be overwritten.
 ---
 - key: bitread
   name: BitRead
@@ -45,11 +46,12 @@
       cost: 0.0
       unit: USD
       period: month
-      description: beta 
+      description: beta
     buttons:
     - text: Visit BitRead
       link: https://bitread.app/
       class: is-info
+  data_verification: none
 - key: bublup
   name: Bublup
   license: proprietary
@@ -104,6 +106,7 @@
     - text: Visit Bublup
       link: https://www.bublup.com/
       class: is-info
+  data_verification: none
 - key: diigo
   name: Diigo
   license: proprietary
@@ -158,6 +161,7 @@
     - text: Visit Diigo
       link: https://www.diigo.com/
       class: is-info
+  data_verification: none
 - key: emailthis
   name: EmailThis
   license: proprietary
@@ -207,6 +211,7 @@
     - text: Visit EmailThis
       link: https://www.emailthis.me/
       class: is-info
+  data_verification: none
 - key: evernote
   name: Evernote
   license: proprietary
@@ -266,6 +271,7 @@
     - text: Visit Evernote
       link: https://evernote.com/
       class: is-info
+  data_verification: none
 - key: goodlinks
   name: GoodLinks
   license: proprietary
@@ -323,6 +329,7 @@
     - text: Visit GoodLinks
       link: https://goodlinks.app/
       class: is-info
+  data_verification: none
 - key: instapaper
   name: Instapaper
   license: proprietary
@@ -380,6 +387,7 @@
     - text: Visit Instapaper
       link: https://www.instapaper.com/
       class: is-info
+  data_verification: none
 - key: linkding
   name: Linkding
   license: open_source
@@ -462,10 +470,10 @@
     - text: Learn More
       link: https://github.com/sissbruecker/linkding
       class: is-info
+  data_verification: preliminary
 - key: linkwarden
   name: LinkWarden
   license: open_source
-  # PNG https://avatars.githubusercontent.com/u/135248736?s=200&v=4
   source_icon_url: https://getumbrel.github.io/umbrel-apps-gallery/linkwarden/icon.svg
   icon: icons/linkwarden.svg
   tags:
@@ -530,6 +538,7 @@
     - text: Learn More
       link: https://linkwarden.app/
       class: is-info
+  data_verification: none
 - key: markmark
   name: MarkMark
   license: proprietary
@@ -578,6 +587,7 @@
     - text: Visit MarkMark
       link: https://markmark.app/
       class: is-info
+  data_verification: none
 - key: matter
   name: Matter
   license: proprietary
@@ -634,6 +644,7 @@
     - text: Visit Matter
       link: https://hq.getmatter.com/
       class: is-info
+  data_verification: none
 - key: microsoft-onenote
   name: Microsoft OneNote
   license: proprietary
@@ -691,6 +702,7 @@
     - text: Visit OneNote
       link: https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app
       class: is-info
+  data_verification: none
 - key: omnivore
   name: Omnivore
   license: open_source
@@ -737,20 +749,6 @@
       period: year
       description: Estimated server costs for self-hosting
   hosting_options:
-  # CloudBreak option temporarily disabled
-  # - name: CloudBreak
-  #   link: https://cloudbreak.app/omnivore/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
-  #   class: managed
-  #   price:
-  #     cost: 12.0
-  #     unit: USD
-  #     period: year
-  #     description: Managed Hosting
-  #   coupon_code: GETOFFPOCKET
-  #   buttons:
-  #   - text: Visit CloudBreak
-  #     link: https://cloudbreak.app/omnivore/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
-  #     class: is-info
   - name: Self-Hosted
     class: self-hosted
     description: Complex setup, requires multiple services
@@ -763,6 +761,7 @@
     - text: Learn More
       link: https://docs.omnivore.app/using/hosting.html
       class: is-info
+  data_verification: preliminary
 - key: paperspan
   name: PaperSpan
   license: proprietary
@@ -816,6 +815,7 @@
     - text: Visit PaperSpan
       link: https://www.paperspan.com/
       class: is-info
+  data_verification: none
 - key: pocket
   name: Pocket
   license: proprietary
@@ -859,13 +859,13 @@
       cost: 4.99
       unit: USD
       period: month
-      description: (Service Discontinued July 2025 - historical pricing)
+      description: "(Service Discontinued July 2025 - historical pricing)"
     maximum:
       vendor: Mozilla
       cost: 44.99
       unit: USD
       period: year
-      description: (Service Discontinued July 2025 - historical pricing)
+      description: "(Service Discontinued July 2025 - historical pricing)"
   hosting_options:
   - name: Pocket
     link: https://getpocket.com/
@@ -874,11 +874,12 @@
       cost: 4.99
       unit: USD
       period: month
-      description: (Service Discontinued July 2025 - historical pricing)
+      description: "(Service Discontinued July 2025 - historical pricing)"
     buttons:
     - text: Visit Pocket
       link: https://getpocket.com/
       class: is-info
+  data_verification: none
 - key: raindrop-io
   name: Raindrop.io
   license: proprietary
@@ -938,6 +939,7 @@
     - text: Visit Raindrop.io
       link: https://raindrop.io/
       class: is-info
+  data_verification: none
 - key: readability
   name: Readability
   license: proprietary
@@ -985,6 +987,7 @@
     - text: Visit Readability
       link: https://www.readabilitytutor.com/
       class: is-info
+  data_verification: none
 - key: readeck
   name: Readeck
   license: open_source
@@ -1053,6 +1056,7 @@
     - text: Learn More
       link: https://www.readeck.com/
       class: is-info
+  data_verification: none
 - key: reeder
   name: Reeder
   license: proprietary
@@ -1107,6 +1111,7 @@
     - text: Visit Reeder
       link: https://reederapp.com/
       class: is-info
+  data_verification: none
 - key: readwise-reader
   name: Readwise Reader
   license: proprietary
@@ -1168,6 +1173,7 @@
     - text: Visit Readwise Reader
       link: https://readwise.io/read
       class: is-info
+  data_verification: none
 - key: safari-reading-list
   name: Safari Reading List
   license: proprietary
@@ -1217,6 +1223,7 @@
     - text: Learn More
       link: https://support.apple.com/guide/safari/keep-a-reading-list-sfri35552/mac
       class: is-info
+  data_verification: none
 - key: shiori
   name: Shiori
   license: open_source
@@ -1273,6 +1280,7 @@
     - text: Learn More
       link: https://github.com/go-shiori/shiori
       class: is-info
+  data_verification: none
 - key: wallabag
   name: Wallabag
   license: open_source
@@ -1381,6 +1389,7 @@
       period: year
       description: estimate
     buttons:
-    - text: Learn More
-      link: https://wallabag.org/en
-      lass: is-info
+    - text: View on GitHub
+      link: https://github.com/wallabag/wallabag
+      class: is-info
+  data_verification: preliminary
