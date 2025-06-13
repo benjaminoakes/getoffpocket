@@ -134,7 +134,6 @@ featured:
         <thead>
           <tr>
             <th>Name</th>
-            <th>Browser Ext.</th>
             <th>Least Expensive Paid Plan</th>
             <th>Free Tier Limitations</th>
             <th></th>
@@ -147,13 +146,6 @@ featured:
               <strong>{{ alt.name }}</strong>
               {% if alt.featured %}
               <span class="tag is-primary is-light ml-2">Featured</span>
-              {% endif %}
-            </td>
-            <td>
-              {% if alt.features contains 'chrome_extension' or alt.features contains 'firefox_extension' or alt.features contains 'safari_extension' or alt.features contains 'browser_extensions' or alt.features contains 'bookmarklet' %}
-              <span class="icon has-text-success"><i class="fas fa-check"></i></span>
-              {% else %}
-              <span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>
               {% endif %}
             </td>
             <td>
