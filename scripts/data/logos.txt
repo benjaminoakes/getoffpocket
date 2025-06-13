@@ -1,0 +1,101 @@
+--- Starting Logo Search ---
+🔍 Searching for 'Instapaper' logo at https://www.instapaper.com...
+  └─ ✅ Found: https://d2kfnvwohu0503.cloudfront.net/img/apple-icon-57x57.png?v=a75d85bb1d6bb65c3b5f0f0ca760f365
+--------------------
+🔍 Searching for 'Pocket' logo at https://getpocket.com...
+  └─ ✅ Found: https://getpocket.com/i/apple-touch-icon/Pocket_AppIcon_@57.png
+--------------------
+🔍 Searching for 'Raindrop.io' logo at https://raindrop.io...
+  └─ ✅ Found: https://raindrop.io/_next/static/images/icon_128-85815217bb96f05ae96e383c4160cb5d.png
+--------------------
+🔍 Searching for 'Safari Reading List' logo at https://www.apple.com...
+  ├─ [Info] Found an inline SVG logo, but prefer linked images.
+  └─ ✅ Found: https://www.apple.com/ac/structured-data/images/open_graph_logo.png?202110180743
+--------------------
+🔍 Searching for 'EmailThis' logo at https://www.emailthis.me...
+--------------------
+🔍 Searching for 'Matter' logo at https://hq.getmatter.app...
+  └─ ✅ Found: https://hq.getmatter.app/matter-icon-180.png
+--------------------
+🔍 Searching for 'Microsoft OneNote' logo at https://www.onenote.com...
+  └─ ❌ Not Found
+--------------------
+🔍 Searching for 'Omnivore' logo at https://omnivore.app...
+  └─ [Error] Failed to fetch https://omnivore.app: Failed to open TCP connection to omnivore.app:443 (getaddrinfo: Name or service not known)
+--------------------
+🔍 Searching for 'Readwise Reader' logo at https://readwise.io/reader...
+  └─ ✅ Found: https://readwise-assets.s3.amazonaws.com/static/images/reader/OG-Reader.9fe9ca92418f.jpg
+--------------------
+🔍 Searching for 'Reeder' logo at https://reederapp.com...
+  └─ ✅ Found: https://reederapp.net/touch.png
+--------------------
+🔍 Searching for 'Goodlinks' logo at https://goodlinks.app...
+  └─ ✅ Found: https://goodlinks.app/apple-touch-icon.png
+--------------------
+🔍 Searching for 'Wallabag' logo at https://wallabag.org...
+  └─ ✅ Found: https://wallabag.org/img/wallabag_preview.png
+--------------------
+🔍 Searching for 'Linkding' logo at https://github.com/sissbruecker/linkding...
+  ├─ [Info] Found an inline SVG logo, but prefer linked images.
+  └─ ✅ Found: https://repository-images.githubusercontent.com/194212327/48b409e8-05ff-43e9-999c-013c39eb2491
+--------------------
+🔍 Searching for 'Readeck' logo at https://www.readeck.com...
+  └─ ✅ Found: https://www.readeck.com/assets/img/fi/apple-touch-icon.e39c20b2.png
+--------------------
+🔍 Searching for 'LinkWarden' logo at https://linkwarden.app...
+  └─ ✅ Found: https://linkwarden.app/apple-touch-icon.png
+--------------------
+🔍 Searching for 'Diigo' logo at https://www.diigo.com...
+  └─ [Error] Failed to fetch https://www.diigo.com: Net::ReadTimeout with #<TCPSocket:(closed)>
+--------------------
+🔍 Searching for 'Linkora' logo at https://linkora.xyz...
+  └─ [Error] Failed to fetch https://linkora.xyz: SSL_connect returned=1 errno=0 peeraddr=84.32.84.32:443 state=error: tlsv1 alert internal error (SSL alert number 80)
+--------------------
+🔍 Searching for 'Evernote' logo at https://evernote.com...
+  ├─ [Info] Found an inline SVG logo, but prefer linked images.
+  └─ ✅ Found: https://images.prismic.io/evernote/509c3ac6-646c-4873-910b-38864d186ee9_og-image.png
+--------------------
+🔍 Searching for 'PaperSpan' logo at https://www.paperspan.com...
+  └─ ✅ Found: https://www.paperspan.com/PaperSpan-Logo-240x240.jpg
+--------------------
+🔍 Searching for 'Readability' logo at https://www.engadget.com/2016-09-15-readability-is-shutting-down.html...
+--------------------
+🔍 Searching for 'Amazon Kindle' logo at https://www.amazon.com/kindle...
+--------------------
+🔍 Searching for 'BitRead' logo at https://bitread.net...
+  └─ ✅ Found: https://bitread.net/wp-content/uploads/2024/05/bitread.png
+--------------------
+🔍 Searching for 'Bublup' logo at https://www.bublup.com...
+  └─ ✅ Found: https://www.bublup.com/wp-content/uploads/2021/09/cropped-bublup_new_icon_transp-180x180.png
+--------------------
+🔍 Searching for 'MarkMark' logo at https://markmark.app...
+  └─ ✅ Found: https://storage.googleapis.com/markmark-media/markmark/favicon.ico
+--------------------
+
+
+--- Final Results ---
+Instapaper                https://d2kfnvwohu0503.cloudfront.net/img/apple-icon-57x57.png?v=a75d85bb1d6bb65c3b5f0f0ca760f365
+Pocket                    https://getpocket.com/i/apple-touch-icon/Pocket_AppIcon_@57.png
+Raindrop.io               https://raindrop.io/_next/static/images/icon_128-85815217bb96f05ae96e383c4160cb5d.png
+Safari Reading List       https://www.apple.com/ac/structured-data/images/open_graph_logo.png?202110180743
+EmailThis                 [Error] Could not fetch page.
+Matter                    https://hq.getmatter.app/matter-icon-180.png
+Microsoft OneNote         Not Found
+Omnivore                  [Error] Could not fetch page.
+Readwise Reader           https://readwise-assets.s3.amazonaws.com/static/images/reader/OG-Reader.9fe9ca92418f.jpg
+Reeder                    https://reederapp.net/touch.png
+Goodlinks                 https://goodlinks.app/apple-touch-icon.png
+Wallabag                  https://wallabag.org/img/wallabag_preview.png
+Linkding                  https://repository-images.githubusercontent.com/194212327/48b409e8-05ff-43e9-999c-013c39eb2491
+Readeck                   https://www.readeck.com/assets/img/fi/apple-touch-icon.e39c20b2.png
+LinkWarden                https://linkwarden.app/apple-touch-icon.png
+Diigo                     [Error] Could not fetch page.
+Linkora                   [Error] Could not fetch page.
+Evernote                  https://images.prismic.io/evernote/509c3ac6-646c-4873-910b-38864d186ee9_og-image.png
+PaperSpan                 https://www.paperspan.com/PaperSpan-Logo-240x240.jpg
+Readability               [Error] Could not fetch page.
+Amazon Kindle             [Error] Could not fetch page.
+BitRead                   https://bitread.net/wp-content/uploads/2024/05/bitread.png
+Bublup                    https://www.bublup.com/wp-content/uploads/2021/09/cropped-bublup_new_icon_transp-180x180.png
+MarkMark                  https://storage.googleapis.com/markmark-media/markmark/favicon.ico
+--- End of Report ---

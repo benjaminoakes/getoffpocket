@@ -1,0 +1,131 @@
+- key: wallabag
+  name: Wallabag
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/33/d0/2633d084-5e41-52b1-88a7-75fcfb0c457b/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg
+  icon: icons/wallabag.jpg
+  tags:
+    - text: Most Popular
+      class: is-success
+  description: A mature, feature-rich read-it-later application. Wallabag has been actively developed since 2013 and offers comprehensive article management, tagging, annotations, and mobile apps. The most established open-source option with the largest community.
+  platforms:
+    - desktop_web
+    - mobile_web
+    - ios
+    - ipados
+    - macos
+    - windows
+    - linux
+    - android
+    - chrome_extension
+    - firefox_extension
+    - edge_extension
+    - bookmarklet
+    - docker
+    # - icloud
+  features:
+    - dark_mode
+    - typography
+    - tagging
+    - highlighting
+    - notes
+    # - ai
+    # - folders
+    - multiuser
+    - import
+    - export
+    - archiving
+    - search
+    # - performance
+    # - newsletters
+    # - pdf_annotation
+    # - progress_tracking
+    # - text_to_speech
+    - social_sharing
+    # - discussions
+    - visual_previews
+    # - collaboration
+    - offline
+  pricing:
+    minimum:
+      vendor: Wallabag.it
+      cost: 0.0
+      unit: EUR
+      period: year
+      description: "2 week trial"
+    least_expensive_paid:
+      vendor: CloudBreak
+      cost: 10.0
+      unit: USD
+      period: year
+      description: "limited-time"
+    maximum:
+      vendor: Wallabag.it
+      cost: 30.0
+      unit: EUR
+      period: year
+  hosting_options:
+    - name: Raspberry Pi 5
+      class: self-hosted
+      description: "One-time hardware cost for a low-power Raspberry Pi 5 home server."
+      price:
+        cost: 100.0 # Approximate cost for a starter kit
+        unit: USD
+        period: "one-time"
+      buttons:
+        - text: Buy on Amazon
+          link: "https://www.amazon.com/s?k=raspberry+pi+5+kit&_encoding=UTF8&tag={{ site.amazon_referral_tag }}"
+          class: is-info
+    - name: wallabag.it
+      link: https://wallabag.it/
+      price:
+        cost: 11.0
+        unit: EUR
+        period: year
+    - name: wallabag.it (Supporter)
+      link: https://wallabag.it/
+      price:
+        cost: 30.0
+        unit: EUR
+        period: year
+    - name: CloudBreak
+      link: https://cloudbreak.app/wallabag/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+      price:
+        cost: 10.0
+        unit: USD
+        period: year
+      coupon_code: GETOFFPOCKET
+      coupon_value:
+        price: 2.0
+        unit: USD
+    - name: PikaPods
+      link: https://www.pikapods.com/pods?run=wallabag
+      price:
+        cost: 1.40
+        unit: USD
+        period: month
+    - name: Hetzner
+      class: self-hosted
+      description: "Affordable and powerful cloud virtual machines, starting at ~€4.51/month."
+      price:
+        cost: 4.51
+        unit: EUR
+        period: month
+      buttons:
+        - text: Visit Hetzner
+          link: https://www.hetzner.com/cloud
+          class: is-info
+    - name: Digital Ocean
+      class: self-hosted
+      description: "Simple, scalable virtual machines, starting at $4.00/month."
+      price:
+        cost: 4.0
+        unit: USD
+        period: month
+      buttons:
+        - text: Visit Digital Ocean
+          link: https://www.digitalocean.com/pricing/droplets
+          class: is-info
+      coupon_url: "{{ site.digital_ocean_referral_url }}"
+      coupon_value:
+        price: 200.0
+        unit: USD
+        terms: "use within 60 days"

@@ -1,0 +1,17 @@
+# Welcome to Jekyll!
+title: Get Off Pocket
+description: >-
+  A guide to alternatives for Pocket, which is shutting down.
+baseurl: ""
+url: "https://getoffpocket.com"
+
+# Collections configuration
+# This tells Jekyll to treat the folders _open_source and _proprietary as
+# collections of pages to be rendered.
+collections:
+  open_source:
+    output: true
+    permalink: /open-source/:name
+  proprietary:
+    output: true
+    permalink: /proprietary/:name

@@ -1,0 +1,54 @@
+- key: pleiades-folio
+  name: Pleiades Folio
+  license: proprietary
+  source_icon_url: https://cdn.icon-icons.com/icons2/2070/PNG/512/bookmark_icon_126122.png
+  icon: icons/pleiades-folio.png
+  tags:
+  - text: Read-It-Later
+    class: is-info
+  - text: Hosted
+    class: is-success
+  description: A managed read-it-later service based on the open-source Wallabag platform. Pleiades Folio saves articles, videos, and webpages for a clean, distraction-free reading experience, available offline and synced across your devices.
+  platforms:
+  - desktop_web
+  - mobile_web
+  - browser_extension
+  features:
+  - browser_extension
+  - distraction_free_view
+  - offline_reading
+  - data_export
+  pricing:
+    minimum:
+      vendor: Pleiades
+      cost: 10.0
+      unit: USD
+      period: year
+      description: Annual plan, on sale from $12/year.
+    least_expensive_paid:
+      vendor: Pleiades
+      cost: 10.0
+      unit: USD
+      period: year
+      description: Annual plan, on sale from $12/year.
+    maximum:
+      vendor: Pleiades
+      cost: 10.0
+      unit: USD
+      period: year
+      description: The "Universe" bundle with Pleiades News is available for $20/year.
+  hosting_options:
+  - name: Pleiades
+    link: /products/folio/
+    class: managed
+    price:
+      cost: 10.0
+      unit: USD
+      period: year
+      description: On sale from $12/year.
+    buttons:
+    - text: Subscribe to Folio
+      link: https://buy.stripe.com/some-other-link
+      class: is-info
+  data_verification: preliminary
+  free_tier_limitations: No free tier is mentioned in the provided documents.

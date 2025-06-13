@@ -1,0 +1,1577 @@
+--- Starting Aggressive Icon Search ---
+🔍 Collecting icons for 'Instapaper'...
+  ├─ Searching Apple App Store for 'Instapaper'...
+  ├─ Searching Google Play Store for 'Instapaper'...
+  ├─ Searching website: https://www.instapaper.com
+  └─ ✅ Collected 67 unique icon(s) for 'Instapaper'.
+--------------------
+🔍 Collecting icons for 'Pocket'...
+  ├─ Searching Apple App Store for 'Pocket'...
+  ├─ Searching Google Play Store for 'Pocket'...
+  ├─ Searching website: https://getpocket.com
+  └─ ✅ Collected 53 unique icon(s) for 'Pocket'.
+--------------------
+🔍 Collecting icons for 'Raindrop.io'...
+  ├─ Searching Apple App Store for 'Raindrop.io'...
+  ├─ Searching Google Play Store for 'Raindrop.io'...
+  ├─ Searching website: https://raindrop.io
+  └─ ✅ Collected 46 unique icon(s) for 'Raindrop.io'.
+--------------------
+🔍 Collecting icons for 'Safari Reading List'...
+  ├─ Searching Apple App Store for 'Safari Reading List'...
+  ├─ Searching Google Play Store for 'Safari Reading List'...
+  ├─ Searching website: https://www.apple.com/safari/
+  └─ ✅ Collected 64 unique icon(s) for 'Safari Reading List'.
+--------------------
+🔍 Collecting icons for 'EmailThis'...
+  ├─ Searching Apple App Store for 'EmailThis'...
+  ├─ Searching Google Play Store for 'EmailThis'...
+  ├─ Searching website: https://www.emailthis.me
+  └─ ✅ Collected 26 unique icon(s) for 'EmailThis'.
+--------------------
+🔍 Collecting icons for 'Matter'...
+  ├─ Searching Apple App Store for 'Matter'...
+  ├─ Searching Google Play Store for 'Matter'...
+  ├─ Searching website: https://hq.getmatter.app
+  └─ ✅ Collected 83 unique icon(s) for 'Matter'.
+--------------------
+🔍 Collecting icons for 'Microsoft OneNote'...
+  ├─ Searching Apple App Store for 'Microsoft OneNote'...
+  ├─ Searching Google Play Store for 'Microsoft OneNote'...
+  ├─ Searching website: https://www.onenote.com
+  └─ ✅ Collected 64 unique icon(s) for 'Microsoft OneNote'.
+--------------------
+🔍 Collecting icons for 'Omnivore'...
+  ├─ Searching Apple App Store for 'Omnivore'...
+  ├─ Searching Google Play Store for 'Omnivore'...
+  ├─ Searching website: https://omnivore.app
+    └─ [Error] Fetch failed for https://omnivore.app: Failed to open TCP connection to omnivore.app:443 (getaddrinfo: Name or service not known)
+  └─ ✅ Collected 74 unique icon(s) for 'Omnivore'.
+--------------------
+🔍 Collecting icons for 'Readwise Reader'...
+  ├─ Searching Apple App Store for 'Readwise Reader'...
+  ├─ Searching Google Play Store for 'Readwise Reader'...
+  ├─ Searching website: https://readwise.io/reader
+  └─ ✅ Collected 66 unique icon(s) for 'Readwise Reader'.
+--------------------
+🔍 Collecting icons for 'Reeder'...
+  ├─ Searching Apple App Store for 'Reeder'...
+  ├─ Searching Google Play Store for 'Reeder'...
+  ├─ Searching website: https://reederapp.com
+  └─ ✅ Collected 83 unique icon(s) for 'Reeder'.
+--------------------
+🔍 Collecting icons for 'Goodlinks'...
+  ├─ Searching Apple App Store for 'Goodlinks'...
+  ├─ Searching Google Play Store for 'Goodlinks'...
+  ├─ Searching website: https://goodlinks.app
+  └─ ✅ Collected 62 unique icon(s) for 'Goodlinks'.
+--------------------
+🔍 Collecting icons for 'Wallabag'...
+  ├─ Searching Apple App Store for 'Wallabag'...
+  ├─ Searching Google Play Store for 'Wallabag'...
+  ├─ Searching website: https://wallabag.org
+  └─ ✅ Collected 53 unique icon(s) for 'Wallabag'.
+--------------------
+🔍 Collecting icons for 'Linkding'...
+  ├─ Searching Apple App Store for 'Linkding'...
+  ├─ Searching Google Play Store for 'Linkding'...
+  ├─ Searching website: https://github.com/sissbruecker/linkding
+  └─ ✅ Collected 66 unique icon(s) for 'Linkding'.
+--------------------
+🔍 Collecting icons for 'Readeck'...
+  ├─ Searching Apple App Store for 'Readeck'...
+  ├─ Searching Google Play Store for 'Readeck'...
+  ├─ Searching website: https://www.readeck.com
+  └─ ✅ Collected 25 unique icon(s) for 'Readeck'.
+--------------------
+🔍 Collecting icons for 'LinkWarden'...
+  ├─ Searching Apple App Store for 'LinkWarden'...
+  ├─ Searching Google Play Store for 'LinkWarden'...
+  ├─ Searching website: https://linkwarden.app
+  └─ ✅ Collected 25 unique icon(s) for 'LinkWarden'.
+--------------------
+🔍 Collecting icons for 'Diigo'...
+  ├─ Searching Apple App Store for 'Diigo'...
+  ├─ Searching Google Play Store for 'Diigo'...
+  ├─ Searching website: https://www.diigo.com
+  └─ ✅ Collected 64 unique icon(s) for 'Diigo'.
+--------------------
+🔍 Collecting icons for 'Linkora'...
+  ├─ Searching Apple App Store for 'Linkora'...
+  ├─ Searching Google Play Store for 'Linkora'...
+  ├─ Searching website: https://linkora.xyz
+    └─ [Error] Fetch failed for https://linkora.xyz: SSL_connect returned=1 errno=0 peeraddr=84.32.84.32:443 state=error: tlsv1 alert internal error (SSL alert number 80)
+  └─ ✅ Collected 17 unique icon(s) for 'Linkora'.
+--------------------
+🔍 Collecting icons for 'Evernote'...
+  ├─ Searching Apple App Store for 'Evernote'...
+  ├─ Searching Google Play Store for 'Evernote'...
+  ├─ Searching website: https://evernote.com
+  └─ ✅ Collected 65 unique icon(s) for 'Evernote'.
+--------------------
+🔍 Collecting icons for 'PaperSpan'...
+  ├─ Searching Apple App Store for 'PaperSpan'...
+  ├─ Searching Google Play Store for 'PaperSpan'...
+  ├─ Searching website: https://www.paperspan.com
+  └─ ✅ Collected 47 unique icon(s) for 'PaperSpan'.
+--------------------
+🔍 Collecting icons for 'Readability'...
+  ├─ Searching Apple App Store for 'Readability'...
+  ├─ Searching Google Play Store for 'Readability'...
+  ├─ Searching website: https://www.engadget.com/2016-09-15-readability-is-shutting-down.html
+  └─ ✅ Collected 74 unique icon(s) for 'Readability'.
+--------------------
+🔍 Collecting icons for 'Amazon Kindle'...
+  ├─ Searching Apple App Store for 'Amazon Kindle'...
+  ├─ Searching Google Play Store for 'Amazon Kindle'...
+  ├─ Searching website: https://www.amazon.com/kindle
+  └─ ✅ Collected 66 unique icon(s) for 'Amazon Kindle'.
+--------------------
+🔍 Collecting icons for 'BitRead'...
+  ├─ Searching Apple App Store for 'BitRead'...
+  ├─ Searching Google Play Store for 'BitRead'...
+  ├─ Searching website: https://bitread.net
+  └─ ✅ Collected 62 unique icon(s) for 'BitRead'.
+--------------------
+🔍 Collecting icons for 'Bublup'...
+  ├─ Searching Apple App Store for 'Bublup'...
+  ├─ Searching Google Play Store for 'Bublup'...
+  ├─ Searching website: https://www.bublup.com
+  └─ ✅ Collected 61 unique icon(s) for 'Bublup'.
+--------------------
+🔍 Collecting icons for 'MarkMark'...
+  ├─ Searching Apple App Store for 'MarkMark'...
+  ├─ Searching Google Play Store for 'MarkMark'...
+  ├─ Searching website: https://markmark.app
+  └─ ✅ Collected 64 unique icon(s) for 'MarkMark'.
+--------------------
+
+
+--- Final Results: All Collected Icons ---
+
+Instapaper:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/cc/8a/e6cc8ac2-4560-e34a-0155-4418efba9905/AppIcon-0-0-1x_U007epad-0-8-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c0/e5/00/c0e50010-75f3-404a-731e-7d0ebacb49dd/appicon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/97/33/78/97337812-8305-1863-0382-882d0ece8a66/AppIcon-1x_U007emarketing-0-4-0-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/03/50/21/0350218c-981f-d591-34ce-449d51283418/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/65/ed/e065ed9e-5679-5e82-da36-aa4e4a34a4a6/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/da/a3/32daa31a-4e1f-0ab5-b6ae-63ea47805489/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/a5/7f/24/a57f24b9-acf5-699b-6be9-b1823be145a3/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/4b/ec/a44beccb-bfe5-8aee-4c47-fa34d8665e94/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/cf/0d/48/cf0d4855-ea0f-f0c0-3180-8e90b1ca134c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/90/ac/3890acf2-e963-0c2e-9b7c-8adf4eb9e822/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/68/e9/b368e942-12e2-47ad-ba63-ff718f819a32/AppIcon-prod-0-0-1x_U007epad-0-1-0-85-220.jpeg/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/62/bf/5862bfd2-07e8-4ec3-84e1-81e93a252b17/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/1c/db/091cdbbe-dbeb-4e99-c710-dfd9a464e1b2/AppIcon-0-0-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/dd/85/d2dd85af-191f-aa60-5cd5-ad9844e72533/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/c9/76/bbc976dc-a318-10db-8bbb-8abeec099d74/Pinboard-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/b6/80/2b/b6802b99-a9a7-959b-48a4-eb459ef76090/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/hQQl92y99ERmyQ7Lldm2rVnIURsjoDq4p24fmOuqlnldgau3rdHWQ5veGBLbmHCIaBdb=w526-h296
+  - https://play-lh.googleusercontent.com/kAe5RMkctaEwXPnK21u6b1o_xCfNHbZ2v75jOVE2gt9ZGVS9iGwvojR-5nPagCu6DOxp=w526-h296
+  - https://play-lh.googleusercontent.com/wIooJbvTRYdUD-kZeO_mQfRtBv35TCfnCaJK_hadfn3_7xsrFasHmlzDxNpwuAneoA=w526-h296
+  - https://play-lh.googleusercontent.com/2elWfD63izeH3TMlQFNTvVwDuR61U5iKlb83rgAILG1CGj0wTsv23Ohf4QBIYLK8urI=w526-h296
+  - https://play-lh.googleusercontent.com/cDXeRmu5_6ueZ5gQPt8xl6kids8WIFT9Hv0EXPdeSreMzjW9k_j73b_fxcSAydzmLK8=w526-h296
+  - https://play-lh.googleusercontent.com/62IvoDe0pjJrbIUCxvWrCa1GKPHDT0yQGWJLNo5Wp2qon7BmuvL7cdqWGp88wlfTIoc=w526-h296
+  - https://play-lh.googleusercontent.com/0BakRJdzkOECWLfJiIE-TlHV5GEJscZZSWigaVDAYiWXyD454KtGEcoNocHoMvpjEac=w526-h296
+  - https://play-lh.googleusercontent.com/5A5TOMs4DilI7i4t2Zks8vLb1muSfJBN4quDbzn0SUAxrfa3Vsf9JhmBtA8SQHoN2-0=w526-h296
+  - https://play-lh.googleusercontent.com/40ZQ0DOaYCe5wUlnzddL18H8SHPxDfj1ExChsmRPHVy_mrddCSTi_YDKK59mV7MTc5O_=w526-h296
+  - https://play-lh.googleusercontent.com/IPmHEMK0yRoYc4GYhbLwQritfsy1j50er8iSIQEiTXGbNDTbPHtnbEOzmnl9Gff2Ok4=w526-h296
+  - https://play-lh.googleusercontent.com/S3ARJx7eNXVZ7UjssmBDc6n55SF5U2n-_01x688hI6T54kBlGHH-t2KrCjPk3L74nEQ=w526-h296
+  - https://play-lh.googleusercontent.com/-ytl0qh0rv1icZpG9FZxuEFRpd1-6kwEuiFAGytBWrJE0Sshj-j3h9QfsRpPYr8aHj_D=w526-h296
+  - https://play-lh.googleusercontent.com/QUc_OAw7kFgekwUj-OR6TgmFTgu8gpJTWrRbX_gKDB1t86k3rLSIyZGqFVGxo998RZ2G=w416-h235
+  - https://play-lh.googleusercontent.com/48wwD4kfFSStoxwuwCIu6RdM2IeZmZKfb1ZeQkga0qEf1JKsiD-hK3Qf8qvxHL09lQ=s64
+  - https://play-lh.googleusercontent.com/rwqVnx3lkmjy7XBaHDTsPSL7LNFd3LU-wLMN-YhUXVFOZWxEWVTe7M4nNTe2qqNWgg=w416-h235
+  - https://play-lh.googleusercontent.com/b3MqZswO8F7j3lcdH01kxzaeHa7vUndy7ma_JwdM_j_Vpj8LKZcKt0HmpORQ7CKF2A=s64
+  - https://play-lh.googleusercontent.com/lR-awfRq5dCDqm9vMnmnGCeN6-mEs9sSx9BnCgNdLkyytliJJ3z1zR2PiJWlP39gO80=w416-h235
+  - https://play-lh.googleusercontent.com/pwzZK-7oQexraeU0mOrQgFIck-QSS89rH0eWjehctp8XskRSpixPNVlA0YYlRXHbA2Iz=s64
+  - https://play-lh.googleusercontent.com/ihTo1hocEiRHjBO7iAW0tkqyHAnXub45cAnXw0Kz5KzEVr9BbUdHdofy5oJzGzts2NE=w416-h235
+  - https://play-lh.googleusercontent.com/CwOLEx-Vxk7UG5l2WxUdLAn85SAVG5_63bAyOtiEw58fatNEDBwCjEeuUWj4yfemLPU=s64
+  - https://i.ytimg.com/vi/jtrwcZ9FlCo/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/5WD1qUA_k5QSGjCGJZMp8xkato24Qg3PDb5h_y6VXfxWhwbkjtWdAZ6j-ZRQiqUK4nTi=s64
+  - https://play-lh.googleusercontent.com/DcXYr3ZtJHtS1NapbSKr-moGgY3-0TYupIeRjWkucAVjF1dzLpDhHWzO1g9ZeQyCUo8=w416-h235
+  - https://play-lh.googleusercontent.com/qw8lAHXaZodAE4c3D1Jkia3V8Np-PxTnyQpUIx439ibABba0L50TVKI4jfY4N4QwzAA=s64
+  - https://play-lh.googleusercontent.com/9tbTieCdvX80PDGVzZ-ZqxnQ5PiUR1R5e0BxJ4ZeOlRdRMKVTImlRExCtW3reH-P2Yc=w416-h235
+  - https://play-lh.googleusercontent.com/ufvs48ZAzaZLOsW5l3Rw3xrSwKtkt0FEGfLWYd8Dmmw2bJJP_faRr0WesNq_rCqGCg=s64
+  - https://play-lh.googleusercontent.com/ZOZS-IuzfZ6RWe7mAJiTgq447wlFmeVgwionMnm8PWaIVKuRHtTBaAyubpDtkTeLmj2a=w416-h235
+  - https://play-lh.googleusercontent.com/hEiBwyA1Pfa9IdyNrFbnfA8qbe83zEH1NqOxpJNOzDdKXZvGDN6IXE8ZqmHkNrK7xPg=s64
+  - https://play-lh.googleusercontent.com/idMTJUsR0YU3qummE_jbyVhWYOMaWpzWTIWjfOXFgK0o5A1PV0icB0YfqQ61KbiuBA=w416-h235
+  - https://play-lh.googleusercontent.com/Z5WroTW4KmTB3mvUhZMLwgFD2VymNypnEVVxoueXPPCKEFrnUAiZVl0684t1RFEOPqzB=s64
+  - https://play-lh.googleusercontent.com/CyCfSIDF_vVtSiyHi1H47HZtfE2e_-4UVGtoT8zX9ym8GIRcTOhBknPIvadrQUMp2Q=w416-h235
+  - https://play-lh.googleusercontent.com/5uMPvygGoe3Y6aLKjdH1bxf567RA2mvY6dIsGocU5LQIyb8YjWkkuQt-m99ITIAwGWsi=s64
+  - https://play-lh.googleusercontent.com/LwvoEiQdED7i8IKFhS73gn0niHqgyUja96uGVRpfgPro8asS2qbgsvaoHPq8skZRRh4=w416-h235
+  - https://play-lh.googleusercontent.com/u1c8Uk5GCkx8VIQvaMhLftbb2s8vf0llcs7nCpsp0uf0hc2C2wonj1gNetdqApRUzeg=s64
+  - https://i.ytimg.com/vi/fKelAPfM9Rg/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/0IoGNBJeaga47hJgxtTzXXlPQmZYGjrzghS1NLoCrtjJTkm_GSRs5e44FmrXxxCUYJs=s64
+  - https://i.ytimg.com/vi/6UkFHYqVsbc/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/htBUaqvBQR9UQ3b1-ouSHFhDGttQkH-eWetEErspYXVa8hOsfmOmj5ZanGg9GF7XAGc=s64
+  - https://play-lh.googleusercontent.com/5r5viZ9i0x7Jc7Rwc14jJ0K37pO3i8jBz0MlT-E_aq6AG6oZT9d8m8cPJWndKHrtjw=w416-h235
+  - https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7=s64
+  - https://i.ytimg.com/vi/OdHIQ0Gudgw/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/Xc13xwycIN3eeTwSl5TUrnL8-Njb2sBlX7loDOWepjBdrmG14En7nXcu1C9REF4Nrg=s64
+  - https://i.ytimg.com/vi/vANAT1t1xv0/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/DNNk9f7y9jaAeRFMyGwZ3UY0KDcP5VKRm4GsKtJez6UN4xkm3hzhwsh3cC6yj7z32dQ=s64
+  - https://play-lh.googleusercontent.com/4ulQGSVY9-rSB3hnwMqFfTYXo0sZ8k4QwBGDoD3SRJVILmeC1thPI4g5wiNPIoR7vLHc=w416-h235
+  - https://play-lh.googleusercontent.com/0JQIJPzKNM8JfFe3a6XYg53j8HOgsrHDkT7U0OOgoic4vSqc_Do-vPCWN7PoiFFL0jo=s64
+  - https://play-lh.googleusercontent.com/j2Tqq3Ss6WpwiStdQe4ugBIS0WZyPOYzcq_fjFSItEYkEtkDo37s2fqL71OtCE7jkKw=w416-h235
+  - https://play-lh.googleusercontent.com/RoI_bifQ0eWgWqOg4cpbx7Bm8eFkBEml42htao3-_3aZb7xWFhZPbImflNT5bV3Kfnk=s64
+  - https://play-lh.googleusercontent.com/7T6GEWL-z5QX4NeMhUYOK4p2VsTTxHVCd21a1JuzoMmnsQ-bgWzckkizL0iXrwC_EA=w416-h235
+  - https://play-lh.googleusercontent.com/ppM8C-PKorML05W98CV2CadI9MfPZXQzz7Odxt9S42OO7cUQAU_e9ImjYQby_enFag=s64
+  - https://d2kfnvwohu0503.cloudfront.net/img/apple-icon-57x57.png?v=a75d85bb1d6bb65c3b5f0f0ca760f365
+
+Pocket:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/14/65/6b/14656b9b-3c8a-9af7-dd83-ef88ca2129df/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/8b/47/fc8b472e-c254-2fc9-46cb-e05ca86ff005/PocketLife_AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/ac/54/42ac540f-0e6d-fd3b-f215-d280387f1077/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/ec/38/55/ec38555e-13fb-a527-8535-c0aa5554088a/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/d3/3d/c2d33dc5-10d7-1101-63f4-f1d3b4259cec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/81/1c/e4811cea-6d2d-701a-520e-3fbcdae36514/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e9/b0/3d/e9b03dd9-d468-b8b3-83ee-11a89d2b64f8/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/2c/2e/f12c2e71-393f-18e4-87b0-6fa1941dfd02/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/c0/e6/7dc0e6ac-8570-8056-5d69-4f84b78c4285/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/4b/57/0a4b5765-8753-e5fd-a06a-8aca05656ff1/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/d7/09/10d709c9-6710-e439-abfd-0528d68b1c28/AppIcon-1x_U007emarketing-0-8-0-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple1/v4/35/28/c3/3528c30c-e559-8f95-1c6d-8d89ae2dcba8/mzl.cebfhlnn.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/96/6d/06966d35-fdfa-0b59-d3ba-cdc151ea6833/AppIcon-1x_U007emarketing-0-10-0-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/fa/c3/10fac307-4865-dc64-504f-5c1cd7432f34/DefaultAppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/85/e7/63/85e76364-5740-31d9-588e-4638fefae157/AppIcon-0-0-1x_U007emarketing-0-0-0-6-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/48/d3/9648d35a-69f3-5276-8e7d-c0123266f0a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/2e/fd/26/2efd26bc-0b54-3998-3c70-c35f740b1b00/mzl.qslgsgak.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/58/4f/8f584fc7-ab4e-088e-bf79-f47d825706a5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/57/6a/e6576a29-577c-5c73-ae6d-5b539b13e37d/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/44/95/d74495ab-6ae8-29fe-158c-ebd1c1b8d538/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg
+  - https://i.ytimg.com/vi/gEt6BCCHDH8/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/CMYCz0j2Dowf_VUybvX00u5TGGkAJp2pGMrYxJcp85L91kou9fGICYcWnb8Pyr1xcQ=s64
+  - https://i.ytimg.com/vi/AQWL_C2uW34/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/NN_i80MWCYgSoVNFPZv8w09gIxUzRbXhPl7d00jgff2xDSKaXqTtjNZFSh_DfDPP1w=s64
+  - https://i.ytimg.com/vi/CHAvjgr9g5Y/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/Hz1gtRR_LM7e24MBOP_WyOkcNz6e0P7I446NTIJOX2jR7MdP2PvGhDwQVQU__bqharc=s64
+  - https://play-lh.googleusercontent.com/BFS5ywzaLlLtpx_ru4ba_UOIKAGs-IjkobJOqp9rx2Vt6KwGX04wM0sCRMyLog4NAuI=w416-h235
+  - https://play-lh.googleusercontent.com/P7aznAJvSKBTprTG3YqF7PDHk86IB0PHI4fQH3cpM4DjtCMyjRZs8k_znO7ZieThvw=s64
+  - https://play-lh.googleusercontent.com/cZh4hjZaAE4feqRPY2_dDE4IUycsSH7tCbXlyO5f_OJSbVexP87cLLZbenrhm2q7H8Q=w416-h235
+  - https://play-lh.googleusercontent.com/Zwh4ahhTMsXk0fzpxY30JVnFIDfQViTCej0lNllmrKAMDWsbJVVDPLSnSQStde1tXO0=s64
+  - https://i.ytimg.com/vi/eeHfqVh77IE/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/bQBTGmvFPS7OfqSOhfdF6xZu84anz-vbYBtzcrxqgzlzjaRQDlI-fj8FW_MSNstssfE=s64
+  - https://play-lh.googleusercontent.com/ymCcSJshM4buE42MsiG9Jb4qLCixYDfKjlLv7CoRUTgU3ipQfUgoUN5Zt_Jecry-btc=w416-h235
+  - https://play-lh.googleusercontent.com/ihLYgRnhOihCnHIhLD3Jctawgap2kI9wQAKdJuYRPyDRmbV6KdXC6pOSR1fdrZ9wsUXO=s64
+  - https://i.ytimg.com/vi/dxtuDPWFrK8/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/X5mVQIk4Vvlil8hxbYLbuJhKCAdfrpm7iD9hEY84Nh1AZ2jkKBVy6Q3kh0iqTA3edRM=s64
+  - https://i.ytimg.com/vi/rBR0MwWHXWs/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/OxUqcEuAx0d2jcKyp4aScN4BJRZxwwBYXhVmyxswtfNeglWl9m-ZKRUfl7gl2kNYrgs=s64
+  - https://i.ytimg.com/vi/BVHQbj6BDO4/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/aX189AU0ELF6bEDEy2JGXKw7ThAEVO8BElKU6ah1BEObTNS-Y4p1_pq_tgcmjocSjM1M=s64
+  - https://play-lh.googleusercontent.com/3WlMBUo2vmE3jPxKPbK8QzYxBjT4OoDXoEZKHtANLfusuRO1wKncir-PPVpPZO0cvdM=w416-h235
+  - https://play-lh.googleusercontent.com/whCIl-lo3IQH7dXH9x7YMk2EfKBS14-m0n6rhQGwV7KM4lR6sVZEClVARJzngvhiwzU=s64
+  - https://i.ytimg.com/vi/D5TxV_iuxyg/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/mv_oOKrg7q2bqUT3PX_cq85FrN-OiRGNtKDpHL1DIfFFRWFyfETB73nYdvF_3gM15bBK=s64
+  - https://i.ytimg.com/vi/bejxDlDDV0E/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/fbwLDo0FEGosXaJI0232hjx4ydjUusTl-KiLkfmBeUGysUdId4PfhlO7ipuMs_izFg=s64
+  - https://i.ytimg.com/vi/8Kkc7b4a_20/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/EFJrzh8wi4W0GLlfBL_MCz9ErPamKyeDTvAmdbmct2iuF2jdBC-vOQxWfvCMcUkdBBjG=s64
+  - https://play-lh.googleusercontent.com/pqt2XwwqmxgBJ7njuJeHAT0l0hlItcr-dFBh_QqaQwR8QSj433ghvAy-9y66TyDg7Ug=w416-h235
+  - https://play-lh.googleusercontent.com/RorPaBQ6Ml8CylEPXzv-wA6NSjo7OowQXr2ZH4S17AW3Knnlupvad4QSCCA9nkqSm-2X=s64
+  - https://play-lh.googleusercontent.com/rVWXtKfbDo9NKlgkWkmHX3SpAT7KUEcJivXpJqsHH0qWxxw0wwW0XdQ1DGDpllfdjcE=w416-h235
+  - https://play-lh.googleusercontent.com/qppe_Krz21I7GMNJ0XG-QEL75wh0HjsFhIan2jKZuDuj0eGPnVWtXeWVJpmZFHxHuw=s64
+  - https://getpocket.com/favicon.ico
+
+Raindrop.io:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/52/52/e6/5252e6a6-8ca7-8950-ec4b-4f238eb385fe/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/06/43/ca06430c-61c2-c865-2562-a35e46ee3fb8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/b7/c8/09b7c865-2be7-3354-0a87-9731e665f5ed/AppIcon-0-0-1x_U007ephone-0-85-220.png/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/39BuslukFGJ6fLpy-smE_7nCm8vKCtIr5_lkuR7uqlzbLWrsIrD_K26L5lLkJTKJig=w526-h296
+  - https://play-lh.googleusercontent.com/PBGfu6hwHDyT-qUGy3TdFbylIM_F5O-GnlN5H05PTAxshL_AHbtKHCPP0ksrltzK5w=w526-h296
+  - https://play-lh.googleusercontent.com/pt1SEGVWhNx53ZdLfPoRlOrViu0LZQjX738iqHkl9m6hA7G5C9-lVwgh_0CL3skkEs8=w526-h296
+  - https://play-lh.googleusercontent.com/gnpI5B7Zlc5Wv65idm6Z5JPuUZEyf5aS1orzefZcIs83WqBxZGh8qfd2PXJV7UaLMFk=w526-h296
+  - https://play-lh.googleusercontent.com/DUor05XBTb9wVP0R9g9Ac1WYyg3xxWNG7cJjQx2IxEt48c9yp8jSa2JRhO5k4DqfmdM=w416-h235
+  - https://play-lh.googleusercontent.com/Ii7kvBkG3y_Mf5SlZGuv_4iqTNEnN7gyHNyAs0qUT9KsnJpdW04geOMgm16D0caWV4WQ=s64
+  - https://i.ytimg.com/vi/KHzs-dwancc/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/b1-MIBjlMD9kvl0Okeglm9BL9ejRpOXMio303W0tiLb8Ul5WuVzBDoDKgGRcALOsCdw=s64
+  - https://i.ytimg.com/vi/0Raldy-TGlo/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/QJObxznpklAxDNp0OVe3kAP5ZfUouIvRDO0kPj-V3MRjoRYKwj9RVTxOwG9yrlY-bgG3=s64
+  - https://play-lh.googleusercontent.com/nIgtXjoyxa_5cVTpnkk_WKUpyehuEFSKZs0eUxXZHJeEorAqBsxiZDhgzfdW46LAjd9M=w416-h235
+  - https://play-lh.googleusercontent.com/avqxC5m8RRy9BykzLXvgWyhqwQniSnnQa7oil6co7trnSXH8cbXY11P8O-r-Ps44uKk=s64
+  - https://play-lh.googleusercontent.com/Jciq6Q9Y9ZpgriL35DHzeATz3Cmu-M9yCgMckffm-7BUdKt9Dr3Cbwunhdz9HVe4ujI=w416-h235
+  - https://play-lh.googleusercontent.com/3Wr_nlhRHjIGfPd-BNUbgffLfxPPqNW8GFPscqnQ4t2aPRyKlFMuXT4yhb-PSMsHgss=s64
+  - https://i.ytimg.com/vi/AkTj_qQNphA/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/Tt-6ZaQDUAjfSNSeLz4XyYkPsEQfVVp0lBtwrnuyqubhCna0LKu5OZxKgegBJIrEhz8=s64
+  - https://play-lh.googleusercontent.com/LwvoEiQdED7i8IKFhS73gn0niHqgyUja96uGVRpfgPro8asS2qbgsvaoHPq8skZRRh4=w416-h235
+  - https://play-lh.googleusercontent.com/u1c8Uk5GCkx8VIQvaMhLftbb2s8vf0llcs7nCpsp0uf0hc2C2wonj1gNetdqApRUzeg=s64
+  - https://play-lh.googleusercontent.com/CqR5E1oLeJ2nEM2ooBFayv4Ri56BNrgn-zbGAmZdDbIl2MrqMrwDMAKYKs88E6hwn9I=w416-h235
+  - https://play-lh.googleusercontent.com/9bJoeaPbGTB8Tz_h4N-p-6ReRd8vSS-frZb2tmJulaGIoTKElKj3zpmcFJvnS96ANZP5=s64
+  - https://i.ytimg.com/vi/br36gZeC49M/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/PH-2iORSfQs-iizoHzePXBaJCXml443pgoC14-lZESLFIp78A4SvxLKUVv1FyIQFtC8=s64
+  - https://play-lh.googleusercontent.com/gcJ1dGTnTJUWezGN__6_BZcS-hGjj4rUv1-SRJDWVlzB_-h0LVfRbUdXMBlspboG484=w416-h235
+  - https://play-lh.googleusercontent.com/IDOtRhsZLSG3EFxWxmWREMPa42_SNQvl9-x4FBu5dn9aJMjpVtMx_GoNdnQwEIp_7gsV=s64
+  - https://play-lh.googleusercontent.com/iH_zV6fwpAsLZ7vBk3hpV0YvO4Jufgu-9utigAynREZ08FkzYLY6toeu503zfotPC4Y=w416-h235
+  - https://play-lh.googleusercontent.com/uB5LbhkjVKhXE9qxhhoJ3EN40wChx7SPJFJfkKD6n941S5I7Z3aaR5uyKiSofjwg1A=s64
+  - https://play-lh.googleusercontent.com/_geX-49OF2YBTZ2sImMLtMEtnOO8otxgsqlE33DMTzOXB8lg8hJOYqcm95ZnCo7mSYQ=w416-h235
+  - https://play-lh.googleusercontent.com/rmzeq_sIQ0Ajs1R0Dx1FhZevoTgnWfY_enZ1AOkBRdhAjnwFqekzw-o-B2rTRyO0XA=s64
+  - https://play-lh.googleusercontent.com/j2Tqq3Ss6WpwiStdQe4ugBIS0WZyPOYzcq_fjFSItEYkEtkDo37s2fqL71OtCE7jkKw=w416-h235
+  - https://play-lh.googleusercontent.com/RoI_bifQ0eWgWqOg4cpbx7Bm8eFkBEml42htao3-_3aZb7xWFhZPbImflNT5bV3Kfnk=s64
+  - https://play-lh.googleusercontent.com/Ylw4RTdfUXa21wyi5m7f0LbQWH0O04e4dZ0N9FjcS5pYPSQKJe-hgjBHQ44vwik49Q=w416-h235
+  - https://play-lh.googleusercontent.com/EgDT3XrIaJbhZjINCWsiqjzonzqve7LgAbim8kHXWgg6fZnQebqIWjE6UcGahJ6yugU=s64
+  - https://i.ytimg.com/vi/sWW_opBDlz4/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/GH23d7lG4YP8DFf08LsJnLwL6KrHEZ2cwcoJO0ytWoYV5NJuEvG8pLBdWRo4tq59Ww=s64
+  - https://play-lh.googleusercontent.com/m-kwaaJEP_P6AxH0sZhYkIndvdO45YAyKpH4ANPDQHuKSkIN2ak0BSaErfvg8kv_gA-J=w416-h235
+  - https://play-lh.googleusercontent.com/JkYolPNuRAlrXEI9vlk-XOid3VFJ0IPjDj2eM_xrriuE3Zu8IX9cuMkI7JOTw1upNxbW=s64
+  - https://play-lh.googleusercontent.com/7e2BY62Eh8acur5bWtPI_pIky36MwxpgbR-oytmktQzdAkxPvhqPQuLORBJgYmAmxQ3w=w416-h235
+  - https://play-lh.googleusercontent.com/RV3DftXlA7WUV7w-BpE8zM0X7Y4RQd2vBvZVv6A01DEGb_eXFRjLmUhSqdbqrEl9klI=s64
+  - https://i.ytimg.com/vi/aHQKDSIopRs/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/LSnrgWVfyKTEp7zLAWNdXukvHt0jvH-KmnAjTV6cVJWXauW4K8iFX4lI0MYY3drQpAuc=s64
+  - https://i.ytimg.com/vi/oLTNtvIHJ7M/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/mR_90d6G3yG85wtSqaIm2NhHNTpXQFDdr0kGyU6JPJ0B0emm1LNmBI_rNcQ-khwcuMeE=s64
+  - https://raindrop.io/_next/static/images/icon_128-85815217bb96f05ae96e383c4160cb5d.png
+
+Safari Reading List:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/58/7f/09/587f0971-5276-5950-a760-c1a2a5e8f46f/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/f3/f2/3af3f2b8-f096-5323-c453-580246004edd/AppIcon-0-0-1x_U007epad-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/9d/bd/1f9dbd7c-9645-6d50-ffdf-76f7990242d2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/Lij7kb_7geqoPtGUl1-vqBICozE4e_oH6FJhH7Jb_yUJwS8zV7gOObBKWS3p5ka-CpUv=w416-h235
+  - https://play-lh.googleusercontent.com/_30HI3oQM-FVA7Trw72Vwezk_naTnXofKXaibDQrRIGWx-cAIU_d8uu9thark4OrhLA=s64
+  - https://play-lh.googleusercontent.com/glbV0lrr2VStfl9TL9Oot39POEKVWu7FCDXcCyXGDUEylIq8SXmYlzzrIevXbFPFVpDd=w416-h235
+  - https://play-lh.googleusercontent.com/yTQyFksk5THvWYwTXHP1s-9DQ5y9GvQSFCKZsCqHR3mSE0JZIvpTySshoJYBaR-PjZM=s64
+  - https://play-lh.googleusercontent.com/BIwaUocXe97ZaeC8BQd3SjWhkLnh1wZ3xK_0JdgtYvq2sv5D_xGJWU4_RbhRdNAtH00=w416-h235
+  - https://play-lh.googleusercontent.com/bOOrAMR_IOv0jyKJU2MstONEBGzAEQmEoNmaRPl-V4CY4uvFNmrI2aBoXmnhGxhsxdo=s64
+  - https://play-lh.googleusercontent.com/eEx2L_HkxXo_LNPIPdJ1Ggg5kj_-P_viHJn464_TQYiiLQvTrmnKZmJRMLnKONLvkQQ=w416-h235
+  - https://play-lh.googleusercontent.com/c7uCg7sxnpsZlcKtg8Xm3-he-qeruLue9dqyghbfv5_UVRMS3H5QY2Pb9i2u7CHlqg=s64
+  - https://play-lh.googleusercontent.com/QUc_OAw7kFgekwUj-OR6TgmFTgu8gpJTWrRbX_gKDB1t86k3rLSIyZGqFVGxo998RZ2G=w416-h235
+  - https://play-lh.googleusercontent.com/48wwD4kfFSStoxwuwCIu6RdM2IeZmZKfb1ZeQkga0qEf1JKsiD-hK3Qf8qvxHL09lQ=s64
+  - https://play-lh.googleusercontent.com/ihTo1hocEiRHjBO7iAW0tkqyHAnXub45cAnXw0Kz5KzEVr9BbUdHdofy5oJzGzts2NE=w416-h235
+  - https://play-lh.googleusercontent.com/CwOLEx-Vxk7UG5l2WxUdLAn85SAVG5_63bAyOtiEw58fatNEDBwCjEeuUWj4yfemLPU=s64
+  - https://play-lh.googleusercontent.com/rHdPgmJZyGEjTNDJfeVTbSL6RaP8tqviQpq7bpwZVLRb8OaoTeyteJF8m3_PPph_QqI=w416-h235
+  - https://play-lh.googleusercontent.com/p0TzV6-CHE24ySIsC05vjGIS_PWaXIzE6Edzrw0VX7betQUtYY3FSFIKVjjMWJFXuj-u=s64
+  - https://play-lh.googleusercontent.com/lR-awfRq5dCDqm9vMnmnGCeN6-mEs9sSx9BnCgNdLkyytliJJ3z1zR2PiJWlP39gO80=w416-h235
+  - https://play-lh.googleusercontent.com/pwzZK-7oQexraeU0mOrQgFIck-QSS89rH0eWjehctp8XskRSpixPNVlA0YYlRXHbA2Iz=s64
+  - https://play-lh.googleusercontent.com/DcXYr3ZtJHtS1NapbSKr-moGgY3-0TYupIeRjWkucAVjF1dzLpDhHWzO1g9ZeQyCUo8=w416-h235
+  - https://play-lh.googleusercontent.com/qw8lAHXaZodAE4c3D1Jkia3V8Np-PxTnyQpUIx439ibABba0L50TVKI4jfY4N4QwzAA=s64
+  - https://play-lh.googleusercontent.com/ds0yNq6bkpTUJzp6-GPUVUbSo34vQlhLE3HQ78jZ5HTop9XFL2EHlvniM1DftJ_esoSR=w416-h235
+  - https://play-lh.googleusercontent.com/VYvJqGnrQiKkbbyLyMeiL-GM3go4tBIA64uVEGQazLXD4p_M3F45kHyt42o_6d5VXA=s64
+  - https://play-lh.googleusercontent.com/5aNJHTC_CkxLx9W1K9sxNWuF6Vur7XUDWZQuZpvVyXeI7i1h5AzLWLRnXABRItgl0lI=w416-h235
+  - https://play-lh.googleusercontent.com/zqsuwFUBwKRcGOSBinKQCL3JgfvOW49vJphq0ZF32aDgfqmuDyl-fEpx4Lxm4pRr7A=s64
+  - https://play-lh.googleusercontent.com/6Ek2SYeyrTvlGWXDhDj1SkkZpmB-N--Nc8Jwkq1CgoSRaNuX_NwC2ZKX6D3p3BmwXuw=w416-h235
+  - https://play-lh.googleusercontent.com/K5pV91mxd7I-8qhV_tn5NmZmIS0RRruP07GTtZfEsOkspvaJvzqo39R3xxBVgqogynM=s64
+  - https://play-lh.googleusercontent.com/jXHks6AqxefTBT-adnBOZtcQGzNhVUbxPQ-GahMZKCn9f8o-nLiriIiT1MppcGoKjxq3=w416-h235
+  - https://play-lh.googleusercontent.com/NntMALIH4odanPPYSqUOXsX8zy_giiK2olJiqkcxwFIOOspVrhMi9Miv6LYdRnKIg-3R=s64
+  - https://play-lh.googleusercontent.com/1dQWTMNtzexzBpcs0f0l_lZq36Na5oC2DE9lg94jpn1GnHkUdpl3PRBj8ye2q2ninD7F=w416-h235
+  - https://play-lh.googleusercontent.com/uCiadP0cQ-nWCnkqVQXa5p_E3tKmkeCOJftmiD5Wm6GxfJQhGk9c4OkT9RlnuWN5zQ=s64
+  - https://play-lh.googleusercontent.com/EiQbcJ042m3ANkbxu_DgLz4d5PcXsCORt23No30Tveius5NK6TZNYxGWCtbaiFI-6Xo=w416-h235
+  - https://play-lh.googleusercontent.com/vGXmGFRWw-ENaAmTbnVl0kV8BydaHEfDUqz5ObGPuYWVcQlPl9nG44C0qDhemLeb0WhR=s64
+  - https://i.ytimg.com/vi/jtrwcZ9FlCo/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/5WD1qUA_k5QSGjCGJZMp8xkato24Qg3PDb5h_y6VXfxWhwbkjtWdAZ6j-ZRQiqUK4nTi=s64
+  - https://play-lh.googleusercontent.com/5r5viZ9i0x7Jc7Rwc14jJ0K37pO3i8jBz0MlT-E_aq6AG6oZT9d8m8cPJWndKHrtjw=w416-h235
+  - https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7=s64
+  - https://play-lh.googleusercontent.com/sPG1oaCQxmLu3pkSwGUSbsT2xR6-R6y7h_F8fmvyrxcOJEl1dINka82qYvHwf0PRb-c=w416-h235
+  - https://play-lh.googleusercontent.com/W0GcGHbSPEA2VBf8CM-SoRG9yYS2RwxgPM9Q25MmhmU6YzJ2t8lHIAnejL0nL9LvYwMx=s64
+  - https://i.ytimg.com/vi/6UkFHYqVsbc/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/htBUaqvBQR9UQ3b1-ouSHFhDGttQkH-eWetEErspYXVa8hOsfmOmj5ZanGg9GF7XAGc=s64
+  - https://play-lh.googleusercontent.com/7T6GEWL-z5QX4NeMhUYOK4p2VsTTxHVCd21a1JuzoMmnsQ-bgWzckkizL0iXrwC_EA=w416-h235
+  - https://play-lh.googleusercontent.com/ppM8C-PKorML05W98CV2CadI9MfPZXQzz7Odxt9S42OO7cUQAU_e9ImjYQby_enFag=s64
+  - https://play-lh.googleusercontent.com/KL2l5NFm4y-H9gEuIl8C-dPTR-PXAFR2zxud_y125s6REjqX6YOw1V5PSglrFYx_bWM=w416-h235
+  - https://play-lh.googleusercontent.com/XqxpZH2FQH66cZL4hvq01ZM_BSpK9u4TQeKpb4BmwdCsUS1kk41LCtyQT13mkwh4kg=s64
+  - https://play-lh.googleusercontent.com/mYgerp4LNmJeUcj6VfTLB3zdZskgaTj0mHi-IAu1nWo3VvEx6C_oUe7LO4xK5uR9-hc=w416-h235
+  - https://play-lh.googleusercontent.com/cbI_01jZP7oWKBa8I5yeLDoR-HEYkB_urY1KYJ27d6XeY78G70HTN3O_9z1nov75d2Tm=s64
+  - https://play-lh.googleusercontent.com/hDg4soW6lPd6WHq7pMk-bfZCv3u3V9gSmUOSjwWA-1IJJd7W-xvlAyiRfrx7IWNoquSg=w416-h235
+  - https://play-lh.googleusercontent.com/-gmI1L0dHJnjIFqmSJZDeo-bTUx_eQV-64_s-9fsZ8KsK-k-3fV5kvh5_uGqqiBWtEk=s64
+  - https://i.ytimg.com/vi/lwhN_8MtfUg/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/3DkAq-0wnp7GpugUtywjphBVxpTTq7Zjk6vi_VyrKiH6yQYuZ2gcOlna_88JubtNZ9M=s64
+  - https://play-lh.googleusercontent.com/_geX-49OF2YBTZ2sImMLtMEtnOO8otxgsqlE33DMTzOXB8lg8hJOYqcm95ZnCo7mSYQ=w416-h235
+  - https://play-lh.googleusercontent.com/rmzeq_sIQ0Ajs1R0Dx1FhZevoTgnWfY_enZ1AOkBRdhAjnwFqekzw-o-B2rTRyO0XA=s64
+  - https://play-lh.googleusercontent.com/9vVbDAfPZ6-DUj8zQThGL_dccfJr2Yj_aQsCPJeo4_T9RJ-FwfpmgOit24rbCLL1DCo=w416-h235
+  - https://play-lh.googleusercontent.com/omMtiXaZB-c35YkDSUc_yf6ByHL_oElOx4o2SE3S8ONKBS2gKc61R5Q_2LznawBb_DE=s64
+  - https://play-lh.googleusercontent.com/WIiJP4ZfYByA5Ew8DKRQKnn29V8k8e0b_RWiEalXBm0MraJiPipLHwGwYmqd12cvHaQ=w416-h235
+  - https://play-lh.googleusercontent.com/2m91hLpXTzDmuhqkNU4dv2b0fGc3QZA2Sn-3oHYBQ6zmHJqt6lIqqOopE0Ucb4Fr5jQ=s64
+  - https://play-lh.googleusercontent.com/pftOw1cer2by3URiT0L_w1cGMVeqlyA8PAyOob06dZ0VeIgqgPp6p5plm43iUmmWtw=w416-h235
+  - https://play-lh.googleusercontent.com/QRrnPBiqQWpy-WkUiYF4czeIh7A1nRwF3QySBON6gBC_qEjEqTjQIGIU__5d4PpwYZk=s64
+  - https://play-lh.googleusercontent.com/VWUtKQEaBaOHDofCHuaC2ORFxM_3xRK29f0isJYfK6lNN8k3-YtyKk6m3PeCo0_0UKRE=w416-h235
+  - https://play-lh.googleusercontent.com/X8YYyjJXDFpDJ8cgdBxSdWOYcUeE76V7WuXw3Ix3dDuY4LaJ2LZV--yo3Ekyv46nM_s=s64
+  - https://play-lh.googleusercontent.com/T6qmGHPo_9M981ZNK7nKSdbpWxeQoQ_Cd9htoySc-FR3LuOQ5qeKxuDBDxtZKwjYRrci=w416-h235
+  - https://play-lh.googleusercontent.com/yxnle7mEkbmG08c1KieO71tJVf4bRemlXkIYysA_uohR23VV01D52pf5zSUmzBTqYw=s64
+  - https://www.apple.com/v/safari/s/images/meta/safari__ba3x456uroki_og.png?202505061413
+
+EmailThis:
+  - https://play-lh.googleusercontent.com/ntl3RLBCw8z2OkhqHS_9YL8Qu5B0X29OrtRxNBvY_uwxoXgOP-XAzr-_u7pYlVzX1wk=w416-h235
+  - https://play-lh.googleusercontent.com/JzyPea6R2W9vwdG5KjHq1SU_7BtlIcw1R4xPMadeColW4rFtGJQ0ne893_A-H8vZsQ=s64
+  - https://i.ytimg.com/vi/wkNXrzUFKR4/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/4xbUjA9d-jOoR2s8hbPUga9qd0aYG0RmLAg_pBXA-JTfsx33Il3cOEURojPY19HXZJk=s64
+  - https://play-lh.googleusercontent.com/I94zychGxALOWibWxI8javTOfvXFaI-3AHmH2rAAX96MM4aPjJKV15bE5gFEbgp323g=w416-h235
+  - https://play-lh.googleusercontent.com/MaRCSacmqLlbSST5m_sJUb_tE9pTresHYgwpd4gInpcj_NVGbjLCnTe96Yx5zz893bA=s64
+  - https://play-lh.googleusercontent.com/qRm_4OU7juVHdX2-NQ6xKUScbh7GzslTkWGasobpvKMtAVr-1V8YOiXxyjRSxXoNsfU=w416-h235
+  - https://play-lh.googleusercontent.com/NYuybHEQh1FKtH7yjbXabuWKybHSF8aTb7STbSMO6KnrX8FqvnGsF-evjD0ELMk0Nzs=s64
+  - https://i.ytimg.com/vi/i-suDQqdUK4/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/KHHRUsjtlyihiumRftk9RD2HHhFFrcXT2n7GmLLlJ8e6r7WWgC4VWeHnkb8HGONtzWM=s64
+  - https://play-lh.googleusercontent.com/GVaE7gJgdZOv6rhGxolP4sS2nu-7-00QpEChSH4m6GfHlnpXHMx05miiuxQPzDjNu7Y=w416-h235
+  - https://play-lh.googleusercontent.com/YtGn2T9ADy5Hs4cKVoDgGb7fPuMkdXVcszVE1oiozfE4AxhDNq0RkwajYs1FxcrMDpw=s64
+  - https://play-lh.googleusercontent.com/yEaj_su2bnQ_-pzvR9gR3MUXG2o-gtHXyrMyTe5gWow92Xttx4iyckO5qr3egNXlyUrT=w416-h235
+  - https://play-lh.googleusercontent.com/99IPL5W1HvN1TM7awcJ2gihUie-LQ5Ae7W9g0FgCBFJ8hNZnFIOJElyBPNcx4Wcx7A=s64
+  - https://i.ytimg.com/vi/VZO6TOXha9M/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/mg7fg0oHkqa-8djwpLrxt-qn978IW9qYLo6miSZfLD-lJYYgxv0rpG-gRifXDmgh_z0Z=s64
+  - https://play-lh.googleusercontent.com/zzDul0uguxF9e3vR4l2du1Fbv31SyBgbUylJmNVtSO10Rhu_FbXp-UnF5ga88oy-JQ=w416-h235
+  - https://play-lh.googleusercontent.com/gdrDFUElK3KRts7OpHpB_2-qoR3bd8AFm5V_GfSd1ufjsl7NGCgwApdTBziHwputK4s=s64
+  - https://play-lh.googleusercontent.com/ne386a7wV-NeUX83sxQjKUtVAeIImYidK2sft2zsyycLzBePTemhKnZB1SNGLXtSPXs=w416-h235
+  - https://play-lh.googleusercontent.com/IBV0NyRdxyNlCgyWnbeZs3rkPYfNXlPJ4-rF0ok3Biox_N-GjLtMZ7Qub5HTmVZiWjg=s64
+  - https://i.ytimg.com/vi/TOeCavVsXzg/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/OwRpW3Tkh9-ciCser2HzRk7dVl1RxTkjJn4Kel3WDi06BYfCOsZsD6iO2OKSM0GXMQ=s64
+  - https://play-lh.googleusercontent.com/zQhB7dVPyBPDUEE3A_3vP24vyGD_bFsHukeAPD32YLsD5YiiFTpxWokbVhhB_PHsxw=w416-h235
+  - https://play-lh.googleusercontent.com/0iZnDRkCMzcK6ZxLbg83jSlR_GZHLCPc32sfNt01lfMRUqnOyKW9qKE_-64YnSpq3A=s64
+  - https://play-lh.googleusercontent.com/vD0fKafTTwjYacFN22HkDDMlzK5_zr4KlHSD8cFCgRF33eUwRnExKzcS2Dx6c6Eh6A=w416-h235
+  - https://play-lh.googleusercontent.com/UkIkuLNa4V_bgbL2-aaibMzD57c2MILWfH766SzR8XbxFnMNn9AhkdRNKPP-25CwhS4=s64
+
+Matter:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/71/72/8b7172d1-908a-e381-4597-580a4ac90488/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/ab/82/e5ab8244-3a87-3d15-9510-c2a38a5cd04b/AppIconDefault-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/01/99/97019996-ec3f-60b9-e054-c63ed0148b99/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/c0/f7/fac0f7c4-5852-912a-cc10-6c5ddf4ddbbf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/5c/71/805c7178-60b3-1f4a-84d6-15e0ddc5249a/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/39/7b/56/397b5618-922f-5153-7509-992b3f5a3570/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/ab/ac/03abac3d-0111-afcb-5b40-1b8eaccdb202/AppIcon-0-1x_U007epad-0-11-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/57/d7/7857d789-620c-6396-af07-b8056d9dc8b5/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/f4/3c/f0f43c21-2c38-5375-9c86-aa35e0814391/AppIcon-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/23/7a/40237a01-f3ed-ead8-3d64-bc43c474f8b1/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cf/02/ae/cf02ae48-16df-b591-8837-28be523fec2e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/55/ee/ab55eefe-7029-5938-96ea-43a75f8ac7b8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/3c/d9/3e3cd912-b1c8-ae73-aa8e-79e3648d001e/AirAppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/65/64/03656450-5306-d1bc-24ed-decbfd97e0dc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/c9/68/32c968c7-962a-8f88-316c-a0d65c16b170/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/0d/7f/e30d7f1d-ce27-dff8-3b7c-8bb40a6e2212/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/b2/6c/c4b26ca8-2500-eaa6-103f-8fc672739c2d/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/73/d2/4a73d2d1-6140-9b57-aa12-3bd16d3099de/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/25/49/f9254949-1239-bd19-5192-c44f19578ed8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/29/47/b8/2947b836-22c6-2bbd-e65a-1cd604a9fe14/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/7e/02/c77e020e-2b9f-2b72-cd41-0eb187761b3d/AppIcon-0-1x_U007ephone-0-1-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/74/b3/3374b3d2-8138-5588-284b-eba4f75aebf6/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/xo6rQE0pmF04-h5sIzlRjnjfCme7IgVb-XA5CdQzUnEnxVqRDfS63A4LWrwMsdm5X50=w416-h235
+  - https://play-lh.googleusercontent.com/_4yWsAND3fzl3eXe7FYtlQt25V6nypZ9lmGvBzQgAFVMyzrICpnUBzUvQT1GZ0LkZYnJ=s64
+  - https://play-lh.googleusercontent.com/rGwwjOovnGjIE0po2RmICkipsVktyOkD3_5tPsrFTMVA-6zp15vzEfw41YwYl7N2Gog=w416-h235
+  - https://play-lh.googleusercontent.com/0-KDFBu5RJUaN60Yg5dOnw4KyYbNxoNfpz6k-j8QiHesDn51sKnkJAjrKmVh4T1HZ7I=s64
+  - https://play-lh.googleusercontent.com/3ASOKG4Qo3UlOpX2wR13H_H5kSRKdTfN3HtESdZGYv81d4OAiUASothf_0ChesmcU0AZ=w416-h235
+  - https://play-lh.googleusercontent.com/vr1isZKzTtlok9P81H6cR98iqpPhkuQHJp19Z5kPej3QlhNTnLohXpqcgMqrQpyegA=s64
+  - https://i.ytimg.com/vi/Rn1HF_55VrQ/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/TS8w1Ny-1E3_JEMOmQRBtqAW5wojNXUSytz9xLYrqgcr92f5dWp4HO7nbgTau6l9zQ=s64
+  - https://play-lh.googleusercontent.com/40halP4ubSL3uw9eLZe1a4TftmQFcG_8RkjZbpe4GGT4JwAE-xar4EB0jekiitZaxgvQ=w416-h235
+  - https://play-lh.googleusercontent.com/gNIBE2TncHLd3gyW3XLQaqj2d8N4Q8jnGb9ze7fKKiKA2ZfSrLFB9fYOmQgIbOdegw=s64
+  - https://i.ytimg.com/vi/1gDojWpX1_U/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/InzyOuVZVZXLgukA2twohqiq1rLxZJXQefTaF9GW4txwIUqCzHrTeGKhiMjpjESjdA=s64
+  - https://i.ytimg.com/vi/nt7j4taPB5E/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/KCMTYuiTrKom4Vyf0G4foetVOwhKWzNbHWumV73IXexAIy5TTgZipL52WTt8ICL-oIo=s64
+  - https://play-lh.googleusercontent.com/rDkO_W0YLooPkw0_ZL_6EWkl0kepE9xrVePqI_Ve_iLk-J2KGN8dpNeecwYwcnyg9n8d=w416-h235
+  - https://play-lh.googleusercontent.com/j1OseAaAgXiTFAMEuZcXEj6Kp9O3s0Xxr23B7znf3xJSL2i7IWPxEaAK4Fb8h4tUOJk=s64
+  - https://play-lh.googleusercontent.com/KxQCjqkyeoZ6WFd4d6CE5oV3hKP6sWk7sZDNVgHXaPcBs16-FwX6MlouMUo8GOZq4Mo=w416-h235
+  - https://play-lh.googleusercontent.com/-xSg1Up_y4DNaAwahkvCr0jTbRr1LomkuR8sOhfTZ4YUrkow923VW80FZP8GbLtUtwYk=s64
+  - https://i.ytimg.com/vi/_Zz1snVPb9E/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/YkhzPN-VfeuVym7C_KaaqmT9T-6AGsMnmofRDrbHX36brFM6k9QxbftHcBpfubvAUkY=s64
+  - https://play-lh.googleusercontent.com/few2-5Trc-zLyTxtE7nn5dns85hG2bU0kemAddz3-Vkmfd3fwWy9iYhA5SDaARm1LgM=w416-h235
+  - https://play-lh.googleusercontent.com/cKPxuj_Wa0KtL3kfCAA-km9H8gcxXEWLAM4CA5oER71lAexKdyUNUmn45JZhvquX180=s64
+  - https://play-lh.googleusercontent.com/RpRaTKQ42fWn-GkVn7CnV-FA2fZdEU0VAMop0vLHMOyp2EypDSe3Y9-tLVR507mZdBc=w416-h235
+  - https://play-lh.googleusercontent.com/6wvcwcC_v4bBwA7K1eDoKw_PDtvdpHwhKAisZftnoY_Jn94Rjh7u7YSV0IEn9uZM2A=s64
+  - https://i.ytimg.com/vi/Yf2kUl31j7k/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/jWGKrZDgoznKenVS38KpErsLRIMANufjzIgKEZLalAOoYDIzyR5d8JvRoE7ZYKkScg0=s64
+  - https://play-lh.googleusercontent.com/YUlbxcJUZnVvIK1bkqNoSGdw9uMz7mfI0FNquyudmpK_NCtCIdiP5JP2jK1ZkSS656Q=w416-h235
+  - https://play-lh.googleusercontent.com/f1HEjbOYSEUBt_M_GS77T6oEY50TeRwIYksdlua8V3dPlLGG1Go497dbyMKXJkci49s=s64
+  - https://play-lh.googleusercontent.com/wHPP4mjBRywNkDOJ-6IpdI2H39buQ8OhfScYc7oNMLyedctH-U8m5Rjk2YDMRytb6ZI=w416-h235
+  - https://play-lh.googleusercontent.com/DHBlQKvUNbopIS-VjQb3fUKQ_QH0Em-Q66AwG6LwD1Sach3lUvEWDb6hh8xNvKGmctU=s64
+  - https://i.ytimg.com/vi/5Od0aOse1wc/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/9v08ai07I8aoFLj5M-90nzWPpvyNzOVgA2ZWF9avdW7oS8L9YqF9trVI44SUn2qGTA0=s64
+  - https://play-lh.googleusercontent.com/eV_amCzA7EIIpR4GHXDNhoBTMsSJUIxP873Qo0Q5QH2fkplJKQPFMRLIP8yEkDc8mQ=w416-h235
+  - https://play-lh.googleusercontent.com/bGn6qxUHwqZmgtv7RwgxCzl4Uy26SFQrJljVmoOvoIKWa-Xty8s0vOUWcgovUAEAKXnI=s64
+  - https://play-lh.googleusercontent.com/A6Vd9FDnKsJ7732A0-mYQLusgNhpuoIoMksTfw0pL4QJjS3FUzl9rX6OD44qGulQEGIl=w416-h235
+  - https://play-lh.googleusercontent.com/bRF0A9NAspY7BSPvaDi7qHn0RRNnL6HIo1YIc8taewtTV_zABmGtnw-kVNVfI4XE1-Av=s64
+  - https://play-lh.googleusercontent.com/U8zDyTkJcCQFtKDeu4x8M2_-zIcVuF53fzipTAqZ4nY-ojbAjTNYhS_Z8SVNNysE5A=w416-h235
+  - https://play-lh.googleusercontent.com/NN8G4Xc03GSv2_Tu-icuoeOwSo1xoZ4ouzUl24fVlwm5OeIAo7gV0zS1dVRWgCay-BU=s64
+  - https://i.ytimg.com/vi/MkKWx0uVyRw/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/bPz1guJ6FHF3oIOEy3KqwpaDDKO-hLRaZoyzmM8bLFLN8fWm6L0_EuUnkwv9iqPo3Ag=s64
+  - https://play-lh.googleusercontent.com/DqUBWCiNEmuVplQLcKwJrrH3kCOZO7HAciQXARdflCEeo4xDh5t-wJK3hV-83PBG0ME=w416-h235
+  - https://play-lh.googleusercontent.com/8il0Zn2y2Mx7vADh4SisyWnQ-M8AHj0EFPywrL-5VgrSa9MilNaQRu4pQHSqfwf67Wo=s64
+  - https://play-lh.googleusercontent.com/rwqVnx3lkmjy7XBaHDTsPSL7LNFd3LU-wLMN-YhUXVFOZWxEWVTe7M4nNTe2qqNWgg=w416-h235
+  - https://play-lh.googleusercontent.com/b3MqZswO8F7j3lcdH01kxzaeHa7vUndy7ma_JwdM_j_Vpj8LKZcKt0HmpORQ7CKF2A=s64
+  - https://i.ytimg.com/vi/GFEp8GX0rQk/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/C1ieGP1wXEBl29RtWqvY-x1MxBjjxeduYBe3TL1fNAYnNAfIoQik2pTW8EyhiN5pBA=s64
+  - https://i.ytimg.com/vi/M_tJV37d-8s/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/XtyTxwnErRI0pEIXO7sEB9B_d_6xF9knDCGeezSbiamt6GnnbmNPIwDoLEyy52VuLxU=s64
+  - https://play-lh.googleusercontent.com/lEbFMkPPq-blV1FpMwK8bDmo_H3iinAaX-aJpA4zt2Zk5Bj97WhpIb6wZm8Mp9uUZxK6=w416-h235
+  - https://play-lh.googleusercontent.com/ZmikMvmOPkByvIca94426wzEtA4Agc6zoeTvkS1k8u2D5YToCkHM5yswuBWDbC60aIs=s64
+  - https://play-lh.googleusercontent.com/QJTcnngy553as-l-f0n3LFuvVwXKwpMrwAUZZEElem6PkGKPHocTM-k1cGzXKXlylw=w416-h235
+  - https://play-lh.googleusercontent.com/Uku36RjbFRupjCW6a8py_Jvk9PY0xYdGK-zXyrGxFrcYEq_dKVfFse4ZRY_0LTOFtvdD=s64
+  - https://play-lh.googleusercontent.com/Zsah4DfcdJouNIGrxKSoNJacxMvtO2tkOeSkQoaJCrmuy2k-ObNL02biffiUpvFxig=w416-h235
+  - https://play-lh.googleusercontent.com/oPUZ18Ni5rT7DUeDoApHRe41Q1GaKsPWRFLsplXg2NxpaSNy2_d-XV6J002ahjNCZxg=s64
+  - https://i.ytimg.com/vi/Udbpax17ZBk/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/Pj5YKCMiR51ysVnCjcrROL62nRjjDjBs6yKGx6iyvV0QJXF9kOQz2bi1G93jZ6_Poh17=s64
+  - https://play-lh.googleusercontent.com/Zvn6PTRVTIsTHvuSMEQyKtKwYm56116lWysXgNwVwIdIrASN-PAifb08IbAnuq0El-Y=w416-h235
+  - https://play-lh.googleusercontent.com/FUlW6h3cACamheiCHH1cE67irohAZq_dJ92irK92cryKwHUtY6ZTSv5d041qPZ9UOt3n=s64
+  - https://play-lh.googleusercontent.com/r1Y5MnQg24M87pcRiXLVuYGAboOu50b1zi5DgGPAjCmt5zpUrfw--GpGnWBF_zcARQ=w416-h235
+  - https://play-lh.googleusercontent.com/a7R5nyeaX8lIEWdBOxjlvbyq9LcFwh3XMvNtBPEKR3LPGgdvgGrec4sJwn8tUaaSkw=s64
+  - https://hq.getmatter.app/matter-icon-180.png
+
+Microsoft OneNote:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/4d/e2/ff4de227-3ba6-25e4-ecb4-894d5edb23f5/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/4a/bc/104abcb5-16a6-0a86-e6aa-69897a303ff1/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/f9/4e/a1f94e90-67b4-c147-9d39-f8c49ee748cb/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/fa/87/b4fa876b-d9db-e339-5ecb-948c25fc985d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/ad/27/57/ad275704-c65b-f1a0-7ffe-ebdb512cdd85/AppIcon-0-1x_U007emarketing-0-0-85-220-0-6.jpeg/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ba/0a/db/ba0adb83-a85c-e551-9cee-66baa4d76736/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/6c/4e/c6/6c4ec69c-6f14-9814-13e4-d47616a493a0/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/51/fa/5a51fa09-27d5-cac0-c28b-fbae83feaad8/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/80/ea/98/80ea9824-a74d-6020-417c-f8fd8d78e48c/AppIcon-1x_U007emarketing-sRGB-85-220-0-6.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/2b/2e/79/2b2e792a-ecdc-2ab4-f7b9-5297777270e9/mzl.erpgfrjz.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/52/e0/1b52e06c-a87b-7e91-fbbd-c5d495d4121a/AppIcon-1x_U007emarketing-0-14-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/93/70/b5/9370b5f7-b6c3-f6e2-4680-3e41f265a0cf/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/8b/32/80/8b32800a-d9da-d857-5714-8d99698c66a4/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/7b/98/e57b9877-ab43-7be7-c57b-71295c0ec170/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/2a/90/b92a9097-c1cc-2ab4-0424-e091c8ffe393/word_icon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/76/25/6d/76256d7f-d7be-3330-dcac-c1a8df063e86/mzl.rraqliso.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ad/0c/0d/ad0c0db0-4f0f-a00c-27cf-283e7ddf7a22/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/3e/ea/48/3eea48a9-804d-96cd-921f-6c40f6627c76/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/f5/ac/b1f5acc1-ca64-1503-a49b-97ee3e5ed256/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2d/e1/e0/2de1e050-1089-3a06-e1bf-ca19bb9bb96c/AppIcon-1x_U007emarketing-0-10-0-sRGB-85-220-0.png/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/7tQZJcz8D7LmdwguodMo0vInCcPjbbhxxBhJn48y0CNMpgaodOI1RHoogEb97x5_uu4=w526-h296
+  - https://play-lh.googleusercontent.com/i-dgQ4p6ACeDGsEv5HMvbI_huGEEPVqPTVgVSXqznPQTvmMHZaZzepvdx7kU6To0VUc=w526-h296
+  - https://play-lh.googleusercontent.com/-jHKSUIYuD94iWdo8I8RJkwa8yiDJyMcBmn-ABvqj52idHJdS5pGfwh5ajDUki3OhQ=w526-h296
+  - https://play-lh.googleusercontent.com/wNsZxqak4NK_zUaTv8LODKJA4zksrH342xhdY2cxa6VshbqSHBa9HIT-d7_6IzXEMw=w526-h296
+  - https://play-lh.googleusercontent.com/CSmxYzgVvxQqnPsqVlyeu9sIsJGLg5a_O4EqlnI7DTLIKQhWLAzyY3kiRUKIqwDwsfA=w526-h296
+  - https://play-lh.googleusercontent.com/N9bWH32iKEyKm5mqyquG0flI3KkoTTG_46vpm1xLqSdHpd6AJuphwBVKAZIke907lLA=w526-h296
+  - https://i.ytimg.com/vi/br36gZeC49M/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/PH-2iORSfQs-iizoHzePXBaJCXml443pgoC14-lZESLFIp78A4SvxLKUVv1FyIQFtC8=s64
+  - https://i.ytimg.com/vi/Ba7zone0Xk0/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/6AWr-qrhGT0ohjw0koq3bM8GHEFg1gTurald4FjCDg2RulTp4y_VVsYWUtw7Fo6lsQo=s64
+  - https://play-lh.googleusercontent.com/LaIU8G-o9npiAfzsY8dOL81LN2x3-BnbKnPG9brtoTOl4pen3UpXvWDxdqfl7wttOOk=w416-h235
+  - https://play-lh.googleusercontent.com/Cf6rGlvAZJx2iG4c5f5H5N5XWGKFk5XZ_uz0A0YIIyuFPFybIfQaxSlDIQyU2W8btfv6=s64
+  - https://play-lh.googleusercontent.com/CqR5E1oLeJ2nEM2ooBFayv4Ri56BNrgn-zbGAmZdDbIl2MrqMrwDMAKYKs88E6hwn9I=w416-h235
+  - https://play-lh.googleusercontent.com/9bJoeaPbGTB8Tz_h4N-p-6ReRd8vSS-frZb2tmJulaGIoTKElKj3zpmcFJvnS96ANZP5=s64
+  - https://play-lh.googleusercontent.com/v6DXjsjTfyRqytY5vW6mi6QHP92iaTmqf1g8iVunXQTFbvpI9LZZPLTnYL6F_jVCqA=w416-h235
+  - https://play-lh.googleusercontent.com/ydTw_fsOTtosGmLEUlUH_l-rJoiE2gN_EYbneUPYwFqpOCj6orGRMffceZW0QHxbk5g=s64
+  - https://play-lh.googleusercontent.com/7uXrLOwKcstHR6WfExd4-VSUKGPjViaHoapBSAGIj8QK8RQEGwzEL7vO6YB8kwePPkQ=w416-h235
+  - https://play-lh.googleusercontent.com/9kABykeGovHPy-dN19lRxxnCp8IZK3Pkl8qLFNxrEe-hhKVZeiyhTBEIRUt6t-vhxQ=s64
+  - https://play-lh.googleusercontent.com/39kRNht1M8sq7sJ0ThXOnKBmcArsfwvSXRfgnTnsZHzBR10OeslT9l1NZwJF-gFm8w=w416-h235
+  - https://play-lh.googleusercontent.com/6pTX4OILXTxazqad66oiVfG4x2KpYn4kIPgdzOe173tT0oHr2ThwpBhMyzzzxWq_r6M=s64
+  - https://play-lh.googleusercontent.com/xLl3jDtsXRo1wDywYnnGq9zF31du76iPgOuf5drc5MqKjIRXVzijlLbVVUilYYxJ_oTB=w416-h235
+  - https://play-lh.googleusercontent.com/ep8PY3MTizVLWMhvaQAS4EuTBd5NimoYBcIK-Ke9ncobb7wb9dV16zrmcWNyn4sh4hzV=s64
+  - https://i.ytimg.com/vi/0Raldy-TGlo/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/QJObxznpklAxDNp0OVe3kAP5ZfUouIvRDO0kPj-V3MRjoRYKwj9RVTxOwG9yrlY-bgG3=s64
+  - https://play-lh.googleusercontent.com/wQr1D4iD8DQwnL4oyG8iZuYjhTIvD-lNLfZkmOXw-LXebeEiOmJxozp8Eqqjj3zrFA=w416-h235
+  - https://play-lh.googleusercontent.com/37EzETO6gZyKmCg2kBIFX1e9gkubxZrVa5fHJ6yOaa7VvEShHjKv2RdtwnZt9Sk258s=s64
+  - https://play-lh.googleusercontent.com/z-iKn0z6OAQtHtT7TXm-FVMTqJoS7kWtprY-VmqsEyD_6ghcTLUBHd3bvw0QMTG8Dqs=w416-h235
+  - https://play-lh.googleusercontent.com/7jGVW02tWTXs_YPoaOnUHnDvDZPzKCHD4PG8Dbxuux1Lhm99LkUT-bmnDPRsrKnmHXE=s64
+  - https://play-lh.googleusercontent.com/LwvoEiQdED7i8IKFhS73gn0niHqgyUja96uGVRpfgPro8asS2qbgsvaoHPq8skZRRh4=w416-h235
+  - https://play-lh.googleusercontent.com/u1c8Uk5GCkx8VIQvaMhLftbb2s8vf0llcs7nCpsp0uf0hc2C2wonj1gNetdqApRUzeg=s64
+  - https://play-lh.googleusercontent.com/uk-O3RN43HflF4MBSNFRPYwP6tc3UQEImLeQudQn5T24ZEAspT8249bdurjjpBTTAjM=w416-h235
+  - https://play-lh.googleusercontent.com/vlO4VHErW6ZKSRHkTu2GA9qi-DuYkO3sxKw5wlV6_kpyzFEwGZ5zLQaPpRLqNuOmeMo=s64
+  - https://i.ytimg.com/vi/W9xMZWOJ85E/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/p8R1lAZI5_WCOzmvBYnOQasCWcjc9d2vM7z4PaVku8b9AfxGhqQqM0ldJ8KULHblVj-g=s64
+  - https://play-lh.googleusercontent.com/gcJ1dGTnTJUWezGN__6_BZcS-hGjj4rUv1-SRJDWVlzB_-h0LVfRbUdXMBlspboG484=w416-h235
+  - https://play-lh.googleusercontent.com/IDOtRhsZLSG3EFxWxmWREMPa42_SNQvl9-x4FBu5dn9aJMjpVtMx_GoNdnQwEIp_7gsV=s64
+  - https://i.ytimg.com/vi/SEGaVVPTJPw/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/Zk9elS0eGXDr0L4W6-Ey7YwHbRNjkyezHC8iCc8rWp64lNIjlByS8TDF9qDSZbiEWY4=s64
+  - https://play-lh.googleusercontent.com/T-f1MjbTxcmHLI_FzTRTGgPlrH_DyVV19e_VCAPH911Sg9DkGJCRcwtbuAgdASaFaYw=w416-h235
+  - https://play-lh.googleusercontent.com/NxKqwBq8iCpn7WgNmgqm91PYDtaqjCSgJjVZ3wQb9rNvBXuJVC-FTm_AnHDykFDZOc0=s64
+  - https://play-lh.googleusercontent.com/rBGvZr0rXVnWhzoutAGS9zwIaf3qIcdLTh0FS_PjhD3Dks-zk__e789DlIQwz0vJx0Y=w416-h235
+  - https://play-lh.googleusercontent.com/piAGIpbaTSlroeHfAK4wqAGZSbZQg6-CvqHf4k2BIK5jH1bB6dbh52MmFqwQAU5wJEQ=s64
+  - https://play-lh.googleusercontent.com/4tmkHOWrCljTjGuhokuKykAxCuDeUJVgfD1OQ_IR-mvgpvUhwxE-pzaXGOfWS-7ye3s=w416-h235
+  - https://play-lh.googleusercontent.com/jKU64njy8urP89V1O63eJxMtvWjDGETPlHVIhDv9WZAYzsSxRWyWZkUlBJZj_HbkHA=s64
+
+Omnivore:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/f2/cb/9cf2cbe2-f280-4c53-e66c-32c2db6bcb93/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/c8/8d/78c88d33-63d4-4538-9bb9-2feceacffc4c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/01/2e/28012eaa-39bf-2a7f-7633-307c7066662f/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/37/72/96377235-2e45-047c-b594-9578efe0b645/AppIcon-0-0-1x_U007epad-0-0-0-11-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/7f/76/f17f7650-f549-baf3-bb17-d73457ce359e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/fa/fd/86fafdae-5a8d-1fa5-7c75-3a87ef9292b4/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/b7/55/3eb755af-0c4a-ad79-fc21-85a7a76bd0bf/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple127/v4/03/01/05/03010512-27a7-96e6-5bb9-529f1a1efe24/pr_source.jpg/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/43/ac/3343ac3e-82b7-8902-c9b5-bbd4e2988d07/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/28/47/8d284747-2711-eba4-6b37-8ca746a25247/AppIcon-0-1x_U007epad-0-1-P3-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/79/ce/b379ce38-f848-ae70-6e3d-b6fb1400c682/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/6c/42/986c4215-7d66-533c-0d0b-6e81f8efdbc0/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/43/9e/14439eb0-bd43-be39-6697-cf403be9e17b/AppIcon-1x_U007emarketing-0-6-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/18/30/b61830ed-7014-2037-e051-3ba923ba8358/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/WT2nXGhe5HWuFfrGWNfHqlQVmTag1eucTGSQ_h5n5_DJMQ5R6hjL7NExOK4_yN1alQ=w416-h235
+  - https://play-lh.googleusercontent.com/cFIpVc90GCpSFCoqvGZRtRbdWuwUle2m0PSTJ4NKiPZFY_fVLvLJRAdVpT6NJ4d66VNo=s64
+  - https://play-lh.googleusercontent.com/LwvoEiQdED7i8IKFhS73gn0niHqgyUja96uGVRpfgPro8asS2qbgsvaoHPq8skZRRh4=w416-h235
+  - https://play-lh.googleusercontent.com/u1c8Uk5GCkx8VIQvaMhLftbb2s8vf0llcs7nCpsp0uf0hc2C2wonj1gNetdqApRUzeg=s64
+  - https://i.ytimg.com/vi/0Raldy-TGlo/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/QJObxznpklAxDNp0OVe3kAP5ZfUouIvRDO0kPj-V3MRjoRYKwj9RVTxOwG9yrlY-bgG3=s64
+  - https://play-lh.googleusercontent.com/Jciq6Q9Y9ZpgriL35DHzeATz3Cmu-M9yCgMckffm-7BUdKt9Dr3Cbwunhdz9HVe4ujI=w416-h235
+  - https://play-lh.googleusercontent.com/3Wr_nlhRHjIGfPd-BNUbgffLfxPPqNW8GFPscqnQ4t2aPRyKlFMuXT4yhb-PSMsHgss=s64
+  - https://i.ytimg.com/vi/9Q924FCq9xs/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/GK0SwEBVqlFBpRkPjY6y_1go6E6xZzAN0Ivzfgbuf28J4TTOoOsgWnqR4oJ_RhIhsg=s64
+  - https://i.ytimg.com/vi/AQWL_C2uW34/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/NN_i80MWCYgSoVNFPZv8w09gIxUzRbXhPl7d00jgff2xDSKaXqTtjNZFSh_DfDPP1w=s64
+  - https://play-lh.googleusercontent.com/WjXtykmxdvGnF6WcLb6NXb5tlQ7iqg3OJ-aBx3wg_e5SbtaiLaWZJs_MBQ0ZUAxotw=w416-h235
+  - https://play-lh.googleusercontent.com/4S1nfdKsH_1tJodkHrBHimqlCTE6qx6z22zpMyPaMc_Rlr1EdSFDI1I6UEVMnokG5zI=s64
+  - https://play-lh.googleusercontent.com/DcXYr3ZtJHtS1NapbSKr-moGgY3-0TYupIeRjWkucAVjF1dzLpDhHWzO1g9ZeQyCUo8=w416-h235
+  - https://play-lh.googleusercontent.com/qw8lAHXaZodAE4c3D1Jkia3V8Np-PxTnyQpUIx439ibABba0L50TVKI4jfY4N4QwzAA=s64
+  - https://i.ytimg.com/vi/7oo7TI_I9UY/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/QXDGA4zkli9V9-xPs3fT6qRjG7zSLpS0JlBWtvUP-ZxRHy7tmlIrzvzgAqgLru_brQ=s64
+  - https://i.ytimg.com/vi/f6oAwtU8GR8/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/Ht7OXfuYPvtSdFl7PnuX6KisTLgSceF9krOmxof7klTgqNR7UBVc53z63Vm3NuOQ0eo=s64
+  - https://play-lh.googleusercontent.com/j2Tqq3Ss6WpwiStdQe4ugBIS0WZyPOYzcq_fjFSItEYkEtkDo37s2fqL71OtCE7jkKw=w416-h235
+  - https://play-lh.googleusercontent.com/RoI_bifQ0eWgWqOg4cpbx7Bm8eFkBEml42htao3-_3aZb7xWFhZPbImflNT5bV3Kfnk=s64
+  - https://play-lh.googleusercontent.com/-bvaVJUjYaXOF1vfiE2mJrKkaM396M8Ohj-KtMopC5sBJ8yh_XpcYmaU8KGN0qd96SA=w416-h235
+  - https://play-lh.googleusercontent.com/eBs3UdttH20tMfShlphboX5kbIUZ5rcKWOQcGSE-SxzaL1VH1bQsBSw6W3LD2uKQpT4=s64
+  - https://play-lh.googleusercontent.com/i5IqVz2T8CxrBgaB8HbsoeNIge3b1zFtFAmbNh003gwaEZ4mpT_6cuB2BTpUaKPHsACs=w416-h235
+  - https://play-lh.googleusercontent.com/NWRVVF6zXvmcqspJwdFOKcQG6OlsNwpMOxED_DgB6B2BBDeWwAeWZKZxGhgqU0LQVJU=s64
+  - https://play-lh.googleusercontent.com/lshyon7gFV0vCRWwvJNRB9bg798c84lWm-ciq4rq_VQ5ClVChR7twff7Szk7rRh5_g=w416-h235
+  - https://play-lh.googleusercontent.com/7fNrWWPMQZgIs_sVv5Bb3jME5KbEqguW8n4PDo4FsZzvI-xGE2jiJQ2ah8xdkvyTNQ=s64
+  - https://i.ytimg.com/vi/br36gZeC49M/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/PH-2iORSfQs-iizoHzePXBaJCXml443pgoC14-lZESLFIp78A4SvxLKUVv1FyIQFtC8=s64
+  - https://play-lh.googleusercontent.com/rwqVnx3lkmjy7XBaHDTsPSL7LNFd3LU-wLMN-YhUXVFOZWxEWVTe7M4nNTe2qqNWgg=w416-h235
+  - https://play-lh.googleusercontent.com/b3MqZswO8F7j3lcdH01kxzaeHa7vUndy7ma_JwdM_j_Vpj8LKZcKt0HmpORQ7CKF2A=s64
+  - https://play-lh.googleusercontent.com/IFaL1VcNtwy5EWPVLQshI6bdy5T_eIqbUvG1Oxl-mu_SwroMBPX3JPzzkiYlvFTLvw=w416-h235
+  - https://play-lh.googleusercontent.com/8oddMgEEmWXpo_intfPuk9mVx-nmsZ4RkDOm20neVgvaWgpzcft2DlfAdJ8gct8ojTo=s64
+  - https://i.ytimg.com/vi/M_tJV37d-8s/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/XtyTxwnErRI0pEIXO7sEB9B_d_6xF9knDCGeezSbiamt6GnnbmNPIwDoLEyy52VuLxU=s64
+  - https://play-lh.googleusercontent.com/sNZcvBduqFu6w8uC8SmeFjhizuK97n3r-mjw_5TIBAFRRQls1kRVbGHJ_4BDT7zird4=w416-h235
+  - https://play-lh.googleusercontent.com/FCm6Y99r1v7NePwvj0Yu8qzPkXysU4j_BnPc4fpWsdOkQ21HyF33GiZEOHVm80EfzkU=s64
+  - https://play-lh.googleusercontent.com/znWJqVheG517ai0yRhONBVEuMkdCdA6qNygacBsFV6PCHOK7Mlxs-DPAL-u_XtmLL_6k=w416-h235
+  - https://play-lh.googleusercontent.com/JfuwnIUzDUcY_OqnGCcu3rW5q9l0RlDEabhisQdW88vrBib9e9GQp9S3BjDxilVqiKs=s64
+  - https://play-lh.googleusercontent.com/9oCZ8BW4WH6ojBmV286tpY5FPP0Ayp9xNDzhRpn0c89gCgsKwYyLVlbKsPG5thuPBQ=w416-h235
+  - https://play-lh.googleusercontent.com/yssuOUUgzoiZve-NfSvkykhAP9QbnFEL-NfLNHmTjnAcLCMnEpZsvwg1brdSuRZrqg=s64
+  - https://i.ytimg.com/vi/0n65cYZIHh4/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/CJMiJdUpVAGUz37lBShcGQmy7TPhl0roKWcnvJE3lbvaP41PF_y0fKW_hXTfa8i-E14=s64
+  - https://i.ytimg.com/vi/Lln4RxgV1cU/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/gdgWA3BwBVJ-EfdAy_8jvmDgR14YgY_F1gVPMzpv7UHDCcLsPMkctrALT6K1ApzwTQ=s64
+  - https://play-lh.googleusercontent.com/ntDa0shrxznf182pyPqFQ_J9jU3S_S9uxG9LioHaHYe4eArJv28YCtbyEOqwrB2Yb67B=w416-h235
+  - https://play-lh.googleusercontent.com/NkHDQvvkQyp2D83W2-EA3nehweoukMG6Z0Lk7fDwl1fFOPzVDnq_6X4L7mI6CJXJJW8=s64
+  - https://i.ytimg.com/vi/JibjDyk-fJ8/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/8V1fwYBnseZxjoyPtG1Xk8pUH_L6e6IWQqBuvW9DIoG72rackUixnuSNdXRYbC2zSg=s64
+  - https://i.ytimg.com/vi/r5QdECL9e6c/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/SWbS8z3NqFVHCEQc_6l-ZDdDj5qPGrWSK8hEWRSPHYm9s8958y6nTnoLolVHXlgKfXw=s64
+  - https://i.ytimg.com/vi/vANAT1t1xv0/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/DNNk9f7y9jaAeRFMyGwZ3UY0KDcP5VKRm4GsKtJez6UN4xkm3hzhwsh3cC6yj7z32dQ=s64
+  - https://play-lh.googleusercontent.com/owyIXjeEpOYOZrMr4LYuGWiH7NSHv3TX1sqEgB15NmWD87CE_xgb_H9bJq7koFvDF70=w416-h235
+  - https://play-lh.googleusercontent.com/GD9jcUrXgEDkwYsyht_AuvRuWMeqW9FOtQvcB9IryuZpnLEgYwG7JnagoRkdNflf0nBU=s64
+  - https://i.ytimg.com/vi/RthO_mnO6Os/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/hIaG-BBdA-LaXmUXI3CL4XBGcJAWU-LffKAmX16wfqcNQ0e73dxOHsWYElNx9kFtlQ=s64
+  - https://play-lh.googleusercontent.com/DaH7qfZR9u0gBoUMVKFCyDVsW3sKD-jVWo7L9Rpdpg4-wAvz2oqw0bdvPeWxg0ulxRkQ=w416-h235
+  - https://play-lh.googleusercontent.com/zVNXJttU2hCZQtdhQHrMHbQx7zbh7ganOE6YPbE0KypiTXNhgEcP4cP2NMz7cCln4Q=s64
+
+Readwise Reader:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/00/d2/ce00d2a9-25c2-5785-1c80-e5098e885ea3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/24/d8/ec24d8ba-b2e1-943c-aebe-b2f141f60e4d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/01/2e/28012eaa-39bf-2a7f-7633-307c7066662f/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/MqeZa-Xo-mmMO2uWBeyTr5dzMeOCXsCi9H_DKZ9t41kEyfcqTv5rG1-MIYFSU0o86w=w526-h296
+  - https://play-lh.googleusercontent.com/uxwdYQSdbi4SjLa8rmGe5oAAsz_Qf-283316k6edp3Q6uFb-Jzys6VWO-FYe3Es3TPw=w526-h296
+  - https://play-lh.googleusercontent.com/4QtWGjI39t0KG4EnZL5r1WitY0lG7sdDzNdxPU9wIzVcKZUdfCo-Gdm4XFOGCTAYgQ=w526-h296
+  - https://play-lh.googleusercontent.com/Up7_NdibC4D_6lAmlE0tzGhIkvtEKU_S12At-rm_kRc5kyxFoMbDd0gqElB4UcpcWsE=w526-h296
+  - https://play-lh.googleusercontent.com/T0P8d7s8DnQo4usaXeEzC1_uLlze9Z5ArtJ9bFSYsIMPtrJiUpbrJQZAq-T4VdgbLQ=w526-h296
+  - https://play-lh.googleusercontent.com/BnZvuVR-32x7_mT8POVtqzzOXfYEGK__i6GA87thzF7PdceJBp6nwz794D7BDfqHEeE=w526-h296
+  - https://play-lh.googleusercontent.com/xzVrs5UOG1UtCuB5ks8K8fIiyQ2ICLo59ApLFBeMo1AV6fdbAboYOYDltLA84xogXuo=w526-h296
+  - https://play-lh.googleusercontent.com/S6SJD00CyXiwTLol-6saQnYNLcJEjBe1iLJzDIh5PoYnwWFnXOy4776YTf5rbZM02r8=w526-h296
+  - https://play-lh.googleusercontent.com/sDUO3u9iUKNUauToqDuTrEa-qv7ZbR4uLOF8AGqNOzxz9geVR5Y-qALznDeUMTsmjg=w526-h296
+  - https://play-lh.googleusercontent.com/dI2QrRQFowsbzvvPKqxKDAwXX10-5NMoD0O4mY7D834fgOywi7GBkgln75yeejyCzw=w526-h296
+  - https://play-lh.googleusercontent.com/04EBaMlgFyFt1YYTYGF97gdcilVWH-1cuiquusl0KlyEy09Z6Ym04MQrWQGktKmpKA=w526-h296
+  - https://play-lh.googleusercontent.com/cpP8oZFloTY97vziWH4Ah4fnxBI2Nx6Brh0QuDwMJRMKwYQMr6W6mqRF2M8FhTHobw=w526-h296
+  - https://play-lh.googleusercontent.com/XgJ0-6bnLlELfu__5qMJArwAgh3IZX3RScosV-ICCD7fFZ8cbPiiU6f9XV6Dxj3R8rwD=w526-h296
+  - https://play-lh.googleusercontent.com/0Myy1zL0jxLInVZBCE0uzFRYxQocTwAFDRN5Kov6rZMQGnQ3OvgnJ9Cna4SP5GdqTw=w526-h296
+  - https://play-lh.googleusercontent.com/nVeF3xRCFKgSj6VtWfUvv_uvcDQBsGVdQz_YXtZSTNpN4Jl0JME_qf7KOTkGxJt3FA=w526-h296
+  - https://play-lh.googleusercontent.com/ZXmU5iEOn0YaG-mqvwdXlW5_3jUIDcR0HvI9a7Aj4ZaIiHjZseIxnOet4A63MEK1Gf3V=w526-h296
+  - https://play-lh.googleusercontent.com/ch_pX5GSSzAdeJSGE7XHDMHq2EPFtzkEmte4_39gF4_kUBBiyvoDcZACzqaSdMGQ4T4=w526-h296
+  - https://play-lh.googleusercontent.com/x-6NS03GamDBwPQNGA41r8UfVioyfA1Uj-RfNnGFXZ_tfPC3SxUcCbf8psz294V1_QS8=w526-h296
+  - https://play-lh.googleusercontent.com/LYXgGidfnlGSFPVP2rx6EblT9l5iRDl9BnMp0Qg_PVHDQuTpvrO5Vn2CWGCb8tHp1g=w526-h296
+  - https://play-lh.googleusercontent.com/sz7SxGqH7rS2l5wiIAaoONX9jiBR7Szsm5Jyj6lx4zp6kQD2NQ97hAcTPo4YEKDp0JgG=w526-h296
+  - https://play-lh.googleusercontent.com/9M8UD0EX69SaQpj_hN_PuF13IBM2ZkM7ijVB7Rzvjsav5jRxNmm1IyZi0THSlUI5RCQ=w526-h296
+  - https://play-lh.googleusercontent.com/o8aNGlpT7fY5MpZDpymCB9Zk69-JwUB3-GwHJo0gyZfYqCxhl2gwlRsuffHKvUQcmnw=w526-h296
+  - https://play-lh.googleusercontent.com/bkt5_lSj5B9VuNBp7r2gQgF3YU4SW2QVORbzs2GWqEOCCN6Uabcc_rI97OkxxLlgf6o=w526-h296
+  - https://play-lh.googleusercontent.com/vtd6yd_oyze_0z4DvTUQA9r-6R2x0xKGSB0GGLLKE3MJIMeYfcSZGFnX6h2zkUMntUBj=w526-h296
+  - https://play-lh.googleusercontent.com/IZjzKew6aWH_dCAtKNX5SWQ486ncw6bo0O0PdDX8r53WLRJkvB2N_OdVV_naYIVwgiU7=w416-h235
+  - https://play-lh.googleusercontent.com/iWVlhTceVZosZNyVRYRwJb4JKw7j_ifg3zJDLkhFoLt3yudFo1nwAFSUtKRvJDIu7w=s64
+  - https://play-lh.googleusercontent.com/mYgerp4LNmJeUcj6VfTLB3zdZskgaTj0mHi-IAu1nWo3VvEx6C_oUe7LO4xK5uR9-hc=w416-h235
+  - https://play-lh.googleusercontent.com/cbI_01jZP7oWKBa8I5yeLDoR-HEYkB_urY1KYJ27d6XeY78G70HTN3O_9z1nov75d2Tm=s64
+  - https://play-lh.googleusercontent.com/PMsuwdDoNiqGsFAIKI4cbJQCLDcljKhunYe3m0zeE_G4ge35M9rZD_a9summvQp9Sw=w416-h235
+  - https://play-lh.googleusercontent.com/5WKDh_lIDQOfyxrboxl72cac3E2gxw2ztm0okw8h87hp7Xek0bAqpid1ozfuhuZ2pGY=s64
+  - https://i.ytimg.com/vi/rOhhw1hn6-c/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/T5xwhe4ugBT8c90MHBrmoHG0qJSOgPIFKDepFLy5eT3YkUGqkOXf91FCvDpnWC7WbA=s64
+  - https://play-lh.googleusercontent.com/E6takZPIYxIb9wBJ020AO2xOqfvYjuqgyiAbsRk9inMvaG-cIGCd1jaLEaoF0vR4kuHW=w416-h235
+  - https://play-lh.googleusercontent.com/nQac_79fgvfP-ALT8lskZTsxYBmM8fRGu6U-JH6lWvrpGbJJi9980GmN1iWhO8m1yrw=s64
+  - https://play-lh.googleusercontent.com/VqwXCssICoGEghOg8cb3CNcyEmSgngRtRKC7hPW3NGS6-_FXyz4fnsErxeQ1NYpkGc7P=w416-h235
+  - https://play-lh.googleusercontent.com/DSZo9j5cd46iHJNg1WvqQUfxdOiufs4LEnKuwmiY4wzYS-enODO4pYQOEc9auExxkQ=s64
+  - https://play-lh.googleusercontent.com/9XoY_PSact_TwUVui07kRSNGtb0fmHGFBJ2VWG3Hm6ZtAFlznlnC2qLpvD6tJmQQ1xQ=w416-h235
+  - https://play-lh.googleusercontent.com/Tq0AXOWNsHiJ3RjelBg2YOKFxTG-9lMnHRA4T3V3VDai6Lye_qa72ZFf4TzEZWDdIQ=s64
+  - https://play-lh.googleusercontent.com/DcXYr3ZtJHtS1NapbSKr-moGgY3-0TYupIeRjWkucAVjF1dzLpDhHWzO1g9ZeQyCUo8=w416-h235
+  - https://play-lh.googleusercontent.com/qw8lAHXaZodAE4c3D1Jkia3V8Np-PxTnyQpUIx439ibABba0L50TVKI4jfY4N4QwzAA=s64
+  - https://play-lh.googleusercontent.com/ihTo1hocEiRHjBO7iAW0tkqyHAnXub45cAnXw0Kz5KzEVr9BbUdHdofy5oJzGzts2NE=w416-h235
+  - https://play-lh.googleusercontent.com/CwOLEx-Vxk7UG5l2WxUdLAn85SAVG5_63bAyOtiEw58fatNEDBwCjEeuUWj4yfemLPU=s64
+  - https://i.ytimg.com/vi/GN66MXAtVuU/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/BX_GK46RKT0OeO2trRJcHnDoZxQPLLLo63fkX3umKR7LuHzdSM9hIgYqCG3g_I9oiQ=s64
+  - https://play-lh.googleusercontent.com/QUc_OAw7kFgekwUj-OR6TgmFTgu8gpJTWrRbX_gKDB1t86k3rLSIyZGqFVGxo998RZ2G=w416-h235
+  - https://play-lh.googleusercontent.com/48wwD4kfFSStoxwuwCIu6RdM2IeZmZKfb1ZeQkga0qEf1JKsiD-hK3Qf8qvxHL09lQ=s64
+  - https://i.ytimg.com/vi/RAJyS6dcvOg/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/va5x0Ruhi1iz4AHplPZz1q8Bq6cTYqUiWngR332L5w2QaJFCxs0Q3bj023TTkbJPebgK=s64
+  - https://play-lh.googleusercontent.com/rHdPgmJZyGEjTNDJfeVTbSL6RaP8tqviQpq7bpwZVLRb8OaoTeyteJF8m3_PPph_QqI=w416-h235
+  - https://play-lh.googleusercontent.com/p0TzV6-CHE24ySIsC05vjGIS_PWaXIzE6Edzrw0VX7betQUtYY3FSFIKVjjMWJFXuj-u=s64
+  - https://play-lh.googleusercontent.com/lR-awfRq5dCDqm9vMnmnGCeN6-mEs9sSx9BnCgNdLkyytliJJ3z1zR2PiJWlP39gO80=w416-h235
+  - https://play-lh.googleusercontent.com/pwzZK-7oQexraeU0mOrQgFIck-QSS89rH0eWjehctp8XskRSpixPNVlA0YYlRXHbA2Iz=s64
+  - https://play-lh.googleusercontent.com/6FzR5vgH_DoIKkkvzYDyYK-DHpZElZ4tQqYBSZlPK8VcYXsEAXK19WV1s1U2UMvX9w=w416-h235
+  - https://play-lh.googleusercontent.com/EyYGDDgrejy_I6c8xeKigCokS54o1si9jaOHj45yc7SGvKu2M3-QyrWp8i2xH_ndApHH=s64
+  - https://play-lh.googleusercontent.com/EfryvgurKyMXNOj7yj3pVEW_HzyuA-DX6M7rqpCghHXAr_Qm32lhD6ZwA6aXhum7Ow=w416-h235
+  - https://play-lh.googleusercontent.com/UbJK9UozPuhJa7JGmdnEcizQnqF7iok9LkDKd3oB6oKmtkS6SDEvq4mjHGMyXJyTjSY=s64
+  - https://play-lh.googleusercontent.com/g-FyxsHe0PtB6rnT23xx1PpJFGZK3h64B_G6CR4GYRcRnIBBN6bbt34j3NtJ9zTYOw=w416-h235
+  - https://play-lh.googleusercontent.com/AYcDPc1bBg7JpqeZpL5UrxqhfSnCF7gEJQhBMGzpHvVthTeH51Utzjp0ZOd7v-d7-Y8=s64
+  - https://play-lh.googleusercontent.com/9tbTieCdvX80PDGVzZ-ZqxnQ5PiUR1R5e0BxJ4ZeOlRdRMKVTImlRExCtW3reH-P2Yc=w416-h235
+  - https://play-lh.googleusercontent.com/ufvs48ZAzaZLOsW5l3Rw3xrSwKtkt0FEGfLWYd8Dmmw2bJJP_faRr0WesNq_rCqGCg=s64
+  - https://play-lh.googleusercontent.com/5r5viZ9i0x7Jc7Rwc14jJ0K37pO3i8jBz0MlT-E_aq6AG6oZT9d8m8cPJWndKHrtjw=w416-h235
+  - https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7=s64
+  - https://readwise-assets.s3.amazonaws.com/static/images/reader/OG-Reader.9fe9ca92418f.jpg
+
+Reeder:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/3e/d4/5f3ed4e2-9ada-1102-af29-1c9bf490cb71/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/27/02/7f2702ca-65ee-45dd-843d-ea6faa80c9d8/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/28/ca/8028cabb-19f7-79d9-6e45-e5be07a0c563/ReleaseAppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/a5/f0/f5a5f017-ce04-333c-689b-9674b1fd713f/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/c7/30/61c730c0-17e1-69b8-0304-a6e531cf478a/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/b2/ed/c1b2edf7-2216-130e-158b-8443f55e339f/AppIcon-0-0-1x_U007emarketing-0-2-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/3b/d0/093bd0d2-5b94-2a48-3a66-c842accb6325/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/97/4f/18974f21-fde3-5e09-3f51-c1c0275494f2/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/31/67/3f316796-9d5b-caea-1d98-429ec636d42f/AppIconLite-0-1x_U007ephone-0-6-0-0-P3-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/a7/2e/d5a72ef6-5b55-3200-c2df-ebafba062faf/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/d8/b1/21d8b120-93c2-e9ad-1558-6e82936cba13/AppIcon-0-0-1x_U007epad-0-2-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/85/73/28857319-467c-27de-ffb9-d090cc49c43a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/c4/db/fcc4db7a-0b52-bafe-d9ed-110feb38abfa/AppIcon-Free-0-0-1x_U007emarketing-0-8-0-0-sRGB-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c8/81/d1/c881d16e-2456-5a22-848a-34aca40ea805/AppIcon-0-0-1x_U007epad-0-11-0-sRGB-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/8c/5a/f28c5a0e-c87d-f875-d327-e913c985d8cb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/e6/04/c0e60488-d794-0c74-d670-d51b847600df/AppIcon-HOOKED-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/8b/0b/068b0bc9-4634-0343-8b70-c7b7fe722b23/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/8e/2d/8b8e2dc2-52b0-cf2f-6fb0-ab40951c648d/AppIconMindblownBlue-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/c7/a9/1cc7a9d6-e790-31da-bd65-ae449df751c8/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/be/5b/0ebe5b4d-4ff3-ccea-da3d-84b49d4b247e/AppIcon-0-0-1x_U007epad-0-11-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/35/60/a9356002-a0bc-3248-31be-32fcee5cd61e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/8c/e0/888ce069-5224-aa93-0a09-4218130fa21e/AppIconCatNinja-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/0zJvsqXO-zvzsvZZ0HuOal-Q5_uHR66BeDsm0-zCsehO_to3afennD0XLxJFjuUVJQ=w416-h235
+  - https://play-lh.googleusercontent.com/aX7bakjjvpUhkFAZpU0meTPQK2KHyNnoJXt3rAnrwQtDwQLeRqyKp-ObivDAjWN2ZQ=s64
+  - https://play-lh.googleusercontent.com/ou543b7hej48rTGPFMUyzYRIBLt92lvHY7D9CV9TvzzrG1DISAJ_Pykdbn5H1W6SYc9m=w416-h235
+  - https://play-lh.googleusercontent.com/Ar06lRLefHnKmHHFtAznIkd7-XeRZl6JPrQTXquAEaJ3f7_cA2fbCg-457PHrVdLP0jR=s64
+  - https://play-lh.googleusercontent.com/obIzkntJZY4mW24mI_BMBRk7pii01d56gOoLbSdu4GTlcX26kGHEV_GJUF5h5gnBMA=w416-h235
+  - https://play-lh.googleusercontent.com/FNbI5QimPsmZvhmb_GySmENt-TeVos3xpV8sSLP6NEUhMAuB8MDs6XafdltlEa8YDO40=s64
+  - https://play-lh.googleusercontent.com/mYgerp4LNmJeUcj6VfTLB3zdZskgaTj0mHi-IAu1nWo3VvEx6C_oUe7LO4xK5uR9-hc=w416-h235
+  - https://play-lh.googleusercontent.com/cbI_01jZP7oWKBa8I5yeLDoR-HEYkB_urY1KYJ27d6XeY78G70HTN3O_9z1nov75d2Tm=s64
+  - https://play-lh.googleusercontent.com/DcXYr3ZtJHtS1NapbSKr-moGgY3-0TYupIeRjWkucAVjF1dzLpDhHWzO1g9ZeQyCUo8=w416-h235
+  - https://play-lh.googleusercontent.com/qw8lAHXaZodAE4c3D1Jkia3V8Np-PxTnyQpUIx439ibABba0L50TVKI4jfY4N4QwzAA=s64
+  - https://play-lh.googleusercontent.com/1LdWoV0Bn5RdgGGVx27FKrN0U7Gc7rZDGlynUy67fWhtrJvNxa43iz0PYGVbzLCdmJxZ=w416-h235
+  - https://play-lh.googleusercontent.com/YlsjgA1pFEUqNaypaxE5ajushTBOt8IxVk_UEqzaXT7_n3JDgFq6KgtuE8tPBpvaCntB=s64
+  - https://play-lh.googleusercontent.com/ihTo1hocEiRHjBO7iAW0tkqyHAnXub45cAnXw0Kz5KzEVr9BbUdHdofy5oJzGzts2NE=w416-h235
+  - https://play-lh.googleusercontent.com/CwOLEx-Vxk7UG5l2WxUdLAn85SAVG5_63bAyOtiEw58fatNEDBwCjEeuUWj4yfemLPU=s64
+  - https://i.ytimg.com/vi/uwnk2BrYpKw/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/BkRfMfIRPR9hUnmIYGDgHHKjow-g18-ouP6B2ko__VnyUHSi1spcc78UtZ4sVUtBH4g=s64
+  - https://play-lh.googleusercontent.com/fLF9EQBUTOaymHzWTJOnI8U_aE8n9Frb-PPWsgAMHGh5hDnABIs497sKeqVanylASg=w416-h235
+  - https://play-lh.googleusercontent.com/xmoJu74mzCBzdo5d1BiB2IUQ-DeX7OLF3mCMF8dwYOa4EU2k5CMjgeWtN7OtuiCHbRM=s64
+  - https://i.ytimg.com/vi/AkTj_qQNphA/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/Tt-6ZaQDUAjfSNSeLz4XyYkPsEQfVVp0lBtwrnuyqubhCna0LKu5OZxKgegBJIrEhz8=s64
+  - https://play-lh.googleusercontent.com/nAjOkmwu7xeZ535_PMNa1PQrv5bhcqzrpapHrGPoKBLG4-8rhLqc-Vohu33bpVDHdXg=w416-h235
+  - https://play-lh.googleusercontent.com/XpxgKsp5fu_tIzJTd5hbUkYojzzk8AjZcfRk0DeFqsHNvr6oO2xugMoiWKYPDFWxYw=s64
+  - https://play-lh.googleusercontent.com/1osAwMb5Ff64VyqYFKjRku2nGzE0A4KiRxGAMkAM3ORlp34_4DKLcMP4hMeA_jA0WMY=w416-h235
+  - https://play-lh.googleusercontent.com/tydB6e2GgMddBVHzC0xhxZ5Os28y1bbf5awrbSSiKJYRLLSdiAIEpJyMuuhP16f0dg=s64
+  - https://play-lh.googleusercontent.com/5r5viZ9i0x7Jc7Rwc14jJ0K37pO3i8jBz0MlT-E_aq6AG6oZT9d8m8cPJWndKHrtjw=w416-h235
+  - https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7=s64
+  - https://play-lh.googleusercontent.com/ed0GP-1PQV3TKmhhekodBvx2mh9-01UetO9_bO0S4-FIZz-5mMQ4sSZ2Ly1brxUPBxs=w416-h235
+  - https://play-lh.googleusercontent.com/R4bP5TSYTpGcfNGaho7YuR2y6sxyDJeZJO9wj5seVz1j_aJ5xpAbozVwU7Ib9XHae3k=s64
+  - https://play-lh.googleusercontent.com/T4ZGl4MTMAso2lkzjiT8G_g78OGjJg6TOKfis0VpRDJALP4RgzJWTSpwv8dy09SyI8s=w416-h235
+  - https://play-lh.googleusercontent.com/LosPYfjaz1pOL-I3XCTroj4vQVxfsF5629nzPJM4pIj2KLaQuLbwmXUqV-I1RT5u9A=s64
+  - https://play-lh.googleusercontent.com/6FzR5vgH_DoIKkkvzYDyYK-DHpZElZ4tQqYBSZlPK8VcYXsEAXK19WV1s1U2UMvX9w=w416-h235
+  - https://play-lh.googleusercontent.com/EyYGDDgrejy_I6c8xeKigCokS54o1si9jaOHj45yc7SGvKu2M3-QyrWp8i2xH_ndApHH=s64
+  - https://play-lh.googleusercontent.com/S-DXeKjoebfvmR5cXCF612dTg8t6OO6MP-8Yzw_DupKjkrUqRIT5Y7Qcwh3cZUs2i3U=w416-h235
+  - https://play-lh.googleusercontent.com/REVltrOPsx2bP8cFQa4dGOMw6wuxqI1QSPXO5q7cbiTSbfyQkDRZp0HAMCXCixSAdmw=s64
+  - https://play-lh.googleusercontent.com/wlyzzVUYl387WIVR2nzL1Ftffe0zx02XywhPsdkCLfu9N1oMS7l67h9Bq38IBbKeRtU=w416-h235
+  - https://play-lh.googleusercontent.com/d74zkuWfVBFWjyhWXz9R2d6wh-WCBWoNB4M0x8iIXHvDOvdYbXJA4ivUQBWTkUjKMso=s64
+  - https://play-lh.googleusercontent.com/VWUtKQEaBaOHDofCHuaC2ORFxM_3xRK29f0isJYfK6lNN8k3-YtyKk6m3PeCo0_0UKRE=w416-h235
+  - https://play-lh.googleusercontent.com/X8YYyjJXDFpDJ8cgdBxSdWOYcUeE76V7WuXw3Ix3dDuY4LaJ2LZV--yo3Ekyv46nM_s=s64
+  - https://play-lh.googleusercontent.com/EiQbcJ042m3ANkbxu_DgLz4d5PcXsCORt23No30Tveius5NK6TZNYxGWCtbaiFI-6Xo=w416-h235
+  - https://play-lh.googleusercontent.com/vGXmGFRWw-ENaAmTbnVl0kV8BydaHEfDUqz5ObGPuYWVcQlPl9nG44C0qDhemLeb0WhR=s64
+  - https://i.ytimg.com/vi/bxV5uEPdFMg/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/dgzGsrWatFcom0s9Vxsr_1lWllEJPst0ZooA9OL2sLMbtdVhyhdXitNbj0mpWwG1em5K=s64
+  - https://play-lh.googleusercontent.com/4q5gBNjh1n0jM36JW7lsJzN4lTswRPnTzNceGk2eCHd2utVYDZQ1qM3zWRUlGkobGA=w416-h235
+  - https://play-lh.googleusercontent.com/vTGAAhdsn1Pax4x_Bm1-edijXKh9nbKX69HsMP7kgQVGgdfHtnPcvX_5UtR4QeNKMeit=s64
+  - https://play-lh.googleusercontent.com/mOZvAEi0FOiZD1VJi4_whCsm0azFin4nd4qPSGC3Glm1wPhJDuBzU_hDxt2gqH0j8Q=w416-h235
+  - https://play-lh.googleusercontent.com/uCpP1a7Pvy6hInBErTH_qLHdhKcBJkk0xWIT83sR-Jfly2EmC6WNVmbcrYxabBlfnrEb=s64
+  - https://play-lh.googleusercontent.com/g-FyxsHe0PtB6rnT23xx1PpJFGZK3h64B_G6CR4GYRcRnIBBN6bbt34j3NtJ9zTYOw=w416-h235
+  - https://play-lh.googleusercontent.com/AYcDPc1bBg7JpqeZpL5UrxqhfSnCF7gEJQhBMGzpHvVthTeH51Utzjp0ZOd7v-d7-Y8=s64
+  - https://play-lh.googleusercontent.com/zvfHezCHx92X77I4yktGB9C0ImHxnVi8qS-RXehmpAnVrVv-NDOyM3gfD00E46AlmzQG=w416-h235
+  - https://play-lh.googleusercontent.com/CP66V90WUb8Tzdyu4WaEUUE0fPwk1W_o8yBvfBteZEEqJC6xIlwNE0xjCqHypG21F0mB=s64
+  - https://play-lh.googleusercontent.com/TqFNs9DQmpU4dE3suv2h0SlGuqwWp3A7XVPaq5Opi7iXrNpciO6S2qwuVFlVSGVrjw=w416-h235
+  - https://play-lh.googleusercontent.com/QaRwSp2lguVRlnKZKadnDE9vdv2lt3GWVe847yH1oxzZnHvVRgwjMor3h8cnZyQgttA=s64
+  - https://play-lh.googleusercontent.com/UV7Vtn_pkHuJD77n2VnkyA86dBt1gJiONGZIVfVtt3OK5fFQHkqa7IHRogd0mqqCGjw=w416-h235
+  - https://play-lh.googleusercontent.com/24eugIr2yGpEuovtn8WpaEVZA7ICAreKGjh5rvRYVZr2CnKJw3fLHP6KExBXBg9IZDk=s64
+  - https://i.ytimg.com/vi/_5MsEypZL4Q/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/5aKJW5Y8Ejye5J2HUKuULpRMCmGAuZTo8ANGaxn81kQNlOyycHDUhOGhwGMz1wuq8lr7=s64
+  - https://i.ytimg.com/vi/GN66MXAtVuU/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/BX_GK46RKT0OeO2trRJcHnDoZxQPLLLo63fkX3umKR7LuHzdSM9hIgYqCG3g_I9oiQ=s64
+  - https://play-lh.googleusercontent.com/E-xzFXcvXQbgQXYXcRO4IM04vj1h9rQJ-J6fMHoIZ7XtCrfOt3L3AK8NWHE7FDxVUjM=w416-h235
+  - https://play-lh.googleusercontent.com/vNusnGetDv0yY_D_ZTI64pDOXfO_sfSTlJsMHUsfHgOO8wfrOB1fyv-5__wyGlSLxOw=s64
+  - https://reederapp.net/touch.png
+
+Goodlinks:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/3a/c4/a33ac474-f9c2-464c-f47f-f5012bd77130/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-P3-85-220.png/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/KN7rbb2hThuy_Q6es31T_ZnJZaI4UhjMZ3il1g1Q80EPg4qWica-X6oasUva-Hwi0OU=w416-h235
+  - https://play-lh.googleusercontent.com/uQElx_kgheNkInfRZl6_iPZ34HLOpt1KMOiVWmcN_PZFRQ66Ug3vDaAS0eymjsok7g=s64
+  - https://play-lh.googleusercontent.com/ZOZS-IuzfZ6RWe7mAJiTgq447wlFmeVgwionMnm8PWaIVKuRHtTBaAyubpDtkTeLmj2a=w416-h235
+  - https://play-lh.googleusercontent.com/hEiBwyA1Pfa9IdyNrFbnfA8qbe83zEH1NqOxpJNOzDdKXZvGDN6IXE8ZqmHkNrK7xPg=s64
+  - https://play-lh.googleusercontent.com/rwqVnx3lkmjy7XBaHDTsPSL7LNFd3LU-wLMN-YhUXVFOZWxEWVTe7M4nNTe2qqNWgg=w416-h235
+  - https://play-lh.googleusercontent.com/b3MqZswO8F7j3lcdH01kxzaeHa7vUndy7ma_JwdM_j_Vpj8LKZcKt0HmpORQ7CKF2A=s64
+  - https://play-lh.googleusercontent.com/lR-awfRq5dCDqm9vMnmnGCeN6-mEs9sSx9BnCgNdLkyytliJJ3z1zR2PiJWlP39gO80=w416-h235
+  - https://play-lh.googleusercontent.com/pwzZK-7oQexraeU0mOrQgFIck-QSS89rH0eWjehctp8XskRSpixPNVlA0YYlRXHbA2Iz=s64
+  - https://play-lh.googleusercontent.com/QUc_OAw7kFgekwUj-OR6TgmFTgu8gpJTWrRbX_gKDB1t86k3rLSIyZGqFVGxo998RZ2G=w416-h235
+  - https://play-lh.googleusercontent.com/48wwD4kfFSStoxwuwCIu6RdM2IeZmZKfb1ZeQkga0qEf1JKsiD-hK3Qf8qvxHL09lQ=s64
+  - https://play-lh.googleusercontent.com/ihTo1hocEiRHjBO7iAW0tkqyHAnXub45cAnXw0Kz5KzEVr9BbUdHdofy5oJzGzts2NE=w416-h235
+  - https://play-lh.googleusercontent.com/CwOLEx-Vxk7UG5l2WxUdLAn85SAVG5_63bAyOtiEw58fatNEDBwCjEeuUWj4yfemLPU=s64
+  - https://play-lh.googleusercontent.com/j2Tqq3Ss6WpwiStdQe4ugBIS0WZyPOYzcq_fjFSItEYkEtkDo37s2fqL71OtCE7jkKw=w416-h235
+  - https://play-lh.googleusercontent.com/RoI_bifQ0eWgWqOg4cpbx7Bm8eFkBEml42htao3-_3aZb7xWFhZPbImflNT5bV3Kfnk=s64
+  - https://i.ytimg.com/vi/M_tJV37d-8s/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/XtyTxwnErRI0pEIXO7sEB9B_d_6xF9knDCGeezSbiamt6GnnbmNPIwDoLEyy52VuLxU=s64
+  - https://i.ytimg.com/vi/fKelAPfM9Rg/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/0IoGNBJeaga47hJgxtTzXXlPQmZYGjrzghS1NLoCrtjJTkm_GSRs5e44FmrXxxCUYJs=s64
+  - https://i.ytimg.com/vi/6UkFHYqVsbc/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/htBUaqvBQR9UQ3b1-ouSHFhDGttQkH-eWetEErspYXVa8hOsfmOmj5ZanGg9GF7XAGc=s64
+  - https://i.ytimg.com/vi/lNFpiOkRvlY/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/gfmioo4VBEtPucdVNIYAyaqruXFRWDCc0nsBLORfOS0_s9r5r00Bn_IpjhCumkEusg=s64
+  - https://i.ytimg.com/vi/vANAT1t1xv0/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/DNNk9f7y9jaAeRFMyGwZ3UY0KDcP5VKRm4GsKtJez6UN4xkm3hzhwsh3cC6yj7z32dQ=s64
+  - https://play-lh.googleusercontent.com/5r5viZ9i0x7Jc7Rwc14jJ0K37pO3i8jBz0MlT-E_aq6AG6oZT9d8m8cPJWndKHrtjw=w416-h235
+  - https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7=s64
+  - https://play-lh.googleusercontent.com/xWOpHP_tKoJWqXMC4zBR7HwztHXDYETqCwpAGJPSLkBYfXExuSMIacqXwJCGkODNZ9xF=w416-h235
+  - https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv=s64
+  - https://play-lh.googleusercontent.com/idMTJUsR0YU3qummE_jbyVhWYOMaWpzWTIWjfOXFgK0o5A1PV0icB0YfqQ61KbiuBA=w416-h235
+  - https://play-lh.googleusercontent.com/Z5WroTW4KmTB3mvUhZMLwgFD2VymNypnEVVxoueXPPCKEFrnUAiZVl0684t1RFEOPqzB=s64
+  - https://play-lh.googleusercontent.com/5ZW3xQYccQpToewtA27ZowGFSqqfCqMHklVff44jn9SIA4y-J02-dgLKQcBl8pYFjXIF=w416-h235
+  - https://play-lh.googleusercontent.com/l55jqaSB7Fs8HDKiQt3ejbc8QQFtqmkv7zt-l5TX79ivMx7RucFU9mfciJ--mN_WLdA=s64
+  - https://play-lh.googleusercontent.com/kbmnEIIp2JoBBJm32XYcimq5n3vsHD-hqyXUZ3KJt5qxWm5lZvNLvFyfMMpvZ8g58M8=w416-h235
+  - https://play-lh.googleusercontent.com/WnUbYMjxo8tncYynK6QmRN1z4iR6nwCFPkyhO6cD7cYsISczZnteNi4r8-YxOralWg=s64
+  - https://play-lh.googleusercontent.com/l4tFOJZdI1yqWIuTt7gp2ZxM5A2q6499W5iwnU8D-pzClC0bXoX6Laydcz0Fj27INg=w416-h235
+  - https://play-lh.googleusercontent.com/tglON9RT5UtgM5omnTCl-PsDxyKIxg4jc8Q36WGEoYmEKjZXsTaUv7HbHo_xEoCloQ=s64
+  - https://play-lh.googleusercontent.com/6FzR5vgH_DoIKkkvzYDyYK-DHpZElZ4tQqYBSZlPK8VcYXsEAXK19WV1s1U2UMvX9w=w416-h235
+  - https://play-lh.googleusercontent.com/EyYGDDgrejy_I6c8xeKigCokS54o1si9jaOHj45yc7SGvKu2M3-QyrWp8i2xH_ndApHH=s64
+  - https://i.ytimg.com/vi/0Raldy-TGlo/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/QJObxznpklAxDNp0OVe3kAP5ZfUouIvRDO0kPj-V3MRjoRYKwj9RVTxOwG9yrlY-bgG3=s64
+  - https://play-lh.googleusercontent.com/rHdPgmJZyGEjTNDJfeVTbSL6RaP8tqviQpq7bpwZVLRb8OaoTeyteJF8m3_PPph_QqI=w416-h235
+  - https://play-lh.googleusercontent.com/p0TzV6-CHE24ySIsC05vjGIS_PWaXIzE6Edzrw0VX7betQUtYY3FSFIKVjjMWJFXuj-u=s64
+  - https://play-lh.googleusercontent.com/CyCfSIDF_vVtSiyHi1H47HZtfE2e_-4UVGtoT8zX9ym8GIRcTOhBknPIvadrQUMp2Q=w416-h235
+  - https://play-lh.googleusercontent.com/5uMPvygGoe3Y6aLKjdH1bxf567RA2mvY6dIsGocU5LQIyb8YjWkkuQt-m99ITIAwGWsi=s64
+  - https://i.ytimg.com/vi/jtrwcZ9FlCo/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/5WD1qUA_k5QSGjCGJZMp8xkato24Qg3PDb5h_y6VXfxWhwbkjtWdAZ6j-ZRQiqUK4nTi=s64
+  - https://play-lh.googleusercontent.com/1osAwMb5Ff64VyqYFKjRku2nGzE0A4KiRxGAMkAM3ORlp34_4DKLcMP4hMeA_jA0WMY=w416-h235
+  - https://play-lh.googleusercontent.com/tydB6e2GgMddBVHzC0xhxZ5Os28y1bbf5awrbSSiKJYRLLSdiAIEpJyMuuhP16f0dg=s64
+  - https://play-lh.googleusercontent.com/mYgerp4LNmJeUcj6VfTLB3zdZskgaTj0mHi-IAu1nWo3VvEx6C_oUe7LO4xK5uR9-hc=w416-h235
+  - https://play-lh.googleusercontent.com/cbI_01jZP7oWKBa8I5yeLDoR-HEYkB_urY1KYJ27d6XeY78G70HTN3O_9z1nov75d2Tm=s64
+  - https://play-lh.googleusercontent.com/BVm4_u46CZ2B8lReo5zAhLi3-Zk3QOSQaMRUBJgGM6OcUE-h7vGOeJ5Zz9tPj80xg3yB=w416-h235
+  - https://play-lh.googleusercontent.com/VijNlp7uyW2tQW2bg6HmXDwCl9T21iiZIfScHvtwk9PrDw6v-kuXl1xgfx_SOfkRoSM=s64
+  - https://i.ytimg.com/vi/oLTNtvIHJ7M/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/mR_90d6G3yG85wtSqaIm2NhHNTpXQFDdr0kGyU6JPJ0B0emm1LNmBI_rNcQ-khwcuMeE=s64
+  - https://play-lh.googleusercontent.com/WQZM47JGdC6KfMQizinfkIexMC4UWd5iq9SD6z33Nu7KkWWGfRkP_g_KHShkG77g5_s=w416-h235
+  - https://play-lh.googleusercontent.com/r40o8cLe2BOCNwRuFU_6LZIu4hGo2M56FxnFaQTHwXXIz6HYcB_CQEtFEii6_0Db2qqo=s64
+  - https://play-lh.googleusercontent.com/EiQbcJ042m3ANkbxu_DgLz4d5PcXsCORt23No30Tveius5NK6TZNYxGWCtbaiFI-6Xo=w416-h235
+  - https://play-lh.googleusercontent.com/vGXmGFRWw-ENaAmTbnVl0kV8BydaHEfDUqz5ObGPuYWVcQlPl9nG44C0qDhemLeb0WhR=s64
+  - https://play-lh.googleusercontent.com/rU1NHNuwafU0UR8I5Nn80jQZWd3AaHwBN0u_2XQtScgTyNWQPgHsdx9HJ0b_wmuVU0c=w416-h235
+  - https://play-lh.googleusercontent.com/I759gB_doYpRaQhw_PzhyaNY5CA7hqBY7KAnei0918yHOc1vXSHPEMNtdPj-a-N_wfw=s64
+  - https://goodlinks.app/apple-touch-icon.png
+
+Wallabag:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/33/d0/2633d084-5e41-52b1-88a7-75fcfb0c457b/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fe/17/fc/fe17fc2a-99d2-30bd-07ad-668fbfee0085/AppIcon-0-1x_U007epad-0-1-0-sRGB-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/d1/3b/39d13b03-ab20-6f0e-2071-27c06f34151e/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-P3-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/bf/20/e1bf2098-1263-3d13-ded1-0fd92a524d40/AppIcon-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/3bE8Sw09wSEc4Pnx6K5OV_2bDnvKQ4Tmwg1o50x-98jrIKURHW1GRdtGx65kJUyLCSKe=w526-h296
+  - https://play-lh.googleusercontent.com/WpzsaKVbKbxEuoMCmyX1h9qoEQlVZJ8w--yIP_6WL6bLQx-7_alJM1-WpyYQ-FK2KVI=w526-h296
+  - https://play-lh.googleusercontent.com/mpAqYntp81VbDSqr4wlyRy8cSj3vZNjtn5mjENz7Jqk-KZtH4L5wfCZyidGzSBkP4-nn=w526-h296
+  - https://play-lh.googleusercontent.com/rndEwb0dD-sMR6jCcqUVMykJ3wsSkI9pRpA0eecCTGsH_H-EehrzZcvBUL2ZHd3DPL0=w526-h296
+  - https://play-lh.googleusercontent.com/Eiu2vCly7YERWq_P5QntI8fcyVSaddrGPohk-gcZVNH3AaKPSm-2Avr6UBVLsoaQuciI=w526-h296
+  - https://play-lh.googleusercontent.com/OfIFhbutPuSjn81AJ7LADaqG4JkPc3T0vK71xjcUf4TluMBrvzo0XuZd-cyFl11-hLY=w526-h296
+  - https://play-lh.googleusercontent.com/mUDcHNRE24UCtpeX06JDJcL7Nyfaqw33ctFBP814R7ZRKUzGVxBtpTAOTuZqvk0mvEMJ=w526-h296
+  - https://play-lh.googleusercontent.com/heS9if05kUA-TbwxXGtsuA8_gbqwzEGQJvPbCyCAEsK6HjGj1pkHFwEdTBGoOGlC140=w526-h296
+  - https://play-lh.googleusercontent.com/rI65XdfrgsD53x2ViJVYnC8bUW7R6Y8vPu_HMgfoGNITmPAiyAGzJcWJJ108SbMS1kdJ=w526-h296
+  - https://play-lh.googleusercontent.com/6G3AwbED76rG6JUtmaW0171ao__vB-LyDu8cdKGQcI_stopfCmFrjbA3lBrwUAby5zaT=w526-h296
+  - https://play-lh.googleusercontent.com/qWPVGzpKRInRfp88VrY2R7q2Xdy1R7HybXIAdxsfb1hiIMdhUQ4Mybf81FtQoNx0KVw=w416-h235
+  - https://play-lh.googleusercontent.com/XuhMII86rRaxxLVQijxttMaCAybTr9qDvWQBlQBvDXU8XVOyknrNLs7zNcEpWgMW4n4=s64
+  - https://i.ytimg.com/vi/qlmi3fUbauA/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/-jz18EgBYlmeHlnsq_iltq6uLnYFtXAVR_gi_d0qEj0pANQ1MtrJIstJoCQtImlWKwc=s64
+  - https://play-lh.googleusercontent.com/CyCfSIDF_vVtSiyHi1H47HZtfE2e_-4UVGtoT8zX9ym8GIRcTOhBknPIvadrQUMp2Q=w416-h235
+  - https://play-lh.googleusercontent.com/5uMPvygGoe3Y6aLKjdH1bxf567RA2mvY6dIsGocU5LQIyb8YjWkkuQt-m99ITIAwGWsi=s64
+  - https://play-lh.googleusercontent.com/n1Y-VN6P76EEqqoBNXcrJQ_YKe2uK8AY4h06n6RGO7zPNlWOpH826yEpSom2Bqs_oA=w416-h235
+  - https://play-lh.googleusercontent.com/m0kECQDNnlKFOXO-LonMN_S6Zjpm-cc8l4QC0dOH8j2EFH1jET6fhe24aLm7K-OInTw=s64
+  - https://play-lh.googleusercontent.com/XeyUzrJTJ1UQcjooUXBSu4Pbo1eXClFV0xd5pVga4D5Kx5QQDp8VOZOOXseYd66FSg=w416-h235
+  - https://play-lh.googleusercontent.com/NskVL7RJ-XKjAtZNAExQBt_jpf45WZs3JJQBmSWV8wvZWimE-x1DHu2jph4ewlykNg=s64
+  - https://play-lh.googleusercontent.com/likF_ZiI0MrRG6-L_hWnf8nX4Db3TCZb0OXqT7iPmo1gh4Odfvn0hoob4jJ7O7GSIw=w416-h235
+  - https://play-lh.googleusercontent.com/0WzNnQJyEuOyvkZvYVpGkQJEvOfEF9kBnbLnLQioqUAX_DlV6wP8hyH8BgVBHQa1V9A=s64
+  - https://play-lh.googleusercontent.com/iJotKxO-QpN1ZAsmLlUNQO29Svf5Ygo5C7UMr3n3ALjy9pr088QFtCBQOs12_YURJH8=w416-h235
+  - https://play-lh.googleusercontent.com/zbQSHTc9DGlNkV8sqyVQCiE7H700fJi3dwfcKypbLcBz81N15RiL7RacGmFM70uVhaO6=s64
+  - https://i.ytimg.com/vi/Cz5q8sC0BEQ/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/LJtMqSUjVEJkkkPOkiAKXmxXPrHd0k3X8B-0nJcltX-KIJAOCftJ0oPweNlUDohPBgie=s64
+  - https://i.ytimg.com/vi/Avm7iYb7CbM/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/RQt2DNDl1iqYEURyz82QVnfwqnMzYGx-ZGU_T8N9ZIGrdPczip1veR7Ik2ENRARJTkA=s64
+  - https://play-lh.googleusercontent.com/1v2zN95o4ZHbguY9Wu-ogszB1MZtiVd-dQhqchqK8RSC-OMRpazg7C7jDYVBjNU7SMB9=w416-h235
+  - https://play-lh.googleusercontent.com/a2NazRVOHSG7ujMkO1YENlUARt0rZul9ow20sAtqoc1oBEGZxk3YjlXb43lhCwxhmUY=s64
+  - https://play-lh.googleusercontent.com/Usc4rVdBG4xilXNOP2Xa-u1BgqG41tRw32QSe1TRaMnfpF3OxBOJwhLMuFpnKSwyD4I=w416-h235
+  - https://play-lh.googleusercontent.com/cFMmcY6Y3Egj6_DzTqQmJci6RGWrwgnuP1-HPIikRaTwMGRcU7H1LpaV9rbJKRZV2ws=s64
+  - https://play-lh.googleusercontent.com/EBXP-Fl0K46IX02YEhhjYtkPV9cLYPwoGnzvks9J3FUFjIjdX6LFJTrVuxwGLqXX4ZQ=w416-h235
+  - https://play-lh.googleusercontent.com/4L8lE2MJm5rhNRc6HSpgtY45wU4gWA3C5Rt_8pZjY4PWHKHHrA_9v6ts4Tj0rvWUZ-s=s64
+  - https://i.ytimg.com/vi/6j5vTsqgvEE/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/DAMBDVyBKiDEOsjD2sy4EpGHXvfUABNXpnbLLrc-STtYIgogcuqdRRyjaLJY5vxkAl8=s64
+  - https://play-lh.googleusercontent.com/ji9kSGeGLdNpNHxPzRnb0Ep5YdeReCsSZpO2BGgrnyBN7K8ja7TZJ3cwbBOVgf6G4HBl=w416-h235
+  - https://play-lh.googleusercontent.com/mDhZ9JAKS0Ffqjt87uHTZscffoikpN1wZzQkAmgi4UmSoo9Ij_VNOLx8ElI_xbFTjuc=s64
+  - https://play-lh.googleusercontent.com/XaZCzpZLr6_OuJ_lI5TJeL7TOVyeq7fb3hHToC7OQannFwJ9YfPfX4J732zuYS6QCQ=w416-h235
+  - https://play-lh.googleusercontent.com/_8Exgu_tNharnSmBMpb6aP2uNNdC9D-OcKoKtNSpj8qlpuXFeE2g3a6u-ik-r0dsiw=s64
+  - https://i.ytimg.com/vi/eaS-su7MeCE/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/18l6IRQ69IWkvst3RVr6oZ5ZzBF2aD2zL3U5Efxg1uia5fMdmeqjWOMsBToRfyH3-mo=s64
+  - https://play-lh.googleusercontent.com/jNwiEKcZMTBZrOnGpjIE4Whyl-JmLzLWirw4HZu5j_gZyGZdkDnQ8O_Ur9MVBASaGUE=w416-h235
+  - https://play-lh.googleusercontent.com/CojLmL2pMXbT8XFdSj9HIn2ZDYA8YbtmOoWRv45wkOGyE3uvW5r5W8Vnnn9cuv0PUiw=s64
+  - https://i.ytimg.com/vi/kQHDv28KFl8/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/OvGrhAlYxPtpy33YchPdvCUq2yWgaOMTuaFO771_UN7nYx-rbdeaSR9hqxr3yN3b5H4q=s64
+  - https://i.ytimg.com/vi/JGm_pNYUfpI/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/PJLnDtwHZgUUD1GEhupXWpFfjCv4NI5mXIkJ20pZR4bkp6FIhO-aH3_MxGiiO4RrqiPO=s64
+  - https://wallabag.org/img/wallabag_preview.png
+
+Linkding:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/93/e6/8093e6f1-7d70-4521-7a3c-4a820a52532b/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ff/f7/ed/fff7ed9c-d20d-2b72-686f-a4778e6bee8f/AppIcon-0-0-1x_U007epad-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/69/d1/3c69d14e-9f2d-91f6-ef93-030f01120f2f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/ae/3c/c9ae3c23-5d2c-61a6-20db-edd08ee4d25c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/bd/6f/03/bd6f03ef-3ddc-598d-359f-6166c3cc44d2/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/k_tWy7BZFcfByJv7VwXVchdD7EAv4RocG7YoBx7Zb8cxfJN6A0bZd2kBFWX91ThFE45c=w416-h235
+  - https://play-lh.googleusercontent.com/EWfnd0D8GZ13nCAusC3-XKo1g6Iem5rIuo3kZRzUaL_XGfRXtYDLcdMJmFips9O7Gw=s64
+  - https://play-lh.googleusercontent.com/-DVtFPuFhsBdKPdSn_JOL8IcqhI043i6IPrWHfOylUtO79Pa5niQ5iIFpL-8dBPxtA4=w416-h235
+  - https://play-lh.googleusercontent.com/FrR58sncslVPBfuynbHpVVQD7YILYLo2eK0g7wml-Nnb4ponHi94tVDLG-ez7GXOZT0=s64
+  - https://play-lh.googleusercontent.com/o6FMga7FY-rpR9cEKQeSlSLP2xn3Iak4XoB1tDdHpjPBVllEXsr54pfNNJAHU8zRjYM=w416-h235
+  - https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw=s64
+  - https://play-lh.googleusercontent.com/7FOImvYignZ9LDKAAhLGAHpWHchzHrI2AYeDloMoZRv8ltAPeUjm4UWrWB9Z5ycDyIY=w416-h235
+  - https://play-lh.googleusercontent.com/FDX_PGBdliKrVmYuXa67x8I9N3iC3nlQNGegqRf_Jz0wSh02PBdJ-peKg4rMc-Vk8PM=s64
+  - https://play-lh.googleusercontent.com/3oQfJMpx4dhcDiEjqklb5Wg9skppKGmoXxTaVMIf_vT8n_5CE3UnvynYhTaKFQjrQryL=w416-h235
+  - https://play-lh.googleusercontent.com/xMokedki3AIpYRWCf8BPCpV2WyTXH7ZuPagpfRZG0Yl8XXWCxIVTeyMHuMhV1kUpVw=s64
+  - https://play-lh.googleusercontent.com/tJwfKSp6ch4hqr9DkZAa8XKZ7LOTk7vWUV0R9ZXYgvxp6k0qbtOA2JHh6MS9Ho3VtQ=w416-h235
+  - https://play-lh.googleusercontent.com/_EhTx0Lfm7-M6yfPTL5erh2w3DjO6m0hZ_qaNSTnkExUf2b_w8XrFaeM6Y8CO7CsF5f5=s64
+  - https://play-lh.googleusercontent.com/BJ90blomNyzvv4_-6RnIGvB8c7FJ5wS-LGBcXYmqcDdyC1MO1vfVY-i9paJV-XCkWYY=w416-h235
+  - https://play-lh.googleusercontent.com/MIytb5PXQN6ieplBaxlHtXaMqeVk92_j6yQcFLKx-71zNCEE-5qdxgZDGxmJsRWJXA=s64
+  - https://play-lh.googleusercontent.com/YvkcvAqG3MrItdLuVgbIF53Vo28fC9fZvlBx3-wNsc6QW_RDaRv8E332yb5LNwN_rrk=w416-h235
+  - https://play-lh.googleusercontent.com/wPRcloQRGqEFlctUApvhIHKektiHxUfhKJKAVXsYO0rK3u6Opc1kaRpibB20_gsKJpOc=s64
+  - https://play-lh.googleusercontent.com/wESKTGJvP3mIPEh5p21QpkoRBfDxfwx5k89TSdSvIAJ-UVdj4sw6vLk5ESymezSJP7o=w416-h235
+  - https://play-lh.googleusercontent.com/x3Kpw4L_-miSO6eumND8Az4ltZ2Ype6vSrJeJJW44Jugzn8KuKXaqsu_E_Zjx0Db5Hw=s64
+  - https://play-lh.googleusercontent.com/25kQpjhYFJtjWkOogjgbl05OpXsVRs0KgFXL5zhyw7C4-3DgpP8JjjQmkre4nV0-KQ=w416-h235
+  - https://play-lh.googleusercontent.com/_rscxiBBXosch987Y2RJjgeVzhCoewK_0IXsrIKFKKVAaXRqZaVXcSgap7uwM4-fbck=s64
+  - https://play-lh.googleusercontent.com/yEaj_su2bnQ_-pzvR9gR3MUXG2o-gtHXyrMyTe5gWow92Xttx4iyckO5qr3egNXlyUrT=w416-h235
+  - https://play-lh.googleusercontent.com/99IPL5W1HvN1TM7awcJ2gihUie-LQ5Ae7W9g0FgCBFJ8hNZnFIOJElyBPNcx4Wcx7A=s64
+  - https://play-lh.googleusercontent.com/zW15rUmiwhQtCZ4K-SmNO9CSdHEK8H8RGqY3Nxw5OEQTnTpW9sQYdxu5erUlkzDNxQ=w416-h235
+  - https://play-lh.googleusercontent.com/-_wCF1CTGIkJoAQZHsgoHzlXKqfez7WqP-FoYY0hsEZzONjFUauTMaG-hDDoeeAVV5I=s64
+  - https://i.ytimg.com/vi/qlmi3fUbauA/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/-jz18EgBYlmeHlnsq_iltq6uLnYFtXAVR_gi_d0qEj0pANQ1MtrJIstJoCQtImlWKwc=s64
+  - https://play-lh.googleusercontent.com/CyCfSIDF_vVtSiyHi1H47HZtfE2e_-4UVGtoT8zX9ym8GIRcTOhBknPIvadrQUMp2Q=w416-h235
+  - https://play-lh.googleusercontent.com/5uMPvygGoe3Y6aLKjdH1bxf567RA2mvY6dIsGocU5LQIyb8YjWkkuQt-m99ITIAwGWsi=s64
+  - https://play-lh.googleusercontent.com/ubwMW4EfLoph33Dugue5Ofihp3k0PCgEhYXgXxtG8xkJPJZ9AKjF5jkO2dY2DrHcklc=w416-h235
+  - https://play-lh.googleusercontent.com/1XEMhgBUSjDC0e-90-JsdQ5JEO_FFhT27nIaARzeLD23XgyGqlKszogaZWcKy360Cw=s64
+  - https://play-lh.googleusercontent.com/v89bbUTN4Pq0YqonpZSjCRar3O9Ji4-0Tt5GfvDi9-1-2jC2J9jZBZToj8VYnaQUr7g=w416-h235
+  - https://play-lh.googleusercontent.com/HxaKwARUk6wdEGy9VDGZ2x6agkJY3iRMX4k_YjOYWoaIPgrzZZdTLLoRCVwQwQNhVIoQ=s64
+  - https://play-lh.googleusercontent.com/DduoML2wm4SHJHaqTfFgR8QecGOcDg7MVdyHHmRikfxtKnwWpznaUgBEXNNfRH4aqg=w416-h235
+  - https://play-lh.googleusercontent.com/RyPWI5dSfKqMUnuEYqMqQPMLv8AvKehIhut1yIKJU91HWpvtUHPj1rzn_UHwpEqH2a0=s64
+  - https://play-lh.googleusercontent.com/36h_eOOeGnUwlr0mW3XWaW2wIObs4LU0PPVVbwm8irWxbpejNm1fZgtTrfhviGKbMof0=w416-h235
+  - https://play-lh.googleusercontent.com/n2zwOS7APUDZX0WflaSjG7QchrH88hq52V637Z0cDvPIC8buTJTQHesQLm17vuQGk4T5=s64
+  - https://play-lh.googleusercontent.com/7sWU8IpOSGOMRMv7GG4byJSqylOtX8hkqg582qDncO9RNjNy3mQQGd-npfM4v9LRJw=w416-h235
+  - https://play-lh.googleusercontent.com/eJ-WOWYOx0IHYcO3WRaEvJpaMY7RD29xlDyPE8ec46P_cx5T4Lpkz4LIsXGCJ7Uw1-w=s64
+  - https://i.ytimg.com/vi/oLTNtvIHJ7M/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/mR_90d6G3yG85wtSqaIm2NhHNTpXQFDdr0kGyU6JPJ0B0emm1LNmBI_rNcQ-khwcuMeE=s64
+  - https://i.ytimg.com/vi/SEmfR35WLDo/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/pMr4rRmrxgVfcWzezBIc41GsiTJHje125zsRRnEMr3bC5PNeFW0NJuNDqpwhUnLwXw=s64
+  - https://play-lh.googleusercontent.com/6FzR5vgH_DoIKkkvzYDyYK-DHpZElZ4tQqYBSZlPK8VcYXsEAXK19WV1s1U2UMvX9w=w416-h235
+  - https://play-lh.googleusercontent.com/EyYGDDgrejy_I6c8xeKigCokS54o1si9jaOHj45yc7SGvKu2M3-QyrWp8i2xH_ndApHH=s64
+  - https://i.ytimg.com/vi/-sESduwsN9I/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/oNDiMqJU4APyGkExdGt-z4HCh-Z1gvPB-yWjmKU_Jh2SLjGKwmJ1GtmaDbZXMVNfQe0=s64
+  - https://play-lh.googleusercontent.com/5-dtUlgIfOZB_TZvnU7TsuPWIUniUeGJe45qfMnZ5m81K0LKHtZt-D735skBVV_exjEq=w416-h235
+  - https://play-lh.googleusercontent.com/Sq9cg_UNcibtC1rAA1f9Ec26PbWSO66Fom7Xks7NbEwsJNUcEd0ml2NPz1DuvpaAPN4N=s64
+  - https://play-lh.googleusercontent.com/BYtWuvQmT1S2TktWSqR4HTh2eHypyrjE75qV72U6n2XEpTIt7gEdq1vdYKnf5WEXQs8=w416-h235
+  - https://play-lh.googleusercontent.com/SGNznLfLLhsU1t6429FR_82t-SQxYJMZhsWCtN8XQ057GhbL1VMDPs2vzFxq14S8OA=s64
+  - https://play-lh.googleusercontent.com/4uxSXmeph0aX0jv10MfdGOca2UoIJUi3fd6DfqUhGqr9rQxZM7EEGqpfL97AT-PmNxua=w416-h235
+  - https://play-lh.googleusercontent.com/OQs6gmoF0B3ZH2dO7iXaIZiV7ouj0o1ySSIH1al-BW_wVhzuuDRUR4BHlROPK5KEIw=s64
+  - https://play-lh.googleusercontent.com/tLZ6tzlDUPoLBrLrraK5NdFcvN6FRhdeThRwNCjfHwHZZF1CofTlbhKHeV6OfYVvMQ=w416-h235
+  - https://play-lh.googleusercontent.com/TvBCghVFxEKMOV11vIzDpbBCPRCQPyli2CCSBFEBOEsL51-Q8FAQt4JrMgW55RSdDg=s64
+  - https://i.ytimg.com/vi/ObPdcm6jWoQ/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU=s64
+  - https://play-lh.googleusercontent.com/tV_1q9-A9TUpY1fvvqAhWyw4ExJsz3xxrfVqFmS2ynaJp4MMZTDpl1A2Gbs1wY410AI=w416-h235
+  - https://play-lh.googleusercontent.com/y6yJMbqmLw6u5Eq6KOVZxCdl9_d2CGrfTVSO0740Mr68XYppjcPGKYhObr9ZRmrk_JE=s64
+  - https://play-lh.googleusercontent.com/likF_ZiI0MrRG6-L_hWnf8nX4Db3TCZb0OXqT7iPmo1gh4Odfvn0hoob4jJ7O7GSIw=w416-h235
+  - https://play-lh.googleusercontent.com/0WzNnQJyEuOyvkZvYVpGkQJEvOfEF9kBnbLnLQioqUAX_DlV6wP8hyH8BgVBHQa1V9A=s64
+  - https://repository-images.githubusercontent.com/194212327/48b409e8-05ff-43e9-999c-013c39eb2491
+
+Readeck:
+  - https://play-lh.googleusercontent.com/6FzR5vgH_DoIKkkvzYDyYK-DHpZElZ4tQqYBSZlPK8VcYXsEAXK19WV1s1U2UMvX9w=w416-h235
+  - https://play-lh.googleusercontent.com/EyYGDDgrejy_I6c8xeKigCokS54o1si9jaOHj45yc7SGvKu2M3-QyrWp8i2xH_ndApHH=s64
+  - https://play-lh.googleusercontent.com/ihTo1hocEiRHjBO7iAW0tkqyHAnXub45cAnXw0Kz5KzEVr9BbUdHdofy5oJzGzts2NE=w416-h235
+  - https://play-lh.googleusercontent.com/CwOLEx-Vxk7UG5l2WxUdLAn85SAVG5_63bAyOtiEw58fatNEDBwCjEeuUWj4yfemLPU=s64
+  - https://play-lh.googleusercontent.com/DcXYr3ZtJHtS1NapbSKr-moGgY3-0TYupIeRjWkucAVjF1dzLpDhHWzO1g9ZeQyCUo8=w416-h235
+  - https://play-lh.googleusercontent.com/qw8lAHXaZodAE4c3D1Jkia3V8Np-PxTnyQpUIx439ibABba0L50TVKI4jfY4N4QwzAA=s64
+  - https://play-lh.googleusercontent.com/kbmnEIIp2JoBBJm32XYcimq5n3vsHD-hqyXUZ3KJt5qxWm5lZvNLvFyfMMpvZ8g58M8=w416-h235
+  - https://play-lh.googleusercontent.com/WnUbYMjxo8tncYynK6QmRN1z4iR6nwCFPkyhO6cD7cYsISczZnteNi4r8-YxOralWg=s64
+  - https://play-lh.googleusercontent.com/rHdPgmJZyGEjTNDJfeVTbSL6RaP8tqviQpq7bpwZVLRb8OaoTeyteJF8m3_PPph_QqI=w416-h235
+  - https://play-lh.googleusercontent.com/p0TzV6-CHE24ySIsC05vjGIS_PWaXIzE6Edzrw0VX7betQUtYY3FSFIKVjjMWJFXuj-u=s64
+  - https://i.ytimg.com/vi/6UkFHYqVsbc/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/htBUaqvBQR9UQ3b1-ouSHFhDGttQkH-eWetEErspYXVa8hOsfmOmj5ZanGg9GF7XAGc=s64
+  - https://play-lh.googleusercontent.com/WQZM47JGdC6KfMQizinfkIexMC4UWd5iq9SD6z33Nu7KkWWGfRkP_g_KHShkG77g5_s=w416-h235
+  - https://play-lh.googleusercontent.com/r40o8cLe2BOCNwRuFU_6LZIu4hGo2M56FxnFaQTHwXXIz6HYcB_CQEtFEii6_0Db2qqo=s64
+  - https://play-lh.googleusercontent.com/mYgerp4LNmJeUcj6VfTLB3zdZskgaTj0mHi-IAu1nWo3VvEx6C_oUe7LO4xK5uR9-hc=w416-h235
+  - https://play-lh.googleusercontent.com/cbI_01jZP7oWKBa8I5yeLDoR-HEYkB_urY1KYJ27d6XeY78G70HTN3O_9z1nov75d2Tm=s64
+  - https://play-lh.googleusercontent.com/AtgoLmp80BmDfPoseQuZRdVB3c0v0TC3kRGM433ivmcGLVVY4uvWeqDFNFladhiVdlc=w416-h235
+  - https://play-lh.googleusercontent.com/mpwsp9NrMhR4Lvt6Q5Wn0OOvQ7tSZA6RFiuqov-63FQ0z3sYaw9jsdA3sTPWMw_499Q=s64
+  - https://i.ytimg.com/vi/GN66MXAtVuU/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/BX_GK46RKT0OeO2trRJcHnDoZxQPLLLo63fkX3umKR7LuHzdSM9hIgYqCG3g_I9oiQ=s64
+  - https://play-lh.googleusercontent.com/aA-Wmdd0GVf25ZSQ9XHQXzTjWWBJAI0Jv1pOFV4xwvo0Pq8DwZYmBQhqp4S7Ji6vEVZG=w416-h235
+  - https://play-lh.googleusercontent.com/vzVBihUEJiDjTwM6mZfHHp-eID7AX3kuJUzKkoNTPtQUKd3l210njAJIPHlS0sYApv8=s64
+  - https://play-lh.googleusercontent.com/sPG1oaCQxmLu3pkSwGUSbsT2xR6-R6y7h_F8fmvyrxcOJEl1dINka82qYvHwf0PRb-c=w416-h235
+  - https://play-lh.googleusercontent.com/W0GcGHbSPEA2VBf8CM-SoRG9yYS2RwxgPM9Q25MmhmU6YzJ2t8lHIAnejL0nL9LvYwMx=s64
+  - https://www.readeck.com/assets/img/fi/apple-touch-icon.e39c20b2.png
+
+LinkWarden:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/b1/ef/2ab1efa8-5236-48bd-e0fe-baccb3b10b33/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/ce/df/e8cedf19-287c-6844-f2ab-ae3a453ad700/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://i.ytimg.com/vi/qlmi3fUbauA/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/-jz18EgBYlmeHlnsq_iltq6uLnYFtXAVR_gi_d0qEj0pANQ1MtrJIstJoCQtImlWKwc=s64
+  - https://play-lh.googleusercontent.com/5-dtUlgIfOZB_TZvnU7TsuPWIUniUeGJe45qfMnZ5m81K0LKHtZt-D735skBVV_exjEq=w416-h235
+  - https://play-lh.googleusercontent.com/Sq9cg_UNcibtC1rAA1f9Ec26PbWSO66Fom7Xks7NbEwsJNUcEd0ml2NPz1DuvpaAPN4N=s64
+  - https://play-lh.googleusercontent.com/DduoML2wm4SHJHaqTfFgR8QecGOcDg7MVdyHHmRikfxtKnwWpznaUgBEXNNfRH4aqg=w416-h235
+  - https://play-lh.googleusercontent.com/RyPWI5dSfKqMUnuEYqMqQPMLv8AvKehIhut1yIKJU91HWpvtUHPj1rzn_UHwpEqH2a0=s64
+  - https://play-lh.googleusercontent.com/yEaj_su2bnQ_-pzvR9gR3MUXG2o-gtHXyrMyTe5gWow92Xttx4iyckO5qr3egNXlyUrT=w416-h235
+  - https://play-lh.googleusercontent.com/99IPL5W1HvN1TM7awcJ2gihUie-LQ5Ae7W9g0FgCBFJ8hNZnFIOJElyBPNcx4Wcx7A=s64
+  - https://play-lh.googleusercontent.com/o6FMga7FY-rpR9cEKQeSlSLP2xn3Iak4XoB1tDdHpjPBVllEXsr54pfNNJAHU8zRjYM=w416-h235
+  - https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw=s64
+  - https://play-lh.googleusercontent.com/jYtOiJNAIPLEl6NWkUwqzpyg2HHkAR1P61bYV7EYy7XJGZrCvt-fUHOnp_ODybRRLSo=w416-h235
+  - https://play-lh.googleusercontent.com/z5YSgrDgdBbVQejCzipNpUkLnRLYVUrHDLFpe4ZDz9lLZ-dM0XaUaYyv2X9gwzV-iEU=s64
+  - https://i.ytimg.com/vi/oLTNtvIHJ7M/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/mR_90d6G3yG85wtSqaIm2NhHNTpXQFDdr0kGyU6JPJ0B0emm1LNmBI_rNcQ-khwcuMeE=s64
+  - https://i.ytimg.com/vi/tCWg0NiQbFk/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/vhWU8k4Z26WdR9anMn1Vckysvit4BYnEEl1QA_ZpnujBLarKoLygfjFsj600qMv1FVA=s64
+  - https://play-lh.googleusercontent.com/fq1zzzA5fqUIEqx8oXgjTYmjrM1_iaTFExDbAlKLbzEBzjyATmjW0lpTKkO23Whqqr8=w416-h235
+  - https://play-lh.googleusercontent.com/WrBKyq-_LVvhmUypkgypSECUenW1o-I-yt8nnFqn0tiOSucoP_9taibi1DiHiUOeW1Q=s64
+  - https://play-lh.googleusercontent.com/CyCfSIDF_vVtSiyHi1H47HZtfE2e_-4UVGtoT8zX9ym8GIRcTOhBknPIvadrQUMp2Q=w416-h235
+  - https://play-lh.googleusercontent.com/5uMPvygGoe3Y6aLKjdH1bxf567RA2mvY6dIsGocU5LQIyb8YjWkkuQt-m99ITIAwGWsi=s64
+  - https://play-lh.googleusercontent.com/7FOImvYignZ9LDKAAhLGAHpWHchzHrI2AYeDloMoZRv8ltAPeUjm4UWrWB9Z5ycDyIY=w416-h235
+  - https://play-lh.googleusercontent.com/FDX_PGBdliKrVmYuXa67x8I9N3iC3nlQNGegqRf_Jz0wSh02PBdJ-peKg4rMc-Vk8PM=s64
+  - https://linkwarden.app/apple-touch-icon.png
+
+Diigo:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/0d/e0/71/0de07124-130d-e7dc-2ad7-d4bf6b95985b/AppIcon-0-1x_U007emarketing-0-6-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/24/b1/1b/24b11bf3-63d7-972a-68f6-dfdbbbd70c85/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/b5/bf/e0b5bf71-0aeb-9d9f-bc10-05a0d5dff4e0/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/23/19/17231976-cf1e-c532-6950-ff9feb1da246/Icon-fox-0-0-1x_U007emarketing-0-9-0-85-220.png/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/7zm7XXTJiYTCdoAXF6NcwUJ8asRTwNK_O08bTC6QBInFDAqAczKI9DmN7TrY2Id5HA=w416-h235
+  - https://play-lh.googleusercontent.com/Rz4JVKiQM7ZnLYTEzwzpvWROphw5Wo6kh3vnx8HhgHTaOzsknlTLmXUsknurSqTqUj0=s64
+  - https://play-lh.googleusercontent.com/Jciq6Q9Y9ZpgriL35DHzeATz3Cmu-M9yCgMckffm-7BUdKt9Dr3Cbwunhdz9HVe4ujI=w416-h235
+  - https://play-lh.googleusercontent.com/3Wr_nlhRHjIGfPd-BNUbgffLfxPPqNW8GFPscqnQ4t2aPRyKlFMuXT4yhb-PSMsHgss=s64
+  - https://play-lh.googleusercontent.com/gcJ1dGTnTJUWezGN__6_BZcS-hGjj4rUv1-SRJDWVlzB_-h0LVfRbUdXMBlspboG484=w416-h235
+  - https://play-lh.googleusercontent.com/IDOtRhsZLSG3EFxWxmWREMPa42_SNQvl9-x4FBu5dn9aJMjpVtMx_GoNdnQwEIp_7gsV=s64
+  - https://play-lh.googleusercontent.com/DGyvAjOZdOa5OIvCClvW80dJPm8HsUjTe_kNx6dXtwT6mwSyTLu7xslntnbag5aF3R0=w416-h235
+  - https://play-lh.googleusercontent.com/m5DfeHDBj44oYXgx_QKRzwcO7I14V_6HF-8iilEStSuzg0BB2IuyRiA9QPiLsprrRpfl=s64
+  - https://play-lh.googleusercontent.com/O6V6SH9sVu8mnUA2KvyLOI-mEq6Dw73xmcLGxCEn-RrUaiCmzSUll5KGQ561Upq_TKQ=w416-h235
+  - https://play-lh.googleusercontent.com/HW8aJVN5rdXLOWYaJiW67XekFeJLQ_UtRctTnosyizlbDcjp195fw6Sq6Z95bw_ramQ=s64
+  - https://play-lh.googleusercontent.com/LwvoEiQdED7i8IKFhS73gn0niHqgyUja96uGVRpfgPro8asS2qbgsvaoHPq8skZRRh4=w416-h235
+  - https://play-lh.googleusercontent.com/u1c8Uk5GCkx8VIQvaMhLftbb2s8vf0llcs7nCpsp0uf0hc2C2wonj1gNetdqApRUzeg=s64
+  - https://play-lh.googleusercontent.com/Mcw9nXILoISo9vW5Id0p6CF5Y6673Brv43jD0rBSMHEoXCwA4UpQZkA6aGRGFIS_XG0R=w416-h235
+  - https://play-lh.googleusercontent.com/eooMtOtVjJzq7fCS4G--Iy3jY8QvFEzdsoWMcO5Z_mJOilep2Wu_aZLJjTP9SOF_9jU=s64
+  - https://i.ytimg.com/vi/0Raldy-TGlo/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/QJObxznpklAxDNp0OVe3kAP5ZfUouIvRDO0kPj-V3MRjoRYKwj9RVTxOwG9yrlY-bgG3=s64
+  - https://i.ytimg.com/vi/br36gZeC49M/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/PH-2iORSfQs-iizoHzePXBaJCXml443pgoC14-lZESLFIp78A4SvxLKUVv1FyIQFtC8=s64
+  - https://i.ytimg.com/vi/AkTj_qQNphA/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/Tt-6ZaQDUAjfSNSeLz4XyYkPsEQfVVp0lBtwrnuyqubhCna0LKu5OZxKgegBJIrEhz8=s64
+  - https://i.ytimg.com/vi/0LSWUnKSm7A/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/P4ka1WmoPb6zvl7h7Tzb3M6LE2bK9vCLrdTAHGVMup2lEUEOXxonQWbDd-sf-nY6vbs=s64
+  - https://play-lh.googleusercontent.com/anm6azcRu6oZbvM4IJdkEbMTt75x0ZSjSO5UrvvZYOzGHGjkylNJhiCnOKYrt_W6rtZU=w416-h235
+  - https://play-lh.googleusercontent.com/tfXDLGwtSfdc0QcHWXc0OoIJ7RWI6-80JH2gjF_YzZHKi6WqEC85NgK8xofrsb8LY0E=s64
+  - https://play-lh.googleusercontent.com/UXTzYVMH26Kx8xtBnamn5iVvU5nkvfAlWT-pM717esVbzGtUW8UV_OEU-JGo_cd2y_E=w416-h235
+  - https://play-lh.googleusercontent.com/gnhFgUBwTzfRhBsNnkEHiY68xmYVlovPF9COih3ASF1Q48qPlWTOkyDyh27u10NXXNg=s64
+  - https://play-lh.googleusercontent.com/TQ9Oo-OHEYhWClAlhR7XIgRoKKuzYe0zfkSsn_lyhJL1JyuQ5P0LfwFjnhAIyA4c4v8=w416-h235
+  - https://play-lh.googleusercontent.com/4fgCluZrk7oFiu2LSLRHd_dN4UivadjZb2cNraEyteasJpWwG0UGKXiJB2inltIH1zU=s64
+  - https://play-lh.googleusercontent.com/Og2nmoj827aHweDnySdkwJofRy28PtMmAvAeDmWmZRHZB2Au3ZE1JanqpyAmvInl_cQ=w416-h235
+  - https://play-lh.googleusercontent.com/NawZjxgnWu6quQD2hHWEu2dueq-Q2WVNK_DsyVLlAFdQtTHz4DUhR6-qJUm-dKWTHw=s64
+  - https://play-lh.googleusercontent.com/SerxhEvvlNADneeYQmhQpA3DJoxl-BrnJmb7FKv4nbx8wemiZxI6VYHyTgS-_6HHag=w416-h235
+  - https://play-lh.googleusercontent.com/EqNJ0V0N0vzNKxdOl-Uz4OW5t8b4BhROYEKvQVqi1s1O_Ng2E_AobK1YB5hVFvpD5Yk=s64
+  - https://i.ytimg.com/vi/aHQKDSIopRs/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/LSnrgWVfyKTEp7zLAWNdXukvHt0jvH-KmnAjTV6cVJWXauW4K8iFX4lI0MYY3drQpAuc=s64
+  - https://play-lh.googleusercontent.com/T-f1MjbTxcmHLI_FzTRTGgPlrH_DyVV19e_VCAPH911Sg9DkGJCRcwtbuAgdASaFaYw=w416-h235
+  - https://play-lh.googleusercontent.com/NxKqwBq8iCpn7WgNmgqm91PYDtaqjCSgJjVZ3wQb9rNvBXuJVC-FTm_AnHDykFDZOc0=s64
+  - https://play-lh.googleusercontent.com/7bTgmuiYcMm5JKyK5kmxeXTzWF70-QdHEc_o2g6UJRRQelXt-jDPPfsLZVDuG7hVNtI=w416-h235
+  - https://play-lh.googleusercontent.com/YpumJQXvNrrRdEDfdaYOsf2gnooAI8eleUYFmoctJL_R1I3tj5fu0HKgyp1i1J4H-28=s64
+  - https://play-lh.googleusercontent.com/B36H0J9ZysrIFAY8b2BKJLqM326mR9-Tl7G_fbnzL0xopm1CC0aEcoMzyv7zDfvkrq8=w416-h235
+  - https://play-lh.googleusercontent.com/BzGTWFymqtUbrh3sCKsdyY9qNpTQImQ8dxSzWK8qdUMKD2r1oCd2YILmTZbatYsfwQ=s64
+  - https://i.ytimg.com/vi/tioB9fdTGwk/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/52KjYIOFJ-QRXYYD4ZMOmUtwV9HOTFnR-VXgVZsRVhaAiBTphzXcFEOwFrFNcTfO6zND=s64
+  - https://play-lh.googleusercontent.com/Ja91dAWdOGHz8-YBZm53Yg0JcGfZObbWxEPtbnAMUX0JsoQUQ-wL1YASNJpcpHbU_A=w416-h235
+  - https://play-lh.googleusercontent.com/ywF4whavRmfiaSbcsKOvP3p4uRi51iOjf8hAM8ya1r6Me6zFULYXy5DKs5teBaY8-g=s64
+  - https://i.ytimg.com/vi/i5GEsg_x_-U/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/iOWDJIRHzKbQjOdzk-OmAhR6gO3kFvvGWqr8DdSvujzTTVBNRwzgccDrcB3CMcyqeqk=s64
+  - https://play-lh.googleusercontent.com/6fsUOMw7gFAQMY1X8t_TzRBunxAu7SMJwF2yqN1GseXN-IKhb8stpTNfh6m_2hOy_w=w416-h235
+  - https://play-lh.googleusercontent.com/4aLlAwUKGg5Keo8zz-pPI1QS9KnjSsa3vKX2NINqq5Fv1jfPK3bl6ghLaZ371OcH9A=s64
+  - https://play-lh.googleusercontent.com/likF_ZiI0MrRG6-L_hWnf8nX4Db3TCZb0OXqT7iPmo1gh4Odfvn0hoob4jJ7O7GSIw=w416-h235
+  - https://play-lh.googleusercontent.com/0WzNnQJyEuOyvkZvYVpGkQJEvOfEF9kBnbLnLQioqUAX_DlV6wP8hyH8BgVBHQa1V9A=s64
+  - https://play-lh.googleusercontent.com/HnkR1nmkwI8k6ZzkqPxtfzq7lFocWm2R9Hmn2a38vCc2czw0bZ2hQqHA4T7gqTLuREs=w416-h235
+  - https://play-lh.googleusercontent.com/TAz1-Tjm0l-Y1oFyjvpJUc-DQbEyT3MVYYQ703iOdeuHBUyt8k-CqABEaPtV4dnOxqo=s64
+  - https://play-lh.googleusercontent.com/TOV_ddQK44xl5gUhAJe-_-wLrz83eAM-BzXHWqWt84KZ-xfh_zxLHPVt_qPR8ER46Q=w416-h235
+  - https://play-lh.googleusercontent.com/iZrzgsmYlIJUfSrLpDkOaVgJka8Mn73UUXVQt0QuBjZhHig6wOJrzM2YYKsuACngUug=s64
+  - https://play-lh.googleusercontent.com/Z6a-BcSv4HHKVBRoy3ssh7q7-NtByvPxqdtOJ0bPrEuOHhUFAoUuDGKyD_37iX6S4lU=w416-h235
+  - https://play-lh.googleusercontent.com/RBuZsXrPgXdNrHNoRWj7nRtcX8nfkIIcPlClNT2ArQKvKs0AYfaDBCaelfcEbdanl9cQ=s64
+  - https://i.ytimg.com/vi/aXgAtN6uQK0/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/kpsfGa5rdvPUPVgiyo3bN4G4TdRuf_YUtm5nK0MYEZlEUrgaptnOZ_K_m2IADFA1jQ=s64
+  - https://play-lh.googleusercontent.com/o1eJIivxMBMu2FtdVDC28rOp7CIJV347LfSIu5aA1G9KffpDuxgFgz6hcJ6qdxHVaQ=w416-h235
+  - https://play-lh.googleusercontent.com/gi88CWE9V2iacwlr3yimBdwgYGRn6dyek_I6tNl6kUtBMkX9zgijfK5xW44Aq9GAg5yG=s64
+
+Linkora:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/10/e2/cc10e234-21dc-e562-0fc3-343df376e8cf/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/ubwMW4EfLoph33Dugue5Ofihp3k0PCgEhYXgXxtG8xkJPJZ9AKjF5jkO2dY2DrHcklc=w416-h235
+  - https://play-lh.googleusercontent.com/1XEMhgBUSjDC0e-90-JsdQ5JEO_FFhT27nIaARzeLD23XgyGqlKszogaZWcKy360Cw=s64
+  - https://play-lh.googleusercontent.com/syUlJ_j4Z5hRJcWCPA45lAIVN8fA0Q4d6Uywol7Ozt-Df_1fZI4cQYs3fqIm11_Vnw=w416-h235
+  - https://play-lh.googleusercontent.com/WG3E9MyyS3xbq81rJ4S-o_6n4r5mndJunlYNUklgHpk16NlTdEbmkxd_8idW1j08C5ff=s64
+  - https://play-lh.googleusercontent.com/LH2MoHFKzo8YsagysPzQ5dJ89_8CQbYwPfIA4GRtxKtg1NkQ7rkzpn0-tfTPMqVCEQ=w416-h235
+  - https://play-lh.googleusercontent.com/TeRgCBm9aTtKzieb3B3LSMBGkQ-pRJhu27ip4gRTW7aaWLau6pXXbL-gS1QTGMmNDqE=s64
+  - https://play-lh.googleusercontent.com/i2KoG5o72td66eKX1f7e5p-r6My8LnjjhjQ2DJB8MihgT3ukaP5smDZRrf4rJHiNjPI=w416-h235
+  - https://play-lh.googleusercontent.com/8doqgOAY_jy4Sm7MvS6osVgcKCmTePJaghQsPtgayVbdyLOjwF_h8Zk-EQSdOmLoseU=s64
+  - https://play-lh.googleusercontent.com/tDxpRq5qpWM7ksRord6jWtc7B2L4CH9Gpum9V4KxMry7gQkq0lsqoIypv2DNOfcV7g=w416-h235
+  - https://play-lh.googleusercontent.com/EAVZzDs5jPuXJaR-zNoD3rzYYUu9VcdXciQYq1w2-n55QQeN3yo_krmM__rMjk4GR5FX=s64
+  - https://play-lh.googleusercontent.com/j8zj6v6yCpgY5iQOrN4-ZUtg2fNyUfkFlQERNXOMEugBSyaKqog6QDC_04E7C-rEXQ=w416-h235
+  - https://play-lh.googleusercontent.com/D5hlit2lOX9u9J4WB5Fum-4pOwNkxBR-wOn7a2u6cPp8UYY-yALjHTBwhlyVPfqHoDA=s64
+  - https://play-lh.googleusercontent.com/HSvkirrJDTZsGuHSy_1N0IFJuGKCn9iPeCug3Aj5xzP4q95UKIliYArTjkbn10jvkoAV=w416-h235
+  - https://play-lh.googleusercontent.com/yHaV8_nenTkFxapFDorovg2rYbl4XP4py38P_ASRbPKdEPPt4rdGLqCclS1mY58QkQ=s64
+  - https://play-lh.googleusercontent.com/wESKTGJvP3mIPEh5p21QpkoRBfDxfwx5k89TSdSvIAJ-UVdj4sw6vLk5ESymezSJP7o=w416-h235
+  - https://play-lh.googleusercontent.com/x3Kpw4L_-miSO6eumND8Az4ltZ2Ype6vSrJeJJW44Jugzn8KuKXaqsu_E_Zjx0Db5Hw=s64
+
+Evernote:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/d1/4e/0cd14e53-11c8-d9f5-2939-fc3393711dad/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/f9/4e/a1f94e90-67b4-c147-9d39-f8c49ee748cb/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/a5/93/42a593a0-3390-5682-cf71-a45b7fa69fee/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/7a/a7/6f7aa79a-63fa-6f4b-3dea-7d92de2d2a62/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/c3/2a/8cc32ad0-fa45-7d53-1d8d-f2e6f51e445a/AppIcon-0-0-1x_U007emarketing-0-9-0-sRGB-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/fa/87/b4fa876b-d9db-e339-5ecb-948c25fc985d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/ab/c4/e4/abc4e490-41c1-ba1b-8918-3ebb5707c51d/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/19/e4/1519e437-7e11-06d8-3e12-ee075aa39463/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-P3-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/27/57/f6/2757f663-f8f5-fc4b-e810-def29617563f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/1d/d2/fc1dd26a-d86a-47fa-9f53-483d2c77ef81/AppIcon-0-1x_U007epad-0-0-85-220-0.jpeg/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple6/v4/de/ff/3f/deff3f66-1d67-871d-da67-ff761f017861/mzl.pybzitxx.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b6/83/3e/b6833e1a-b308-aaf3-6c23-40a73a270c06/EverEditorAppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/d9/c0/7fd9c021-1b69-69e0-6ea6-d9de264c033e/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/a6/1e/eb/a61eeb16-04c2-27c1-bc22-90082c2cf34e/AppIcon-0-1x_U007emarketing-0-85-220-0-5.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/e6/57/63e657ba-0b42-5a0a-b55d-56329b513a95/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/24/79/ac2479c8-cc2b-0f76-0a77-92823f3b0b56/AppIconDefault-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/4a/bc/104abcb5-16a6-0a86-e6aa-69897a303ff1/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/klP4fswqNWdEKzPpq35Hs9cqEL2pL5MpkCenxZZC-pzZtHm5hrqpF-s3bwCPCNDZ8Tw=w720-h405
+  - https://play-lh.googleusercontent.com/GJYer5Y35HYf4eePVIGLi-0unBdoPBBXszh7IliFD5Tv9ZiDkIoOFTRtP7AEtyP4aod8=w526-h296
+  - https://play-lh.googleusercontent.com/OMBE61imaGeBDxPHkRK5gg8na5nB7CBBHfsSGnIvpuIFIf8Di3a4SQ4j-g8lkf-1sQ=w526-h296
+  - https://play-lh.googleusercontent.com/CYFR_OGisbaNDNRa7TexIePcRRavR79yEoXwAczsSXnnnDuE-db9oHrSdYvbQ-gDLpz8=w526-h296
+  - https://play-lh.googleusercontent.com/Bj7OH8SW9QYKezx6_MflnXocUO_jl7IJr-01f8m1UP3mi6ogdFT2U0VJWZhuyTUNUA=w526-h296
+  - https://play-lh.googleusercontent.com/pyoqr-KHZy_h2nOu5P9bFXmtICY5fiwI3k3fDD5kk6E-qIjO1Qreqw_c7IeAEw0uog=w526-h296
+  - https://play-lh.googleusercontent.com/0bkgAUW3RfspWw_rs3v5v5fKAwNoKd3Aiw9V74MgrUAvHKqIlzsNcHmlYp0At_vay7o=w526-h296
+  - https://play-lh.googleusercontent.com/qvdjFj2Ew8baQUtef0b2ygB3EWy8KulMCs5BMh8DMK6VkeE_cqPaEpW8OAm6r8hBnovr=w526-h296
+  - https://play-lh.googleusercontent.com/v1s-6bwrPj3H54oXrCGhuhOZDtc8nGhff_Y7bvwtSQdTToCjvtSBVoHwhHXWI7DZAw=w526-h296
+  - https://play-lh.googleusercontent.com/Jciq6Q9Y9ZpgriL35DHzeATz3Cmu-M9yCgMckffm-7BUdKt9Dr3Cbwunhdz9HVe4ujI=w416-h235
+  - https://play-lh.googleusercontent.com/3Wr_nlhRHjIGfPd-BNUbgffLfxPPqNW8GFPscqnQ4t2aPRyKlFMuXT4yhb-PSMsHgss=s64
+  - https://play-lh.googleusercontent.com/CqR5E1oLeJ2nEM2ooBFayv4Ri56BNrgn-zbGAmZdDbIl2MrqMrwDMAKYKs88E6hwn9I=w416-h235
+  - https://play-lh.googleusercontent.com/9bJoeaPbGTB8Tz_h4N-p-6ReRd8vSS-frZb2tmJulaGIoTKElKj3zpmcFJvnS96ANZP5=s64
+  - https://play-lh.googleusercontent.com/z-iKn0z6OAQtHtT7TXm-FVMTqJoS7kWtprY-VmqsEyD_6ghcTLUBHd3bvw0QMTG8Dqs=w416-h235
+  - https://play-lh.googleusercontent.com/7jGVW02tWTXs_YPoaOnUHnDvDZPzKCHD4PG8Dbxuux1Lhm99LkUT-bmnDPRsrKnmHXE=s64
+  - https://play-lh.googleusercontent.com/LwvoEiQdED7i8IKFhS73gn0niHqgyUja96uGVRpfgPro8asS2qbgsvaoHPq8skZRRh4=w416-h235
+  - https://play-lh.googleusercontent.com/u1c8Uk5GCkx8VIQvaMhLftbb2s8vf0llcs7nCpsp0uf0hc2C2wonj1gNetdqApRUzeg=s64
+  - https://play-lh.googleusercontent.com/t4ZMZQxMgJ8YAiyFWTDGt_5nNJa-RpFiD3TAk08HAV_t3RsGc9KAYe0C7Cs5xzXlM-52=w416-h235
+  - https://play-lh.googleusercontent.com/7QebUBtOgDuodwJo1LGHWFJcZHjrqzIjSvX-LPz-rqnDMoWuz8ppfXv-__8_z82lnA8=s64
+  - https://play-lh.googleusercontent.com/xLl3jDtsXRo1wDywYnnGq9zF31du76iPgOuf5drc5MqKjIRXVzijlLbVVUilYYxJ_oTB=w416-h235
+  - https://play-lh.googleusercontent.com/ep8PY3MTizVLWMhvaQAS4EuTBd5NimoYBcIK-Ke9ncobb7wb9dV16zrmcWNyn4sh4hzV=s64
+  - https://play-lh.googleusercontent.com/T-f1MjbTxcmHLI_FzTRTGgPlrH_DyVV19e_VCAPH911Sg9DkGJCRcwtbuAgdASaFaYw=w416-h235
+  - https://play-lh.googleusercontent.com/NxKqwBq8iCpn7WgNmgqm91PYDtaqjCSgJjVZ3wQb9rNvBXuJVC-FTm_AnHDykFDZOc0=s64
+  - https://play-lh.googleusercontent.com/tfMN_UJYaKAIIzirLklr3wmeZQyz71UN6PB_mHeOKtlT5yw5F9jFeFc5uVAZa-zNCdA=w416-h235
+  - https://play-lh.googleusercontent.com/8cT0Y4kkdFuywFo8SxjC7Kv6I3fl2vUitoT9WDDlpZ4fTlV9oHuOnh8rF26ox1H4Mw=s64
+  - https://play-lh.googleusercontent.com/gcJ1dGTnTJUWezGN__6_BZcS-hGjj4rUv1-SRJDWVlzB_-h0LVfRbUdXMBlspboG484=w416-h235
+  - https://play-lh.googleusercontent.com/IDOtRhsZLSG3EFxWxmWREMPa42_SNQvl9-x4FBu5dn9aJMjpVtMx_GoNdnQwEIp_7gsV=s64
+  - https://play-lh.googleusercontent.com/likF_ZiI0MrRG6-L_hWnf8nX4Db3TCZb0OXqT7iPmo1gh4Odfvn0hoob4jJ7O7GSIw=w416-h235
+  - https://play-lh.googleusercontent.com/0WzNnQJyEuOyvkZvYVpGkQJEvOfEF9kBnbLnLQioqUAX_DlV6wP8hyH8BgVBHQa1V9A=s64
+  - https://play-lh.googleusercontent.com/rBGvZr0rXVnWhzoutAGS9zwIaf3qIcdLTh0FS_PjhD3Dks-zk__e789DlIQwz0vJx0Y=w416-h235
+  - https://play-lh.googleusercontent.com/piAGIpbaTSlroeHfAK4wqAGZSbZQg6-CvqHf4k2BIK5jH1bB6dbh52MmFqwQAU5wJEQ=s64
+  - https://i.ytimg.com/vi/yqLVASkvHRg/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/Uquu01EBxEbztp4X4lApPqIBqP2A_kKgKwQy8weM-wY1T1MDSVJ8Hrvy2-8cSPpwAQ=s64
+  - https://play-lh.googleusercontent.com/SGPBqPT3BOhYlNK2ln_9NnFNDnE5VFepluszZEaf_QSBLVcFADxrOv_r0HBStoXY_-M=w416-h235
+  - https://play-lh.googleusercontent.com/emmbClh_hm0WpWZqJ0X59B8Pz1mKoB9HVLkYMktxhGE6_-30SdGoa-BmYW73RJ8MGZQ=s64
+  - https://play-lh.googleusercontent.com/8iI_yxynQlETaQ-KDUsc3HH6P3bWu87hWXqDMHODtEATIPZDRpNybKY8Fbw8FfPSog=w416-h235
+  - https://play-lh.googleusercontent.com/_bh6XK3B7TAk7kBXC1GHC0j9eS9cw9wQo2K7fiP7FDGAQlcOqgUPT2lx3WgZ0JlOJh8=s64
+  - https://i.ytimg.com/vi/AkTj_qQNphA/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/Tt-6ZaQDUAjfSNSeLz4XyYkPsEQfVVp0lBtwrnuyqubhCna0LKu5OZxKgegBJIrEhz8=s64
+  - https://i.ytimg.com/vi/br36gZeC49M/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/PH-2iORSfQs-iizoHzePXBaJCXml443pgoC14-lZESLFIp78A4SvxLKUVv1FyIQFtC8=s64
+  - https://i.ytimg.com/vi/aHQKDSIopRs/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/LSnrgWVfyKTEp7zLAWNdXukvHt0jvH-KmnAjTV6cVJWXauW4K8iFX4lI0MYY3drQpAuc=s64
+  - https://play-lh.googleusercontent.com/JDHf8DD8KfeE0VtoOayrKdbe-s9s2-YTDhrJDRGLzVS6EXQLIBcealGOIsuegsNhSZM=w416-h235
+  - https://play-lh.googleusercontent.com/bA94FdhtozyHI-It5Y3vag0OVIRBnRn2vxhWssgCWW87JEXzNejAsD6er25amUxS-p0=s64
+  - https://i.ytimg.com/vi/9Q924FCq9xs/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/GK0SwEBVqlFBpRkPjY6y_1go6E6xZzAN0Ivzfgbuf28J4TTOoOsgWnqR4oJ_RhIhsg=s64
+  - https://images.prismic.io/evernote/509c3ac6-646c-4873-910b-38864d186ee9_og-image.png
+
+PaperSpan:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a8/59/10/a8591085-347e-4227-de71-4f24250066e5/AppIcon-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/776v2PFUyvIrur0FsprofytJZc9XX3L3s3gByUNK8i41lImzcaWv1eLsvavWztI1ug=w526-h296
+  - https://play-lh.googleusercontent.com/786upS9JY7zN80YKaSjFLK8ynZqvGjwym7kwkEWqRIxsYAfAtcWfqPMt5aO7102QNjs=w526-h296
+  - https://play-lh.googleusercontent.com/HgzQV_09sLEsX8n2NoMY05WGLcb226753u-EcBK2mLn-s3VD-1M-ApGZiPg1RVi3kA0=w526-h296
+  - https://play-lh.googleusercontent.com/C2k1rf8bbSuL8AGzAF64WjcahDnwSDTytwT_MDEg8Gw4Iq7y5aaSnvuDj2r2WZGW8AY=w526-h296
+  - https://play-lh.googleusercontent.com/dTOLDR0WpFQLPZxQyy3GbfHb3kSmb6jmIy8DCNKoVsIg2BZ2Ur-1TFkvJd1ForMK-eM=w526-h296
+  - https://play-lh.googleusercontent.com/55VNU3eG0BBCovkLQpDywf1VcZq8Ck55z9OO3D2TUV6A0px8ZTKblLyp3YVbMJcTyScG=w526-h296
+  - https://play-lh.googleusercontent.com/bbGkNWGMPl_-oHju9SjVtgtSog38ba7Zp1NsjwqdnF5CUNSUaHcXXjy98qDLZN6EaQ=w526-h296
+  - https://play-lh.googleusercontent.com/KN7rbb2hThuy_Q6es31T_ZnJZaI4UhjMZ3il1g1Q80EPg4qWica-X6oasUva-Hwi0OU=w416-h235
+  - https://play-lh.googleusercontent.com/uQElx_kgheNkInfRZl6_iPZ34HLOpt1KMOiVWmcN_PZFRQ66Ug3vDaAS0eymjsok7g=s64
+  - https://play-lh.googleusercontent.com/CyCfSIDF_vVtSiyHi1H47HZtfE2e_-4UVGtoT8zX9ym8GIRcTOhBknPIvadrQUMp2Q=w416-h235
+  - https://play-lh.googleusercontent.com/5uMPvygGoe3Y6aLKjdH1bxf567RA2mvY6dIsGocU5LQIyb8YjWkkuQt-m99ITIAwGWsi=s64
+  - https://play-lh.googleusercontent.com/j2Tqq3Ss6WpwiStdQe4ugBIS0WZyPOYzcq_fjFSItEYkEtkDo37s2fqL71OtCE7jkKw=w416-h235
+  - https://play-lh.googleusercontent.com/RoI_bifQ0eWgWqOg4cpbx7Bm8eFkBEml42htao3-_3aZb7xWFhZPbImflNT5bV3Kfnk=s64
+  - https://play-lh.googleusercontent.com/lR-awfRq5dCDqm9vMnmnGCeN6-mEs9sSx9BnCgNdLkyytliJJ3z1zR2PiJWlP39gO80=w416-h235
+  - https://play-lh.googleusercontent.com/pwzZK-7oQexraeU0mOrQgFIck-QSS89rH0eWjehctp8XskRSpixPNVlA0YYlRXHbA2Iz=s64
+  - https://play-lh.googleusercontent.com/DcXYr3ZtJHtS1NapbSKr-moGgY3-0TYupIeRjWkucAVjF1dzLpDhHWzO1g9ZeQyCUo8=w416-h235
+  - https://play-lh.googleusercontent.com/qw8lAHXaZodAE4c3D1Jkia3V8Np-PxTnyQpUIx439ibABba0L50TVKI4jfY4N4QwzAA=s64
+  - https://play-lh.googleusercontent.com/LwvoEiQdED7i8IKFhS73gn0niHqgyUja96uGVRpfgPro8asS2qbgsvaoHPq8skZRRh4=w416-h235
+  - https://play-lh.googleusercontent.com/u1c8Uk5GCkx8VIQvaMhLftbb2s8vf0llcs7nCpsp0uf0hc2C2wonj1gNetdqApRUzeg=s64
+  - https://play-lh.googleusercontent.com/idMTJUsR0YU3qummE_jbyVhWYOMaWpzWTIWjfOXFgK0o5A1PV0icB0YfqQ61KbiuBA=w416-h235
+  - https://play-lh.googleusercontent.com/Z5WroTW4KmTB3mvUhZMLwgFD2VymNypnEVVxoueXPPCKEFrnUAiZVl0684t1RFEOPqzB=s64
+  - https://play-lh.googleusercontent.com/WjXtykmxdvGnF6WcLb6NXb5tlQ7iqg3OJ-aBx3wg_e5SbtaiLaWZJs_MBQ0ZUAxotw=w416-h235
+  - https://play-lh.googleusercontent.com/4S1nfdKsH_1tJodkHrBHimqlCTE6qx6z22zpMyPaMc_Rlr1EdSFDI1I6UEVMnokG5zI=s64
+  - https://i.ytimg.com/vi/OdHIQ0Gudgw/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/Xc13xwycIN3eeTwSl5TUrnL8-Njb2sBlX7loDOWepjBdrmG14En7nXcu1C9REF4Nrg=s64
+  - https://i.ytimg.com/vi/6UkFHYqVsbc/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/htBUaqvBQR9UQ3b1-ouSHFhDGttQkH-eWetEErspYXVa8hOsfmOmj5ZanGg9GF7XAGc=s64
+  - https://play-lh.googleusercontent.com/7T6GEWL-z5QX4NeMhUYOK4p2VsTTxHVCd21a1JuzoMmnsQ-bgWzckkizL0iXrwC_EA=w416-h235
+  - https://play-lh.googleusercontent.com/ppM8C-PKorML05W98CV2CadI9MfPZXQzz7Odxt9S42OO7cUQAU_e9ImjYQby_enFag=s64
+  - https://i.ytimg.com/vi/0Raldy-TGlo/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/QJObxznpklAxDNp0OVe3kAP5ZfUouIvRDO0kPj-V3MRjoRYKwj9RVTxOwG9yrlY-bgG3=s64
+  - https://play-lh.googleusercontent.com/sPG1oaCQxmLu3pkSwGUSbsT2xR6-R6y7h_F8fmvyrxcOJEl1dINka82qYvHwf0PRb-c=w416-h235
+  - https://play-lh.googleusercontent.com/W0GcGHbSPEA2VBf8CM-SoRG9yYS2RwxgPM9Q25MmhmU6YzJ2t8lHIAnejL0nL9LvYwMx=s64
+  - https://play-lh.googleusercontent.com/T-f1MjbTxcmHLI_FzTRTGgPlrH_DyVV19e_VCAPH911Sg9DkGJCRcwtbuAgdASaFaYw=w416-h235
+  - https://play-lh.googleusercontent.com/NxKqwBq8iCpn7WgNmgqm91PYDtaqjCSgJjVZ3wQb9rNvBXuJVC-FTm_AnHDykFDZOc0=s64
+  - https://play-lh.googleusercontent.com/xWOpHP_tKoJWqXMC4zBR7HwztHXDYETqCwpAGJPSLkBYfXExuSMIacqXwJCGkODNZ9xF=w416-h235
+  - https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv=s64
+  - https://i.ytimg.com/vi/vANAT1t1xv0/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/DNNk9f7y9jaAeRFMyGwZ3UY0KDcP5VKRm4GsKtJez6UN4xkm3hzhwsh3cC6yj7z32dQ=s64
+  - https://i.ytimg.com/vi/bxV5uEPdFMg/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/dgzGsrWatFcom0s9Vxsr_1lWllEJPst0ZooA9OL2sLMbtdVhyhdXitNbj0mpWwG1em5K=s64
+  - https://i.ytimg.com/vi/yqLVASkvHRg/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/Uquu01EBxEbztp4X4lApPqIBqP2A_kKgKwQy8weM-wY1T1MDSVJ8Hrvy2-8cSPpwAQ=s64
+  - https://i.ytimg.com/vi/JglNomtS1U0/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/NNS6OGOetsyYa0hhXTItJ7aCNljIKLD8uLibF5qdEBq_m7kHhK091KXZBVk7JzrfPw=s64
+  - https://www.paperspan.com/PaperSpan-Logo-240x240.jpg
+
+Readability:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/c3/b5/3fc3b5b9-800c-4cb3-9846-3cba9cc99464/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/38/80/53388057-a902-09f9-990f-59bbbe3b6910/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/23/27/f42327f5-b18d-ff0c-2a87-dde5ae2efa6f/AppIconGrade4-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/4f/70/d14f704b-2c77-f497-1875-c486af7fd6fc/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/36/87/aa368737-69b9-6f46-3d12-3531e61280b8/AppIconGrade2-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c0/e5/00/c0e50010-75f3-404a-731e-7d0ebacb49dd/appicon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/36/7f/0d367f77-a869-784f-811e-266ba3026148/AppIcon-0-0-1x_U007emarketing-0-7-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/8d/23/088d23c8-20db-49cd-9471-aace691baf00/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/d6/84/54d684d3-6417-e9ec-d874-b32ea1b90262/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/6d/78/76/6d7876ac-f52b-1453-4f8e-a6d9b70b9db0/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/92/8f/4d928fab-cac6-e431-be6e-70befd470644/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/da/a3/32daa31a-4e1f-0ab5-b6ae-63ea47805489/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/be/08/b9be08cc-d0ce-aa93-50a0-78074825c6e7/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple18/v4/b4/92/50/b492500f-f8e4-5145-a02a-10ee65d54b02/contsched.lnzbrimc.jpg/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/27/45/4d2745f8-c57e-2d35-0478-70eb42934405/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/54/fb/7554fb2c-c4b2-59e7-109f-9d05d922bd6e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b0/4c/77/b04c771d-32f8-2e8d-8475-0ec64a563a61/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/39/d3/ff/39d3ff49-d01b-a5a7-e9b0-2e4512e00577/__PlaceholderAppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/0f/39/e60f3962-ac4f-c916-1421-473666146a26/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/90/ac/3890acf2-e963-0c2e-9b7c-8adf4eb9e822/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/45ZArQBPNyzWA0J8bGTp7TKck7qztcY8N-4NX5FxiRHGXZQmqR404zARHUx1qVItaJY=w526-h296
+  - https://play-lh.googleusercontent.com/f0AhPi1YGhuf7f4lGjNZizBlbK3jsdyugJEzHVKnK47wnUuLc0HEjrq_MVMCRRgXkSM=w526-h296
+  - https://play-lh.googleusercontent.com/rw2GldqxKNftfTTy6rC_xne-Cd2B99fL021x08lOwUCRpKc-NM9jgaA4T4GurSwRSkk=w526-h296
+  - https://play-lh.googleusercontent.com/8LwiX7w9T56yfOVmVoRUuEnEBopnwkoZr9ogJ6XvNiTm4-qguzvXGAxBAB9QI4D2rTo=w526-h296
+  - https://play-lh.googleusercontent.com/9cjInbXr4FKLv4pCVJ1cdoK8mX0o6O7CYyrzkugd1GBquOZtuKvAMMCWBNMZH1gXls0=w526-h296
+  - https://play-lh.googleusercontent.com/W2ydcKDmvQhpxksRlKUvFXPSXAxIgx5xVZaEVGCnxA3MUEfDrLEnKdjpItk9FGs2zw=w526-h296
+  - https://play-lh.googleusercontent.com/tCZ_I3kPqMbq7k3S4bYEsvm7F5uPsW4Y0WLWg2wOC1PkQd_O8EUqL-q_qB7Tx4WyFIs=w526-h296
+  - https://play-lh.googleusercontent.com/-siyR0uPJCMNxJDNGvmbsojPf4voBc5rbEkAsXL8zF_PuGXPpYwyvzPnOH20oat2P7k=w526-h296
+  - https://play-lh.googleusercontent.com/HSJVBP7Wa-q_wxSgn-GLQPnVkgWIB-qyEe4cpw9SWD1Kv0x4u_eBOexUn4A5OiKo2Yo=w526-h296
+  - https://play-lh.googleusercontent.com/Gu60pHdKNB-mlzpYbydsuB-2X5uWZ07Nn3f-4lgnLGsrskW5WqvlD1ok09Fwv_mcStc=w526-h296
+  - https://play-lh.googleusercontent.com/aRVhjYeq_xpDHpf2nSp9LXtmoTetxHcnUJMbuFQJwzZFC8-1XfQWxhesu9zrtTDX40M=w526-h296
+  - https://play-lh.googleusercontent.com/wohdVurLNopyII1wY6KJLEt01ULCHIesK1VHvBKSbGwCslt1neYQZlL07OqYvR0HdA=w526-h296
+  - https://play-lh.googleusercontent.com/XgLAQoQnHi0krpzPa81_g8nS77eHAvOw056iVuimXD2yPx3b4AvEfkiGgnURe0O-SJyU=w526-h296
+  - https://play-lh.googleusercontent.com/mij7BNAj-pyfcXfcz6v1ijSIpH3bgXaqheIdbUbRLbGmbSBd9UR0s9Kk4ilr9iglT8k=w526-h296
+  - https://play-lh.googleusercontent.com/kwowdt3u_2PBkwF-vexaBsZhL7PL8DN1kvw6u1Is_Tl-AVOyfSXouBd-TsXXtjRytTr_=w526-h296
+  - https://play-lh.googleusercontent.com/O9BrIphjBfFVIBoGxiGZ4E1ZW-E7IYHHZRRDU8UHa9CdnSZbI9yK-yPHrgmPbB1P5KA=w526-h296
+  - https://play-lh.googleusercontent.com/3zq2EzXqD80_hnsd-2AZc8g-yyIBNB7SqjlMC9rgY5zFuod1DREIW8ymBGKnerGlSWG5=w416-h235
+  - https://play-lh.googleusercontent.com/EtYcRz9DWYQabb13iXn6zs1vl4Tc01R5Li520obuCNRm-kAONdYxZVKm0WCe7I9bKQ=s64
+  - https://i.ytimg.com/vi/NPS4ahoJ7FI/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/mhHlglx6XkdY948Ddp0YRafo6jUf73kMcIaz2Q02GDXWxaH_hl859A__iCIke5YMliM=s64
+  - https://play-lh.googleusercontent.com/UXTzYVMH26Kx8xtBnamn5iVvU5nkvfAlWT-pM717esVbzGtUW8UV_OEU-JGo_cd2y_E=w416-h235
+  - https://play-lh.googleusercontent.com/gnhFgUBwTzfRhBsNnkEHiY68xmYVlovPF9COih3ASF1Q48qPlWTOkyDyh27u10NXXNg=s64
+  - https://play-lh.googleusercontent.com/ovo_UEqhvIBEdjPMZoA_Kl9zBi6lJaRfAizjXRWtxSFq9HaqCZ1W3EdaIJntO3wnDw=w416-h235
+  - https://play-lh.googleusercontent.com/TpK0AcjPn5-XDKgSZ5jAob1H7MsQuJILOMR4M4QYkTt5CBPgTJVr7mysrKM6Ia8SrX8=s64
+  - https://i.ytimg.com/vi/JkxbMXAbL6A/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/hiQHKRhpuGu4pWAFhpto9H7qWKSdX-BjKbDAtZYgm_jfoD0cN7MCllGOn6L3XWo-6Q=s64
+  - https://i.ytimg.com/vi/nD-hN2mi-bA/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/691m_3IWwkiVObqha9aZoDXB1oDiVHxpa-FRxKra-6yM9UVugdHUvHhYh2YxucUuNrc=s64
+  - https://play-lh.googleusercontent.com/Uu6gvmq4twRwdqIzyOZg39YLlyLJzP3zwdCOhlmLXKN30zT_Or2wysespSySMgLJNw=w416-h235
+  - https://play-lh.googleusercontent.com/ixFCbI5vzdF2yuD5ueX8LsHLm8spgkpEQ_amIeNg7ODmlyIiLMoD8fo_PQBZuull5A=s64
+  - https://play-lh.googleusercontent.com/9hIN31e5aOgLpFwfuT558eI9j0w8twvhPXHYK6GWVlN6Ni-LnWzXEn_A8Fv8M6s3gw=w416-h235
+  - https://play-lh.googleusercontent.com/ow12j_KBVGB_0vQW4g1gEUvVgwzyNJ1tD-diVN158ksICVW0ls4BsLG-hWii-0ShAg=s64
+  - https://play-lh.googleusercontent.com/NvOezp1JD3oYIwfSAr19GdNM899NqLvRnKaHAi2SVZk2xAjg88JEkSNMjEDO3Cb7tyY=w416-h235
+  - https://play-lh.googleusercontent.com/KXdJB5aXz-u9QcPLnXrqSj-uxE15o3Hokft77hU5fiDFUbwucHbqrYGGPtkah90hxw=s64
+  - https://play-lh.googleusercontent.com/xxpXmYCnYjxrO7bBrfQQWjrOKYzOO7RC2DZRzsZmjcZ5dQoXRSyp0f3bIpWVifX-XA=w416-h235
+  - https://play-lh.googleusercontent.com/aD3_J8S8Td6hneYu548nIgzNx4KjP9UpQdL5hhYRQ5JEPNjiA0chqYAm6P0UgdXHdw=s64
+  - https://play-lh.googleusercontent.com/CbnFbgG08C6XjGGkEjflMA2paUX7PrgQaBAf7P-YOOer54DlElGrhxhUpnTIYwTe4Fhw=w416-h235
+  - https://play-lh.googleusercontent.com/CYXHGDtnVHwCfq-f3YqBeK4c7pb8FQHmxkWgSAmVbhmWeXM96wM6R_BNtSYel3Zvvg=s64
+  - https://play-lh.googleusercontent.com/CEIsjJda7djfqB8ukmhIk9GhgSQR-6VgC8fGYBY9oDKFK8OWoEmwfVjadAJbGoubgA=w416-h235
+  - https://play-lh.googleusercontent.com/4C7CwtFYnqg_nlr9djM7EH0uZHq2iqpad3K1LEBTD0471EuTqKIZZp-dPf3YmseaPN4=s64
+  - https://i.ytimg.com/vi/LSO2xboIDXI/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/ozU8FDgq-TsE8-671mljRQKc3v9r4GdbXOzK8I7l5D4R3dXn50P-LaLxOP7qPly1Jw=s64
+  - https://play-lh.googleusercontent.com/-VJwzl7oJ62CAwnH_8rsqnShCvta_WJ40ZEKWhc1Jl-GJ1Kk4SYnLpRdz2Yip3d1c_yG=w416-h235
+  - https://play-lh.googleusercontent.com/ffo142-xlbDUR2flqkJDKRJTz--6uf6_meU6GvUfYBRyqF-6gDaFHnFRBRbBsndkEP4=s64
+  - https://play-lh.googleusercontent.com/HM_D6pouR-cioxsUoAqwjVqXrr7aaTyhR9xQE7EXxXCfGtFMcdAxkQDiXjDhGDXgtkY=w416-h235
+  - https://play-lh.googleusercontent.com/51WYc0ZPB34cGDB8MCkDc0ymv6iBf0r-kSZV_H5pXVDHvdVCA12TWUWQtS54zg-RodI=s64
+  - https://i.ytimg.com/vi/HgpXXmMW8iU/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/4wTV7cQ5PhVfkuHC3WZq-2B2QPFjYdYTTJ-T01hStJGfLHyytxCMVwJAWEAsqzXEyaxn=s64
+  - https://i.ytimg.com/vi/nZNPsSe6myU/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/71efqN7qTC17Qk3jTICJkJ2yUnjLZndFhOLqgdeRhLCjyQU2HvNSe-GjE_4RrxoxXq22=s64
+  - https://play-lh.googleusercontent.com/Ja91dAWdOGHz8-YBZm53Yg0JcGfZObbWxEPtbnAMUX0JsoQUQ-wL1YASNJpcpHbU_A=w416-h235
+  - https://play-lh.googleusercontent.com/ywF4whavRmfiaSbcsKOvP3p4uRi51iOjf8hAM8ya1r6Me6zFULYXy5DKs5teBaY8-g=s64
+  - https://play-lh.googleusercontent.com/HIpICM6yfn_CLuLmTYexqcqNK10rozvMFggf0JLsslQywSbX0bIGt1UztYDAv5xmxywL=w416-h235
+  - https://play-lh.googleusercontent.com/NbhDDT683Wjq3A4xIyspWBmYuzLZPf8CJiOHHUedxR7hGNEBwPR_AbsbwhWjNQfE-Q=s64
+
+Amazon Kindle:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/27/02/7f2702ca-65ee-45dd-843d-ea6faa80c9d8/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/ff/7a/b5ff7a50-9e7c-04ca-886b-6093c3d33bcc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ad/f5/24/adf524b5-f8d1-31b3-eaf5-2a9f9afe96ef/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/7b/de/537bde2b-62d1-1e0d-ed37-4dc54e4c64f7/AppIcon-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/4c/36/904c36c0-c62c-fe18-a528-09e0978dcafc/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/01/49/f5/0149f5a0-98d2-a9d1-9b48-ba133293e8b6/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/fe/b9/20feb9f4-cc88-3217-c804-47fc9bc9aecf/AppIcon-1x_U007emarketing-0-6-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fe/49/dd/fe49dd6f-6efa-5aa5-67a0-9914a99a4888/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/cc/16/a0cc16af-af45-7a2b-332e-291d3efeb0f3/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/cd/ce/05cdce45-838c-bbcb-8250-636e0d0d5382/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/75/44/7a754428-ad6c-d9d9-7e5f-1210c1971f6c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/3e/52/dc/3e52dcd2-385f-f8b1-6f99-4ae0ec80295f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/a4/b5/3fa4b590-3453-2d90-e83c-c46579d80ec9/AppIcon-Prod-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/6a/f2/ba6af296-b366-b440-d921-0ef915ebb4e2/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/2e/64/fa2e643f-06d0-7387-7d15-45dd8b95f80d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/48/66/7f/48667f88-1748-5b35-058c-3f362fe2e5a9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/26/26/c32626b4-b650-7d25-85f2-204536ccc3e4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/59/35/155935d6-5c7e-e133-cef8-ea90077b039e/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/a6/e7/a5a6e7e1-5f90-5caa-3322-d64769d252b6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/81/f5/6981f511-d2c7-c973-e446-c1bf2b8c1bd4/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/Ndh73BS4q_NVq3y-Y7ojnLosdXLfM5gtOWbU8qdZF_CHBchYBT4jxlUSbjhw4Jx8ZiE=w526-h296
+  - https://play-lh.googleusercontent.com/P7lnujOZedQW6NZ1HwWPGa6C5Q4zlo5FlpkdtPrKLbekSVj_QCTJA0G38U6uALXAWIk=w526-h296
+  - https://play-lh.googleusercontent.com/tJi-XmcXiciOZKgtCM0fO64b---pF_KzqBSauFRL3oa88wbQ_XA5XKB-owji6q7PtAM=w526-h296
+  - https://play-lh.googleusercontent.com/GV18nBxURF0W6_gHRZfKd254MMleI9X_5xbhDi7EnvsLutVTN16nlgJsZ_y9AhewszUC=w526-h296
+  - https://play-lh.googleusercontent.com/sjHL0h5ttLkLo9dKgDcoopXgyWoZuw5sxsCgk21TjE-xDn-4t6HxYyub8344TFx2ZUU=w526-h296
+  - https://play-lh.googleusercontent.com/PigWTVv-tBvYZupD95wGpVrU-ECEneYGOYQZBLcA8N3eYyJYHY46CIGb66xnxpnSlg28=w526-h296
+  - https://play-lh.googleusercontent.com/MJS5OSUhZlz9RfyyQ7oJ-isJI7fmtz4G32unq9KCntOlIoRWsJG_Hu5EvbmAPG_Ed-0=w526-h296
+  - https://play-lh.googleusercontent.com/3MhMxG53d97JXanqwBVhWhEp0dtqJqG8L3eE1aWgdJOb5uYUOnD8scV-SGWUub24s6I=w526-h296
+  - https://play-lh.googleusercontent.com/lR-awfRq5dCDqm9vMnmnGCeN6-mEs9sSx9BnCgNdLkyytliJJ3z1zR2PiJWlP39gO80=w416-h235
+  - https://play-lh.googleusercontent.com/pwzZK-7oQexraeU0mOrQgFIck-QSS89rH0eWjehctp8XskRSpixPNVlA0YYlRXHbA2Iz=s64
+  - https://play-lh.googleusercontent.com/5LPn01_j_LpkE0JWDt_xc_VNYzqNJWXN9swbiVSIGa52zSfow1hGweIW22fJ59EdYe4=w416-h235
+  - https://play-lh.googleusercontent.com/10jdcq97hlAcD2A67-i481d_YC1d2f9_TreFSLMiS2a10IJHO2ePxcdb7Y1DN8CzuRA=s64
+  - https://i.ytimg.com/vi/jtrwcZ9FlCo/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/5WD1qUA_k5QSGjCGJZMp8xkato24Qg3PDb5h_y6VXfxWhwbkjtWdAZ6j-ZRQiqUK4nTi=s64
+  - https://play-lh.googleusercontent.com/ihTo1hocEiRHjBO7iAW0tkqyHAnXub45cAnXw0Kz5KzEVr9BbUdHdofy5oJzGzts2NE=w416-h235
+  - https://play-lh.googleusercontent.com/CwOLEx-Vxk7UG5l2WxUdLAn85SAVG5_63bAyOtiEw58fatNEDBwCjEeuUWj4yfemLPU=s64
+  - https://play-lh.googleusercontent.com/VWUtKQEaBaOHDofCHuaC2ORFxM_3xRK29f0isJYfK6lNN8k3-YtyKk6m3PeCo0_0UKRE=w416-h235
+  - https://play-lh.googleusercontent.com/X8YYyjJXDFpDJ8cgdBxSdWOYcUeE76V7WuXw3Ix3dDuY4LaJ2LZV--yo3Ekyv46nM_s=s64
+  - https://play-lh.googleusercontent.com/5r5viZ9i0x7Jc7Rwc14jJ0K37pO3i8jBz0MlT-E_aq6AG6oZT9d8m8cPJWndKHrtjw=w416-h235
+  - https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7=s64
+  - https://play-lh.googleusercontent.com/7T6GEWL-z5QX4NeMhUYOK4p2VsTTxHVCd21a1JuzoMmnsQ-bgWzckkizL0iXrwC_EA=w416-h235
+  - https://play-lh.googleusercontent.com/ppM8C-PKorML05W98CV2CadI9MfPZXQzz7Odxt9S42OO7cUQAU_e9ImjYQby_enFag=s64
+  - https://play-lh.googleusercontent.com/499KDSrCtw1sI8y2bnLD-eNJKlpN4KamOczk5kIjbtC1zSKnIJ502OowtPahMISYZQ=w416-h235
+  - https://play-lh.googleusercontent.com/FY3iTe14QKfDmB4B1AY4k2SmTDFZ1aiIDdPVedlTm39Ql_j7cGctJtrHC_RugBW21bQ=s64
+  - https://i.ytimg.com/vi/0cXihLp1aIQ/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/1Ns1T_qN0pEXMvZeZ5lQNAR8z4blP7ce2J2Nn5doXvt2T1g_W7VMORdWHaApkOooupI=s64
+  - https://play-lh.googleusercontent.com/DcXYr3ZtJHtS1NapbSKr-moGgY3-0TYupIeRjWkucAVjF1dzLpDhHWzO1g9ZeQyCUo8=w416-h235
+  - https://play-lh.googleusercontent.com/qw8lAHXaZodAE4c3D1Jkia3V8Np-PxTnyQpUIx439ibABba0L50TVKI4jfY4N4QwzAA=s64
+  - https://play-lh.googleusercontent.com/few2-5Trc-zLyTxtE7nn5dns85hG2bU0kemAddz3-Vkmfd3fwWy9iYhA5SDaARm1LgM=w416-h235
+  - https://play-lh.googleusercontent.com/cKPxuj_Wa0KtL3kfCAA-km9H8gcxXEWLAM4CA5oER71lAexKdyUNUmn45JZhvquX180=s64
+  - https://play-lh.googleusercontent.com/U8m7aAcmRtnXs9fKiOvBLt7AChW1ZdI3TcY5VHzhZTjq8Y-UIvr94hSyX-uv1VTM2g=w416-h235
+  - https://play-lh.googleusercontent.com/NKNTBKRSFyWI25H50UEY_7w7NoBFvqcicq_bdPOWBvV-Kx1qtYB15d0kFhvMEEA4ZQ=s64
+  - https://i.ytimg.com/vi/vANAT1t1xv0/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/DNNk9f7y9jaAeRFMyGwZ3UY0KDcP5VKRm4GsKtJez6UN4xkm3hzhwsh3cC6yj7z32dQ=s64
+  - https://i.ytimg.com/vi/GN66MXAtVuU/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/BX_GK46RKT0OeO2trRJcHnDoZxQPLLLo63fkX3umKR7LuHzdSM9hIgYqCG3g_I9oiQ=s64
+  - https://play-lh.googleusercontent.com/rECNRDaT7_0fOFAvFulGFKa1cMzrJ5V_JSjm_k--e-wJabbew4gfrI1vWJiobUK0zsM=w416-h235
+  - https://play-lh.googleusercontent.com/mZ6pRo5-NnrO9GMwFNrK5kShF0UrN5UOARVAw64_5aFG6NgEHSlq-BX5I8TEXtTOk9s=s64
+  - https://play-lh.googleusercontent.com/iNQKR2c23n-mvAi2ISsa3id2gNr7sRCria0z_3XmQWJtFNTjQCtMxBSk-a92YvmXvlM=w416-h235
+  - https://play-lh.googleusercontent.com/5u3NrqtmIQmpHG8e2bgsiunhPAZnyBaXNfu-kpV-P835gP8AOS4TGptUsu0lgBqQJxOb=s64
+  - https://i.ytimg.com/vi/KE0N0AN9H3U/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/nxkTOEw8jL7e61k_XtKADLe68suMGjaohoGTiVQm8kLywqEEZm-RApQihy4Wj3kTlRY=s64
+  - https://i.ytimg.com/vi/AQWL_C2uW34/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/NN_i80MWCYgSoVNFPZv8w09gIxUzRbXhPl7d00jgff2xDSKaXqTtjNZFSh_DfDPP1w=s64
+  - https://play-lh.googleusercontent.com/1osAwMb5Ff64VyqYFKjRku2nGzE0A4KiRxGAMkAM3ORlp34_4DKLcMP4hMeA_jA0WMY=w416-h235
+  - https://play-lh.googleusercontent.com/tydB6e2GgMddBVHzC0xhxZ5Os28y1bbf5awrbSSiKJYRLLSdiAIEpJyMuuhP16f0dg=s64
+
+BitRead:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/37/72/96377235-2e45-047c-b594-9578efe0b645/AppIcon-0-0-1x_U007epad-0-0-0-11-0-0-85-220.png/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/uzeJ5ieHXrhTBlN4imOrLfTTGqL8egvYANTxCb5uH9MvkwHdIQ0b24cU79dxTn0sAg=w416-h235
+  - https://play-lh.googleusercontent.com/I_I0QKO3LDPtXyHOM296qt4GPAPXNjXuVv6Qev7ALpnibWX_ATHl5QvNl-aO4IUayNHO=s64
+  - https://play-lh.googleusercontent.com/hXaTMbPC1lq17S-g0zQoKWO4H0Lq6YddszIz5tvBtJMkYGGc0xObjJx2tVF4nrBBLRg=w416-h235
+  - https://play-lh.googleusercontent.com/EVP5coYPHt4aGlNH8upoqH5fpFacarLvRrGr-dEsITkFf5KFlvsb13FXLtuvv_Ax9DA=s64
+  - https://play-lh.googleusercontent.com/efwE088fe3M6NCgkq7Q7ZVR5iodjcpHJDASqEz_getK53MGppILpnhlD72iA1zoSx8y2=w416-h235
+  - https://play-lh.googleusercontent.com/VmqzgmCZQfv0XRj3rwYnA1cP0QuNafli0gUNaa_NHaZjX1QfhKBVypaxqEBOsCGfb3I=s64
+  - https://play-lh.googleusercontent.com/Si05B92f-6h8WSYX7EPe2SmG_gQ3niQ85-C1VbfQsYiduYJxfT9IWiquUZ23LAaUxA=w416-h235
+  - https://play-lh.googleusercontent.com/Aj1gLby50KuAjWzptV2awDW-fbktrFtA356j2PTOhWyrKpSON3xHvUH0ycWskUwrUg=s64
+  - https://play-lh.googleusercontent.com/qYbcZzJmjFqnfvynFJTxAWMNLnfGqLro11Y-rPneR-e-nOPUwea0S_9azPst_tn_6oMV=w416-h235
+  - https://play-lh.googleusercontent.com/Mz83heom_8jnRplnSDxZFJ3WMz7EpMARiMZPkKTHpWF2HAh9DZTJFphjLTSWxfTa_g=s64
+  - https://play-lh.googleusercontent.com/6FzR5vgH_DoIKkkvzYDyYK-DHpZElZ4tQqYBSZlPK8VcYXsEAXK19WV1s1U2UMvX9w=w416-h235
+  - https://play-lh.googleusercontent.com/EyYGDDgrejy_I6c8xeKigCokS54o1si9jaOHj45yc7SGvKu2M3-QyrWp8i2xH_ndApHH=s64
+  - https://i.ytimg.com/vi/VNwRmltQPi8/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/d0mBLWUYcRBdrNGqHJKe6Rtf8X863uQ14Aped4LdwfV3mXnZVsX0M2m3otaU3kedXeo=s64
+  - https://i.ytimg.com/vi/NbSnemPp-NQ/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/TQ6AHm38YF_7o_oK03OBKIEdW-YFbUna53cj0v23I9hsI5HNioF-Ubg1K3v0QOiHiM90=s64
+  - https://play-lh.googleusercontent.com/J7CF9Pxox78zhwC19I5IPMb0TvMLjhszYqADn1qqXxFob_-aUE9Zb3td388ECKP6M2M=w416-h235
+  - https://play-lh.googleusercontent.com/cWelZevCLmQnIo6a39jFIi5wB7JcQEnOOxJgAgLUXZaNwYJ2Nb3N81Vp3hgMtaYoNuk=s64
+  - https://play-lh.googleusercontent.com/WQZM47JGdC6KfMQizinfkIexMC4UWd5iq9SD6z33Nu7KkWWGfRkP_g_KHShkG77g5_s=w416-h235
+  - https://play-lh.googleusercontent.com/r40o8cLe2BOCNwRuFU_6LZIu4hGo2M56FxnFaQTHwXXIz6HYcB_CQEtFEii6_0Db2qqo=s64
+  - https://play-lh.googleusercontent.com/icouMqKKczEDmQgCduaRx7cSeUadLA1L30UnZbHzvx3reIhg5lk4RqS1EGYWVssMdK0=w416-h235
+  - https://play-lh.googleusercontent.com/mBEKNfr2O42VS4emsQF59jt0TpMbwRLJVUoIG7LvUYPdolnNyEGfJJw3joSn6ZbTJdE=s64
+  - https://i.ytimg.com/vi/_5MsEypZL4Q/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/5aKJW5Y8Ejye5J2HUKuULpRMCmGAuZTo8ANGaxn81kQNlOyycHDUhOGhwGMz1wuq8lr7=s64
+  - https://play-lh.googleusercontent.com/DqwEFhBCdAjkIplXBGxR0MRIGm9_kNIgtdk5x-0JfJV1vuPCUIqVIEpt70O4gs1rHbM=w416-h235
+  - https://play-lh.googleusercontent.com/ZxDZbejwXIQEfg1p5VKCftUn0GXtGxY_xq-3kctbXl-ms00vOgDx_-2bru8EgsK7nzw=s64
+  - https://i.ytimg.com/vi/bmiqNFBajLM/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/6PJ4ECfATkZLcGfscCIB6OpRGxhc3zOij8MU1vemsLHmSWHoihEOTzDQXdK3mAl8Kw=s64
+  - https://play-lh.googleusercontent.com/liZhBWG2SAgVg5rV8a9Dlq2aZdzuMGqMIDrJgeAQxdE2-wbvtQAR8W7bJMmn_f4AVgA=w416-h235
+  - https://play-lh.googleusercontent.com/XKutnIQneAJqYbFrDACzHKWDwQNg9EJWv9e6UD76TZqIAFzxOdTKAi3T8NqYqSp_tjY=s64
+  - https://play-lh.googleusercontent.com/8D5WTM79lOKLlzNiAYnj-MoCX1PeRqYpfQikZyBV-huhLoe4PXhyAugSR0LOi9-l2lo=w416-h235
+  - https://play-lh.googleusercontent.com/8okQ8tdgXNL3m0Pg6sgn23CEnYpIxgHn5QxYmWn2-0I2Q28eUl2_vhB8Y39C77MO2TI=s64
+  - https://play-lh.googleusercontent.com/4ulQGSVY9-rSB3hnwMqFfTYXo0sZ8k4QwBGDoD3SRJVILmeC1thPI4g5wiNPIoR7vLHc=w416-h235
+  - https://play-lh.googleusercontent.com/0JQIJPzKNM8JfFe3a6XYg53j8HOgsrHDkT7U0OOgoic4vSqc_Do-vPCWN7PoiFFL0jo=s64
+  - https://i.ytimg.com/vi/5ElfaiTycyY/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/DsxN7BWhBUGrRzR9-M5Bj7XZQAU0aqcNVLjvsgp-X4Wof4zJ1h4vHUvfXp80YqWKTpI=s64
+  - https://play-lh.googleusercontent.com/GoW2NRV_MsHLT9FuzjDTWWtxSZG11H1f7YgG_fKVXMcXps8NrJpAaKF_z1Brxx3xVA=w416-h235
+  - https://play-lh.googleusercontent.com/_u-h5870QD9x4Au4C6jn6TlwXhaUHWfifwhP6gaxQDKS4lugd5xTJrCpiqdaK4Ivu4k=s64
+  - https://play-lh.googleusercontent.com/hgTA1T6z_bdnnAMFOz1TrCi6b1NJK8_ucA-Y9wV0Si6yPqdCVV-Mq173dpowxmHC0Gs=w416-h235
+  - https://play-lh.googleusercontent.com/W19jRqdAs-eezKK5wr-fm52UAVwHuBPK7iFmisad_LoT_W84cCG_JxWPjdLxYKQgAnU=s64
+  - https://play-lh.googleusercontent.com/YB16IcXeOOY3iwTCOB8DLsE4lEkh6yPjdz07Y9gSCvHcLGeMZwL278L3HCDZI45ERwk=w416-h235
+  - https://play-lh.googleusercontent.com/s7VG_pYJ1h2CoGQmV3VlFsozwObRmAFXU09jENbtr6Jx9WE3S0iEd7B7_IQGUGyJwEs9=s64
+  - https://play-lh.googleusercontent.com/aGB6PBsaq1srBJGB4ERCUQDRxP8EJsM5VWdy_Awiu7gQFp0KW9Snf1ZMCBrAl64imUg=w416-h235
+  - https://play-lh.googleusercontent.com/Bp_O_N1QxWWJ7YgqOiVxApB9waK0kjuc6jsYFGCPNHeNxuUVg-jMHz3KYLAtgu3KK_U=s64
+  - https://play-lh.googleusercontent.com/E6takZPIYxIb9wBJ020AO2xOqfvYjuqgyiAbsRk9inMvaG-cIGCd1jaLEaoF0vR4kuHW=w416-h235
+  - https://play-lh.googleusercontent.com/nQac_79fgvfP-ALT8lskZTsxYBmM8fRGu6U-JH6lWvrpGbJJi9980GmN1iWhO8m1yrw=s64
+  - https://play-lh.googleusercontent.com/7gb7eQVRyY4pV3ecGLuJu7EDoTdYVEvwahIzqMuZykt-zIm1AFxnYwPRqhyS5nciP1N8=w416-h235
+  - https://play-lh.googleusercontent.com/fsOtGPxA9b-LvE5IbpB3NqHo44tMqiMnogqw_g9NzHIDedw4_bAx_tMcCGBtYnqu42s=s64
+  - https://i.ytimg.com/vi/zZ68j7t14kA/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/XC1X070HV7w5uc23FtYLs-k_0EFrHS823aE4GL-tvWNAQEvgguOxLGWmoIJotEdxHd7A=s64
+  - https://play-lh.googleusercontent.com/CZXvumvg3mJ5RPxY5Bz-lrUosbcpMZwH0O4MK6BVOweKANw_4x2dYuzdfPh227Tppg=w416-h235
+  - https://play-lh.googleusercontent.com/Lg4HpiUCKS_DrzlG_ErTDtjI5ppKNn012CbakOphSdonztnZbmDYuN46BwxJyqkP4A=s64
+  - https://play-lh.googleusercontent.com/msQ5VCVTK6RwIwGJIPhcLFMblyt9yrPud-u8EGKloLchHZ5nmGfDK9etDmdHaESer1s=w416-h235
+  - https://play-lh.googleusercontent.com/Sqlu6KR-aQ0ngKcArNbWSLcSYgpQE53gpMjGNWoS5eIte4hXvicgt7mA5WQPZuBD3Vg=s64
+  - https://i.ytimg.com/vi/DG6nop7025k/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/KY-w_GECCpm9ZItD96XG20ElUeogfrOMhVkHIY-5Q0vP4UyJohHi0LySEv1y3O6MsA=s64
+  - https://play-lh.googleusercontent.com/eszhlGyGfDHxKYjxwW6Z3WyeWQR5nEY6KcXmjKpx96kBMcnNK4w87Y-vhM3IQaCK1PA=w416-h235
+  - https://play-lh.googleusercontent.com/gumcVyk49pD2fNdYmOxkqgb8v93OTsWvjc_RE_mdCFYqh9GPVC89NJljXFWnjLJ_aA8=s64
+  - https://play-lh.googleusercontent.com/G5Ai4Afknom-H2PGxO2roadXbXrdGndhuwqeIfD7_RVZUQkdineZ43P47AthravQrw=w416-h235
+  - https://play-lh.googleusercontent.com/hDHjolb6en2KlrBSIBT476pI64iMASRLFB8gj3jfXNbHjp59dxCjNrPf-carY_XCeV8=s64
+  - https://bitread.net/wp-content/uploads/2024/05/bitread.png
+
+Bublup:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/f5/e3/f6f5e348-deee-593d-cf49-02608d1c31c9/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg
+  - https://play-lh.googleusercontent.com/vXxvx6EbwOKbZIySim-5jjPJNEHyA1R0a_gpac3ox_DXSW_GeEb_rzAAZr3w33Z9P1Y=w526-h296
+  - https://play-lh.googleusercontent.com/uCoN2BVrzTcnP_289WGmn9pKbTFSv3gzlfjqjdnX6tJ6nCT_-jSmoLcFOL8DI4yRUfU=w526-h296
+  - https://play-lh.googleusercontent.com/-kP7NaLXQ7ALs8vZTIFmx3QyqU3wrzRtxTtCiI8k-83n4PotQMbRoY4_J0pqkAWmLhQ=w526-h296
+  - https://play-lh.googleusercontent.com/8biShhy2NJSO_JcLTpAcID_D7bpxSR5kCPtfY1Ckj2WVlBN_5bm7ZyyiowMuM5eq-lD0=w526-h296
+  - https://play-lh.googleusercontent.com/UsF0E_IPZRFt53eU47I4_YWyD2rHg6qyc_Rf-L5dypWKrKo_s6ixAw3TqtWw2zatfw=w526-h296
+  - https://play-lh.googleusercontent.com/UCgAwMqqUHCJoJmxR7pGBpW1lx0MuNdiXiptGMIK88iW5WPx7stvUk5OsLK01SjgNj8=w526-h296
+  - https://play-lh.googleusercontent.com/Jsae_NiHTKwmx2R6dwz5oAWkl6vNmegttU_T_prXRGnEsnnyGvvbKC52Q9inpGyoV-g=w526-h296
+  - https://play-lh.googleusercontent.com/kladh4TxnKM7c9SJ57Mxz0IPyHpV9fZCVPwsW1G1VW49CqEoNM_3B_sPripo8F_UzLk=w526-h296
+  - https://play-lh.googleusercontent.com/Y4b8hr0YR87FNfvuq4WJIrSZ5YdCARXHkFuMqQcscn5aihz2NXcTQyk7HeLUS7Y9e6A=w526-h296
+  - https://play-lh.googleusercontent.com/8G0fSPZ-c0yG-U7e3csMoP_cn4lMh8dcrYtTPaXT4rqhULeXvWhGuKvMCxcg4VjV6g=w526-h296
+  - https://play-lh.googleusercontent.com/z1pWwPlH5lRkx1nT-r3WtNaGynKcGGmBsshQ5q6iFcaZ0Y2NMTvSDXrWu0v_qiPMjA=w526-h296
+  - https://play-lh.googleusercontent.com/uPEd_SdX3WS84XZiX5F5hoExONNnOl5RRBz3lNxoo5Qv-s_BIvhlBQmKmUPlQon4KA0=w526-h296
+  - https://play-lh.googleusercontent.com/biaL37ht4_prgk5UgMGd9wLAiwY1w3AR4XznpGhGwtTE87L_2AituvjNrgQWqedq4mI=w526-h296
+  - https://play-lh.googleusercontent.com/dfu_4SjxpaMFcd3gzhTTPR7HacblTbfvyE6aJ97hQsexMXNnHumU73VRZmNQzG4bUiPP=w526-h296
+  - https://play-lh.googleusercontent.com/OGCuT_XTi_YWY3pZtJdZ7pQPECk5c__4qT7qoGuOaxgVSPH0MmXXnywKAfqGITP1XA=w526-h296
+  - https://play-lh.googleusercontent.com/ABSFVPpFTLIZXuZM8GUdkaGRFTmvs-D0B7IIe5E9LUnDNJn_nXl-3l8LZlJlMWWwi6IB=w526-h296
+  - https://play-lh.googleusercontent.com/7lffHztZEvTmvKcgoN6wWfsvCpoI_SwR3vG0MKiPOCEJvJltPRwEcW9QTgSZeJ2UVs6v=w526-h296
+  - https://play-lh.googleusercontent.com/mxIuGILHwcq2H3sFKWduuMI3oxmoECWBDDDvR7sq1ZN93S60e9g2lgvSeEX4ISmDUN0=w526-h296
+  - https://play-lh.googleusercontent.com/zc09jF6NfDgtTLWcB7LMwuf39l7fwJ9oUXN0CIDJ32YGRsPhX23VLXcWZMnNdrorqQ=w526-h296
+  - https://play-lh.googleusercontent.com/Rp07oqqpMTjcWG-zPeDNZsnO2Aq5UqeFIVjO3jZwxGN2cQNwsSqIWMuCNDDAGoIFGNA=w526-h296
+  - https://play-lh.googleusercontent.com/IQnRt-XEyTpbNEjf9ysztpZIe5ZMO8DMOLm2eTvHAJV6PANkBjhFUAXq4NKbAxUB6yAZ=w526-h296
+  - https://i.ytimg.com/vi/SRugl3-_6J0/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/PO_MEuIr3Y0jAQYrgjJWibCveys9gVAKlqi06QqLlCp7Ft-PH8QZkFbrHkFPnZgh4kk=s64
+  - https://i.ytimg.com/vi/yByA4A3MkE8/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/7TDVINQa9OIoNDZXzIEWeogyey6qKJwp1P5Of2A6HE5iNCaTeIbq7LQQ-yoGJODUtA=s64
+  - https://play-lh.googleusercontent.com/PzU7Zj9NeYGSS3Ijzxa4fHXczGjX0tquujrFYaNAa9Shwif_XPhnC-seCIusMZbvGA=w416-h235
+  - https://play-lh.googleusercontent.com/RfRU_xDsx11DFN1umvU2F11w9FQVU2gIux9i6TydfG3H19f24c-GRvvAM8cGm3X7Kd0=s64
+  - https://i.ytimg.com/vi/77GKkUKW4gw/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/Ctp86KeeRQHBaKlEmhFq9Eatp3HAxt_WJuadcA4QHI9HL0QhNQA7uTX60MwdTUttj9_s=s64
+  - https://play-lh.googleusercontent.com/oy6lRo3V4vfPdb2UAJchaZTrT6SiLaBxtEwxNaszePvhg8cKTJFy6nreRgbnm92O_A=w416-h235
+  - https://play-lh.googleusercontent.com/WpilfFp_SnASH87ZKBx7QedsO0NMOmDLY2QfRBmPuzh9iq2uhyDiEZdng1N_umofd0U=s64
+  - https://i.ytimg.com/vi/AkTj_qQNphA/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/Tt-6ZaQDUAjfSNSeLz4XyYkPsEQfVVp0lBtwrnuyqubhCna0LKu5OZxKgegBJIrEhz8=s64
+  - https://i.ytimg.com/vi/JG3BzUSbU1w/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/9Au3cHvuVyNSGzikuifsilv4K3SZLH-OK7vU__LrK33aYCSnhRDk7lc2fXjGBBJaag=s64
+  - https://play-lh.googleusercontent.com/gU9XerWyDjgUF43Rvq9I9Z5-1ptdQAmorsTmMpbs-vD2uTG6Sh0C4YrdJU1vWL0TM2E=w416-h235
+  - https://play-lh.googleusercontent.com/MUOvJ-Ku86zBLb6ExiL47FsOfLem2bsRTsEK4C5shhiyjbLWYPhE3wShPEtal8VmTA=s64
+  - https://play-lh.googleusercontent.com/qEmjJOO5LUMjItXy2-sF7lPPcRcFKm6Wq79C9hdJ6njfID8L3dFrQG62pBhRUXDPuIr_=w416-h235
+  - https://play-lh.googleusercontent.com/1BmEA-5vxBds04cAoU_NVf7tEphIv4j8bTyjmyyU-PvhcEvFgaM3zC6elMMmpqeF420=s64
+  - https://play-lh.googleusercontent.com/DaH7qfZR9u0gBoUMVKFCyDVsW3sKD-jVWo7L9Rpdpg4-wAvz2oqw0bdvPeWxg0ulxRkQ=w416-h235
+  - https://play-lh.googleusercontent.com/zVNXJttU2hCZQtdhQHrMHbQx7zbh7ganOE6YPbE0KypiTXNhgEcP4cP2NMz7cCln4Q=s64
+  - https://play-lh.googleusercontent.com/QNnAg1YfCAwSPFE2ZnP3OFzAduybjFQnjRoFZFGm7w_5tDHub-VPmdMbPaAvp5vm4w=w416-h235
+  - https://play-lh.googleusercontent.com/9U1Zbu7jlryfcgwvWHulHzjlgMVjOy_S4rIATrF0b6Qd_VR_5yftp0dQBfi-Q5Psjg=s64
+  - https://i.ytimg.com/vi/0Raldy-TGlo/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/QJObxznpklAxDNp0OVe3kAP5ZfUouIvRDO0kPj-V3MRjoRYKwj9RVTxOwG9yrlY-bgG3=s64
+  - https://play-lh.googleusercontent.com/tmrmYlGXG9ArvMix7O44SLcACyFkf5JqqUwxyiBZf5b7c8_QHLk1U9VI7jp-o763Of4=w416-h235
+  - https://play-lh.googleusercontent.com/js9LcEDMPaWBLW-kX6zrCxVwKDKTsvQRgIubQnZB0wQs4NfNcxPkNlXQOpIDXKX0y5Y=s64
+  - https://i.ytimg.com/vi/Wy9eoFhUtKs/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/y6l6Jq41A5PDxD4QFHrPvRS2uoQkJfo1O3EgLVhmsydQOOxQlT9YMMSERQ0WeTDJKw=s64
+  - https://play-lh.googleusercontent.com/ny59HClfeBXzUgeYGCB4YR4ERyszblIPYgfhuu68k9c7cqhXXDbc4D-knKBzLDl4nZQ=w416-h235
+  - https://play-lh.googleusercontent.com/jOOJuaotY77TKXPML5lrykp8mpsCnXpr7seWJdkpongKLbSkC_BXkr3UShAUZDi2oa4=s64
+  - https://play-lh.googleusercontent.com/0A0KFqZuSKxURIK_tKpRxNYnr-078FIzkuxw_pIgAr5sbLKChUEAK3CFL9g0wsJmjgo=w416-h235
+  - https://play-lh.googleusercontent.com/wRk4-q8DLZhYiGWfx3kEilfw_SkWUFqTKgeSLnYVBa7scnBQDfWI73HJfb-tUOlQ6YQ=s64
+  - https://play-lh.googleusercontent.com/difnK91lVBWXMps_pgeuFZ_JUKg5O3c9vhARNnonuhMi43K_ICHJ7Lackdc92v8oiWs=w416-h235
+  - https://play-lh.googleusercontent.com/1CjF4qfZpzPaN9BvxbiDZUL3drwZHUjAwlJmUfr3fTP70IfC8YXBkqsefypBdmdozEs=s64
+  - https://play-lh.googleusercontent.com/ug2cDpwDi8ZtLPTOcSwjZVwvbmO8Vj5pE8TTJ2dhA9dYXG5PqVR2sCsm4J3plcPRllo=w416-h235
+  - https://play-lh.googleusercontent.com/WaS68PBRsOybSsVHwV6trkLR0f4lyfVCg7xYXbn_vrbBSq1LahUNM-HBxnV_7537Ig=s64
+  - https://play-lh.googleusercontent.com/pdgV__NHSioME89C3-ECzgzK598NpPymrlOHGNEg-bMDZ2BfoblxYrsf3Edp_o0Xtw=w416-h235
+  - https://play-lh.googleusercontent.com/e5QDN4kWbSsMwsUkU69omh0dvJj7a5RIEwqE1GNlLdPkC-gkFeLiu_slma9kSSwI674=s64
+  - https://www.bublup.com/wp-content/uploads/2021/09/cropped-bublup_new_icon_transp-180x180.png
+
+MarkMark:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/b7/55/3eb755af-0c4a-ad79-fc21-85a7a76bd0bf/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/77/3c/24/773c24bf-62a0-680d-5573-43393154c311/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/cd/93/0acd9332-1b38-2eea-5d5e-38f35cebf44f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+  - https://i.ytimg.com/vi/YbZb7jH24oQ/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/7ZXzhKUNh2qjp_tLGQVxgKxVP6uChy7F72PzfbizZ5VSaVqVCoAxfg6ZqZ3T9i48Wms=s64
+  - https://play-lh.googleusercontent.com/aq8Uf-WcJlSInl52J2P-DqQRxr_Dkl9G37A7Puk_DpdyPZp5PMb3np4NugZczrIk4fln=w416-h235
+  - https://play-lh.googleusercontent.com/NENWOW1ko4OajmDuDjfykx0lhKBAmH65xfK_38HRj5j_Ad_2ouwUHWH-L-Yl3PPMY9w=s64
+  - https://play-lh.googleusercontent.com/CmvSiH4pT-uk5054x-EdgDx0SkAFHj0rI14TlOIfGLifqQ5AymUfZ9GNTN6kDzLXXhc=w416-h235
+  - https://play-lh.googleusercontent.com/3uGn5sq24pw7yxQVB0fHcX1Y77JSI-HSV-hKVfj8F391HXXbFZqxO6mspY14eKQyzDU7=s64
+  - https://play-lh.googleusercontent.com/jBnrIT_cP384kpobRMiewPFoppAERPrrTL5NLh4HAKbwKjQqM3n8ABeXeShYTcsuR-g=w416-h235
+  - https://play-lh.googleusercontent.com/FtbiIKN5JlaplesZoM3M4pshdmf-AImVq6YMFOuU2YKO7ulLWHUuIDaVzv-FAn814A=s64
+  - https://play-lh.googleusercontent.com/kFDgITemy7o9sR1CEjohe8ycRLzlPGRRu9xnaxi2rWLS665nCxwmFv0-_fqaqtYKFLw=w416-h235
+  - https://play-lh.googleusercontent.com/zi6QgTtIiAnGqQMizfoj2LnE85kzHyZlgTruSzJ7Zw_79NAmB3fhxuDegwxby7P0yw=s64
+  - https://play-lh.googleusercontent.com/2Zzo83gS6xO6HmdTgjUCUAz8dXagyf2HGtjY_b-yNyNa-YTInLMnNwlQoq_l9tnorW8=w416-h235
+  - https://play-lh.googleusercontent.com/usX9zpURCN66gkUY0H9aCIHAfZ05dFtpp2YWdFgiiuPNebbZNi9ayYkQHM8Sa1kP_A0=s64
+  - https://i.ytimg.com/vi/VvtNnWmNdY0/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/-i9tZ99PhATtgZ5snFNXxCqM4NIDi-e4-5724RJWTRXWg0knuPsB-GaS1RJJ-AW0eQw=s64
+  - https://play-lh.googleusercontent.com/DaH7qfZR9u0gBoUMVKFCyDVsW3sKD-jVWo7L9Rpdpg4-wAvz2oqw0bdvPeWxg0ulxRkQ=w416-h235
+  - https://play-lh.googleusercontent.com/zVNXJttU2hCZQtdhQHrMHbQx7zbh7ganOE6YPbE0KypiTXNhgEcP4cP2NMz7cCln4Q=s64
+  - https://play-lh.googleusercontent.com/_sMvc_rKDUgTRYRvtMJ7lDWps4WvekiONp8JoMb3g7N7-gygqBUQFWSyuP8pfrBfbq0=w416-h235
+  - https://play-lh.googleusercontent.com/KVECBjt5FIy3uN0Bmn2033JJT1kCOosMYeiZbgo3YuTXMqbm-uLCrnmJPj3HvwguS0I=s64
+  - https://play-lh.googleusercontent.com/veYiAaYc8wuocPs3al-6lo3XZBvEdfWTSBTs3wKadvrOZgTZud-twrMPh4xy4O50FQ=w416-h235
+  - https://play-lh.googleusercontent.com/DwnsiIoZND-_vYzP1fe7mf5NVB2EDX5PukBwguo-HgGtPScTwlcsaKrNCPCwq_BcEA=s64
+  - https://play-lh.googleusercontent.com/8nvC_JDf2vxjz0szQK66CMDwsr2sV6KXWyQrMsubPzeSd1PGYP6FEkE0HbmP0KUoGA=w416-h235
+  - https://play-lh.googleusercontent.com/DGAPBGpTz4Gwun_DNfPiuWq7sclWYGrEnVaJEg-GPQdxWFmyYHmBd9z4ZadewaZur5A=s64
+  - https://i.ytimg.com/vi/keeyfv8hd2Q/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/YU8yJCYexVPzg_NPk5FfeKczvNSd-qscddPMYEQ9hAOKQQRA16cbVgt_3OVthQoUBw=s64
+  - https://i.ytimg.com/vi/iujl1WDKRcM/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/NaCH4pxghY25XvltuD4UuFuXR_oBzur_lLLKsSMRKYkDB0xml3WpMY4geVMJYSlMpA=s64
+  - https://play-lh.googleusercontent.com/NcMik81v00_2qgafFtLLdQsigFbak5LJK72XjpeMB4uTvBsm0LwVOt1JSOM8YMhYmt0=w416-h235
+  - https://play-lh.googleusercontent.com/AdcOeIpVi9DOsq1lIFDiVz9lFfl717orjmFBd_kpUtbZ1qxlS8B4wZXEP7upjLkmWg=s64
+  - https://play-lh.googleusercontent.com/W4rY-i_ME3JFMVjkGVz4ocdpHLWUUaR4VhGES0jjas5_p4un3rOJO7vRPr7DgY8vlWA=w416-h235
+  - https://play-lh.googleusercontent.com/NRTOrHTPP_2oFGD5tXdLweaX7LW5wIhkJe9vPvDJbkeWfpep9OfjEqzE4RA5rh-iJbhT=s64
+  - https://play-lh.googleusercontent.com/onCQGTRqtN0H_ZmKXUvQXk3yPAIxwSWeKhqZ68cF5G2HtbXlrge0gmPhYC2AiY3Rz1MS=w416-h235
+  - https://play-lh.googleusercontent.com/SQADI2u-iNhz17WrfZ4t0r_5j_41DnmcSYq_0lwtkj2VdANF0y3tRHUGu_YLkjykfQ=s64
+  - https://play-lh.googleusercontent.com/hgkVBGdcUlKwvPNUCBiR1ZwqYFhshO4F5NoKvrR14jUCq5VIhlg_PlKnMrgWdLR1dcA=w416-h235
+  - https://play-lh.googleusercontent.com/5nwilhs3-Ka7uG5HavtraCEXpD52GPKWmfF_qWrDs6PbBMWXUL_ilr7EB6kRzUx67JU=s64
+  - https://play-lh.googleusercontent.com/mZLa7ez9-8fRzPPL1XRlXtwklfMexifZUYbkMkW4FpZ8gBgfF1YYvdUHSKLOohut7k0=w416-h235
+  - https://play-lh.googleusercontent.com/LSHIcrtwQ3yjfzm87Ng4q4u4XkGsaZuPBVOmLRnRRpm6ok2FLQ_ZWpYFfeGvOh7c_g=s64
+  - https://play-lh.googleusercontent.com/SvsqENj9JVkOfAw14iwcMoo1dptuYPD2JkPKJ-p5hM9O1C227mU4IsgW5XmFns3wrHsF=w416-h235
+  - https://play-lh.googleusercontent.com/MO0Bs1RMkU_cOZj6M0ztsz5Ta1DzfbIXAbo_VZmNFbMW21HtHK0covSYbkuiBcF50g=s64
+  - https://i.ytimg.com/vi/iBwNVCYdZuk/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/_Skbr2JoIN3SUM4EEiPFY24Flyr2V1o1UfDddUCsvFfcghJrb2oZj-UgWCLpGWp7mQc=s64
+  - https://play-lh.googleusercontent.com/TFIjjwG1AUqfD9QFfrV0yyrjrx4zh8Fe0UFK6SIqi7sMrnm5hJhAIvq1PH97Fzbg1eM=w416-h235
+  - https://play-lh.googleusercontent.com/dxdsndAGSELkQx4IFPXM6QTM_aMFxoNNhCCJlIye1S7sl5llZJd5Eb3x2kcc4KOV5w=s64
+  - https://play-lh.googleusercontent.com/hKdPMdS-7aKFB0Jae6QMAR-M_ij2J_6g32se_IFFRLQ-sa4WEKa583igUCF5vV2t0BA=w416-h235
+  - https://play-lh.googleusercontent.com/l5mXbEaPVXLpYYoCgMvMNkOWuP_H3Jb05CmI_FBpWltVJPza4U_sjM8Nqw4XlMo0Ieo=s64
+  - https://play-lh.googleusercontent.com/5guTeyKfV90Dxnn4UfXbn2o7SicFsTX3M9oQ7kExlzcNWEBOS6YMXbTg3b4WqHaJkL4=w416-h235
+  - https://play-lh.googleusercontent.com/oQ3chDReUPrXtXmbNiI3LRb_eaqpkMrzkPStAEmKPuUrqCtL3xrLwUk4mxvm0-QchZCQ=s64
+  - https://play-lh.googleusercontent.com/DUGwNvi59ry6LpD4LeQtbnFbw3MjAjDc0vuJh5dJCRAwub6a5xNAnWeeYJ6icPpTP8I=w416-h235
+  - https://play-lh.googleusercontent.com/AsmrDv7ytlGEq6aBwPI09-TU7-vzPitUMjsJrmuP_SAWdROoCwpLCEqFmRl7TRd4gA=s64
+  - https://play-lh.googleusercontent.com/9hx7sBRUFv_qVhvaQUn6SlKF8giPeiCIJRuzzC6f2wO-5ZCr5Vcmd9fPKiuvl-5TkFg=w416-h235
+  - https://play-lh.googleusercontent.com/EyTHK3ucu-b3nVMWWdZHcqlkpXUdTPVLxy2QUPJrLre1tOKzdWQp81ctjAQCVA1PRzM=s64
+  - https://play-lh.googleusercontent.com/eL5dwG8Co6t2WDJWV_qMCm9TNogcwABTa0K29b-CXZIObULXn5oVbWzTejNPN3zEFlMY=w416-h235
+  - https://play-lh.googleusercontent.com/zQMmXMYI5AnMXCMizGomj4NzuT1W4jXU8FzEFn5LVcisMjOc9fTYtKVb4pnMcx5XcVr_=s64
+  - https://i.ytimg.com/vi/_aC7SV5nG4s/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/cdY-8s0fZoAbPrjr9jAo3A9xtBRlkVr0mlvLBx1G_5Xh0Wr1uNvhnPDudMotYiGfiS0=s64
+  - https://i.ytimg.com/vi/oPqck0NjkPs/hqdefault.jpg
+  - https://play-lh.googleusercontent.com/AbOSrfnjDla8sic7SUzypx-MJkfS3juSJ0YUlwWm871uEu5cFpmFnZC32hw0msMy-Yo=s64
+  - https://play-lh.googleusercontent.com/zKj0jptvjSV8YLueTG9PACaJyZafZh97EEO7dO-mDCRg8e4UO9yyymgXnBJm1JfqnTi3=w416-h235
+  - https://play-lh.googleusercontent.com/VB0KBUpFRT3PWCgG_VzRvkJClnGEtNPv1Hrf-aUlAjzaVf3JsiVE0D49G5tyKJkDmg=s64
+  - https://play-lh.googleusercontent.com/sy0bLrB9XiZPKayKR7ZnYAowJ9SpSWJd3PLJf3nOH0UOSLjGmBR4Hau5I9nLfref8taW=w416-h235
+  - https://play-lh.googleusercontent.com/86YSeVgo9eElccV2A3B_upuXg3XANJSM_FfvV8spE5TJRBu8V9cGOkbSCIobyo5TAVw=s64
+  - https://storage.googleapis.com/markmark-media/markmark/appstore-download-button.svg
+
+--- End of Report ---

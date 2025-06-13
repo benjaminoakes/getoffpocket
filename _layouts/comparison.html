@@ -1,0 +1,189 @@
+---
+# Base layout for all comparison pages
+---
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} - Get Off Pocket</title>
+    <meta name="description" content="{{ page.description | default: 'Compare the best Pocket alternatives for your needs.' }}">
+
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulmaswatch/lux/bulmaswatch.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* Base styles */
+        :root {
+            --primary: #ee5a24;
+            --primary-light: #ff8c5a;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+        }
+
+        .featured-badge {
+            position: absolute;
+            top: 0;
+            right: 1.5rem;
+            transform: translateY(-50%);
+            background: var(--primary);
+            color: white;
+            padding: 0.25rem 1rem;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            font-weight: bold;
+        }
+
+        .card.featured {
+            border: 2px solid var(--primary);
+            position: relative;
+        }
+
+        .card.featured .card-footer-item {
+            background-color: var(--primary);
+            color: white;
+            font-weight: bold;
+        }
+
+        .card.featured .card-footer-item:hover {
+            background-color: var(--primary-light);
+        }
+
+        .app-icon {
+            width: 128px;
+            height: 128px;
+            border-radius: 22.5%; /* iOS-style rounded corners */
+            vertical-align: middle;
+            margin-right: 1.5rem;
+        }
+
+        .app-icon-emoji {
+            font-size: 100px;
+            width: 128px;
+            height: 128px;
+            vertical-align: middle;
+            margin-right: 1.5rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card .media-left .app-icon {
+            width: 80px;
+            height: 80px;
+            margin-right: 1rem;
+        }
+        .app-icon {
+            width: 128px;
+            height: 128px;
+            border-radius: 22.5%;
+            vertical-align: middle;
+            margin-right: 1.5rem;
+        }
+        .app-icon-emoji {
+            font-size: 100px;
+            width: 128px;
+            height: 128px;
+            vertical-align: middle;
+            margin-right: 1.5rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card .media-left .app-icon {
+            width: 80px;
+            height: 80px;
+            margin-right: 1rem;
+        }
+        .app-icon {
+            width: 128px;
+            height: 128px;
+            border-radius: 22.5%;
+            vertical-align: middle;
+            margin-right: 1.5rem;
+        }
+        .app-icon-emoji {
+            font-size: 100px;
+            width: 128px;
+            height: 128px;
+            vertical-align: middle;
+            margin-right: 1.5rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card .app-icon {
+            width: 80px;
+            height: 80px;
+            margin-right: 1rem;
+        }
+        .card .app-icon-emoji {
+            font-size: 64px;
+            width: 80px;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    {% include navbar.html %}
+
+    <!-- Ensuring vertical alignment for all columns -->
+<div class="columns is-vcentered">
+  <div class="column">
+    {{ content }}
+  </div>
+</div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Get Off Pocket</strong> - Helping you find the perfect read-it-later solution.
+        </p>
+        <p>
+          <a href="https://sharelette.cloudbreak.app/?url=https%3A%2F%2Fgetoffpocket.com%2F%3Futm_medium%3Dreferral%26utm_source%3Dsharelette%26rby%3Dsharelette&text=Get%20Off%20Pocket%3A%20A%20Guide%20to%20Pocket%20Alternatives" class="button is-primary has-text-white-ter has-text-weight-bold m-3">
+            <i class="fa-solid fa-share-nodes mr-3"></i>
+            Share this guide
+          </a>
+          <a href="https://donate.stripe.com/00wbJ12pPa3M0Rtcso0Ba0a" class="button is-danger m-3">
+            <span class="icon"><i class="fas fa-heart"></i></span>
+            <span>Donate</span>
+          </a>
+        </p>
+        <div class="container">
+          <p class="help">
+            Disclosure: This site may contain affiliate links, referral programs, and coupon codes. We may receive a commission or benefit if you click a link, use a code, and make a purchase or sign up. This comes at no extra cost to you and may provide you with a discount.
+          </p>
+          <p class="help">
+            We strive to be neutral and fair in representations of the products on this site. If you would like to propose a change, you can <a href="https://github.com/benjaminoakes/getoffpocket">edit this page on GitHub</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      document.addEventListener('DOMContentLoaded', () => {
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+          el.addEventListener('click', () => {
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+          });
+        });
+      });
+    </script>
+</body>
+</html>
