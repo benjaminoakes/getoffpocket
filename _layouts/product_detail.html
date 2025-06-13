@@ -112,8 +112,18 @@
             {% else %}
               {% assign features_all = "Import & Export, Dark Mode, Tagging, Offline Reading, Full-Text Search" | split: ", " %}
             {% endif %}
-            <h2 class="title is-3">🔍 Core Pocket Features vs {{ item.name }}</h2>
+            {% comment %}
             <div class="table-container">
+              <h2 class="title is-3">
+                <span class="icon-text">
+                  <span class="icon">
+                    <i class="fas fa-search"></i>
+                  </span>
+                  <span>
+                    Core Pocket Features vs {{ item.name }}
+                  </span>
+                </span>
+              </h2>
               <table class="table is-fullwidth is-hoverable">
                 <thead>
                   <tr>
@@ -133,9 +143,18 @@
                 </tbody>
               </table>
             </div>
+            {% endcomment %}
             <div class="columns">
                 <div class="column is-6">
-                    <h2 class="title is-3">✨ Key Features</h2>
+                    <h2 class="title is-3">
+                      <span class="icon-text">
+                        <span class="icon margin-right-6">
+                          <i class="fas fa-star">
+                          </i>
+                        </span>
+                        <span>Key Features</span>
+                      </span>
+                    </h2>
                     <div class="columns is-multiline key-features">
                       {% for fid in item.features %}
                         {% assign feat = site.data.features | where: "id", fid | first %}
@@ -154,7 +173,15 @@
                     <!-- Hosted Options -->
                     {% assign hosted = item.hosting_options | where_exp: "opt", "opt.class != 'self-hosted'" %}
                     {% if hosted.size > 0 %}
-                      <h2 class="title is-3">🏠 Hosted Options</h2>
+                      <h2 class="title is-3">
+                        <span class="icon-text">
+                          <span class="icon margin-right-6">
+                            <i class="fas fa-server">
+                            </i>
+                          </span>
+                          <span>Hosted Options</span>
+                        </span>
+                      </h2>
                       {% for option in hosted %}
                       <div class="hosting-option">
                           <h5 class="subtitle is-6">{{ option.name }}</h5>
@@ -170,7 +197,15 @@
                     <!-- Self-Hosted Estimates -->
                     {% assign selfhost = item.hosting_options | where: "class", "self-hosted" %}
                     {% if selfhost.size > 0 %}
-                      <h2 class="title is-3">🔧 Self-Hosted Estimates</h2>
+                      <h2 class="title is-3">
+                        <span class="icon-text">
+                          <span class="icon margin-right-6">
+                            <i class="fas fa-tools">
+                            </i>
+                          </span>
+                          <span>Self-Hosted Estimates</span>
+                        </span>
+                      </h2>
                       {% for option in selfhost %}
                       <div class="hosting-option">
                           <h5 class="subtitle is-6">{{ option.name }}</h5>
