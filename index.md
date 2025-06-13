@@ -3,10 +3,10 @@ layout: comparison
 title: "Best Pocket Alternatives"
 description: "Find the perfect Pocket alternative that works for Apple devices. Compare features, pricing, and hosting options."
 featured:
-  - bitread
+  # - bitread
   - bublup
   - diigo
-  - emailthis
+  # - emailthis
   - evernote
   - goodlinks
   - instapaper
@@ -105,11 +105,8 @@ featured:
         <thead>
           <tr>
             <th>Name</th>
-            <th>iOS App</th>
-            <th>Mac App</th>
-            <th>iCloud Sync</th>
             <th>Browser Ext.</th>
-            <th>Pricing</th>
+            <th>Least Expensive Paid Plan</th>
             <th></th>
           </tr>
         </thead>
@@ -123,35 +120,14 @@ featured:
               {% endif %}
             </td>
             <td>
-              {% if alt.features contains 'iOS app' %}
+              {% if alt.features contains 'chrome_extension' or alt.features contains 'firefox_extension' or alt.features contains 'safari_extension' or alt.features contains 'browser_extensions' or alt.features contains 'bookmarklet' %}
               <span class="icon has-text-success"><i class="fas fa-check"></i></span>
               {% else %}
               <span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>
               {% endif %}
             </td>
             <td>
-              {% if alt.features contains 'Mac app' %}
-              <span class="icon has-text-success"><i class="fas fa-check"></i></span>
-              {% else %}
-              <span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>
-              {% endif %}
-            </td>
-            <td>
-              {% if alt.features contains 'iCloud' %}
-              <span class="icon has-text-success"><i class="fas fa-check"></i></span>
-              {% else %}
-              <span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>
-              {% endif %}
-            </td>
-            <td>
-              {% if alt.features contains 'Safari' %}
-              <span class="icon has-text-success"><i class="fas fa-check"></i></span>
-              {% else %}
-              <span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>
-              {% endif %}
-            </td>
-            <td>
-              {% include format_price.html price=alt.pricing.minimum %}
+              {% include format_price.html price=alt.pricing.least_expensive_paid %}
             </td>
             <td>
               <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key }}/" class="button is-small is-primary">View Details</a>
@@ -163,7 +139,6 @@ featured:
     </div>
   </div>
 </section>
-
 
 <!-- CloudBreak CTA -->
 <section class="section">
