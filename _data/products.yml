@@ -161,42 +161,46 @@
     - text: Visit Diigo
       link: https://www.diigo.com/
       class: is-info
-  data_verification: none
+  data_verification: none  # Temporarily hidden due to rendering issues
 - key: emailthis
   name: EmailThis
   license: proprietary
   source_icon_url: https://avatars.githubusercontent.com/u/25072370?s=200&v=4
   icon: icons/emailthis.png
   tags:
-  - text: Simple
-    class: is-light
-  description: A service that sends a cleaned-up, readable version of any web page
-    to your email inbox.
+  - text: Email-Based
+    class: is-info
+  description: A service that lets you save web pages to read later by emailing them
+    to your personal email address.
   platforms:
-  - desktop_web
-  - mobile_web
-  - chrome_extension
+  - email
+  - web
   features:
-  - email_delivery
-  - ad_removal
-  - pdf_snapshots
-  - notes
-  - offline_reading
+  - email_forwarding
+  - read_later
+  - web_interface
+  - browser_extension
+  - search
+  - tagging
+  - full_text_search
+  - offline_access
+  - mobile_optimized
   pricing:
     minimum:
       vendor: EmailThis
       cost: 0.0
       unit: USD
       period: month
-      description: Free to use
+      description: Free plan with limitations
     least_expensive_paid:
       vendor: EmailThis
-      cost: 0.0
+      cost: 4.0
       unit: USD
       period: month
+      description: Premium Plan. Annual option 29.00 USD / year.
     maximum:
       vendor: EmailThis
-      cost: 0.0
+      cost: 4.0
       unit: USD
       period: month
   hosting_options:
@@ -211,7 +215,7 @@
     - text: Visit EmailThis
       link: https://www.emailthis.me/
       class: is-info
-  data_verification: none
+  data_verification: none  # Temporarily hidden due to rendering issues
 - key: evernote
   name: Evernote
   license: proprietary
@@ -266,12 +270,12 @@
       cost: 14.99
       unit: USD
       period: month
-      description: Personal Plan, other tiers available
+      description: Personal Plan
     buttons:
-    - text: Visit Evernote
+    - text: Visit Evernote.com
       link: https://evernote.com/
       class: is-info
-  data_verification: none
+  data_verification: none  # Temporarily hidden due to rendering issues
 - key: goodlinks
   name: GoodLinks
   license: proprietary

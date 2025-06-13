@@ -5,9 +5,9 @@ description: "Find the perfect Pocket alternative that works for Apple devices. 
 featured:
   # - bitread
   # - bublup
-  - diigo
+  # - diigo  # Temporarily hidden due to rendering issues
   # - emailthis
-  - evernote
+  # - evernote  # Temporarily hidden due to rendering issues
   - goodlinks
   - instapaper
   - linkding

@@ -5,6 +5,9 @@
 - id: advanced_tagging
   label: Advanced Tagging
   icon: fa-tags
+- id: ad_removal
+  label: Ad Removal
+  icon: fa-ban
 - id: ai_features
   label: Ai Features
   icon: fa-robot
@@ -20,9 +23,18 @@
 - id: browser_extension
   label: Browser Extension
   icon: fa-puzzle-piece
+- id: annotating
+  label: Annotating
+  icon: fa-pencil-alt
+- id: bookmarking
+  label: Bookmarking
+  icon: fa-bookmark
 - id: browser_extensions
   label: Browser Extensions
   icon: fa-puzzle-piece
+- id: calendar
+  label: Calendar
+  icon: fa-calendar-alt
 - id: clean_reading_mode
   label: Clean Reading Mode
   icon: fa-book-open
@@ -38,6 +50,12 @@
 - id: dark_mode
   label: Dark Mode
   icon: fa-moon
+- id: document_scanning
+  label: Document Scanning
+  icon: fa-camera
+- id: email_delivery
+  label: Email Delivery
+  icon: fa-envelope
 - id: docker_deployment
   label: Docker Deployment
   icon: fab fa-docker
@@ -74,6 +92,9 @@
 - id: full_text_search
   label: Full Text Search
   icon: fa-search
+- id: handwriting_recognition
+  label: Handwriting Recognition
+  icon: fa-signature
 - id: highlighting
   label: Highlighting
   icon: fa-highlighter
@@ -98,9 +119,18 @@
 - id: multiuser
   label: Multiuser
   icon: fa-users
+- id: outliners
+  label: Outliners
+  icon: fa-list-ul
+- id: tagging
+  label: Tagging
+  icon: fa-tags
 - id: native_apps
   label: Native Apps
   icon: fa-desktop
+- id: notebook_organization
+  label: Notebook Organization
+  icon: fa-book
 - id: nested_collections
   label: Nested Collections
   icon: fa-layer-group
@@ -116,6 +146,9 @@
 - id: offline_reading
   label: Offline Reading
   icon: fas fa-book
+- id: pdf_snapshots
+  label: PDF Snapshots
+  icon: fa-file-pdf
 - id: pdf_support
   label: Pdf Support
   icon: fa-file-pdf
@@ -140,9 +173,9 @@
 - id: responsive_web_interface
   label: Responsive Web Interface
   icon: fa-sync-alt
-- id: search
-  label: Search
-  icon: fa-search
+- id: ocr
+  label: OCR
+  icon: fa-search-plus
 - id: smart_folders
   label: Smart Folders
   icon: fa-folder-open
@@ -155,6 +188,9 @@
 - id: tagging
   label: Tagging
   icon: fa-question-circle
+- id: tasks
+  label: Tasks
+  icon: fa-tasks
 - id: tags
   label: Tags
   icon: fa-tags
