@@ -450,7 +450,7 @@
     link: https://www.pikapods.com/pods?run=linkding
     class: managed
     price:
-      cost: 1.2
+      cost: 2.0
       unit: USD
       period: month
       description: From 1.20 USD per month
@@ -759,7 +759,7 @@
       description: estimate, complex setup
     buttons:
     - text: Learn More
-      link: https://docs.omnivore.app/using/hosting.html
+      link: https://github.com/omnivore-app/omnivore
       class: is-info
   data_verification: preliminary
 - key: paperspan
@@ -1387,7 +1387,7 @@
     link: https://www.pikapods.com/pods?run=wallabag
     class: managed
     price:
-      cost: 1.4
+      cost: 1.8
       unit: USD
       period: month
       description: Approx. 1.40 USD per month

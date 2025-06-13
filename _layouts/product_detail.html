@@ -88,6 +88,22 @@
                   <span class="app-icon-emoji">{{ item.icon }}</span>
                 {% endif %}
                 <h1 class="title is-1" style="margin-bottom: 0;">{{ item.name }}</h1>
+                {%- if item.data_verification and item.data_verification != 'none' -%}
+                  {%- case item.data_verification -%}
+                    {%- when 'preliminary' -%}
+                      {%- assign badge_class = 'is-info is-light' -%}
+                      {%- assign badge_text = 'Hosting & Pricing Verified' -%}
+                    {%- when 'comprehensive' -%}
+                      {%- assign badge_class = 'is-success is-light' -%}
+                      {%- assign badge_text = 'All Information Verified' -%}
+                  {%- endcase -%}
+                  <div class="tags" style="margin-top: 0.75rem; margin-bottom: 0;">
+                    <span class="tag {{ badge_class }}">
+                      <span class="icon is-small" style="margin-right: 0.25rem;"><i class="fas fa-check-circle"></i></span>
+                      <span>{{ badge_text }}</span>
+                    </span>
+                  </div>
+                {%- endif -%}
                 {% for tag in item.tags %}
                   <span class="tag {{ tag.class }} is-large">{{ tag.text }}</span>
                 {% endfor %}
