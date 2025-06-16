@@ -10,7 +10,7 @@ excerpt: "With Pocket's recent announcement, users are looking for a more perman
 ## TL;DR / Checklist
 
 - Export your data from Pocket
-- [Convert your Pocket export for Wallabag](https://benjaminoakes.github.io/pocket-to-wallabag/)
+- [Convert your Pocket export for Wallabag](https://benjaminoakes.github.io/pocket-to-wallabag/){: .important-link }
 - Choose a hosted Wallabag provider
 - Import your data into Wallabag
 - Enjoy secure, open-source reading!
@@ -52,7 +52,7 @@ You will receive an email with a link to download your data. Save the file to yo
 
 Wallabag doesn't directly import Pocket's export format. Luckily, a community-made tool makes conversion simple.
 
-Go to the [Pocket to Wallabag Converter](https://benjaminoakes.github.io/pocket-to-wallabag/).
+Go to the [Pocket to Wallabag Converter](https://benjaminoakes.github.io/pocket-to-wallabag/){: .important-link }.
 
 {% include image_formatter.html src="/assets/images/blog/get-off-pocket/pocket_to_wallabag_converter.png" alt="Pocket to Wallabag Converter" caption="The web-based converter tool that transforms Pocket exports to Wallabag format" %}
 
