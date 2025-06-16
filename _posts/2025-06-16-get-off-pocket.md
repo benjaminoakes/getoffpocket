@@ -7,7 +7,7 @@ tags: [pocket, wallabag, data-export, self-hosting]
 excerpt: "With Pocket's recent announcement, users are looking for a more permanent, secure home for their 'read it later' lists. Learn how to migrate to Wallabag, an open-source alternative."
 ---
 
-{% include sponsorship_cta.html %}
+{% include sponsorship_cta.html page_url=page.url %}
 
 For years, Pocket has been a beloved tool for saving articles, videos, and stories. However, with the recent announcement of its shutdown, users are looking for a more permanent, secure home for their "read it later" lists. It's the perfect time to consider an open-source alternative like Wallabag.
 
@@ -71,4 +71,4 @@ Wallabag will begin importing your articles. This may take some time depending o
 
 That's it! You've successfully migrated your "read it later" list to a secure, open-source platform. Now, you can enjoy all the features you loved about Pocket, with the added peace of mind that comes from knowing your data is truly yours. With Wallabag, you're not just a user—you're in control.
 
-{% include sponsorship_cta.html %}
+{% include sponsorship_cta.html page_url=page.url %}

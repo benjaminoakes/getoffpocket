@@ -51,7 +51,7 @@ featured:
 </section>
 
 <!-- CloudBreak CTA -->
-{% include sponsorship_cta.html %}
+{% include sponsorship_cta.html page_url=page.url %}
 
 
 {% assign featured_alts = site.data.products | where_exp: "item", "page.featured contains item.key" %}
@@ -138,4 +138,4 @@ featured:
   </div>
 </section>
 
-{% include sponsorship_cta.html %}
+{% include sponsorship_cta.html page_url=page.url %}
