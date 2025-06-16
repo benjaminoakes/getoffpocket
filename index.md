@@ -51,62 +51,8 @@ featured:
 </section>
 
 <!-- CloudBreak CTA -->
-<section class="section">
-  <div class="container">
-    <div class="box has-background-primary-light">
-      <div class="columns is-vcentered">
-        <div class="column is-8">
-          <h3 class="title is-3">Ready to switch from Pocket?</h3>
-          <p class="subtitle is-5">Get started with Wallabag on CloudBreak</p>
-          <ul>
-            <li>✓ Native apps</li>
-            <li>✓ Browser extensions</li>
-            <li>✓ Seamless sync</li>
-            <li>✓ The freedom of open-source</li>
-            <li>✓ The convenience of managed hosting</li>
-            <li>✓ $2 off with code GETOFFPOCKET</li>
-          </ul>
-        </div>
-        <div class="column is-4 has-text-centered">
-          <a href="https://cloudbreak.app/wallabag?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com" class="button is-white is-large is-fullwidth">
-            <span class="icon"><i class="fas fa-bookmark"></i></span>
-            <span>Get Started</span>
-          </a>
-          <p class="help mt-2">For a limited time, just $10/year</p>
-          <div class="mt-3">SPONSORED</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include sponsorship_cta.html %}
 
-<section class="section">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-half">
-        <div class="card" style="border: 2px solid hsl(48, 100%, 67%); margin-bottom: 1.5rem;">
-          <div class="card-header" style="background-color: hsl(48, 100%, 67%);">
-            <p class="card-header-title has-text-dark" style="font-weight: bold;">
-              Gold Sponsor
-            </p>
-          </div>
-          <div class="card-content">
-            <p class="title is-4"><a href="https://sunya.plus/">Sunya+</a></p>
-            <p class="subtitle is-6">Your new home for digital content.</p>
-            <div class="content">
-              <p>Discover Sunya+, a versatile platform for all your digital needs.</p>
-              <p>Sunya+ offers a seamless experience for managing and enjoying your content. Explore its features today!</p>
-              <p>
-                <a href="https://sunya.plus/" class="button is-warning">Learn More</a>
-                <a href="https://sunya.plus/" class="button is-primary">Get Started</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 {% assign featured_alts = site.data.products | where_exp: "item", "page.featured contains item.key" %}
 
@@ -192,32 +138,4 @@ featured:
   </div>
 </section>
 
-<!-- CloudBreak CTA -->
-<section class="section">
-  <div class="container">
-    <div class="box has-background-primary-light">
-      <div class="columns is-vcentered">
-        <div class="column is-8">
-          <h3 class="title is-3">Ready to switch from Pocket?</h3>
-          <p class="subtitle is-5">Get started with Wallabag on CloudBreak</p>
-          <ul>
-            <li>✓ Native apps</li>
-            <li>✓ Browser extensions</li>
-            <li>✓ Seamless sync</li>
-            <li>✓ The freedom of open-source</li>
-            <li>✓ The convenience of managed hosting</li>
-            <li>✓ $2 off with code GETOFFPOCKET</li>
-          </ul>
-        </div>
-        <div class="column is-4 has-text-centered">
-          <a href="https://cloudbreak.app/wallabag?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com" class="button is-white is-large is-fullwidth">
-            <span class="icon"><i class="fas fa-bookmark"></i></span>
-            <span>Get Started</span>
-          </a>
-          <p class="help mt-2">For a limited time, just $10/year</p>
-          <div class="mt-3">SPONSORED</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include sponsorship_cta.html %}
