@@ -87,7 +87,7 @@
         unit: EUR
         period: year
     - name: CloudBreak
-      link: https://cloudbreak.app/wallabag/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+      link: https://cloudbreak.app/wallabag/
       price:
         cost: 10.0
         unit: USD

@@ -446,7 +446,7 @@
       description: Estimated server costs for self-hosting
   hosting_options:
   - name: CloudBreak
-    link: https://cloudbreak.app/linkding/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+    link: https://cloudbreak.app/linkding/
     class: managed
     price:
       cost: 12.0
@@ -456,7 +456,7 @@
     coupon_code: GETOFFPOCKET
     buttons:
     - text: Visit CloudBreak
-      link: https://cloudbreak.app/linkding/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+      link: https://cloudbreak.app/linkding/
       class: is-info
   - name: PikaPods
     link: https://www.pikapods.com/pods?run=linkding
@@ -1054,7 +1054,7 @@
       description: Estimated server costs for self-hosting via Docker
   hosting_options:
   - name: CloudBreak
-    link: https://cloudbreak.app/readeck/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+    link: https://cloudbreak.app/readeck/
     class: managed
     price:
       cost: 10.0
@@ -1064,7 +1064,7 @@
     coupon_code: GETOFFPOCKET
     buttons:
     - text: Visit CloudBreak
-      link: https://cloudbreak.app/readeck/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+      link: https://cloudbreak.app/readeck/
       class: is-info
   - name: Readeck.org (Official Hosting Coming Soon)
     link: https://readeck.org/en/
@@ -1463,7 +1463,7 @@
       link: https://wallabag.it/en/
       class: is-info
   - name: CloudBreak
-    link: https://cloudbreak.app/wallabag/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+    link: https://cloudbreak.app/wallabag/
     class: managed
     price:
       cost: 10.0
@@ -1473,7 +1473,7 @@
     coupon_code: GETOFFPOCKET
     buttons:
     - text: Visit CloudBreak
-      link: https://cloudbreak.app/wallabag/?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com
+      link: https://cloudbreak.app/wallabag/
       class: is-info
   - name: PikaPods
     link: https://www.pikapods.com/pods?run=wallabag
