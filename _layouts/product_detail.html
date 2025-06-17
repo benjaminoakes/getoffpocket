@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
+    {% include google_analytics_head.html %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -78,6 +79,7 @@
 </head>
 <body>
     {% include utm_param.html page_url=page.url %}
+    {% include google_analytics_body.html %}
     {% include navbar.html %}
 
     <section class="section">
@@ -111,7 +113,7 @@
                   <span class="tag {{ tag.class }} is-large">{{ tag.text }}</span>
                 {% endfor %}
             </div>
- 
+
             <p class="subtitle is-4">{{ item.description }}</p>
             <!-- Supported Platforms -->
             <p class="subtitle is-5">Supported Platforms</p>
