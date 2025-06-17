@@ -1327,7 +1327,7 @@
   name: Sunya Folio
   license: open_source
   source_icon_url: # (Add a relevant icon URL if available)
-  icon: icons/sunya_folio.png # (Ensure you have this icon or adjust as needed)
+  icon: /icons/sunya_folio.png # (Ensure you have this icon or adjust as needed)
   tags:
     - text: Open-source
       class: is-success
