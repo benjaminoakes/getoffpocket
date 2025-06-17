@@ -60,7 +60,74 @@
     localStorage.setItem('analytics_consent', 'denied');
     document.getElementById('consent-banner').style.display = 'none';
     gtag('event', 'consent_update', {
-      'status': 'rejected'
+        'status': 'rejected'
+      });
+    }
+</script>
+
+<!-- Outbound link click tracking -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Determine if link is outbound (different hostname)
+    function isOutbound(link) {
+      try {
+        const url = new URL(link.href);
+        return url.hostname && url.hostname !== window.location.hostname;
+      } catch (_) {
+        return false;
+      }
+    }
+
+    const links = document.querySelectorAll('a[href^="http"]');
+    links.forEach(function(link) {
+      if (!isOutbound(link)) return;
+
+      link.addEventListener('click', function(event) {
+        const href = link.href;
+        let navigationHandled = false;
+
+        function navigate() {
+          if (navigationHandled) return;
+          navigationHandled = true;
+          window.location.href = href;
+        }
+
+        try {
+          if (typeof gtag === 'function') {
+            gtag('event', 'click_outbound', {
+              'event_category': 'outbound_link',
+              'event_label': href,
+              'source_page': window.location.pathname
+            });
+          }
+        } catch (err) {
+          console.error('Outbound tracking error', err);
+        }
+
+        // For same-tab links, only delay navigation in browsers without sendBeacon support.
+        if (!link.target || link.target.toLowerCase() === '_self') {
+          const hasBeacon = (typeof navigator !== 'undefined' && typeof navigator.sendBeacon === 'function');
+
+          if (hasBeacon) {
+            // Modern browsers: rely on sendBeacon/gtag to flush and allow normal navigation.
+            // Optionally send a manual beacon for extra safety.
+            try {
+              const payload = JSON.stringify({
+                event: 'click_outbound',
+                event_category: 'outbound_link',
+                event_label: href,
+                source_page: window.location.pathname
+              });
+              navigator.sendBeacon('https://www.google-analytics.com/collect', payload);
+            } catch (_) {}
+            // No preventDefault -> navigation proceeds immediately.
+          } else {
+            // Legacy browsers: pause briefly to ensure event delivery.
+            event.preventDefault();
+            setTimeout(navigate, 120);
+          }
+        }
+      }, { passive: true });
     });
-  }
+  });
 </script>
