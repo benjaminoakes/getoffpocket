@@ -25,6 +25,7 @@ featured:
   - reeder
   - safari
   - shiori
+  - sunya_folio
   - wallabag
 
 ---
@@ -92,7 +93,7 @@ featured:
     <div class="columns is-multiline is-vcentered">
       {% for alt in featured_alts %}
       <div class="column is-6">
-        <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key }}/" style="display: block; height: 100%; color: inherit; text-decoration: none;"><div class="card {% if alt.featured %}featured{% endif %} h-100">
+        <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" style="display: block; height: 100%; color: inherit; text-decoration: none;"><div class="card {% if alt.featured %}featured{% endif %} h-100">
           {% if alt.featured %}
           <div class="featured-badge">Recommended</div>
           {% endif %}
@@ -117,7 +118,7 @@ featured:
               <span class="icon"><i class="fas fa-arrow-right"></i></span>
             </a>
             {% else %}
-            <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key }}/" class="card-footer-item">View Details</a>
+            <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="card-footer-item">View Details</a>
             {% endif %}
           </footer>
         </div></a>
@@ -156,7 +157,7 @@ featured:
             </td>
             <td>{{ alt.free_tier_limitations }}</td>
             <td>
-              <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key }}/" class="button is-small is-primary">View Details</a>
+              <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">View Details</a>
             </td>
           </tr>
           {% endfor %}

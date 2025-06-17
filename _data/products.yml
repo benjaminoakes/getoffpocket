@@ -1323,6 +1323,71 @@
       class: is-info
   data_verification: none
   free_tier_limitations: Self-hosted
+- key: sunya_folio
+  name: Sunya Folio
+  license: open_source
+  source_icon_url: # (Add a relevant icon URL if available)
+  icon: icons/sunya_folio.png # (Ensure you have this icon or adjust as needed)
+  tags:
+    - text: Open-source
+      class: is-success
+    - text: Sponsor
+      class: is-warning
+  description: An open-source read-it-later and annotation tool.
+  platforms:
+    - desktop_web
+    - ios
+    - android
+    - chrome_extension
+  features:
+    - bookmarking
+    - highlighting
+    - annotation
+    - open_source
+    - full_text_search
+    - tag_management
+    - import_export
+    - multi_device_sync
+    - api_access
+    - dark_mode
+    - offline_support
+    - reading_statistics
+    - archiving
+    - custom_themes
+  pricing:
+    minimum:
+      vendor: Sunya Folio
+      cost: 12
+      unit: USD
+      period: year
+      description: Yearly subscription
+    least_expensive_paid:
+      vendor: Sunya Folio
+      cost: 12
+      unit: USD
+      period: year
+      description: Yearly subscription
+    maximum:
+      vendor: Sunya Folio
+      cost: 12
+      unit: USD
+      period: year
+      description: Yearly subscription
+  hosting_options:
+    - name: Sunya Folio
+      link: https://sunya.plus/products/folio
+      class: managed
+      price:
+        cost: 12
+        unit: USD
+        period: year
+        description: Yearly subscription
+      buttons:
+        - text: Subscribe
+          link: https://buy.stripe.com/6oU3cvd4tdfYeIjbok0Ba0i
+          class: is-success
+  data_verification: preliminary
+  free_tier_limitations: Free tier not available at this time.
 - key: wallabag
   name: Wallabag
   license: open_source
