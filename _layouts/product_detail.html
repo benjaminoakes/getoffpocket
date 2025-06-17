@@ -168,7 +168,7 @@
                           {% if option.description %}<p>{{ option.description }}</p>{% endif %}
                           <div class="buttons are-small mt-2">
                             <a href="{{ option.link }}{{ utm_and_rby }}" target="_blank" class="button is-primary">Visit {{ option.name }}</a>
-                            {% if option.coupon_code %}<span class="tag is-warning">{{ option.coupon_code }}</span>{% endif %}
+                            {% if option.coupon_code %}<span class="tag is-warning">Coupon: {{ option.coupon_code }}</span>{% endif %}
                           </div>
                       </div>
                       {% endfor %}
