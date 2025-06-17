@@ -25,6 +25,7 @@ featured:
   - reeder
   - safari
   - shiori
+  - sunya_folio
   - wallabag
 
 ---
@@ -50,35 +51,7 @@ featured:
   </div>
 </section>
 
-<!-- CloudBreak CTA -->
-<section class="section">
-  <div class="container">
-    <div class="box has-background-primary-light">
-      <div class="columns is-vcentered">
-        <div class="column is-8">
-          <h3 class="title is-3">Ready to switch from Pocket?</h3>
-          <p class="subtitle is-5">Get started with Wallabag on CloudBreak</p>
-          <ul>
-            <li>✓ Native apps</li>
-            <li>✓ Browser extensions</li>
-            <li>✓ Seamless sync</li>
-            <li>✓ The freedom of open-source</li>
-            <li>✓ The convenience of managed hosting</li>
-            <li>✓ $2 off with code GETOFFPOCKET</li>
-          </ul>
-        </div>
-        <div class="column is-4 has-text-centered">
-          <a href="https://cloudbreak.app/wallabag?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com" class="button is-white is-large is-fullwidth">
-            <span class="icon"><i class="fas fa-bookmark"></i></span>
-            <span>Get Started</span>
-          </a>
-          <p class="help mt-2">For a limited time, just $10/year</p>
-          <div class="mt-3">SPONSORED</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include sponsorship_cta.html page_url=page.url %}
 
 <!--
 <section class="section">
@@ -120,7 +93,7 @@ featured:
     <div class="columns is-multiline is-vcentered">
       {% for alt in featured_alts %}
       <div class="column is-6">
-        <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key }}/" style="display: block; height: 100%; color: inherit; text-decoration: none;"><div class="card {% if alt.featured %}featured{% endif %} h-100">
+        <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" style="display: block; height: 100%; color: inherit; text-decoration: none;"><div class="card {% if alt.featured %}featured{% endif %} h-100">
           {% if alt.featured %}
           <div class="featured-badge">Recommended</div>
           {% endif %}
@@ -145,7 +118,7 @@ featured:
               <span class="icon"><i class="fas fa-arrow-right"></i></span>
             </a>
             {% else %}
-            <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key }}/" class="card-footer-item">View Details</a>
+            <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="card-footer-item">View Details</a>
             {% endif %}
           </footer>
         </div></a>
@@ -184,7 +157,7 @@ featured:
             </td>
             <td>{{ alt.free_tier_limitations }}</td>
             <td>
-              <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key }}/" class="button is-small is-primary">View Details</a>
+              <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">View Details</a>
             </td>
           </tr>
           {% endfor %}
@@ -194,32 +167,4 @@ featured:
   </div>
 </section>
 
-<!-- CloudBreak CTA -->
-<section class="section">
-  <div class="container">
-    <div class="box has-background-primary-light">
-      <div class="columns is-vcentered">
-        <div class="column is-8">
-          <h3 class="title is-3">Ready to switch from Pocket?</h3>
-          <p class="subtitle is-5">Get started with Wallabag on CloudBreak</p>
-          <ul>
-            <li>✓ Native apps</li>
-            <li>✓ Browser extensions</li>
-            <li>✓ Seamless sync</li>
-            <li>✓ The freedom of open-source</li>
-            <li>✓ The convenience of managed hosting</li>
-            <li>✓ $2 off with code GETOFFPOCKET</li>
-          </ul>
-        </div>
-        <div class="column is-4 has-text-centered">
-          <a href="https://cloudbreak.app/wallabag?utm_medium=referral&utm_source=getoffpocket.com&rby=getoffpocket.com" class="button is-white is-large is-fullwidth">
-            <span class="icon"><i class="fas fa-bookmark"></i></span>
-            <span>Get Started</span>
-          </a>
-          <p class="help mt-2">For a limited time, just $10/year</p>
-          <div class="mt-3">SPONSORED</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include sponsorship_cta.html page_url=page.url %}

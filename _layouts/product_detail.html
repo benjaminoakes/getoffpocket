@@ -78,6 +78,7 @@
     </style>
 </head>
 <body>
+    {% include utm_param.html page_url=page.url %}
     {% include google_analytics_body.html %}
     {% include navbar.html %}
 
@@ -168,8 +169,8 @@
                           <p class="price">{{ option.price.cost }} {{ option.price.unit }} / {{ option.price.period }}</p>
                           {% if option.description %}<p>{{ option.description }}</p>{% endif %}
                           <div class="buttons are-small mt-2">
-                            <a href="{{ option.link }}" target="_blank" class="button is-primary">Visit {{ option.name }}</a>
-                            {% if option.coupon_code %}<span class="tag is-warning">{{ option.coupon_code }}</span>{% endif %}
+                            <a href="{{ option.link }}{{ utm_and_rby }}" target="_blank" class="button is-primary">Visit {{ option.name }}</a>
+                            {% if option.coupon_code %}<span class="tag is-warning">Coupon: {{ option.coupon_code }}</span>{% endif %}
                           </div>
                       </div>
                       {% endfor %}
@@ -195,7 +196,7 @@
                           {% if option.buttons %}
                           <div class="buttons are-small mt-2">
                             {% for btn in option.buttons %}
-                              <a href="{{ btn.link }}" target="_blank" class="button {{ btn.class }}">{{ btn.text }}</a>
+                              <a href="{{ btn.link }}{{ utm_and_rby }}" target="_blank" class="button {{ btn.class }}">{{ btn.text }}</a>
                             {% endfor %}
                           </div>
                           {% endif %}
@@ -206,5 +207,6 @@
             </div>
         </div>
     </section>
+    {% include sponsorship_cta.html page_url=page.url %}
 </body>
 </html>
