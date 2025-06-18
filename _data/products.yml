@@ -719,7 +719,80 @@
       link: https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app
       class: is-info
   data_verification: none
-  free_tier_limitations:  Storage is limited by OneDrive storage (5GB free).
+  free_tier_limitations: Storage is limited by OneDrive storage (5GB free).
+- key: obsidian
+  name: Obsidian
+  license: proprietary
+  source_icon_url: https://obsidian.md/favicon.ico
+  icon: icons/obsidian.png
+  tags:
+  - text: Note-Taking
+    class: is-primary
+  - text: Highly Customizable
+    class: is-warning
+  description: A powerful, popular, and highly-extensible note-taking application
+    that functions as a personal knowledge base. It works on local Markdown files,
+    giving users complete control over their data. Through community plugins, it can
+    be adapted into a capable read-it-later tool.
+  platforms:
+  - windows
+  - macos
+  - linux
+  - ios
+  - android
+  - desktop_web
+  features:
+  - notes
+  - full_text_search
+  - tagging
+  - offline
+  - mobile_apps
+  - import_export
+  - visual_organization
+  - pdf_support
+  - dark_mode
+  - collaboration
+  - privacy_focused
+  - native_apps
+  - nested_collections
+  - highlighting
+  pricing:
+    minimum:
+      vendor: Obsidian
+      cost: 0.0
+      unit: USD
+      period: month
+      description: Free for personal use. Paid plans required for commercial use or
+        add-on services.
+    least_expensive_paid:
+      vendor: Obsidian
+      cost: 4.0
+      unit: USD
+      period: month
+      description: Obsidian Sync, billed annually. Commercial license is $50/user/year.
+    maximum:
+      vendor: Obsidian
+      cost: 10.0
+      unit: USD
+      period: month
+      description: Obsidian Sync Plus or Obsidian Publish, billed monthly.
+  hosting_options:
+  - name: Obsidian
+    link: https://obsidian.md/
+    class: managed
+    price:
+      cost: 0.0
+      unit: USD
+      period: month
+      description: Free for personal use. Add-on services like Sync and Publish are
+        available for a monthly fee.
+    buttons:
+    - text: Visit Obsidian
+      link: https://obsidian.md/
+      class: is-info
+  data_verification: preliminary
+  free_tier_limitations: The core application is free for personal use with no limitations
+    on features. Add-on services like Sync and Publish require a subscription.
 - key: omnivore
   name: Omnivore
   license: open_source
@@ -960,7 +1033,8 @@
       link: https://raindrop.io/
       class: is-info
   data_verification: none
-  free_tier_limitations: Unlimited bookmarks/collections. Limited features compare to Pro.
+  free_tier_limitations: Unlimited bookmarks/collections. Limited features compare
+    to Pro.
 - key: readability
   name: Readability
   license: proprietary
@@ -1326,34 +1400,34 @@
 - key: sunya_folio
   name: Sunya Folio
   license: open_source
-  source_icon_url: # (Add a relevant icon URL if available)
-  icon: icons/sunya_folio.png # (Ensure you have this icon or adjust as needed)
+  source_icon_url:
+  icon: icons/sunya_folio.png
   tags:
-    - text: Open-source
-      class: is-success
-    - text: Sponsor
-      class: is-warning
+  - text: Open-source
+    class: is-success
+  - text: Sponsor
+    class: is-warning
   description: An open-source read-it-later and annotation tool.
   platforms:
-    - desktop_web
-    - ios
-    - android
-    - chrome_extension
+  - desktop_web
+  - ios
+  - android
+  - chrome_extension
   features:
-    - bookmarking
-    - highlighting
-    - annotation
-    - open_source
-    - full_text_search
-    - tag_management
-    - import_export
-    - multi_device_sync
-    - api_access
-    - dark_mode
-    - offline_support
-    - reading_statistics
-    - archiving
-    - custom_themes
+  - bookmarking
+  - highlighting
+  - annotation
+  - open_source
+  - full_text_search
+  - tag_management
+  - import_export
+  - multi_device_sync
+  - api_access
+  - dark_mode
+  - offline_support
+  - reading_statistics
+  - archiving
+  - custom_themes
   pricing:
     minimum:
       vendor: Sunya Folio
@@ -1374,18 +1448,18 @@
       period: year
       description: Yearly subscription
   hosting_options:
-    - name: Sunya Folio
-      link: https://sunya.plus/products/folio
-      class: managed
-      price:
-        cost: 12
-        unit: USD
-        period: year
-        description: Yearly subscription
-      buttons:
-        - text: Subscribe
-          link: https://buy.stripe.com/6oU3cvd4tdfYeIjbok0Ba0i
-          class: is-success
+  - name: Sunya Folio
+    link: https://sunya.plus/products/folio
+    class: managed
+    price:
+      cost: 12
+      unit: USD
+      period: year
+      description: Yearly subscription
+    buttons:
+    - text: Subscribe
+      link: https://buy.stripe.com/6oU3cvd4tdfYeIjbok0Ba0i
+      class: is-success
   data_verification: preliminary
   free_tier_limitations: Free tier not available at this time.
 - key: wallabag
