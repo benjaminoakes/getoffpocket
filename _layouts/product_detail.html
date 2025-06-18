@@ -85,10 +85,10 @@
     <section class="section">
         <div class="container">
               <div class="tool-header">
-                {% if item.source_icon_url %}
-                  <img src="{{ item.source_icon_url }}" alt="{{ item.name }} icon" class="app-icon">
-                {% elsif item.icon contains '/' %}
-                  <img src="{{ item.icon | prepend: site.baseurl }}" alt="{{ item.name }} icon" class="app-icon">
+                {% if item.icon contains '/' %}
+                  <img src="/{{ item.icon }}" alt="{{ item.name }} icon" class="app-icon">
+                {% elsif item.source_icon_url %}
+                  <img src="/{{ item.source_icon_url }}" alt="{{ item.name }} icon" class="app-icon">
                 {% else %}
                   <span class="app-icon-emoji">{{ item.icon }}</span>
                 {% endif %}
@@ -208,5 +208,6 @@
         </div>
     </section>
     {% include sponsorship_cta.html page_url=page.url %}
+    {% include footer.html %}
 </body>
 </html>
