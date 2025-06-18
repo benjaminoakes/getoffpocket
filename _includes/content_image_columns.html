@@ -1,0 +1,99 @@
+{% comment %}
+  Creates a responsive row with content and image side by side on desktop, stacked on mobile.
+  
+  Parameters:
+  - content: The text content to display (can include markdown)
+  - src: The image source path
+  - alt: Alternative text for the image
+  - caption: Optional caption for the image
+  - content_class: Additional CSS classes for the content column (default: 'is-half')
+  - image_class: Additional CSS classes for the image column (default: 'is-half')
+  - reverse: If true, reverses the order of content and image on desktop
+{% endcomment %}
+
+{% assign content_class = include.content_class | default: 'is-half' %}
+{% assign image_class = include.image_class | default: 'is-half' %}
+
+<div class="columns is-variable is-8 is-vcentered {% if include.reverse %}reverse-row-order{% endif %} mb-6">
+  <div class="column {{ content_class }}">
+    <div class="content">
+      {{ include.content | markdownify }}
+    </div>
+  </div>
+  <div class="column {{ image_class }} has-text-centered">
+    <div class="image-container">
+      {% include image_formatter.html 
+        src=include.src 
+        alt=include.alt 
+        caption=include.caption 
+        class="has-shadow"
+      %}
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Make sure images don't overflow their container */
+  .column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  /* Add hover effect for better interactivity */
+  .image-container {
+    overflow: hidden;
+    border-radius: 6px;
+  }
+
+  .image-container:hover img {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Add some spacing between stacked columns on mobile */
+  @media screen and (max-width: 769px) {
+    .columns:not(.is-desktop) > .column {
+      margin-bottom: 2rem;
+    }
+    
+    /* Reset margin for last column */
+    .columns:not(.is-desktop) > .column:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  /* Reverse column order on mobile when reverse is true */
+  @media screen and (max-width: 768px) {
+    .reverse-row-order {
+      flex-direction: column-reverse;
+      display: flex;
+    }
+  }
+
+  /* Add some spacing between sections */
+  h3 {
+    margin-top: 2.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  /* Style the content area */
+  .content {
+    line-height: 1.7;
+  }
+
+  /* Add some padding to the columns */
+  .column {
+    padding: 1.5rem;
+  }
+
+  /* Style captions */
+  .image-caption {
+    margin-top: 0.75rem;
+    font-size: 0.9em;
+    color: #666;
+    font-style: italic;
+  }
+</style>

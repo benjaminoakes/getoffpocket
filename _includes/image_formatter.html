@@ -1,4 +1,10 @@
-<figure class="image mt-5 mb-5" style="border: 2px solid #e0e0e0; border-radius: 12px; box-shadow: 0 4px 24px 0 rgba(0,0,0,0.10); padding: 1.5rem; background: #fff;">
-  <img src="{{ site.baseurl }}{{ include.src }}" alt="{{ include.alt }}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 8px; box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);">
-  <figcaption class="has-text-centered mt-3" style="font-weight: 400; color: #444; background: #f7f7fa; border-radius: 6px; padding: 0.5rem 1rem; display: inline-block; margin-top: 1rem; font-style: italic; border: 1px solid #ececf0; box-shadow: 0 1px 6px 0 rgba(0,0,0,0.04);">{{ include.caption }}</figcaption>
+<figure class="image mt-5 mb-5 ml-0 mr-0" style="border: 2px solid #e0e0e0; border-radius: 12px; box-shadow: 0 4px 24px 0 rgba(0,0,0,0.10); padding: 1.5rem; background: #fff;">
+  {% if include.src %}
+    <a href="{{ include.src }}" target="_blank" rel="noopener noreferrer">
+      <img src="{{ site.baseurl }}{{ include.src }}" alt="{{ include.alt }}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 8px; box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);">
+    </a>
+  {% endif %}
+  {% if include.caption %}
+    <figcaption class="has-text-centered mt-3" style="font-weight: 400; color: #444; background: #f7f7fa; border-radius: 6px; padding: 0.5rem 1rem; display: inline-block; margin-top: 1rem; font-style: italic; border: 1px solid #ececf0; box-shadow: 0 1px 6px 0 rgba(0,0,0,0.04);">{{ include.caption }}</figcaption>
+  {% endif %}
 </figure>
