@@ -31,7 +31,7 @@ featured:
   </div>
 </section>
 
-{% assign featured_alts = site.data.products | where_exp: "item", "page.featured contains item.key" %}
+{% assign featured_alts = site.data.products | where_exp: "item", "page.featured contains item.key" | reverse %}
 
 <section class="section has-background-light">
   <div class="container">
@@ -58,15 +58,12 @@ featured:
           </div>
           
           <footer class="card-footer">
-            {% assign cloudbreak = alt.hosting_options | where: "type", "CloudBreak" | first %}
-            {% if cloudbreak %}
-            <a href="{{ cloudbreak.buttons[0].link }}" class="card-footer-item has-text-weight-bold">
-              <span>Get Started with CloudBreak</span>
+            <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="card-footer-item">View Details</a>
+
+            <a href="{{ alt.get_started_url }}" class="card-footer-item has-text-weight-bold has-text-white has-background-grey-dark">
+              <span>Get Started</span>
               <span class="icon"><i class="fas fa-arrow-right"></i></span>
             </a>
-            {% else %}
-            <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="card-footer-item">View Details</a>
-            {% endif %}
           </footer>
         </div></a>
       </div>
@@ -78,7 +75,7 @@ featured:
 <!-- Quick Comparison Table -->
 <section class="section">
   <div class="container">
-    <h2 class="title is-3 has-text-centered mb-5">Alternatives at a Glance</h2>
+    <h2 class="title is-3 has-text-centered mb-5">Featured Alternatives at a Glance</h2>
 
     <div class="table-container">
       <table class="table is-fullwidth is-hoverable">
@@ -125,6 +122,6 @@ featured:
 
 <section class="section">
   <div class="container has-text-centered">
-    <a href="/all_alternatives" class="button is-warning">View all alternatives</a>
+    <a href="/all_alternatives" class="button is-warning is-size-4">View all alternatives</a>
   </div>
 </section>
