@@ -7,6 +7,9 @@ baseurl: ""
 
 gtag_id: G-YRF0EZ9WWS
 
+plugins:
+  - jekyll-sitemap # keep this last
+
 # Collections configuration
 # This tells Jekyll to treat the folders _open_source and _proprietary as
 # collections of pages to be rendered.
@@ -17,3 +20,10 @@ collections:
   proprietary:
     output: true
     permalink: /proprietary/:name/
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+  - private
