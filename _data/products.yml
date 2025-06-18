@@ -723,8 +723,8 @@
 - key: obsidian
   name: Obsidian
   license: proprietary
-  source_icon_url: https://obsidian.md/favicon.ico
-  icon: icons/obsidian.png
+  source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/d7/94/07d794b6-da89-5ce7-257a-211b99c8e4c2/AppIcon-1x_U007epad-0-1-85-220-0.png/246x0w.webp
+  icon: icons/obsidian.webp
   tags:
   - text: Note-Taking
     class: is-primary
@@ -791,8 +791,7 @@
       link: https://obsidian.md/
       class: is-info
   data_verification: preliminary
-  free_tier_limitations: The core application is free for personal use with no limitations
-    on features. Add-on services like Sync and Publish require a subscription.
+  free_tier_limitations: Basic features free for perosnal use. Sync, Publish, etc require a subscription.
 - key: omnivore
   name: Omnivore
   license: open_source

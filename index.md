@@ -15,6 +15,7 @@ featured:
   - markmark
   - matter
   - microsoft-onenote
+  - obsidian
   - omnivore
   - paperspan
   # - pocket
