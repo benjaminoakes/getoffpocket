@@ -800,9 +800,10 @@
   tags:
   - text: Feature-Rich
     class: is-primary
-  description: A complete, open source read-it-later solution for serious readers.
-    Omnivore offers advanced features like newsletter subscriptions, PDF support,
-    and powerful organization tools. Recently open-sourced and gaining popularity.
+  description: Only available self-hosted. A complete, open source
+    read-it-later solution for serious readers. Omnivore offers advanced
+    features like newsletter subscriptions, PDF support, and powerful
+    organization tools. Recently open-sourced and gaining popularity.
   platforms:
   - desktop_web
   - ios
