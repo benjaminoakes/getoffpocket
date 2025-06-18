@@ -1461,7 +1461,7 @@
       link: https://buy.stripe.com/6oU3cvd4tdfYeIjbok0Ba0i
       class: is-success
   data_verification: preliminary
-  free_tier_limitations: Free tier not available at this time.
+  free_tier_limitations: 30-day money back guarantee, no questions asked
 - key: wallabag
   name: Wallabag
   license: open_source
@@ -1574,4 +1574,4 @@
       link: https://github.com/wallabag/wallabag
       class: is-info
   data_verification: preliminary
-  free_tier_limitations: 14-day trial.  Self-hosted.
+  free_tier_limitations: 14-day trial or self-hosted

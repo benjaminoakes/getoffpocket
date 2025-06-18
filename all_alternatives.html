@@ -1,10 +1,32 @@
 ---
+permalink: /all_alternatives
 layout: comparison
 title: "Best Pocket Alternatives"
 description: "Find the perfect Pocket alternative that works for you. Compare features, pricing, and hosting options."
 featured:
+  - bitread
+  - bublup
+  - diigo
+  - emailthis
+  - evernote
+  - goodlinks
   - instapaper
+  - linkding
+  - linkwarden
+  - markmark
+  - matter
+  - microsoft-onenote
+  - obsidian
+  - omnivore
+  - paperspan
+  # - pocket
+  - raindrop-io
+  # - readability
   - readeck
+  - readwise-reader
+  - reeder
+  - safari
+  - shiori
   - sunya_folio
   - wallabag
 
@@ -31,12 +53,12 @@ featured:
   </div>
 </section>
 
-{% assign featured_alts = site.data.products | where_exp: "item", "page.featured contains item.key" %}
+{% assign featured_alts = site.data.products | where_exp: "item", "page.featured contains item.key" | reverse %}
 
 <section class="section has-background-light">
   <div class="container">
-    <h2 class="title is-3 has-text-centered mb-5">Featured Alternatives</h2>
-    
+    <h2 class="title is-3 has-text-centered mb-5">All Alternatives</h2>
+
     <div class="columns is-multiline is-vcentered">
       {% for alt in featured_alts %}
       <div class="column is-6">
@@ -44,7 +66,7 @@ featured:
           {% if alt.featured %}
           <div class="featured-badge">Featured</div>
           {% endif %}
-          
+
           <div class="card-content">
               <div class="media">
               <div class="media-left">
@@ -56,7 +78,7 @@ featured:
               </div>
             </div>
           </div>
-          
+
           <footer class="card-footer">
             {% assign cloudbreak = alt.hosting_options | where: "type", "CloudBreak" | first %}
             {% if cloudbreak %}
@@ -123,8 +145,4 @@ featured:
   </div>
 </section>
 
-<section class="section">
-  <div class="container has-text-centered">
-    <a href="/all_alternatives" class="button is-warning">View all alternatives</a>
-  </div>
-</section>
+{% include sponsorship_cta.html page_url=page.url %}
