@@ -166,5 +166,3 @@ featured:
     </div>
   </div>
 </section>
-
-{% include sponsorship_cta.html page_url=page.url %}
