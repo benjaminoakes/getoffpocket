@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | escape }} - {{ site.title | escape }}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <!-- Bulma CSS (assuming you are using it based on navbar classes) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulmaswatch/lux/bulmaswatch.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  </head>
+  <body>
+    {% include navbar.html %}
+
+    <section class="section">
+      <div class="container">
+        {{ content }}
+      </div>
+    </section>
+
+    <!-- Add any footer content here -->
+    <!-- <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>{{ site.title | escape }}</strong> by <a href="{{ site.author.url | default: '#' }}">{{ site.author.name | default: "Your Name" }}</a>.
+        </p>
+      </div>
+    </footer> -->
+
+    <!-- Add JavaScript files here, e.g., for Bulma components or custom scripts -->
+    <!-- <script src="path/to/your/script.js"></script> -->
+  </body>
+</html>
