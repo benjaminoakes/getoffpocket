@@ -1,0 +1,51 @@
+{% comment %}
+  Share Button Partial
+  
+  Parameters:
+    - page_url: The URL of the page to share (default: page.url)
+    - page_title: The title of the page to share (default: page.title)
+    - button_class: Additional CSS classes for the button (default: 'button is-primary')
+    - icon_class: Additional CSS classes for the icon (default: 'fa-solid fa-share-nodes mr-3')
+    - button_text: The text to display on the button (default: 'Share this guide')
+{% endcomment %}
+
+{% comment %}
+  Generate the target URL with UTM parameters
+  First get the base URL (without any existing query parameters)
+{% endcomment %}
+{% assign base_url = include.page_url | default: page.url | absolute_url | split: '?' | first %}
+{% assign site_url = site.url | default: 'getoffpocket.com' %}
+{% assign current_path = include.page_url | default: page.url | remove: '.html' %}
+{% assign source_param = site_url | append: current_path | url_encode %}
+
+{% comment %} Add UTM parameters to the target URL {% endcomment %}
+{% assign utm_params = '?utm_medium=referral' %}
+{% assign utm_params = utm_params | append: '&utm_source=' | append: source_param %}
+{% assign utm_params = utm_params | append: '&rby=' | append: source_param %}
+
+{% assign target_url = base_url | append: utm_params %}
+
+{% comment %} URL encode the target URL for the Sharelette service {% endcomment %}
+{% assign share_url = target_url | url_encode %}
+
+{% comment %} Get the share text and encode it {% endcomment %}
+{% assign share_text = include.page_title | default: page.title | url_encode %}
+
+{% comment %} Construct the final Sharelette URL {% endcomment %}
+{% assign sharelette_url = 'https://sharelette.cloudbreak.app/' | 
+    append: '?url=' | 
+    append: share_url | 
+    append: '&text=' | 
+    append: share_text %}
+
+<div class="has-text-centered my-4">
+  <a href="{{ sharelette_url }}" 
+     class="{{ include.button_class | default: 'button is-primary' }}"
+     target="_blank" 
+     rel="noopener noreferrer">
+    <span class="icon">
+      <i class="{{ include.icon_class | default: 'fa-solid fa-share-nodes mr-3' }}"></i>
+    </span>
+    <span>{{ include.button_text | default: 'Share this guide' }}</span>
+  </a>
+</div>
