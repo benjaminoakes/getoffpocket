@@ -17,7 +17,7 @@ featured:
   - microsoft-onenote
   - omnivore
   - paperspan
-  - pocket
+  # - pocket
   - raindrop-io
   # - readability
   - readeck
