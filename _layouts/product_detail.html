@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {%- assign item_key = page.key -%}
     {%- assign item = site.data.products | where: "key", item_key | first -%}
-    {{ seo }}
+    {% seo %}
     <title>{{ item.name }} - Pocket Alternative</title>
     <meta name="description" content="{{ item.description }}">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">

@@ -14,7 +14,7 @@
     {%- else -%}
       {%- assign item = site.data.proprietary | where: "key", item_key | first -%}
     {%- endif -%}
-    {{ seo }}
+    {% seo %}
     <title>{{ item.name }} - Pocket Alternative</title>
     <meta name="description" content="{{ item.description }}">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
