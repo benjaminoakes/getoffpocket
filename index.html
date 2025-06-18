@@ -36,7 +36,7 @@ featured:
 <section class="section has-background-light">
   <div class="container">
     <h2 class="title is-3 has-text-centered mb-5">Featured Alternatives</h2>
-    
+
     <div class="columns is-multiline is-vcentered">
       {% for alt in featured_alts %}
       <div class="column is-6">
@@ -44,7 +44,7 @@ featured:
           {% if alt.featured %}
           <div class="featured-badge">Featured</div>
           {% endif %}
-          
+
           <div class="card-content">
               <div class="media">
               <div class="media-left">
@@ -56,7 +56,7 @@ featured:
               </div>
             </div>
           </div>
-          
+
           <footer class="card-footer">
             <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="card-footer-item">View Details</a>
 

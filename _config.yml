@@ -1,13 +1,15 @@
 # Welcome to Jekyll!
+name: Get Off Pocket
 title: Get Off Pocket
 description: >-
-  A guide to alternatives for Pocket, which is shutting down.
+  A guide to alternatives for Pocket
 url: "https://getoffpocket.com"
 baseurl: ""
 
 gtag_id: G-YRF0EZ9WWS
 
 plugins:
+  - jekyll-seo-tag
   - jekyll-sitemap # keep this last
 
 # Collections configuration
