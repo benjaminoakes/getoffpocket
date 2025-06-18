@@ -1,0 +1,17 @@
+.important-link {
+  background: transparent;
+  border-bottom: 2px solid #ffe066;
+  color: #8a7200 !important;
+  font-weight: 600;
+  padding: 0 0.1em;
+  border-radius: 2px;
+  text-decoration: underline;
+  box-shadow: none;
+  transition: border-bottom 0.2s, color 0.2s;
+  text-decoration: none;
+}
+.important-link:hover, .important-link:focus {
+  border-bottom: 2px solid #ffd700;
+  color: #222 !important;
+  background: #fffbe6;
+}

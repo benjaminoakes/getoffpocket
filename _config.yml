@@ -16,6 +16,9 @@ plugins:
 # This tells Jekyll to treat the folders _open_source and _proprietary as
 # collections of pages to be rendered.
 collections:
+  posts:
+    output: true
+    permalink: /blog/:title/
   open_source:
     output: true
     permalink: /open-source/:name/
