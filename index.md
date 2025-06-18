@@ -7,7 +7,7 @@ featured:
   # - bublup
   # - diigo  # Temporarily hidden due to rendering issues
   # - emailthis
-  # - evernote  # Temporarily hidden due to rendering issues
+  - evernote
   - goodlinks
   - instapaper
   - linkding
