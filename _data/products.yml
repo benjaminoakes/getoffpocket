@@ -51,7 +51,7 @@
       link: https://bitread.app/
       class: is-info
   data_verification: none
-  free_tier_limitations: Free to use, with a limit of 100 saved items. Premium version
+  free_tier_limitations: Free during beta, with a limit of 100 saved items. Premium version
     offers unlimited items.
 - key: bublup
   name: Bublup
@@ -148,7 +148,7 @@
       vendor: Diigo
       cost: 10.0
       unit: USD
-      period: month / user
+      period: month
       description: Business Plan. Professional Plan at 59.00 USD / year also available.
   hosting_options:
   - name: Diigo
@@ -512,13 +512,13 @@
       vendor: Linkwarden
       cost: 2.25
       unit: USD
-      period: month / user
+      period: month
       description: Cloud version (annual billing, 25% discount)
     least_expensive_paid:
       vendor: Linkwarden
       cost: 3.0
       unit: USD
-      period: month / user
+      period: month
       description: Cloud version (monthly billing)
     maximum:
       vendor: Self-Hosted
@@ -534,8 +534,8 @@
     price:
       cost: 3.0
       unit: USD
-      period: month / user
-      description: or 2.25 USD / month / user annually
+      period: month
+      description: or 2.25 USD / month
     buttons:
     - text: Visit Linkwarden
       link: https://linkwarden.app/

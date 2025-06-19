@@ -12,15 +12,26 @@
   {%- if price.unit == 'EUR' -%}
     {%- assign currency_symbol = '€' -%}
   {%- endif -%}
-  {{ currency_symbol }} 
-  {%- assign cost_val = price.cost -%}
-  {%- assign cost_floor = cost_val | floor -%}
-  {%- if cost_val == cost_floor -%}
-    {{ cost_floor }}
+  {{ currency_symbol }}
+  {%- if price.period == 'year' -%}
+    {%- assign monthly_cost = price.cost | divided_by: 12.0 | round: 2 -%}
+    {%- assign cost_floor = monthly_cost | floor -%}
+    {%- if monthly_cost == cost_floor -%}
+      {{ cost_floor }}
+    {%- else -%}
+      {{ monthly_cost }}
+    {% endif %}
+    / month
   {%- else -%}
-    {{ cost_val }}
-  {%- endif -%}
-  {%- if price.period and price.period != 'one-time' -%}
-    / {{ price.period }}
+    {%- assign cost_val = price.cost -%}
+    {%- assign cost_floor = cost_val | floor -%}
+    {%- if cost_val == cost_floor -%}
+      {{ cost_floor }}
+    {%- else -%}
+      {{ cost_val }}
+    {% endif %}
+    {% if price.period and price.period != 'one-time' %}
+      / {{ price.period }}
+    {%- endif -%}
   {%- endif -%}
 {%- endif -%}
