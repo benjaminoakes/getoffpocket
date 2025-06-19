@@ -88,6 +88,7 @@ featured:
         <thead>
           <tr>
             <th>Name</th>
+            <th>Has Free Tier</th>
             <th>Least Expensive Paid Plan</th>
             <th>Free Tier Limitations</th>
             <th></th>
@@ -100,16 +101,19 @@ featured:
               <strong><a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/">{{ alt.name }}</a></strong>
               <span class="is-hidden-desktop is-hidden-tablet">
                 <br>
-                <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">See Details</a>
+                <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">Details</a>
                 {% if alt.featured %}
                 <span class="tag is-primary is-light ml-2">Featured</span>
                 {% endif %}
               </span>
             </td>
             <td>
+              <i class="fa-solid fa-{{ alt.has_free_tier }}"></i>
+            </td>
+            <td>
               {% include format_price.html price=alt.pricing.least_expensive_paid %}
             </td>
-            <td>{{ alt.free_tier_limitations }}</td>
+            <td>{{ alt.free_tier_limitations | markdownify }}</td>
             <td>
               <span class="is-hidden-mobile">
                 <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">See Details</a>

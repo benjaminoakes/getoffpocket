@@ -400,6 +400,7 @@
       link: https://www.instapaper.com/
       class: is-info
   data_verification: none
+  has_free_tier: check
   free_tier_limitations: Ads, 5 notes per month, limited archive, no search, no Kindle
 - key: linkding
   name: Linkding
@@ -1170,6 +1171,7 @@
       link: https://www.readeck.com/
       class: is-info
   data_verification: preliminary
+  has_free_tier: times
   free_tier_limitations: Self-hosted
 - key: readwise-reader
   name: Readwise Reader
@@ -1464,6 +1466,7 @@
       link: https://buy.stripe.com/6oU3cvd4tdfYeIjbok0Ba0i
       class: is-success
   data_verification: preliminary
+  has_free_tier: minus
   free_tier_limitations: 30-day money back guarantee, no questions asked
 - key: wallabag
   name: Wallabag
@@ -1578,4 +1581,5 @@
       link: https://github.com/wallabag/wallabag
       class: is-info
   data_verification: preliminary
-  free_tier_limitations: 14-day trial or self-hosted
+  has_free_tier: minus
+  free_tier_limitations: 30 day guarantee [[1](https://cloudbreak.app/wallabag/)], 14-day trial [[2](https://wallabag.it/)], or self-hosted
