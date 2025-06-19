@@ -51,8 +51,8 @@ For years, Pocket has been a beloved tool for saving articles, videos, and stori
 First, you'll need to download all of your data from Pocket.
 
 {% include content_image_columns.html
-  content="Log in to your Pocket account and go to the export page at 
-  [getpocket.com/export](https://getpocket.com/export){: .important-link }. 
+  content="Log in to your Pocket account and go to the export page at
+  [getpocket.com/export](https://getpocket.com/export){: .important-link }.
   Click the \"Export CSV file\" link."
   src="/assets/images/blog/get-off-pocket/pocket_export_page.png"
   alt="Pocket Export Page"
@@ -82,7 +82,7 @@ First, you'll need to download all of your data from Pocket.
 
 ### Step 2: Convert Your Pocket Export for Wallabag
 
-Wallabag doesn't directly import Pocket's export format. Luckily, a community-made tool makes conversion simple.
+Your Wallabag server may not directly import Pocket's export format. Luckily, a community-made tool makes conversion simple.
 
 {% assign pocket_to_wallabag_url = 'https://benjaminoakes.github.io/pocket-to-wallabag/' %}
 {% assign pocket_to_wallabag_url_with_referral = pocket_to_wallabag_url | append: utm_and_rby %}
@@ -108,7 +108,7 @@ Wallabag doesn't directly import Pocket's export format. Luckily, a community-ma
 ### Step 3: Choose a Hosted Wallabag Provider
 
 {% include content_image_columns.html
-  content="There are several hosted Wallabag providers to choose from. You can find a list of trusted providers on getoffpocket.com. After you sign up for one, log into your new Wallabag account."
+  content="There are several hosted Wallabag providers to choose from. You can find a [list of trusted providers on getoffpocket.com](https://getoffpocket.com/open-source/wallabag/). After you sign up for one, log into your new Wallabag account."
   src="/assets/images/blog/get-off-pocket/wallabag_main.png"
   alt="Wallabag Main Interface"
   caption="Wallabag's clean, modern interface"
