@@ -1,6 +1,30 @@
 ---
 layout: default
 ---
+
+<style>
+.is-clickable-media {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.is-clickable-media:hover {
+  background-color: #fafafa;
+  transform: translateY(-2px);
+  color: inherit;
+}
+
+/* Adjustments for the media object inside the clickable area */
+.is-clickable-media .media {
+  margin-bottom: 0; /* Remove default margin from media object */
+}
+</style>
+
 {%- assign product = site.data.products | where: "key", page.product_key | first -%}
 <div class="container section">
   <div class="columns is-centered">
@@ -13,41 +37,47 @@ layout: default
 
       <div class="content mt-4 pt-4" style="border-top: 1px solid #dbdbdb;">
 
-        <article class="media">
-          <figure class="media-left">
-            <span class="icon is-medium">
-              <i class="fab fa-digital-ocean fa-lg"></i>
-            </span>
-          </figure>
-          <div class="media-content">
-            <strong><a href="{{ site.digital_ocean_referral_url }}" target="_blank" rel="noopener noreferrer">Host on Digital Ocean</a></strong>
-            <p class="has-text-grey-dark">Get $200 in credit over 60 days to run this service and other projects.</p>
-          </div>
-        </article>
+        <a href="{{ site.digital_ocean_referral_url }}" target="_blank" rel="noopener noreferrer" class="is-clickable-media">
+          <article class="media">
+            <figure class="media-left">
+              <span class="icon is-large">
+                <i class="fab fa-digital-ocean fa-2x"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <strong>Host on Digital Ocean</strong>
+              <p class="has-text-grey-dark">Get $200 in credit over 60 days to run this service and other projects.</p>
+            </div>
+          </article>
+        </a>
 
-        <article class="media">
-          <figure class="media-left">
-            <span class="icon is-medium">
-              <i class="fab fa-raspberry-pi fa-lg"></i>
-            </span>
-          </figure>
-          <div class="media-content">
-            <strong><a href="https://www.amazon.com/CanaKit-Raspberry-Starter-Kit-PRO/dp/B0CRSNCJ6Y" target="_blank" rel="noopener noreferrer">Run on a Raspberry Pi</a></strong>
-            <p class="has-text-grey-dark">A low-cost, energy-efficient option for home hosting.</p>
-          </div>
-        </article>
+        <a href="https://www.amazon.com/CanaKit-Raspberry-Starter-Kit-PRO/dp/B0CRSNCJ6Y" target="_blank" rel="noopener noreferrer" class="is-clickable-media">
+          <article class="media">
+            <figure class="media-left">
+              <span class="icon is-large">
+                <i class="fab fa-raspberry-pi fa-2x"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <strong>Run on a Raspberry Pi</strong>
+              <p class="has-text-grey-dark">A low-cost, energy-efficient option for home hosting.</p>
+            </div>
+          </article>
+        </a>
 
-        <article class="media">
-          <figure class="media-left">
-            <span class="icon is-medium">
-              <i class="fab fa-github fa-lg"></i>
-            </span>
-          </figure>
-          <div class="media-content">
-            <strong><a href="{{ product.github_url }}" target="_blank" rel="noopener noreferrer">View Source Code</a></strong>
-            <p class="has-text-grey-dark">For self-hosting on your own existing infrastructure. Free, if you already have the hardware, time, and skills to host it.</p>
-          </div>
-        </article>
+        <a href="{{ product.github_url }}" target="_blank" rel="noopener noreferrer" class="is-clickable-media">
+          <article class="media">
+            <figure class="media-left">
+              <span class="icon is-large">
+                <i class="fab fa-git-alt fa-2x"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <strong>View Source Code</strong>
+              <p class="has-text-grey-dark">For self-hosting on your own existing infrastructure. Free, if you already have the hardware, time, and skills to host it.</p>
+            </div>
+          </article>
+        </a>
 
       </div>
 
