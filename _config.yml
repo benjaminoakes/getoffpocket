@@ -9,6 +9,7 @@ baseurl: ""
 gtag_id: G-YRF0EZ9WWS
 
 digital_ocean_referral_url: https://m.do.co/c/c0f96d3af928
+donate_url: https://donate.stripe.com/00wbJ12pPa3M0Rtcso0Ba0a
 
 plugins:
   - jekyll-seo-tag
