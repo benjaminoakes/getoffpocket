@@ -1174,7 +1174,7 @@
   data_verification: preliminary
   has_free_tier: times
   free_tier_limitations: Self-hosted
-  scm_url: https://codeberg.org/readeck/readeck
+  source_code_url: https://codeberg.org/readeck/readeck
 - key: readwise-reader
   name: Readwise Reader
   license: proprietary
@@ -1470,7 +1470,7 @@
   data_verification: preliminary
   has_free_tier: minus
   free_tier_limitations: 30-day money back guarantee, no questions asked
-  scm_url: https://github.com/wallabag/wallabag/
+  source_code_url: https://github.com/wallabag/wallabag/
 - key: wallabag
   name: Wallabag
   get_started_url: "/interstitial.html?subscribe_url=https%3A%2F%2Fbuy.stripe.com%2F14AdR94xX1xg57J3VS0Ba05&name=Wallabag&github_url=https%3A%2F%2Fgithub.com%2Fwallabag%2Fwallabag%2F"
@@ -1587,4 +1587,4 @@
   has_free_tier: minus
   free_tier_limitations: 30 day guarantee [[1](https://cloudbreak.app/wallabag/)],
     14-day trial [[2](https://wallabag.it/)], or self-hosted
-  scm_url: https://github.com/wallabag/wallabag/
+  source_code_url: https://github.com/wallabag/wallabag/
