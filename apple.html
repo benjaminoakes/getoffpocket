@@ -4,9 +4,10 @@ title: "Best Get Off Pocket for Apple Users"
 description: "Find the perfect Pocket alternative that works seamlessly across your Apple devices. Compare features, pricing, and hosting options."
 category: apple
 featured:
+  - sunya_folio
   - wallabag
-  - omnivore
-  - readeck
+  - goodlinks
+  - instapaper
 ---
 
 <!-- Hero Section -->
@@ -17,7 +18,7 @@ featured:
         <div class="column is-7">
           <h1 class="title is-1 has-text-white">Best for Apple Users</h1>
           <p class="subtitle is-4 has-text-white-ter">Seamless integration with iPhone, iPad, and Mac</p>
-          <p class="has-text-white-ter">These alternatives offer the best experience for users in the Apple ecosystem with native apps, iCloud sync, and Handoff support.</p>
+          <p class="has-text-white-ter">These alternatives offer the best experience for users in the Apple ecosystem.  They may feature native apps, iCloud sync, and Handoff support.</p>
         </div>
         <div class="column is-5 has-text-centered">
           <span class="icon is-large has-text-white">
@@ -29,68 +30,91 @@ featured:
   </div>
 </section>
 
+
+{% assign featured_alts = site.data.products | where_exp: "item", "page.featured contains item.key" | reverse %}
+
+<section class="section has-background-light">
+  <div class="container">
+    <h2 class="title is-3 has-text-centered mb-5">Featured Alternatives</h2>
+
+    <div class="columns is-multiline is-vcentered">
+      {% for alt in featured_alts %}
+      <div class="column is-6">
+        <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" style="display: block; height: 100%; color: inherit; text-decoration: none;"><div class="card {% if alt.featured %}featured{% endif %} h-100">
+          {% if alt.featured %}
+          <div class="featured-badge">Featured</div>
+          {% endif %}
+
+          <div class="card-content">
+              <div class="media">
+              <div class="media-left">
+                <img src="/{{ alt.icon | prepend: site.baseurl }}" alt="{{ alt.name }} icon" class="app-icon">
+              </div>
+              <div class="media-content">
+                <p class="title is-3">{{ alt.name }}</p>
+                <p class="subtitle is-6">{{ alt.description | truncatewords: 15 }}</p>
+              </div>
+            </div>
+          </div>
+
+          <footer class="card-footer">
+            <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="card-footer-item">View Details</a>
+
+            <a href="{{ alt.get_started_url }}" class="card-footer-item has-text-weight-bold has-text-white has-background-grey-dark">
+              <span>Get Started</span>
+              <span class="icon"><i class="fas fa-arrow-right"></i></span>
+            </a>
+          </footer>
+        </div></a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <!-- Quick Comparison Table -->
 <section class="section">
   <div class="container">
-    <h2 class="title is-3 has-text-centered mb-5">Top Apple-Compatible Alternatives</h2>
-    
+    <h2 class="title is-3 has-text-centered mb-5">Featured Alternatives at a Glance</h2>
+
     <div class="table-container">
       <table class="table is-fullwidth is-hoverable">
         <thead>
           <tr>
             <th>Name</th>
-            <th>iOS App</th>
-            <th>Mac App</th>
-            <th>iCloud Sync</th>
-            <th>Browser Ext.</th>
-            <th>Pricing</th>
+            <th>Has Free Tier</th>
+            <th>Least Expensive Paid Plan</th>
+            <th>Free Tier Limitations</th>
             <th></th>
           </tr>
         </thead>
         <tbody>
-          {% assign featured_alts = site.data.open_source | where_exp: "item", "page.featured contains item.key" %}
           {% for alt in featured_alts %}
           <tr {% if alt.featured %}class="has-background-primary-light"{% endif %}>
             <td>
-              <strong>{{ alt.name }}</strong>
-              {% if alt.featured %}
-              <span class="tag is-primary is-light ml-2">Featured</span>
-              {% endif %}
+              <strong><a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/">{{ alt.name }}</a></strong>
+              <span class="is-hidden-desktop is-hidden-tablet">
+                <br>
+                <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">Details</a>
+                {% if alt.featured %}
+                <span class="tag is-primary is-light ml-2">Featured</span>
+                {% endif %}
+              </span>
             </td>
             <td>
-              {% if alt.features contains 'iOS app' %}
-              <span class="icon has-text-success"><i class="fas fa-check"></i></span>
-              {% else %}
-              <span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>
-              {% endif %}
+              <i class="fa-solid fa-{{ alt.has_free_tier }}"></i>
             </td>
             <td>
-              {% if alt.features contains 'Mac app' %}
-              <span class="icon has-text-success"><i class="fas fa-check"></i></span>
-              {% else %}
-              <span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>
-              {% endif %}
+              {% include format_price.html price=alt.pricing.least_expensive_paid %}
             </td>
+            <td>{{ alt.free_tier_limitations | markdownify }}</td>
             <td>
-              {% if alt.features contains 'iCloud' %}
-              <span class="icon has-text-success"><i class="fas fa-check"></i></span>
-              {% else %}
-              <span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>
-              {% endif %}
-            </td>
-            <td>
-              {% if alt.features contains 'Safari' %}
-              <span class="icon has-text-success"><i class="fas fa-check"></i></span>
-              {% else %}
-              <span class="icon has-text-grey-light"><i class="fas fa-times"></i></span>
-              {% endif %}
-            </td>
-            <td>
-              {% assign hosting = alt.hosting_options | first %}
-              {{ hosting.price | default: 'Free' }}
-            </td>
-            <td>
-              <a href="/open-source/{{ alt.key }}/" class="button is-small is-primary">View Details</a>
+              <span class="is-hidden-mobile">
+                <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">See Details</a>
+                {% if alt.featured %}
+                <span class="tag is-primary is-light ml-2">Featured</span>
+                {% endif %}
+              </span>
             </td>
           </tr>
           {% endfor %}
@@ -100,83 +124,39 @@ featured:
   </div>
 </section>
 
-<!-- Detailed Alternatives -->
+{% assign featured_alts = site.data.products | where_exp: "item", "item.platforms contains 'ios'" | reverse %}
+
 <section class="section has-background-light">
   <div class="container">
-    <h2 class="title is-3 has-text-centered mb-5">Detailed Comparison</h2>
-    
-    <div class="columns is-multiline">
+    <h2 class="title is-3 has-text-centered mb-5">Apple-Compatible Alternatives</h2>
+
+    <div class="columns is-multiline is-vcentered">
       {% for alt in featured_alts %}
       <div class="column is-6">
-        <a href="/open-source/{{ alt.key }}/" style="display: block; height: 100%; color: inherit; text-decoration: none;"><div class="card {% if alt.featured %}featured{% endif %} h-100">
+        <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" style="display: block; height: 100%; color: inherit; text-decoration: none;"><div class="card {% if alt.featured %}featured{% endif %} h-100">
           {% if alt.featured %}
-          <div class="featured-badge">Recommended</div>
+          <div class="featured-badge">Featured</div>
           {% endif %}
-          
+
           <div class="card-content">
               <div class="media">
               <div class="media-left">
-                {% if alt.icon contains '/' %}
-                  <img src="{{ alt.icon | prepend: site.baseurl }}" alt="{{ alt.name }} icon" class="app-icon">
-                {% else %}
-                  <span class="icon is-large has-text-primary"><i class="fas fa-3x">{{ alt.icon }}</i></span>
-                {% endif %}
+                <img src="/{{ alt.icon | prepend: site.baseurl }}" alt="{{ alt.name }} icon" class="app-icon">
               </div>
               <div class="media-content">
                 <p class="title is-3">{{ alt.name }}</p>
                 <p class="subtitle is-6">{{ alt.description | truncatewords: 15 }}</p>
               </div>
             </div>
- 
- 
-            
-            <div class="content
-            
-            <div class="mt-4">
-              <h4 class="title is-5">Apple Features</h4>
-              <div class="tags">
-                {% if alt.features contains 'iOS app' %}
-                <span class="tag is-success">iOS App</span>
-                {% endif %}
-                {% if alt.features contains 'Mac app' %}
-                <span class="tag is-success">Mac App</span>
-                {% endif %}
-                {% if alt.features contains 'iCloud' %}
-                <span class="tag is-success">iCloud Sync</span>
-                {% endif %}
-                {% if alt.features contains 'Safari' %}
-                <span class="tag is-success">Safari Extension</span>
-                {% endif %}
-              </div>
-            </div>
-            
-            <div class="mt-4">
-              <h4 class="title is-5">Hosting Options</h4>
-              <div class="content">
-                <ul>
-                  {% for option in alt.hosting_options %}
-                  <li>
-                    {{ option.type }}: {{ option.price }}
-                    {% if option.type == 'CloudBreak' %}
-                    <span class="tag is-primary is-light ml-2">Recommended</span>
-                    {% endif %}
-                  </li>
-                  {% endfor %}
-                </ul>
-              </div>
-            </div>
           </div>
-          
+
           <footer class="card-footer">
-            {% assign cloudbreak = alt.hosting_options | where: "type", "CloudBreak" | first %}
-            {% if cloudbreak %}
-            <a href="{{ cloudbreak.buttons[0].link }}" class="card-footer-item has-text-weight-bold">
-              <span class='icon-text'><span>Get Started with CloudBreak</span><span class='tag is-warning is-light ml-2'>Sponsor</span></span>
+            <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="card-footer-item">View Details</a>
+
+            <a href="{{ alt.get_started_url }}" class="card-footer-item has-text-weight-bold has-text-white has-background-grey-dark">
+              <span>Get Started</span>
               <span class="icon"><i class="fas fa-arrow-right"></i></span>
             </a>
-            {% else %}
-            <a href="/open-source/{{ alt.key }}/" class="card-footer-item">View Details</a>
-            {% endif %}
           </footer>
         </div></a>
       </div>
@@ -185,27 +165,50 @@ featured:
   </div>
 </section>
 
-<!-- CloudBreak CTA -->
+<!-- Quick Comparison Table -->
 <section class="section">
   <div class="container">
-    <div class="box has-background-primary-light">
-      <div class="columns is-vcentered">
-        <div class="column is-8">
-          <h3 class="title is-3">Ready to switch from Pocket?</h3>
-          <p class="subtitle is-5">Get started with Wallabag on CloudBreak for the best Apple experience</p>
-          <ul>
-            <li>✓ Native iOS and Mac apps</li>
-            <li>✓ Seamless iCloud sync</li>
-            <li>✓ Safari extension included</li>
-          </ul>
-        </div>
-        <div class="column is-4 has-text-centered">
-          <a href="https://cloudbreak.app/wallabag?ref=getoffpocket" class="button is-white is-large is-fullwidth">
-            <span class="icon"><i class="fab fa-apple"></i></span>
-            <span>Get Started</span>
-          </a>
-        </div>
-      </div>
+    <h2 class="title is-3 has-text-centered mb-5">Apple-Compatible Alternatives at a Glance</h2>
+
+    <div class="table-container">
+      <table class="table is-fullwidth is-hoverable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Least Expensive Paid Plan</th>
+            <th>Free Tier Limitations</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for alt in featured_alts %}
+          <tr {% if alt.featured %}class="has-background-primary-light"{% endif %}>
+            <td>
+              <strong><a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/">{{ alt.name }}</a></strong>
+              <span class="is-hidden-desktop is-hidden-tablet">
+                <br>
+                <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">Details</a>
+                {% if alt.featured %}
+                <span class="tag is-primary is-light ml-2">Featured</span>
+                {% endif %}
+              </span>
+            </td>
+            <td>
+              {% include format_price.html price=alt.pricing.least_expensive_paid %}
+            </td>
+            <td>{{ alt.free_tier_limitations | markdownify }}</td>
+            <td>
+              <span class="is-hidden-mobile">
+                <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">See Details</a>
+                {% if alt.featured %}
+                <span class="tag is-primary is-light ml-2">Featured</span>
+                {% endif %}
+              </span>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
     </div>
   </div>
 </section>

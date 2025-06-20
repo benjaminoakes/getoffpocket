@@ -284,6 +284,7 @@
     note size.
 - key: goodlinks
   name: GoodLinks
+  has_free_tier: times
   license: proprietary
   source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/3a/c4/a33ac474-f9c2-464c-f47f-f5012bd77130/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-P3-85-220.png/512x512bb.jpg
   icon: icons/goodlinks.jpg
