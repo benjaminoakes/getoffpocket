@@ -198,16 +198,14 @@
                       </h2>
                       {% for option in selfhost %}
                       <div class="hosting-option">
-                          <h5 class="subtitle is-6">{{ option.name }}</h5>
-                          <p class="price">{% include format_price.html price=option.price %}</p>
-                          {% if option.description %}<p>{{ option.description }}</p>{% endif %}
-                          {% if option.buttons %}
-                          <div class="buttons are-small mt-2">
-                            {% for btn in option.buttons %}
-                              <a href="{{ btn.link }}" target="_blank" class="button {{ btn.class }}">{{ btn.text }}</a>
-                            {% endfor %}
-                          </div>
-                          {% endif %}
+                        <h5 class="subtitle is-6">{{ option.name }}</h5>
+                        <p>Complete control, requires technical setup</p>
+                        <div class="buttons are-small" style="margin-top: 1em">
+                          <a href="/get-started/{{ item.key }}" target="_blank" class="button is-primary">
+                            Get Started
+                            &nbsp;<span class="icon"><i class="fas fa-arrow-right"></i></span>
+                          </a>
+                        </div>
                       </div>
                       {% endfor %}
                     {% endif %}
