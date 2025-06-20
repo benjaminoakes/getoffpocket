@@ -4,12 +4,14 @@ title: "Get Started"
 ---
 
 <div class="container section">
-  <h1 id="interstitial-title" class="title is-1"></h1>
-  <div id="interstitial-content" class="py-4">
-    <h4 class="title is-4">What is your comfort level with tech?</h4>
-    <div class="buttons is-centered">
-      <button id="non-technical-btn" class="button is-primary is-medium">I just want to use the app</button>
-      <button id="technical-btn" class="button is-link is-medium">I want to self-host this service</button>
+  <div class="has-text-centered">
+    <h1 id="interstitial-title" class="title is-1"></h1>
+    <div id="interstitial-content" class="py-4">
+      <h4 class="title is-4">What is your comfort level with tech?</h4>
+      <div class="buttons is-centered">
+        <button id="non-technical-btn" class="button is-primary is-medium">I just want to use the app</button>
+        <button id="technical-btn" class="button is-link is-medium">I want to self-host this service</button>
+      </div>
     </div>
   </div>
 
@@ -21,15 +23,15 @@ title: "Get Started"
       <ul>
         <li style="margin-bottom: 1.5rem;">
           <strong><a href="{{ site.digital_ocean_referral_url }}" target="_blank" rel="noopener noreferrer">Host on Digital Ocean</a></strong>
-          <p class="is-size-7 has-text-grey-dark">Get $200 in credit over 60 days to run this service and other projects.</p>
+          <p class="has-text-grey-dark">Get $200 in credit over 60 days to run this service and other projects.</p>
         </li>
         <li style="margin-bottom: 1.5rem;">
           <strong><a href="https://www.amazon.com/CanaKit-Raspberry-Starter-Kit-PRO/dp/B0CRSNCJ6Y" target="_blank" rel="noopener noreferrer">Run on a Raspberry Pi</a></strong>
-          <p class="is-size-7 has-text-grey-dark">A low-cost, energy-efficient option for home hosting.</p>
+          <p class="has-text-grey-dark">A low-cost, energy-efficient option for home hosting.</p>
         </li>
         <li>
           <strong><a id="github-link" href="#" target="_blank" rel="noopener noreferrer">View Source Code</a></strong>
-          <p class="is-size-7 has-text-grey-dark">For self-hosting on your own existing infrastructure.  Free, if you already have the hardware, time, and skills to host it.</p>
+          <p class="has-text-grey-dark">For self-hosting on your own existing infrastructure.  Free, if you already have the hardware, time, and skills to host it.</p>
         </li>
       </ul>
     </div>
@@ -42,7 +44,7 @@ title: "Get Started"
   </div>
 
   <div id="non-technical-options" class="is-hidden mt-4 pt-4" style="border-top: 1px solid #dbdbdb;">
-    <h5 class="title is-5">Use it like any other app. Choose your provider.</h5>
+    <h5 class="title is-5 has-text-centered">Use it like any other app. Choose your provider.</h5>
     <div class="content">
       <p>For a small monthly fee, you will get access to this service. Your chosen provider will handle the rest.</p>
       <p>Support an independent software developer and help "small tech" grow.</p>
@@ -53,8 +55,8 @@ title: "Get Started"
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const params = new URLSearchParams(window.location.search);
-    const productName = params.get('product');
-    const githubUrl = params.get('github');
+    const productName = params.get('name');
+    const githubUrl = params.get('github_url');
 
     if (productName) {
         document.getElementById('interstitial-title').textContent = productName + ' is an open source service';
