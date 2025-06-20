@@ -1,20 +1,41 @@
-{%- assign price = include.price -%}
-{%- if price.cost == empty -%}
-  {%- if price.description and price.description != "" -%}
-    {{ price.description }}
+{%- comment -%}
+  Assign local variables from the passed 'price' object.
+  This allows us to modify them for currency conversion.
+{%- endcomment -%}
+{%- assign cost = include.price.cost -%}
+{%- assign unit = include.price.unit -%}
+{%- assign period = include.price.period -%}
+{%- assign description = include.price.description -%}
+
+{%- comment -%}
+  If the currency is EUR, convert the cost to USD at a rate of 1 EUR to 1.15 USD
+  and update the unit accordingly.
+{%- endcomment -%}
+{%- if unit == 'EUR' -%}
+  {%- assign cost = cost | times: 1.15 -%}
+  {%- assign unit = 'USD' -%}
+{%- endif -%}
+
+{%- comment -%}
+  Now format the price using the (potentially converted) local variables.
+{%- endcomment -%}
+{%- if cost == empty -%}
+  {%- if description and description != "" -%}
+    {{ description }}
   {%- else -%}
     -
   {%- endif -%}
-{%- elsif price.cost == 0 or price.cost == 0.0 -%}
+{%- elsif cost == 0 or cost == 0.0 -%}
   Free
 {%- else -%}
   {%- assign currency_symbol = '$' -%}
-  {%- if price.unit == 'EUR' -%}
-    {%- assign currency_symbol = '€' -%}
-  {%- endif -%}
+  {%- comment -%}
+    Since all prices are now in USD, we can default to the '$' symbol.
+    The check for 'EUR' is no longer necessary here.
+  {%- endcomment -%}
   {{ currency_symbol }}
-  {%- if price.period == 'year' -%}
-    {%- assign monthly_cost = price.cost | divided_by: 12.0 | round: 2 -%}
+  {%- if period == 'year' -%}
+    {%- assign monthly_cost = cost | divided_by: 12.0 | round: 2 -%}
     {%- assign cost_floor = monthly_cost | floor -%}
     {%- if monthly_cost == cost_floor -%}
       {{ cost_floor }}
@@ -23,15 +44,15 @@
     {% endif %}
     / month
   {%- else -%}
-    {%- assign cost_val = price.cost -%}
+    {%- assign cost_val = cost -%}
     {%- assign cost_floor = cost_val | floor -%}
     {%- if cost_val == cost_floor -%}
       {{ cost_floor }}
     {%- else -%}
       {{ cost_val }}
     {% endif %}
-    {% if price.period and price.period != 'one-time' %}
-      / {{ price.period }}
+    {% if period and period != 'one-time' %}
+      / {{ period }}
     {%- endif -%}
   {%- endif -%}
 {%- endif -%}

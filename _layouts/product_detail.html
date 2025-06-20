@@ -116,7 +116,6 @@
             </div>
 
             <p class="subtitle is-4">{{ item.description }}</p>
-            <!-- Supported Platforms -->
             <p class="subtitle is-5">Supported Platforms</p>
             <div class="tags">
               {% for p in item.platforms %}
@@ -125,7 +124,6 @@
             </div>
             <hr>
 
-            <!-- Product Details -->
             <div class="columns">
                 <div class="column is-6">
                     <h2 class="title is-3">
@@ -152,7 +150,6 @@
                     </div>
                 </div>
                 <div class="column is-6">
-                    <!-- Hosted Options -->
                     {% assign hosted = item.hosting_options | where_exp: "opt", "opt.class != 'self-hosted'" %}
                     {% if hosted.size > 0 %}
                       <h2 class="title is-3">
@@ -167,7 +164,7 @@
                       {% for option in hosted %}
                       <div class="hosting-option">
                           <h5 class="subtitle is-6">{{ option.name }}</h5>
-                          <p class="price">{{ option.price.cost }} {{ option.price.unit }} / {{ option.price.period }}</p>
+                          <p class="price">{% include format_price.html price=option.price %}</p>
                           {% if option.description %}<p>{{ option.description }}</p>{% endif %}
                           <div class="buttons are-small mt-2">
                             <a href="{{ option.link }}" target="_blank" class="button is-primary">Visit {{ option.name }}</a>
@@ -176,7 +173,6 @@
                       </div>
                       {% endfor %}
                     {% endif %}
-                    <!-- Self-Hosted Estimates -->
                     {% assign selfhost = item.hosting_options | where: "class", "self-hosted" %}
                     {% if selfhost.size > 0 %}
                       <hr>
@@ -192,7 +188,7 @@
                       {% for option in selfhost %}
                       <div class="hosting-option">
                           <h5 class="subtitle is-6">{{ option.name }}</h5>
-                          <p class="price">{{ option.price.cost }} {{ option.price.unit }} / {{ option.price.period }}</p>
+                          <p class="price">{% include format_price.html price=option.price %}</p>
                           {% if option.description %}<p>{{ option.description }}</p>{% endif %}
                           {% if option.buttons %}
                           <div class="buttons are-small mt-2">
