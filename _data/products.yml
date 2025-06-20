@@ -1476,6 +1476,8 @@
 - key: wallabag
   name: Wallabag
   get_started_url: "/get-started/wallabag"
+  featured_provider_name: CloudBreak
+  featured_provider_description: CloudBreak provides reliable, privacy-focused "small tech" alternatives to big tech services
   featured_subscribe_url: https://buy.stripe.com/14AdR94xX1xg57J3VS0Ba05
   source_code_url: https://github.com/wallabag/wallabag/
   license: open_source

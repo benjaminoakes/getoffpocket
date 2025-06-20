@@ -23,6 +23,34 @@ layout: default
 .is-clickable-media .media {
   margin-bottom: 0; /* Remove default margin from media object */
 }
+
+        .featured-badge {
+          position: absolute;
+          top: 0;
+          right: 1.5rem;
+          transform: translateY(-50%);
+          background: var(--primary);
+          color: white;
+          padding: 0.25rem 1rem;
+          border-radius: 4px;
+          font-size: 0.875rem;
+          font-weight: bold;
+        }
+
+        .card.featured {
+          border: 2px solid var(--primary);
+          position: relative;
+        }
+
+        .card.featured .card-footer-item {
+          background-color: var(--primary);
+          color: white;
+          font-weight: bold;
+        }
+
+        .card.featured .card-footer-item:hover {
+          background-color: var(--primary-light);
+        }
 </style>
 
 {%- assign product = site.data.products | where: "key", page.product_key | first -%}
@@ -96,16 +124,31 @@ layout: default
               </span>
             </figure>
             <div class="media-content">
-              <strong>Don't have the hardware, time, and skills?<br>Use Managed Hosting</strong>
+              <strong>Don't have the hardware, time, or skills?<br>Use Managed Hosting</strong>
               <p class="has-text-grey-dark">Support open source and get all the benefits without the hassle of setting up and maintaining your own server. This means no need to worry about server setup, security, updates, or maintenance. Just sign up and start using the software.</p>
-                <div class="mt-4">
-                    <h4 class="title is-5">Featured Provider: Space Bar Labs</h4>
-                    <div class="content">
-                        <p>Space Bar Labs offers a fully managed experience for {{ product.name }}. They handle all the technical details, so you can focus on using the app.</p>
+              <h5 class="has-background-warning">Featured</h5>
+
+              <div class="card"><a href="{{ product.featured_subscribe_url }}" style="display: block; height: 100%; color: inherit; text-decoration: none;">
+                  <div class="featured-badge">Featured</div>
+
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-3">{{ product.featured_provider_name }}</p>
+                        <p class="subtitle is-6">{{ product.featured_provider_description }}</p>
+                      </div>
                     </div>
-                    <a href="{{ product.url }}" class="button">View Product Details</a>
-                    <a href="{{ product.featured_subscribe_url }}" class="button is-primary">SubscribeNow</a>
-                </div>
+                  </div>
+
+                </a><footer class="card-footer"><a href="{{ product.featured_subscribe_url }}" style="display: block; height: 100%; color: inherit; text-decoration: none;">
+                  </a><a href="{{ product.url }}" class="card-footer-item">View Details</a>
+
+                  <a href="{{ product.featured_subscribe_url }}" class="card-footer-item has-text-weight-bold has-text-white has-background-grey-dark">
+                    <span>Subscribe </span>
+                    <span class="icon"><i class="fas fa-arrow-right"></i></span>
+                  </a>
+                </footer>
+              </div>
             </div>
           </article>
         </div>
