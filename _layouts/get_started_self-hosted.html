@@ -66,6 +66,10 @@ layout: default
         .card.featured .card-footer-item.subscribe-button:hover {
           background-color: #e68a00; /* Darker orange on hover */
         }
+
+        .card.featured .card-footer-item.subscribe-button a {
+          color: white;
+        }
 </style>
 
 {%- assign product = site.data.products | where: "key", page.product_key | first -%}
