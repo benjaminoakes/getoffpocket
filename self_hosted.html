@@ -56,60 +56,16 @@ description: "Find the perfect self-hosted Pocket alternative that works for you
 
             <footer class="card-footer">
               <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="card-footer-item">View Details</a>
+
+              <a href="{{ alt.get_started_url }}" class="card-footer-item has-text-weight-bold has-text-white has-background-grey-dark">
+                <span>Get Started</span>
+                <span class="icon"><i class="fas fa-arrow-right"></i></span>
+              </a>
             </footer>
           </div></a>
         </div>
         {% endif %}
       {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <h2 class="title is-3 has-text-centered mb-5">Self-Hosted Alternatives at a Glance</h2>
-
-    <div class="table-container">
-      <table class="table is-fullwidth is-hoverable">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Least Expensive Paid Plan</th>
-            <th>Free Tier Limitations</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for alt in site.data.products %}
-            {% assign is_self_hosted = false %}
-            {% for option in alt.hosting_options %}
-              {% if option.class == 'self-hosted' %}
-                {% assign is_self_hosted = true %}
-              {% endif %}
-            {% endfor %}
-            {% if is_self_hosted %}
-            <tr>
-              <td>
-                <strong><a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/">{{ alt.name }}</a></strong>
-                <span class="is-hidden-desktop is-hidden-tablet">
-                  <br>
-                  <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">See Details</a>
-                </span>
-              </td>
-              <td>
-                {% include format_price.html price=alt.pricing.least_expensive_paid %}
-              </td>
-              <td>{{ alt.free_tier_limitations | markdownify }}</td>
-              <td>
-                <span class="is-hidden-mobile">
-                  <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">See Details</a>
-                </span>
-              </td>
-            </tr>
-            {% endif %}
-          {% endfor %}
-        </tbody>
-      </table>
     </div>
   </div>
 </section>
