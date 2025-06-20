@@ -439,6 +439,11 @@
   free_tier_limitations: Open source, self-hosted
 - key: linkding
   name: Linkding
+  get_started_url: "/get-started/linkding"
+  featured_provider_name: CloudBreak
+  featured_provider_description: CloudBreak provides reliable, privacy-focused "small tech" alternatives to big tech services
+  featured_subscribe_url: https://buy.stripe.com/14AdR97K98ZIas38c80Ba08
+  source_code_url: https://github.com/sissbruecker/linkding
   license: open_source
   source_icon_url: https://lh3.googleusercontent.com/bp6jwFNA7tzooOc6OfnBsfy2D5SIDomN1imuF2WZqlZiJUU0cHC8ilZUSUuDQ69wb5UjkYnK6LJoBbk174uXTijO8s8=s120
   icon: icons/linkding.png
