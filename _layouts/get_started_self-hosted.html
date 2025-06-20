@@ -29,27 +29,42 @@ layout: default
           top: 0;
           right: 1.5rem;
           transform: translateY(-50%);
-          background: var(--primary);
+          background: #ff9900; /* Orange background for the badge */
           color: white;
           padding: 0.25rem 1rem;
           border-radius: 4px;
           font-size: 0.875rem;
           font-weight: bold;
+          z-index: 2;
         }
 
         .card.featured {
-          border: 2px solid var(--primary);
+          border: 2px solid #ff9900; /* Orange border for the featured card */
           position: relative;
         }
 
-        .card.featured .card-footer-item {
-          background-color: var(--primary);
+        .card.featured .card-main-link {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1; /* Below the footer items */
+        }
+
+        .card.featured .card-footer {
+            position: relative;
+            z-index: 2; /* On top of the main link */
+        }
+
+        .card.featured .card-footer-item.subscribe-button {
+          background-color: #ff9900; /* Orange background for subscribe button */
           color: white;
           font-weight: bold;
         }
 
-        .card.featured .card-footer-item:hover {
-          background-color: var(--primary-light);
+        .card.featured .card-footer-item.subscribe-button:hover {
+          background-color: #e68a00; /* Darker orange on hover */
         }
 </style>
 
@@ -116,41 +131,31 @@ layout: default
         </a>
 
         {% if product.featured_subscribe_url %}
-        <div class="is-clickable-media">
-          <article class="media">
-            <figure class="media-left">
-              <span class="icon is-large">
-                <i class="fas fa-cloud fa-2x"></i>
-              </span>
-            </figure>
-            <div class="media-content">
-              <strong>Don't have the hardware, time, or skills?<br>Use Managed Hosting</strong>
-              <p class="has-text-grey-dark">Support open source and get all the benefits without the hassle of setting up and maintaining your own server. This means no need to worry about server setup, security, updates, or maintenance. Just sign up and start using the software.</p>
-              <h5 class="has-background-warning">Featured</h5>
+        <div class="mb-4">
+            <p class="is-size-5 has-text-weight-bold">Don't have the hardware, time, or skills? Use Managed Hosting</p>
+            <p class="has-text-grey-dark">Support open source and get all the benefits without the hassle of setting up and maintaining your own server. This means no need to worry about server setup, security, updates, or maintenance. Just sign up and start using the software.</p>
+        </div>
 
-              <div class="card"><a href="{{ product.featured_subscribe_url }}" style="display: block; height: 100%; color: inherit; text-decoration: none;">
-                  <div class="featured-badge">Featured</div>
-
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-content">
-                        <p class="title is-3">{{ product.featured_provider_name }}</p>
-                        <p class="subtitle is-6">{{ product.featured_provider_description }}</p>
-                      </div>
-                    </div>
-                  </div>
-
-                </a><footer class="card-footer"><a href="{{ product.featured_subscribe_url }}" style="display: block; height: 100%; color: inherit; text-decoration: none;">
-                  </a><a href="{{ product.url }}" class="card-footer-item">View Details</a>
-
-                  <a href="{{ product.featured_subscribe_url }}" class="card-footer-item has-text-weight-bold has-text-white has-background-grey-dark">
-                    <span>Subscribe </span>
-                    <span class="icon"><i class="fas fa-arrow-right"></i></span>
-                  </a>
-                </footer>
+        <div class="card featured">
+          <a href="{{ product.featured_subscribe_url }}" class="card-main-link"></a>
+          <div class="featured-badge">Featured</div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-3">{{ product.featured_provider_name }}</p>
+                <p class="subtitle is-6">{{ product.featured_provider_description }}</p>
               </div>
             </div>
-          </article>
+          </div>
+          <footer class="card-footer">
+            <a href="/{{ product.license | replace: '_', '-' }}/{{ product.key | slugify }}/" class="card-footer-item">Compare</a>
+            <span class="card-footer-item subscribe-button has-text-weight-bold has-text-white">
+              <a href="{{ product.featured_subscribe_url }}">
+                <span>Subscribe</span>
+                <span class="icon"><i class="fas fa-arrow-right"></i></span>
+              </a>
+            </span>
+          </footer>
         </div>
         {% endif %}
 
