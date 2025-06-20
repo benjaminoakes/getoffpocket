@@ -4,52 +4,22 @@ layout: default
 {%- assign product = site.data.products | where: "key", page.product_key | first -%}
 
 <style>
-        .featured-badge {
-          position: absolute;
-          top: 0;
-          right: 1.5rem;
-          transform: translateY(-50%);
-          background: #ff9900; /* Orange background for the badge */
-          color: white;
-          padding: 0.25rem 1rem;
-          border-radius: 4px;
-          font-size: 0.875rem;
-          font-weight: bold;
-          z-index: 2;
-        }
+.is-clickable-media {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  border: 1px solid #dbdbdb;
+}
 
-        .card.featured {
-          border: 2px solid #ff9900; /* Orange border for the featured card */
-          position: relative;
-        }
-
-        .card.featured .card-main-link {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 1; /* Below the footer items */
-        }
-
-        .card.featured .card-footer {
-            position: relative;
-            z-index: 2; /* On top of the main link */
-        }
-
-        .card.featured .card-footer-item.subscribe-button {
-          background-color: #ff9900; /* Orange background for subscribe button */
-          color: white;
-          font-weight: bold;
-        }
-
-        .card.featured .card-footer-item.subscribe-button:hover {
-          background-color: #e68a00; /* Darker orange on hover */
-        }
-
-        .card.featured .card-footer-item.subscribe-button a {
-          color: white;
-        }
+.is-clickable-media:hover {
+  background-color: #fafafa;
+  transform: translateY(-2px);
+  color: inherit;
+}
 </style>
 
 <div class="container section">
@@ -65,41 +35,27 @@ layout: default
       </div>
 
       <hr>
-      <h5 class="title is-5 has-text-centered">Featured Provider</h5>
-      <hr>
 
       {% if product.subscription_url %}
-      <div class="card featured mt-4">
-        {% if product.featured_provider_name %}
-        <div class="featured-badge">Featured</div>
-        {% endif %}
-        <div class="card-content">
-          <div class="media">
+        <a href="{{ product.subscription_url }}" target="_blank" rel="noopener noreferrer" class="is-clickable-media">
+          <article class="media">
+            {% if product.featured_provider_icon %}
+            <figure class="media-left">
+              <span class="icon is-large">
+                <i class="{{ product.featured_provider_icon }} fa-2x"></i>
+              </span>
+            </figure>
+            {% endif %}
             <div class="media-content">
-              <p class="title is-3">{{ product.featured_provider_name | default: "Managed Provider" }}</p>
-              {% if product.featured_provider_description %}
-              <p class="subtitle is-6">{{ product.featured_provider_description }}</p>
-              {% endif %}
+              <strong>{{ product.featured_provider_name | default: "Subscribe to Managed Hosting" }}</strong>
+              <p class="has-text-grey-dark">{{ product.featured_provider_description | default: "Click here to subscribe and start using the app without any setup." }}</p>
             </div>
-          </div>
-          <div class="content">
-            They handle all the technical details, so you can focus on using the app.
-          </div>
-        </div>
-        <footer class="card-footer">
-          <a href="{{ product.url }}" class="card-footer-item">View Details</a>
-          <span class="card-footer-item subscribe-button has-text-weight-bold has-text-white">
-            <a href="{{ product.subscription_url }}">
-              <span>Subscribe Now</span>
-              <span class="icon"><i class="fas fa-arrow-right"></i></span>
-            </a>
-          </span>
-        </footer>
-      </div>
+          </article>
+        </a>
       {% else %}
-      <div class="notification is-warning">
-          There are currently no managed hosting providers for {{ product.name }}. Please check back later or consider the <a href="/get-started/{{ product.key }}/self-hosted/">self-hosting option</a>.
-      </div>
+        <div class="notification is-warning">
+            There are currently no managed hosting providers for {{ product.name }}. Please check back later or consider the <a href="/get-started/{{ product.key }}/self-hosted/">self-hosting option</a>.
+        </div>
       {% endif %}
 
       <div class="has-text-centered mt-5">
