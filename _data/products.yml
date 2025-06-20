@@ -540,6 +540,8 @@
   free_tier_limitations: Self-hosted
 - key: linkwarden
   name: LinkWarden
+  get_started_url: "/get-started/linkwarden"
+  source_code_url: https://github.com/linkwarden/linkwarden
   license: open_source
   source_icon_url: https://getumbrel.github.io/umbrel-apps-gallery/linkwarden/icon.svg
   icon: icons/linkwarden.svg
@@ -563,7 +565,7 @@
   pricing:
     minimum:
       vendor: Linkwarden
-      cost: 2.25
+      cost: 3
       unit: USD
       period: month
       description: Cloud version (annual billing, 25% discount)
@@ -588,7 +590,17 @@
       cost: 3.0
       unit: USD
       period: month
-      description: or 2.25 USD / month
+    buttons:
+    - text: Visit Linkwarden
+      link: https://linkwarden.app/
+      class: is-info
+  - name: Linkwarden Cloud
+    link: https://linkwarden.app/
+    class: managed
+    price:
+      cost: 4.0
+      unit: USD
+      period: month
     buttons:
     - text: Visit Linkwarden
       link: https://linkwarden.app/
