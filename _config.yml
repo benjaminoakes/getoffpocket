@@ -8,6 +8,8 @@ baseurl: ""
 
 gtag_id: G-YRF0EZ9WWS
 
+digital_ocean_referral_url: https://m.do.co/c/c0f96d3af928
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap # keep this last
