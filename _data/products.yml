@@ -1090,6 +1090,8 @@
 - key: readeck
   name: Readeck
   get_started_url: "/get-started/readeck"
+  featured_provider_name: CloudBreak
+  featured_provider_description: CloudBreak provides reliable, privacy-focused "small tech" alternatives to big tech services
   featured_subscribe_url: https://buy.stripe.com/fZueVdd4t2Bk0Rt8c80Ba06
   source_code_url: https://codeberg.org/readeck/readeck
   license: open_source
