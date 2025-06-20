@@ -1,0 +1,66 @@
+---
+layout: default
+title: "Get Started"
+---
+
+<div class="container" style="padding-top: 20px; text-align: center;">
+  <h1 id="interstitial-title"></h1>
+  <div id="interstitial-content" style="padding-top: 20px; padding-bottom: 20px;">
+    <h4>What is your comfort level with tech?</h4>
+    <button id="non-technical-btn" class="btn btn-primary" style="margin-right: 10px;">I just want to use the app</button>
+    <button id="technical-btn" class="btn btn-secondary">I want to self-host this service</button>
+  </div>
+  <div id="technical-options" style="display:none; margin-top: 20px; border-top: 1px solid #ccc; padding-top: 20px;">
+    <h5>You can self-host this project. Here are some options:</h5>
+    <p class="help">Purchasing through these links supports getoffpocket.com.  We appreciate your support!</p>
+    <ul class="list-unstyled">
+      <li style="margin-bottom: 10px;"><a href="{{ site.digital_ocean_referral_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-info">Host on Digital Ocean with $200 credit over 60 days</a></li>
+      <li style="margin-bottom: 10px;"><a href="https://www.amazon.com/CanaKit-Raspberry-Starter-Kit-PRO/dp/B0CRSNCJ6Y" target="_blank" rel="noopener noreferrer" class="btn btn-info">Run it on a Raspberry Pi</a></li>
+      <li style="margin-bottom: 10px;"><a id="github-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-success">I have my own hosting.  Take me to the source code.</a></li>
+    </ul>
+    <p>Want the benefits of open source without the headaches?  Lacking time because of other commitments?  Sign up for managed hosting. Your chosen provider will handle maintenance and updates. Support an independent software developer and help "small tech" grow. Typically, the hosting provider provides financial support to the upstream project as well.</p>
+  </div>
+  <div id="non-technical-options" style="display:none; margin-top: 20px; border-top: 1px solid #ccc; padding-top: 20px;">
+    <h5>Use it like any other app.  Choose your provider.</h5>
+    <p>For a small monthly fee, you will get access to this service. Your chosen provider will handle the rest.</p>
+    <p>Support an independent software developer and help "small tech" grow.</p>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Parse URL parameters to get product info
+    const params = new URLSearchParams(window.location.search);
+    const productName = params.get('product');
+    const githubUrl = params.get('github');
+
+    // Set the page title and GitHub link dynamically
+    if (productName) {
+        document.getElementById('interstitial-title').textContent = productName + ' is an open source project.';
+    }
+    if (githubUrl) {
+        document.getElementById('github-link').href = githubUrl;
+    }
+
+    // Get references to the interactive elements
+    const technicalBtn = document.getElementById('technical-btn');
+    const nonTechnicalBtn = document.getElementById('non-technical-btn');
+    const technicalOptions = document.getElementById('technical-options');
+    const nonTechnicalOptions = document.getElementById('non-technical-options');
+    const interstitialContent = document.getElementById('interstitial-content');
+
+    // Show technical options when the "I'm technical" button is clicked
+    technicalBtn.addEventListener('click', function() {
+        technicalOptions.style.display = 'block';
+        nonTechnicalOptions.style.display = 'none';
+        interstitialContent.style.display = 'none';
+    });
+
+    // Show non-technical options when the "managed solution" button is clicked
+    nonTechnicalBtn.addEventListener('click', function() {
+        nonTechnicalOptions.style.display = 'block';
+        technicalOptions.style.display = 'none';
+        interstitialContent.style.display = 'none';
+    });
+});
+</script>
