@@ -1089,7 +1089,7 @@
   free_tier_limitations: Discontinued.
 - key: readeck
   name: Readeck
-  get_started_url: "/interstitial.html?subscribe_url=https%3A%2F%2Fbuy.stripe.com%2FfZueVdd4t2Bk0Rt8c80Ba06&name=Readeck&github_url=https%3A%2F%2Fcodeberg.org%2Freadeck%2Freadeck"
+  get_started_url: "/get-started/readeck"
   featured_subscribe_url: https://buy.stripe.com/fZueVdd4t2Bk0Rt8c80Ba06
   source_code_url: https://codeberg.org/readeck/readeck
   license: open_source
@@ -1406,7 +1406,7 @@
   free_tier_limitations: Self-hosted
 - key: sunya_folio
   name: Sunya Folio
-  get_started_url: "/interstitial.html?subscribe_url=https%3A%2F%2Fbuy.stripe.com%2F6oU3cvd4tdfYeIjbok0Ba0i&name=Sunya+Folio&github_url=https%3A%2F%2Fgithub.com%2Fwallabag%2Fwallabag%2F"
+  get_started_url: "/get-started/sunya_folio"
   featured_subscribe_url: https://buy.stripe.com/6oU3cvd4tdfYeIjbok0Ba0i
   source_code_url: https://github.com/wallabag/wallabag/
   license: open_source
@@ -1475,7 +1475,7 @@
   free_tier_limitations: 30-day money back guarantee, no questions asked
 - key: wallabag
   name: Wallabag
-  get_started_url: "/interstitial.html?subscribe_url=https%3A%2F%2Fbuy.stripe.com%2F14AdR94xX1xg57J3VS0Ba05&name=Wallabag&github_url=https%3A%2F%2Fgithub.com%2Fwallabag%2Fwallabag%2F"
+  get_started_url: "/get-started/wallabag"
   featured_subscribe_url: https://buy.stripe.com/14AdR94xX1xg57J3VS0Ba05
   source_code_url: https://github.com/wallabag/wallabag/
   license: open_source

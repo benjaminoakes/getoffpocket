@@ -28,6 +28,9 @@ collections:
   proprietary:
     output: true
     permalink: /proprietary/:name/
+  get_started:
+    output: true
+    permalink: /get-started/:path/
 
 exclude:
   - CNAME

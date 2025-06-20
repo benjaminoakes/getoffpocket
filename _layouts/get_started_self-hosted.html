@@ -1,11 +1,10 @@
 ---
 layout: default
-title: "Self-Hosted Wallabag"
 ---
-
+{%- assign product = site.data.products | where: "key", page.product_key | first -%}
 <div class="container section">
   <div class="has-text-centered">
-      <h1 class="title is-1">Self-Host Wallabag</h1>
+      <h1 class="title is-1">Self-Host {{ product.name }}</h1>
       <h5 class="title is-5">You can self-host this project. Here are some options:</h5>
       <p class="help">If you would like, purchase through these links to support <a href="/">getoffpocket.com</a>. You can also <a href="{{ site.donate_url }}">donate any amount</a> to support us directly. We aim to be good citizens and contribute 10% of any profits to these open source projects.</p>
   </div>
@@ -21,13 +20,13 @@ title: "Self-Hosted Wallabag"
         <p class="has-text-grey-dark">A low-cost, energy-efficient option for home hosting.</p>
       </li>
       <li>
-        <strong><a href="https://github.com/wallabag/wallabag" target="_blank" rel="noopener noreferrer">View Source Code</a></strong>
+        <strong><a href="{{ product.github_url }}" target="_blank" rel="noopener noreferrer">View Source Code</a></strong>
         <p class="has-text-grey-dark">For self-hosting on your own existing infrastructure.  Free, if you already have the hardware, time, and skills to host it.</p>
       </li>
     </ul>
   </div>
 
   <div class="has-text-centered mt-5">
-      <a href="/get-started/wallabag/" class="button is-info">&larr; Go Back</a>
+      <a href="/get-started/{{ product.key }}/" class="button is-info">&larr; Go Back</a>
   </div>
 </div>

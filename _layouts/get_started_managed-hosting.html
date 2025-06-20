@@ -1,18 +1,17 @@
 ---
 layout: default
-title: "Managed Hosting for Wallabag"
 ---
-
+{%- assign product = site.data.products | where: "key", page.product_key | first -%}
 <div class="container section">
   <div class="has-text-centered">
-    <h1 class="title is-1">Use Wallabag Like Any Other App</h1>
+    <h1 class="title is-1">Use {{ product.name }} Like Any Other App</h1>
     <h5 class="title is-5 has-text-centered">Choose your provider.</h5>
     <div class="content">
       <p>For a small monthly fee, you will get access to this service. Your chosen provider will handle the rest.</p>
       <p>Support an independent software developer and help "small tech" grow.</p>
     </div>
     <div class="mt-5">
-        <a href="/get-started/wallabag/" class="button is-info">&larr; Go Back</a>
+        <a href="/get-started/{{ product.key }}/" class="button is-info">&larr; Go Back</a>
     </div>
   </div>
 </div>
