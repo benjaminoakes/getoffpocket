@@ -1409,6 +1409,8 @@
 - key: sunya_folio
   name: Sunya Folio
   get_started_url: "/get-started/sunya_folio"
+  featured_provider_name: Sunya
+  featured_provider_description: Bring Order to Your Digital Universe. Sunya provides the tools to manage your constellation of data..
   featured_subscribe_url: https://buy.stripe.com/6oU3cvd4tdfYeIjbok0Ba0i
   source_code_url: https://github.com/wallabag/wallabag/
   license: open_source

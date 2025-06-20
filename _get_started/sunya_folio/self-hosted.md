@@ -1,4 +1,4 @@
 ---
 layout: get_started_self-hosted
-product_key: sunya-folio
+product_key: sunya_folio
 ---
