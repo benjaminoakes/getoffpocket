@@ -37,6 +37,22 @@ layout: default
 
       <div class="content mt-4 pt-4" style="border-top: 1px solid #dbdbdb;">
 
+        {% if product.featured_subscribe_url %}
+        <a href="{{ product.featured_subscribe_url }}" target="_blank" rel="noopener noreferrer" class="is-clickable-media">
+          <article class="media">
+            <figure class="media-left">
+              <span class="icon is-large">
+                <i class="fas fa-cloud fa-2x"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <strong>Use Managed Hosting</strong>
+              <p class="has-text-grey-dark">Support open source and get all the benefits without the hassle of setting up and maintaining your own server. This means no need to worry about server setup, security, updates, or maintenance. Just sign up and start using the software.</p>
+            </div>
+          </article>
+        </a>
+        {% endif %}
+
         <a href="{{ site.digital_ocean_referral_url }}" target="_blank" rel="noopener noreferrer" class="is-clickable-media">
           <article class="media">
             <figure class="media-left">
