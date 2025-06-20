@@ -1,6 +1,5 @@
 {%- comment -%}
   Assign local variables from the passed 'price' object.
-  This allows us to modify them for currency conversion.
 {%- endcomment -%}
 {%- assign cost = include.price.cost -%}
 {%- assign unit = include.price.unit -%}
@@ -8,8 +7,7 @@
 {%- assign description = include.price.description -%}
 
 {%- comment -%}
-  If the currency is EUR, convert the cost to USD at a rate of 1 EUR to 1.15 USD
-  and update the unit accordingly.
+  Currency conversion from EUR to USD.
 {%- endcomment -%}
 {%- if unit == 'EUR' -%}
   {%- assign cost = cost | times: 1.15 -%}
@@ -17,7 +15,7 @@
 {%- endif -%}
 
 {%- comment -%}
-  Now format the price using the (potentially converted) local variables.
+  Price formatting.
 {%- endcomment -%}
 {%- if cost == empty -%}
   {%- if description and description != "" -%}
@@ -29,28 +27,32 @@
   Free
 {%- else -%}
   {%- assign currency_symbol = '$' -%}
-  {%- comment -%}
-    Since all prices are now in USD, we can default to the '$' symbol.
-    The check for 'EUR' is no longer necessary here.
-  {%- endcomment -%}
   {{ currency_symbol }}
   {%- if period == 'year' -%}
-    {%- assign monthly_cost = cost | divided_by: 12.0 | round: 2 -%}
-    {%- assign cost_floor = monthly_cost | floor -%}
-    {%- if monthly_cost == cost_floor -%}
-      {{ cost_floor }}
+    {%- assign price_to_format = cost | divided_by: 12.0 -%}
+    {%- assign rounded_price = price_to_format | round: 2 -%}
+    {%- assign price_parts = rounded_price | to_s | split: '.' -%}
+    {%- assign decimal_part = price_parts[1] | default: '' -%}
+    {%- if decimal_part.size == 0 -%}
+      {{ price_parts[0] }}.00
+    {%- elsif decimal_part.size == 1 -%}
+      {{ price_parts[0] }}.{{ decimal_part }}0
     {%- else -%}
-      {{ monthly_cost }}
-    {% endif %}
+      {{ rounded_price }}
+    {%- endif -%}
     / month
   {%- else -%}
-    {%- assign cost_val = cost -%}
-    {%- assign cost_floor = cost_val | floor -%}
-    {%- if cost_val == cost_floor -%}
-      {{ cost_floor }}
+    {%- assign price_to_format = cost -%}
+    {%- assign rounded_price = price_to_format | round: 2 -%}
+    {%- assign price_parts = rounded_price | to_s | split: '.' -%}
+    {%- assign decimal_part = price_parts[1] | default: '' -%}
+    {%- if decimal_part.size == 0 -%}
+      {{ price_parts[0] }}.00
+    {%- elsif decimal_part.size == 1 -%}
+      {{ price_parts[0] }}.{{ decimal_part }}0
     {%- else -%}
-      {{ cost_val }}
-    {% endif %}
+      {{ rounded_price }}
+    {%- endif -%}
     {% if period and period != 'one-time' %}
       / {{ period }}
     {%- endif -%}
