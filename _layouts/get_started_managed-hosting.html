@@ -2,26 +2,109 @@
 layout: default
 ---
 {%- assign product = site.data.products | where: "key", page.product_key | first -%}
+
+<style>
+        .featured-badge {
+          position: absolute;
+          top: 0;
+          right: 1.5rem;
+          transform: translateY(-50%);
+          background: #ff9900; /* Orange background for the badge */
+          color: white;
+          padding: 0.25rem 1rem;
+          border-radius: 4px;
+          font-size: 0.875rem;
+          font-weight: bold;
+          z-index: 2;
+        }
+
+        .card.featured {
+          border: 2px solid #ff9900; /* Orange border for the featured card */
+          position: relative;
+        }
+
+        .card.featured .card-main-link {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1; /* Below the footer items */
+        }
+
+        .card.featured .card-footer {
+            position: relative;
+            z-index: 2; /* On top of the main link */
+        }
+
+        .card.featured .card-footer-item.subscribe-button {
+          background-color: #ff9900; /* Orange background for subscribe button */
+          color: white;
+          font-weight: bold;
+        }
+
+        .card.featured .card-footer-item.subscribe-button:hover {
+          background-color: #e68a00; /* Darker orange on hover */
+        }
+
+        .card.featured .card-footer-item.subscribe-button a {
+          color: white;
+        }
+</style>
+
 <div class="container section">
-  <div class="has-text-centered">
-    <h1 class="title is-1">Use {{ product.name }} Like Any Other App</h1>
-    <h5 class="title is-5 has-text-centered">Choose your provider.</h5>
-    <div class="content">
-      <p>For a small monthly fee, you will get access to this service. Your chosen provider will handle the rest.</p>
-      <p>Support an independent software developer and help "small tech" grow.</p>
-    </div>
-
-    <div class="section">
-        <h4 class="title is-4">Featured Provider: Space Bar Labs</h4>
+  <div class="columns is-centered">
+    <div class="column is-two-thirds-tablet is-half-desktop">
+      <div class="has-text-centered">
+        <h1 class="title is-1">Use {{ product.name }} Like Any Other App</h1>
+        <h5 class="title is-5 has-text-centered">Choose your provider.</h5>
         <div class="content">
-            <p>Space Bar Labs offers a fully managed experience for {{ product.name }}. They handle all the technical details, so you can focus on using the app.</p>
+          <p>For a small monthly fee, you will get access to this service. Your chosen provider will handle the rest.</p>
+          <p>Support an independent software developer and help "small tech" grow.</p>
         </div>
-        <a href="{{ product.url }}" class="button">View Product Details</a>
-        <a href="{{ product.subscription_url }}" class="button is-primary">Subscribe Now</a>
-    </div>
+      </div>
 
-    <div class="mt-5">
-        <a href="/get-started/{{ product.key }}/" class="button is-info">&larr; Go Back</a>
+      <hr>
+      <h5 class="title is-5 has-text-centered">Featured Provider</h5>
+      <hr>
+
+      {% if product.subscription_url %}
+      <div class="card featured mt-4">
+        {% if product.featured_provider_name %}
+        <div class="featured-badge">Featured</div>
+        {% endif %}
+        <div class="card-content">
+          <div class="media">
+            <div class="media-content">
+              <p class="title is-3">{{ product.featured_provider_name | default: "Managed Provider" }}</p>
+              {% if product.featured_provider_description %}
+              <p class="subtitle is-6">{{ product.featured_provider_description }}</p>
+              {% endif %}
+            </div>
+          </div>
+          <div class="content">
+            They handle all the technical details, so you can focus on using the app.
+          </div>
+        </div>
+        <footer class="card-footer">
+          <a href="{{ product.url }}" class="card-footer-item">View Details</a>
+          <span class="card-footer-item subscribe-button has-text-weight-bold has-text-white">
+            <a href="{{ product.subscription_url }}">
+              <span>Subscribe Now</span>
+              <span class="icon"><i class="fas fa-arrow-right"></i></span>
+            </a>
+          </span>
+        </footer>
+      </div>
+      {% else %}
+      <div class="notification is-warning">
+          There are currently no managed hosting providers for {{ product.name }}. Please check back later or consider the <a href="/get-started/{{ product.key }}/self-hosted/">self-hosting option</a>.
+      </div>
+      {% endif %}
+
+      <div class="has-text-centered mt-5">
+          <a href="/get-started/{{ product.key }}/" class="button is-info">&larr; Go Back</a>
+      </div>
     </div>
   </div>
 </div>

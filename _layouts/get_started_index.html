@@ -2,14 +2,62 @@
 layout: default
 ---
 {%- assign product = site.data.products | where: "key", page.product_key | first -%}
+
+<style>
+.is-clickable-media {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  border: 1px solid #dbdbdb;
+}
+
+.is-clickable-media:hover {
+  background-color: #fafafa;
+  transform: translateY(-2px);
+  color: inherit;
+}
+</style>
+
 <div class="container section">
-  <div class="has-text-centered">
-    <h1 class="title is-1">{{ product.name }} is an open source service</h1>
-    <div class="py-4">
-      <h4 class="title is-4">What is your comfort level with tech?</h4>
-      <div class="buttons is-centered">
-        <a href="/get-started/{{ product.key }}/managed-hosting/" class="button is-primary is-medium">I just want to use the app</a>
-        <a href="/get-started/{{ product.key }}/self-hosted/" class="button is-link is-medium">I want to self-host this service</a>
+  <div class="columns is-centered">
+    <div class="column is-two-thirds-tablet is-half-desktop">
+      <div class="has-text-centered">
+        <h1 class="title is-1">{{ product.name }} is an open source service</h1>
+        <h4 class="title is-4 pt-4">What is your comfort level with tech?</h4>
+      </div>
+
+      <div class="content mt-4">
+        <a href="/get-started/{{ product.key }}/managed-hosting/" class="is-clickable-media">
+          <article class="media">
+            <figure class="media-left">
+              <span class="icon is-large">
+                <i class="fas fa-cloud fa-2x"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <strong>I just want to use the app</strong>
+              <p class="has-text-grey-dark">Choose a managed hosting provider and get started right away. No technical skills required.</p>
+            </div>
+          </article>
+        </a>
+
+        <a href="/get-started/{{ product.key }}/self-hosted/" class="is-clickable-media">
+          <article class="media">
+            <figure class="media-left">
+              <span class="icon is-large">
+                <i class="fas fa-server fa-2x"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <strong>I want to self-host this service</strong>
+              <p class="has-text-grey-dark">Host the application on your own hardware for full control and privacy.</p>
+            </div>
+          </article>
+        </a>
       </div>
     </div>
   </div>
