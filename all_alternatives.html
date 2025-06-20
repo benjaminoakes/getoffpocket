@@ -128,7 +128,7 @@ featured:
             <td>
               {% include format_price.html price=alt.pricing.least_expensive_paid %}
             </td>
-            <td>{{ alt.free_tier_limitations }}</td>
+            <td>{{ alt.free_tier_limitations | markdownify }}</td>
             <td>
               <span class="is-hidden-mobile">
                 <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">See Details</a>
