@@ -401,6 +401,41 @@
       class: is-info
   data_verification: none
   free_tier_limitations: Ads, 5 notes per month, limited archive, no search, no Kindle
+- key: karakeep
+  name: Karakeep
+  license: open_source
+  icon: icons/karakeep.png
+  description: A modern, AI-powered self-hosted read-it-later application with bookmarking, tagging, summarization, search, mobile apps, and more.
+  get_started_url: https://github.com/karakeep-app/karakeep
+  platforms:
+  - desktop_web
+  - mobile_web
+  - ios
+  - android
+  - chrome_extension
+  - firefox_extension
+  features:
+  - dark_mode
+  - tagging
+  - highlighting
+  - notes
+  - search
+  - offline
+  hosting_options:
+  - name: Self-Hosted
+    class: self-hosted
+    description: Deploy with Docker using the provided compose file
+    price:
+      cost: 60.0
+      unit: USD
+      period: year
+      description: Estimated server costs
+    buttons:
+    - text: View on GitHub
+      link: https://github.com/karakeep-app/karakeep
+      class: is-info
+  data_verification: preliminary
+  free_tier_limitations: Open source, self-hosted
 - key: linkding
   name: Linkding
   license: open_source
