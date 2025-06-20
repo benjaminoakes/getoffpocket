@@ -1,0 +1,117 @@
+---
+permalink: /self_hosted
+layout: comparison
+title: "Best Self-Hosted Pocket Alternatives"
+description: "Find the perfect self-hosted Pocket alternative that works for you. Compare features, pricing, and hosting options."
+---
+
+<section class="hero is-medium">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-7">
+          <h1 class="title is-1 has-text-white">Get Off Pocket</h1>
+          <p class="subtitle is-4 has-text-white-ter">Read-it-later with these Pocket alternatives</p>
+          <p class="has-text-white-ter">Pocket is shutting down July 8th, 2025.  The last day to export data is October 8th, 2025.  Find a new service and import your content today</p>
+        </div>
+        <div class="column is-5 has-text-centered">
+          <span class="icon is-large has-text-white">
+            <i class="fab fa-get-pocket fa-5x"></i>
+          </span>
+          <p class="mt-5 has-text-white-ter has-text-weight-bold"><a href="https://sharelette.cloudbreak.app/?url=https%3A%2F%2Fgetoffpocket.com%2Fself_hosted_alternatives%2F%3Futm_medium%3Dreferral%26utm_source%3Dsharelette%26rby%3Dsharelette&text=Get%20Off%20Pocket%3A%20A%20Guide%20to%20Self-Hosted%20Pocket%20Alternatives" class="button is-primary"><i class="fa-solid fa-share-nodes mr-3"></i> Share this guide</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% assign products_reversed = site.data.products | reverse %}
+
+<section class="section has-background-light">
+  <div class="container">
+    <h2 class="title is-3 has-text-centered mb-5">Self-Hosted Alternatives</h2>
+
+    <div class="columns is-multiline is-vcentered">
+      {% for alt in products_reversed %}
+        {% assign is_self_hosted = false %}
+        {% for option in alt.hosting_options %}
+          {% if option.class == 'self-hosted' %}
+            {% assign is_self_hosted = true %}
+          {% endif %}
+        {% endfor %}
+        {% if is_self_hosted %}
+        <div class="column is-6">
+          <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" style="display: block; height: 100%; color: inherit; text-decoration: none;"><div class="card h-100">
+            <div class="card-content">
+                <div class="media">
+                <div class="media-left">
+                  <img src="{{ alt.icon | prepend: site.baseurl }}" alt="{{ alt.name }} icon" class="app-icon">
+                </div>
+                <div class="media-content">
+                  <p class="title is-3">{{ alt.name }}</p>
+                  <p class="subtitle is-6">{{ alt.description | truncatewords: 15 }}</p>
+                </div>
+              </div>
+            </div>
+
+            <footer class="card-footer">
+              <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="card-footer-item">View Details</a>
+            </footer>
+          </div></a>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="title is-3 has-text-centered mb-5">Self-Hosted Alternatives at a Glance</h2>
+
+    <div class="table-container">
+      <table class="table is-fullwidth is-hoverable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Least Expensive Paid Plan</th>
+            <th>Free Tier Limitations</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for alt in site.data.products %}
+            {% assign is_self_hosted = false %}
+            {% for option in alt.hosting_options %}
+              {% if option.class == 'self-hosted' %}
+                {% assign is_self_hosted = true %}
+              {% endif %}
+            {% endfor %}
+            {% if is_self_hosted %}
+            <tr>
+              <td>
+                <strong><a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/">{{ alt.name }}</a></strong>
+                <span class="is-hidden-desktop is-hidden-tablet">
+                  <br>
+                  <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">See Details</a>
+                </span>
+              </td>
+              <td>
+                {% include format_price.html price=alt.pricing.least_expensive_paid %}
+              </td>
+              <td>{{ alt.free_tier_limitations | markdownify }}</td>
+              <td>
+                <span class="is-hidden-mobile">
+                  <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">See Details</a>
+                </span>
+              </td>
+            </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+{% include sponsorship_cta.html page_url=page.url %}
