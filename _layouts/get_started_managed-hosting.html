@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-{%- assign product = site.data.products | where: "key", page.product_key | first -%}
 
 <style>
 .is-clickable-media {
@@ -12,7 +11,6 @@ layout: default
   padding: 1.25rem;
   margin-bottom: 1rem;
   transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
-  border: 1px solid #dbdbdb;
 }
 
 .is-clickable-media:hover {
@@ -20,42 +18,102 @@ layout: default
   transform: translateY(-2px);
   color: inherit;
 }
+
+/* Adjustments for the media object inside the clickable area */
+.is-clickable-media .media {
+  margin-bottom: 0; /* Remove default margin from media object */
+}
+
+        .featured-badge {
+          position: absolute;
+          top: 0;
+          right: 1.5rem;
+          transform: translateY(-50%);
+          background: #ff9900; /* Orange background for the badge */
+          color: white;
+          padding: 0.25rem 1rem;
+          border-radius: 4px;
+          font-size: 0.875rem;
+          font-weight: bold;
+          z-index: 2;
+        }
+
+        .card.featured {
+          border: 2px solid #ff9900; /* Orange border for the featured card */
+          position: relative;
+        }
+
+        .card.featured .card-main-link {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 1; /* Below the footer items */
+        }
+
+        .card.featured .card-footer {
+          position: relative;
+          z-index: 2; /* On top of the main link */
+        }
+
+        .card.featured .card-footer-item.subscribe-button {
+          background-color: #ff9900; /* Orange background for subscribe button */
+          color: white;
+          font-weight: bold;
+        }
+
+        .card.featured .card-footer-item.subscribe-button:hover {
+          background-color: #e68a00; /* Darker orange on hover */
+        }
+
+        .card.featured .card-footer-item.subscribe-button a {
+          color: white;
+        }
 </style>
 
+{%- assign product = site.data.products | where: "key", page.product_key | first -%}
 <div class="container section">
   <div class="columns is-centered">
     <div class="column is-two-thirds-tablet is-half-desktop">
       <div class="has-text-centered">
-        <h1 class="title is-1">Use {{ product.name }} Like Any Other App</h1>
-        <h5 class="title is-5 has-text-centered">Choose your provider.</h5>
-        <div class="content">
-          <p>For a small monthly fee, you will get access to this service. Your chosen provider will handle the rest.</p>
-          <p>Support an independent software developer and help "small tech" grow.</p>
-        </div>
+        <h1 class="title is-1">{{ product.name }}</h1>
+        <h5 class="title is-5 has-text-grey">Just Sign Up and Go</h5>
+        <h5 class="title is-1 has-text-success"><i class="fa-brands fa-osi"></i></h5>
+        <p class="m-3">We believe in the power of open source. Unlike proprietary services, open source projects are supported by a community, which means they can't just be shut down. By choosing open source, you're choosing a more resilient and future-proof solution.</p>
+        <h5 class="title is-1 has-text-success"><i class="fas fa-heart has-text-danger"></i></h5>
+        <p class="m-3">If you would like, you can purchase through these links to support <a href="/">getoffpocket.com</a>. You can also <a class="has-text-danger" href="{{ site.donate_url }}">donate any amount</a> to support us directly. We aim to be good citizens and contribute 10% of any profits to these open source projects.</p>
       </div>
 
       <hr>
 
-      {% if product.subscription_url %}
-        <a href="{{ product.subscription_url }}" target="_blank" rel="noopener noreferrer" class="is-clickable-media">
-          <article class="media">
-            {% if product.featured_provider_icon %}
-            <figure class="media-left">
-              <span class="icon is-large">
-                <i class="{{ product.featured_provider_icon }} fa-2x"></i>
-              </span>
-            </figure>
-            {% endif %}
+      {% if product.featured_subscribe_url %}
+      <div class="mb-4">
+        <p class="is-size-5 has-text-weight-bold">Use Managed Hosting</p>
+        <p class="has-text-grey-dark">Support open source and get all the benefits without the hassle of setting up and maintaining your own server. This means no need to worry about server setup, security, updates, or maintenance. Just sign up and start using the software.</p>
+      </div>
+
+      <div class="card featured">
+        <a href="{{ product.featured_subscribe_url }}" class="card-main-link"></a>
+        <div class="featured-badge">Featured</div>
+        <div class="card-content">
+          <div class="media">
             <div class="media-content">
-              <strong>{{ product.featured_provider_name | default: "Subscribe to Managed Hosting" }}</strong>
-              <p class="has-text-grey-dark">{{ product.featured_provider_description | default: "Click here to subscribe and start using the app without any setup." }}</p>
+              <p class="title is-3">{{ product.featured_provider_name }}</p>
+              <p class="subtitle is-6">{{ product.featured_provider_description }}</p>
             </div>
-          </article>
-        </a>
-      {% else %}
-        <div class="notification is-warning">
-            There are currently no managed hosting providers for {{ product.name }}. Please check back later or consider the <a href="/get-started/{{ product.key }}/self-hosted/">self-hosting option</a>.
+          </div>
         </div>
+        <footer class="card-footer">
+          <a href="/{{ product.license | replace: '_', '-' }}/{{ product.key | slugify }}/" class="card-footer-item">Compare</a>
+          <span class="card-footer-item subscribe-button has-text-weight-bold has-text-white">
+            <a href="{{ product.featured_subscribe_url }}">
+              <span>Subscribe</span>
+              <span class="icon"><i class="fas fa-arrow-right"></i></span>
+            </a>
+          </span>
+        </footer>
+      </div>
       {% endif %}
 
       <div class="has-text-centered mt-5">
