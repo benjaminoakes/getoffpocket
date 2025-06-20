@@ -119,7 +119,21 @@
             <p class="subtitle is-5">Supported Platforms</p>
             <div class="tags">
               {% for p in item.platforms %}
-                <span class="tag is-light">{{ p | replace: "_", " " | capitalize }}</span>
+                <span class="tag is-light">
+                  {% if p == 'ios' %}
+                    iOS
+                  {% elsif p == 'ipados' %}
+                    iPadOS
+                  {% elsif p == 'macos' %}
+                    macOS
+                  {% elsif p == 'watchos' %}
+                    watchOS
+                  {% elsif p == 'tvos' %}
+                    tvOS
+                  {% else %}
+                    {{ p | replace: "_", " " | capitalize }}
+                  {% endif %}
+                </span>
               {% endfor %}
             </div>
             <hr>
