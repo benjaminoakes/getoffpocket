@@ -1390,6 +1390,8 @@
   free_tier_limitations: Included with Apple devices, no limitations.
 - key: shiori
   name: Shiori
+  get_started_url: "/get-started/shiori"
+  source_code_url: https://github.com/go-shiori/shiori
   license: open_source
   source_icon_url: https://avatars.githubusercontent.com/u/41993376?s=200&v=4
   icon: icons/shiori.png
@@ -1432,9 +1434,20 @@
       period: year
       description: Estimated server costs for self-hosting
   hosting_options:
+  - name: PikaPods
+    link: https://www.pikapods.com/pods?run=shiori
+    class: managed
+    price:
+      cost: 1.2
+      unit: USD
+      period: month
+    buttons:
+    - text: Visit PikaPods
+      link: https://www.pikapods.com/pods?run=shiori
+      class: is-info
   - name: Self-Hosted
     class: self-hosted
-    description: Currently only available for self-hosting
+    description:
     price:
       cost: 60.0
       unit: USD

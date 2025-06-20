@@ -117,7 +117,13 @@ layout: default
       {% endif %}
 
       <div class="has-text-centered mt-5">
-          <a href="/get-started/{{ product.key }}/" class="button is-info">&larr; Go Back</a>
+        <p class="m-5">
+          For all available options:
+        </p>
+        <a href="/{{ product.license | replace: '_', '-' }}/{{ product.key | slugify }}/" class="button">View Product Details</a>
+      </div>
+      <div class="has-text-centered mt-5">
+        <a href="/get-started/{{ product.key }}/" class="button is-info">&larr; Go Back</a>
       </div>
     </div>
   </div>
