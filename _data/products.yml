@@ -407,7 +407,8 @@
   license: open_source
   icon: icons/karakeep.png
   description: A modern, AI-powered self-hosted read-it-later application with bookmarking, tagging, summarization, search, mobile apps, and more.
-  get_started_url: https://github.com/karakeep-app/karakeep
+  get_started_url: "/get-started/karakeep"
+  source_code_url: https://github.com/karakeep-app/karakeep
   platforms:
   - desktop_web
   - mobile_web
@@ -423,6 +424,17 @@
   - search
   - offline
   hosting_options:
+  - name: PikaPods
+    link: https://www.pikapods.com/pods?run=hoarder
+    class: managed
+    price:
+      cost: 3.4
+      unit: USD
+      period: month
+    buttons:
+    - text: Visit PikaPods
+      link: https://www.pikapods.com/pods?run=hoarder
+      class: is-info
   - name: Self-Hosted
     class: self-hosted
     description: Deploy with Docker using the provided compose file
@@ -837,6 +849,8 @@
     require a subscription.
 - key: omnivore
   name: Omnivore
+  get_started_url: "/get-started/omnivore"
+  source_code_url: https://github.com/omnivore-app/omnivore
   license: open_source
   source_icon_url: https://avatars.githubusercontent.com/u/70113176?s=200&v=4
   icon: icons/omnivore.png
