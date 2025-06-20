@@ -107,8 +107,11 @@ Your Wallabag server may not directly import Pocket's export format. Luckily, a 
 
 ### Step 3: Choose a Hosted Wallabag Provider
 
+{% assign wallabag_url = 'https://getoffpocket.com/open-source/wallabag/' %}
+{% assign wallabag_url_with_referral = wallabag_url | append: utm_and_rby %}
+{% assign wallabag_referral_link = "There are several hosted Wallabag providers to choose from. Go to the [Wallabag](" | append: wallabag_url_with_referral | append: "){: .important-link }. After you sign up for one, log into your new Wallabag account." %}
 {% include content_image_columns.html
-  content="There are several hosted Wallabag providers to choose from. You can find a [list of trusted providers on getoffpocket.com](https://getoffpocket.com/open-source/wallabag/). After you sign up for one, log into your new Wallabag account."
+  content=wallabag_referral_link
   src="/assets/images/blog/get-off-pocket/wallabag_main.png"
   alt="Wallabag Main Interface"
   caption="Wallabag's clean, modern interface"
