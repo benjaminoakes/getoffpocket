@@ -39,7 +39,7 @@
       {{ price_parts[0] }}.{{ decimal_part }}0
     {%- else -%}
       {{ rounded_price }}
-    {%- endif -%}
+    {% endif %}
     / month
   {%- else -%}
     {%- assign price_to_format = cost -%}
@@ -52,7 +52,7 @@
       {{ price_parts[0] }}.{{ decimal_part }}0
     {%- else -%}
       {{ rounded_price }}
-    {%- endif -%}
+    {% endif %}
     {% if period and period != 'one-time' %}
       / {{ period }}
     {%- endif -%}
