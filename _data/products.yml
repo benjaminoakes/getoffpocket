@@ -1090,6 +1090,8 @@
 - key: readeck
   name: Readeck
   get_started_url: "/interstitial.html?subscribe_url=https%3A%2F%2Fbuy.stripe.com%2FfZueVdd4t2Bk0Rt8c80Ba06&name=Readeck&github_url=https%3A%2F%2Fcodeberg.org%2Freadeck%2Freadeck"
+  featured_subscribe_url: https://buy.stripe.com/fZueVdd4t2Bk0Rt8c80Ba06
+  source_code_url: https://codeberg.org/readeck/readeck
   license: open_source
   source_icon_url: https://www.readeck.com/assets/img/fi/apple-touch-icon.e39c20b2.png
   icon: icons/readeck.png
@@ -1174,7 +1176,6 @@
   data_verification: preliminary
   has_free_tier: times
   free_tier_limitations: Self-hosted
-  source_code_url: https://codeberg.org/readeck/readeck
 - key: readwise-reader
   name: Readwise Reader
   license: proprietary
@@ -1406,6 +1407,8 @@
 - key: sunya_folio
   name: Sunya Folio
   get_started_url: "/interstitial.html?subscribe_url=https%3A%2F%2Fbuy.stripe.com%2F6oU3cvd4tdfYeIjbok0Ba0i&name=Sunya+Folio&github_url=https%3A%2F%2Fgithub.com%2Fwallabag%2Fwallabag%2F"
+  featured_subscribe_url: https://buy.stripe.com/6oU3cvd4tdfYeIjbok0Ba0i
+  source_code_url: https://github.com/wallabag/wallabag/
   license: open_source
   source_icon_url:
   icon: icons/sunya_folio.png
@@ -1470,10 +1473,11 @@
   data_verification: preliminary
   has_free_tier: minus
   free_tier_limitations: 30-day money back guarantee, no questions asked
-  source_code_url: https://github.com/wallabag/wallabag/
 - key: wallabag
   name: Wallabag
   get_started_url: "/interstitial.html?subscribe_url=https%3A%2F%2Fbuy.stripe.com%2F14AdR94xX1xg57J3VS0Ba05&name=Wallabag&github_url=https%3A%2F%2Fgithub.com%2Fwallabag%2Fwallabag%2F"
+  featured_subscribe_url: https://buy.stripe.com/14AdR94xX1xg57J3VS0Ba05
+  source_code_url: https://github.com/wallabag/wallabag/
   license: open_source
   source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/33/d0/2633d084-5e41-52b1-88a7-75fcfb0c457b/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg
   icon: icons/wallabag.jpg
@@ -1587,4 +1591,3 @@
   has_free_tier: minus
   free_tier_limitations: 30 day guarantee [[1](https://cloudbreak.app/wallabag/)],
     14-day trial [[2](https://wallabag.it/)], or self-hosted
-  source_code_url: https://github.com/wallabag/wallabag/
