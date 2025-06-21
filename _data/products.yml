@@ -675,6 +675,7 @@
   name: Matter
   license: proprietary
   get_started_url: https://web.getmatter.com/
+  has_free_tier: times
   source_icon_url: https://hq.getmatter.app/matter-icon-180.png
   icon: icons/matter.png
   tags:
