@@ -38,15 +38,13 @@ more:
 <section class="section">
   <div class="container">
     <h2 class="title is-3 has-text-centered">Have a Kobo?</h2>
-    <h3 class="subtitle is-4 has-text-centered mt-5">Recommended Solution: Wallabag + KOReader</h3>
+    <h3 class="subtitle is-4 has-text-centered mt-5">Or another e-Reader?</h3>
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
+          <p class="has-text-weight-bold">Recommended Solution: Wallabag + KOReader</p>
           <p>
             A significant number of Kobo users relied on Pocket's integration to read articles on their devices. With its discontinuation, <a href="https://koreader.rocks/">KOReader</a> emerges as the most viable alternative we know of. It is a versatile reader that you install on your device. It can be configured to sync with services like Wallabag, allowing you to continue your reading workflow.
-          </p>
-          <p>
-            Installation instructions for Kobo devices can be found on the <a href="https://github.com/koreader/koreader/wiki/Installation-on-Kobo-devices">KOReader wiki</a>.
           </p>
           <p>KOReader is supported on a wide array of platforms:</p>
           <ul>
@@ -88,12 +86,35 @@ more:
                 </div>
             </a>
         </div>
+        <div class="column is-6">
+            <a href="https://koreader.rocks/" style="display: block; color: inherit; text-decoration: none;">
+                <div class="card h-100">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="/icons/koreader.png" alt="KOReader icon" class="app-icon">
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-3">KOReader</p>
+                                <p class="subtitle is-6">An powerhouse, versatile e-reading application. KOReader is a long-standing project that provides extensive customization, broad format support, and powerful in-book navigation tools. The premier open-source choice for dedicated e-ink devices, supported by a vibrant community.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="https://koreader.rocks/" class="card-footer-item">View Details</a>
+                        <a href="https://github.com/koreader/koreader/wiki/Installation-on-Kobo-devices" class="card-footer-item has-text-weight-bold has-text-white has-background-grey-dark">
+                          <span>Get Started</span>
+                          <span class="icon"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                    </footer>
+                </div>
+            </a>
+        </div>
     </div>
   </div>
 </section>
 
-
-{% assign featured_alts = site.data.products | where_exp: "item", "page.featured contains item.key" | reverse %}
+{% assign featured_alts = site.data.products | where_exp: "item", "page.featured contains item.key" %}
 
 <section class="section has-background-light">
   <div class="container">
