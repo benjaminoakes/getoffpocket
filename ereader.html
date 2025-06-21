@@ -1,0 +1,124 @@
+---
+layout: comparison
+title: "Best for eReader Enthusiasts"
+description: "Find the perfect Pocket alternative that sends articles to your Kindle or other e-reader."
+category: ereader
+permalink: /ereader/
+featured:
+  - instapaper
+  - wallabag
+  - paperspan
+---
+
+<section class="hero is-medium">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-7">
+          <h1 class="title is-1 has-text-white">Read later on e-Ink</h1>
+          <p class="subtitle is-4 has-text-white-ter">Send articles directly to your e-reader for a focused reading experience.</p>
+          <p class="has-text-white-ter">These alternatives are perfect for users who love their e-ink screens. Enjoy a book-like reading experience for all your saved web content, away from the distractions of a regular screen.</p>
+        </div>
+        <div class="column is-5 has-text-centered">
+          <span class="icon is-large has-text-white">
+            <i class="fas fa-book-reader fa-5x"></i>
+          </span>
+          <p class="mt-5 has-text-white-ter has-text-weight-bold"><a href="https://sharelette.cloudbreak.app/?url=https%3A%2F%2Fgetoffpocket.com%2Fereader%2F%3Futm_medium%3Dreferral%26utm_source%3Dsharelette%26rby%3Dsharelette&text=Get%20Off%20Pocket%3A%20A%20Guide%20to%20Pocket%20Alternatives" class="button is-primary"><i class="fa-solid fa-share-nodes mr-3"></i> Share this guide</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% assign featured_alts = site.data.products | where_exp: "item", "page.featured contains item.key" | reverse %}
+
+<section class="section has-background-light">
+  <div class="container">
+    <h2 class="title is-3 has-text-centered mb-5">Featured eReader Alternatives</h2>
+
+    <div class="columns is-multiline is-vcentered">
+      {% for alt in featured_alts %}
+      <div class="column is-6">
+        <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" style="display: block; height: 100%; color: inherit; text-decoration: none;"><div class="card {% if alt.featured %}featured{% endif %} h-100">
+          {% if alt.featured %}
+          <div class="featured-badge">Featured</div>
+          {% endif %}
+
+          <div class="card-content">
+              <div class="media">
+              <div class="media-left">
+                <img src="/{{ alt.icon | prepend: site.baseurl }}" alt="{{ alt.name }} icon" class="app-icon">
+              </div>
+              <div class="media-content">
+                <p class="title is-3">{{ alt.name }}</p>
+                <p class="subtitle is-6">{{ alt.description | truncatewords: 15 }}</p>
+              </div>
+            </div>
+          </div>
+
+          <footer class="card-footer">
+            <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="card-footer-item">View Details</a>
+
+            <a href="{{ alt.get_started_url }}" class="card-footer-item has-text-weight-bold has-text-white has-background-grey-dark">
+              <span>Get Started</span>
+              <span class="icon"><i class="fas fa-arrow-right"></i></span>
+            </a>
+          </footer>
+        </div></a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="title is-3 has-text-centered mb-5">eReader Alternatives at a Glance</h2>
+
+    <div class="table-container">
+      <table class="table is-fullwidth is-hoverable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Has Free Tier</th>
+            <th>Least Expensive Paid Plan</th>
+            <th>Free Tier Limitations</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for alt in featured_alts %}
+          <tr {% if alt.featured %}class="has-background-primary-light"{% endif %}>
+            <td>
+              <strong><a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/">{{ alt.name }}</a></strong>
+              <span class="is-hidden-desktop is-hidden-tablet">
+                <br>
+                <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">Details</a>
+                {% if alt.featured %}
+                <span class="tag is-primary is-light ml-2">Featured</span>
+                {% endif %}
+              </span>
+            </td>
+            <td>
+              <i class="fa-solid fa-{{ alt.has_free_tier }}"></i>
+            </td>
+            <td>
+              {% include format_price.html price=alt.pricing.least_expensive_paid %}
+            </td>
+            <td>{{ alt.free_tier_limitations | markdownify }}</td>
+            <td>
+              <span class="is-hidden-mobile">
+                <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">See Details</a>
+                {% if alt.featured %}
+                <span class="tag is-primary is-light ml-2">Featured</span>
+                {% endif %}
+              </span>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
