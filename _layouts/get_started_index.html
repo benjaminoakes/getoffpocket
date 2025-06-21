@@ -20,9 +20,18 @@ layout: default
   transform: translateY(-2px);
   color: inherit;
 }
+
+.app-icon {
+  width: 128px;
+  height: 128px;
+  border-radius: 22.5%; /* iOS-style rounded corners */
+  vertical-align: middle;
+  margin-right: 1.5rem;
+}
 </style>
 
 <div class="container section">
+  <div class="has-text-centered mb-5"><img src="/{{ product.icon | prepend: site.baseurl }}" alt="{{ product.name }} icon" class="app-icon"></div>
   <div class="columns is-centered">
     <div class="column is-two-thirds-tablet is-half-desktop">
       <div class="has-text-centered">
