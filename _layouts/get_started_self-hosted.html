@@ -3,6 +3,11 @@ layout: default
 ---
 
 <style>
+.has-border-info {
+  border: 1px solid #209CEE;
+  border-radius: 4px; /* This matches Bulma's default radius */
+}
+
 .is-clickable-media {
   display: block;
   color: inherit;
@@ -147,6 +152,10 @@ layout: default
         <div class="mb-4">
             <p class="is-size-5 has-text-weight-bold">Don't have the hardware, time, or skills? Use Managed Hosting</p>
             <p class="has-text-grey-dark">Support open source and get all the benefits without the hassle of setting up and maintaining your own server. This means no need to worry about server setup, security, updates, or maintenance. Just sign up and start using the software.</p>
+        </div>
+
+        <div class="has-text-centered py-2 mb-5 has-border-info">
+          {% include disclosure.html %}
         </div>
 
         <div class="card featured">

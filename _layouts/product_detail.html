@@ -17,6 +17,11 @@
     <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/lux/bulmaswatch.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
+      .has-border-info {
+        border: 1px solid #209CEE;
+        border-radius: 4px; /* This matches Bulma's default radius */
+      }
+
       .hosting-option { border: 1px solid #e0e0e0; border-radius: 6px; padding: 1rem; margin: 0.5rem 0; background: #fafafa; }
       .hosting-option.official { border-color: #3273dc; background: #f0f8ff; }
       .hosting-option.third-party { border-color: #51cf66; background: #f8fff9; }
@@ -177,6 +182,9 @@
                           <span>Hosted Options</span>
                         </span>
                       </h2>
+                      <div class="has-text-centered py-2 mb-5 has-border-info" style="padding: 5px">
+                        {% include disclosure.html %}
+                      </div>
                       {% for option in hosted %}
                       <div class="hosting-option">
                           <h5 class="subtitle is-6">{{ option.name }}</h5>
