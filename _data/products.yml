@@ -674,6 +674,7 @@
 - key: matter
   name: Matter
   license: proprietary
+  get_started_url: https://web.getmatter.com/
   source_icon_url: https://hq.getmatter.app/matter-icon-180.png
   icon: icons/matter.png
   tags:
@@ -927,6 +928,7 @@
 - key: paperspan
   name: PaperSpan
   license: proprietary
+  get_started_url: https://www.paperspan.com/signup
   source_icon_url: https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a8/59/10/a8591085-347e-4227-de71-4f24250066e5/AppIcon-1x_U007emarketing-0-6-0-85-220.png/460x0w.webp
   icon: icons/paperspan.webp
   tags:
