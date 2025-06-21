@@ -72,8 +72,60 @@ featured:
 </section>
 
 <section class="section">
+  <div class="container">
+    <h2 class="title is-3 has-text-centered mb-5">Featured Alternatives at a Glance</h2>
+
+    <div class="table-container">
+      <table class="table is-fullwidth is-hoverable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Has Free Tier</th>
+            <th>Least Expensive Paid Plan</th>
+            <th>Free Tier Limitations</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for alt in featured_alts %}
+          <tr {% if alt.featured %}class="has-background-primary-light"{% endif %}>
+            <td>
+              <strong><a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/">{{ alt.name }}</a></strong>
+              <span class="is-hidden-desktop is-hidden-tablet">
+                <br>
+                <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">Details</a>
+                {% if alt.featured %}
+                <span class="tag is-primary is-light ml-2">Featured</span>
+                {% endif %}
+              </span>
+            </td>
+            <td>
+              <i class="fa-solid fa-{{ alt.has_free_tier }}"></i>
+            </td>
+            <td>
+              {% include format_price.html price=alt.pricing.least_expensive_paid %}
+            </td>
+            <td>{{ alt.free_tier_limitations | markdownify }}</td>
+            <td>
+              <span class="is-hidden-mobile">
+                <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">See Details</a>
+                {% if alt.featured %}
+                <span class="tag is-primary is-light ml-2">Featured</span>
+                {% endif %}
+              </span>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section">
   <div class="container has-text-centered">
     <h2 class="title is-3">What type of reader are you?</h2>
+    <p class="subtitle is-4 m-5">Find a great fit for you</p>
     <div class="columns is-centered">
       <div class="column is-4">
         <div class="card h-100">
@@ -135,63 +187,6 @@ featured:
           </footer>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container has-text-centered">
-    <a href="/all_alternatives" class="button is-warning is-size-4">View all alternatives</a>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <h2 class="title is-3 has-text-centered mb-5">Featured Alternatives at a Glance</h2>
-
-    <div class="table-container">
-      <table class="table is-fullwidth is-hoverable">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Has Free Tier</th>
-            <th>Least Expensive Paid Plan</th>
-            <th>Free Tier Limitations</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for alt in featured_alts %}
-          <tr {% if alt.featured %}class="has-background-primary-light"{% endif %}>
-            <td>
-              <strong><a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/">{{ alt.name }}</a></strong>
-              <span class="is-hidden-desktop is-hidden-tablet">
-                <br>
-                <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">Details</a>
-                {% if alt.featured %}
-                <span class="tag is-primary is-light ml-2">Featured</span>
-                {% endif %}
-              </span>
-            </td>
-            <td>
-              <i class="fa-solid fa-{{ alt.has_free_tier }}"></i>
-            </td>
-            <td>
-              {% include format_price.html price=alt.pricing.least_expensive_paid %}
-            </td>
-            <td>{{ alt.free_tier_limitations | markdownify }}</td>
-            <td>
-              <span class="is-hidden-mobile">
-                <a href="/{{ alt.license | replace: '_', '-' }}/{{ alt.key | slugify }}/" class="button is-small is-primary">See Details</a>
-                {% if alt.featured %}
-                <span class="tag is-primary is-light ml-2">Featured</span>
-                {% endif %}
-              </span>
-            </td>
-          </tr>
-          {% endfor %}
-        </tbody>
-      </table>
     </div>
   </div>
 </section>
