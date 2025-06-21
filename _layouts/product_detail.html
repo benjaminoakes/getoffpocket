@@ -78,6 +78,11 @@
 <body>
     {% include utm_param.html page_url=page.url %}
     {% include google_analytics_body.html %}
+
+    <div class="has-background-info has-text-white has-text-centered py-2">
+      {% include disclosure.html %}
+    </div>
+
     {% include navbar.html %}
 
     <section class="section">
