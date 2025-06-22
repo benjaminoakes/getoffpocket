@@ -10,30 +10,30 @@ layout: default
         <p class="has-text-grey is-size-6">
           <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %e, %Y" }}</time>
         </p>
-        
+
         <!-- Mini Sponsorship Banner -->
         {% include sponsorship_mini.html %}
-        
+
         <!-- Top Share Button -->
-        {% include share_button.html 
-           button_class="button is-primary is-outlined is-medium" 
+        {% include share_button.html
+           button_class="button is-primary is-outlined is-medium"
            icon_class="fa-solid fa-share-nodes mr-2"
            button_text="Share this post" %}
-        
+
       </header>
       <hr>
       <div class="post-body content">
         {{ content }}
       </div>
-      
+
       <!-- Bottom Share Button -->
       <div class="mt-6">
-        {% include share_button.html 
-           button_class="button is-primary is-medium" 
+        {% include share_button.html
+           button_class="button is-primary is-medium"
            icon_class="fa-solid fa-share-nodes mr-2"
            button_text="Share this post" %}
       </div>
-      
+
       <!-- Full Sponsorship Section -->
       <div class="mt-6">
         {% include sponsorship_cta.html %}
@@ -63,7 +63,7 @@ layout: default
   .post-body {
     font-size: 1rem;
   }
-  
+
   .post-body img {
     max-width: 100%;
   }
